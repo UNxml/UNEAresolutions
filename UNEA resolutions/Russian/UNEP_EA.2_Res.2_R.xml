@@ -1,0 +1,188 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/"></FRBRuri>
+          <FRBRdate date="2016-05-27" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/rus@/"></FRBRuri>
+          <FRBRdate date="2016-08-03" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" showAs="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL POLICY" href="http://metadata.un.org/thesaurus/1002083" showAs="ENVIRONMENTAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2016-05-26" outcome="draftResolution" as="UNEP/EA.2/L.3/Rev.1" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2016-08-03" outcome="recommendedForAdoption" by="" />
+        <step date="2016-05-27" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.2/Res.2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2016-08-03" class="rightSmall" refersTo="#dateOfIssuance">3 August 2016</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="2" eId="coverPage_1__session_1">Вторая сессия</session>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#найроби">Найроби</location>, <event refersTo="#eventDuration"><date date="2016-05-23" refersTo="#startDate">23</date>-<date date="2016-05-27" refersTo="#endDate">27 мая 2016</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2/2.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Роль и функции региональных форумов министров по 	вопросам окружающей среды и природоохранных 	органов</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде,</span>
+        </p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на решение 27/2 Совета управляющих, принятое на ее двадцать седьмой и первой универсальной сессии, состоявшейся в Найроби 18–22 февраля 2013 года, об усилении регионального присутствия Программы Организации Объединенных Наций по окружающей среде для оказания содействия странам в осуществлении их национальных природоохранных программ, политики и планов,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также </span>на решения Совета управляющих 13/6 от 1985 года о Конференции африканских государств по проблемам окружающей среды и 11/7 от 1983 года о Региональной программе для Африки, в которых правительствам стран региона предлагалось созвать в сотрудничестве с региональными организациями и учреждениями Конференцию африканских государств по проблемам окружающей среды для обсуждения национальных природоохранных приоритетов и выявления общих проблем, заслуживающих разработки региональной программы действий для решения серьезных экологических проблем в Африке, и содержалась просьба к Директору-исполнителю обеспечить оказание услуг секретариата для Конференции через Региональное отделение для Африки,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">ссылаясь далее </span>на решение 20/11 Совета управляющих от 1999 года о предоставлении поддержки сотрудничества между Советом министров арабских стран по вопросам окружающей среды и Программой Организации Объединенных Наций по окружающей среде через региональные отделения для Западной Азии и Африки, в котором содержалась просьба к Директору-исполнителю оказывать, в пределах имеющихся ресурсов, поддержку достижению целей и задач Совета министров арабских стран по вопросам окружающей среды и региональных отделений для Западной Азии и Африки и создать соответствующий механизм в интересах обеспечения поддержки в деле осуществления и координации региональных программ в арабском регионе,</p>
+      </container>
+      <container name="ссылаясь далее" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">ссылаясь далее</span> на резолюцию 10/V Совета управляющих от 1982 года, в которой правительствам стран Латинской Америки и Карибского бассейна рекомендовалось периодически созывать межправительственные региональные совещания по вопросам окружающей среды в Латинской Америке и Карибском бассейне для разработки политики и стратегии для этого региона в этой сфере и содержалась просьба к Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде оказывать поддержку в виде постоянного секретариата этим межправительственным региональным совещаниям посредством Регионального отделения для Латинской Америки и Карибского бассейна,</p>
+      </container>
+      <container name="приветствуя" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> прогресс в работе и достижения региональных форумов министров по вопросам окружающей среды, которым Программа Организации Объединенных Наций по окружающей среде предоставляет поддержку, и признавая эти форумы важными платформами для обеспечения более активного участия стран в подготовительной работе и последующей деятельности в связи с сессиями Ассамблеи Организации Объединенных Наций по окружающей среде, </p>
+      </container>
+      <container name="отмечая с признательностью" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">отмечая с признательностью</span> проведение 19-20 мая 2015 года первого Форума министров и природоохранных органов стран Азии и Тихого океана, прошедшего в Бангкоке и организованного совместно с правительством Таиланда,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению </span>просьбу первого Форума министров и природоохранных органов стран Азии и Тихого океана, адресованную Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде, о проведении регулярных сессий Форума министров и природоохранных органов стран Азии и Тихого океана,</p>
+      </container>
+      <container name="выражая признательность" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">выражая признательность</span> за поддержку, оказываемую Программой Организации Объединенных Наций по окружающей среде Конференции министров африканских стран по проблемам окружающей среды посредством своего Регионального отделения для Африки,</p>
+      </container>
+      <container name="признавая" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">признавая </span>продолжающуюся работу Форума министров окружающей среды стран Латинской Америки и Карибского бассейна и принимая к сведению итоги двадцатого совещания Форума, прошедшего в марте 2016 года в Картахене, Колумбия, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> 	<span class="italic">просит</span> Директора-исполнителя, в рамках мандата Программы Организации Объединенных Наций по окружающей среде и в соответствии с программой работы и бюджетом, оказывать поддержку и содействовать созыву и/или укреплению существующих региональных форумов министров по вопросам окружающей среды и природоохранных органов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve"> 	<span class="italic">просит также</span> Директора-исполнителя, в рамках мандата Программы Организации Объединенных Наций по окружающей среде, оказывать поддержку и содействовать созыву новых региональных форумов министров по вопросам окружающей среды и природоохранных органов по просьбе регионов путем осуществления межправительственного процесса с участием всех стран соответствующих регионов и при условии наличия финансовых ресурсов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">просит далее</span> Директора-исполнителя при необходимости представить обновленную информацию о ходе осуществления настоящей резолюции в рамках межсессионной работы, имеющей отношение к Ассамблее Организации Объединенных Наций по окружающей среде.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location refersTo="#adoptionMeeting">6‑е пленарное заседание</location>
+          <eol />
+          <docDate date="2016-05-27" refersTo="#adoptionDate">27 мая 2016 года</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
