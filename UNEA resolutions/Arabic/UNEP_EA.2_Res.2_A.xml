@@ -1,0 +1,188 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/"></FRBRuri>
+          <FRBRdate date="2016-05-27" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/ara@/"></FRBRuri>
+          <FRBRdate date="2016-08-03" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" showAs="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL POLICY" href="http://metadata.un.org/thesaurus/1002083" showAs="ENVIRONMENTAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2016-05-26" outcome="draftResolution" as="UNEP/EA.2/L.3/Rev.1" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2016-08-03" outcome="recommendedForAdoption" by="" />
+        <step date="2016-05-27" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.2/Res.2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2016-08-03" class="rightSmall" refersTo="#dateOfIssuance">3 August 2016</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="2" eId="coverPage_1__session_1">الدورة الثانية</session>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#نيروبي">نيروبي</location>، <event refersTo="#eventDuration"><date date="2016-05-23" refersTo="#startDate">23</date>-<date date="2016-05-27" refersTo="#endDate">27 أيار/مايو 2016</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2/2</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">دور ووظائف المنتديات الإقليمية لوزراء البيئة والسلطات البيئية</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن جمعية الأمم المتحدة للبيئة،</span>
+        </p>
+      </formula>
+      <container name="،" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">إذ تشير </span>إلى المقرر 27/2 الصادر عن مجلس إدارة برنامج البيئة في دورته السابعة والعشرين التي هي دورته العالمية الأولى، المعقودة في نيروبي في الفترة من 18 إلى 22 شباط/فبراير 2013، بتعزيز الوجود الإقليمي لبرنامج الأمم المتحدة للبيئة من أجل مساعدة البلدان على تنفيذ برامجها وسياساتها وخططها البيئية الوطنية<span class="bold">،</span></p>
+      </container>
+      <container name="وإذ تشير أيضاً" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير أيضاً</span> إلى مقرري مجلس الإدارة 13/6 لعام 1985 بشأن المؤتمر البيئي الأفريقي و11/7 لعام 1983 بشأن البرنامج الإقليمي لأفريقيا، اللذين دعوا حكومات المنطقة إلى أن تعقد، بالتعاون مع المنظمات والمؤسسات الإقليمية، مؤتمراً أفريقيا للبيئة لمناقشة الأولويات البيئية الوطنية وتحديد المشاكل المشتركة التي تتطلب إنشاء برنامج عمل إقليمي لمعالجة المشاكل البيئية الخطيرة في أفريقيا، وطلبا إلى المدير التنفيذي أن يقدم خدمات الأمانة للمؤتمر من خلال المكتب الإقليمي لأفريقيا،</p>
+      </container>
+      <container name="وإذ تشير كذلك" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير كذلك</span> إلى مقرر مجلس الإدارة 20/11 لعام 1999 بشأن دعم التعاون بين مجلس الوزراء العرب المسؤولين عن شؤون البيئة وبرنامج الأمم المتحدة للبيئة من خلال المكتبين الإقليميين لغرب آسيا وأفريقيا، الذي طلب فيه المجلس إلى المدير التنفيذي أن يدعم، في حدود الموارد المتاحة، غايات ومقاصد مجلس الوزراء العرب المسؤولين عن شؤون البيئة والمكتبين الإقليميين لغرب آسيا وأفريقيا، وأن يُقيم آلية مناسبة بغية دعم تنفيذ وتنسيق البرامج الإقليمية في المنطقة العربية،</p>
+      </container>
+      <container name="وإذ تشير كذلك" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير كذلك</span> إلى قرار مجلس الإدارة 10/5 لعام 1982 الذي أوصى فيه المجلس حكومات أمريكا اللاتينية ومنطقة البحر الكاريبي بأن تعقد دورياً اجتماعاً حكومياً إقليمياً بشأن البيئة في أمريكا اللاتينية ومنطقة البحر الكاريبي من أجل وضع سياسات عامة واستراتيجية للمنطقة في هذا الميدان، وطلب إلى المدير التنفيذي لبرنامج الأمم المتحدة للبيئة تقديم خدمات الأمانة الدائمة لتلك الاجتماعات من خلال المكتب الإقليمي لأمريكا اللاتينية ومنطقة البحر الكاريبي،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">وإذ ترحب</span> بما أحرزته المنتديات الإقليمية لوزراء البيئة التي يدعمها برنامج الأمم المتحدة للبيئة من تقدم وإنجازات، وإذ تُقر بأن تلك المنتديات تشكل منصة هامة لتعزيز مشاركة البلدان في إعداد ومتابعة دورات جمعية الأمم المتحدة للبيئة التابعة لبرنامج البيئة،</p>
+      </container>
+      <container name="وإذ تلاحظ مع التقدير" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ مع التقدير</span> الدورة الأولى لمنتدى وزراء البيئة والسلطات البيئية في منطقة آسيا والمحيط الهادئ المعقودة في بانكوك يومي 19 و20 أيار/مايو 2015، التي شاركت حكومة تايلند في استضافتها،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ </span>الطلب الذي تقدمت به الدورة الأولى لمنتدى وزراء البيئة والسلطات البيئية في منطقة آسيا والمحيط الهادئ إلى المدير التنفيذي لبرنامج البيئة بعقد دورات منتظمة للمنتدى لذلك المنتدى،</p>
+      </container>
+      <container name="وإذ تُعرب عن تقديرها" eId="container_9">
+          <p xml:space="preserve"> <span class="italic">وإذ تُعرب عن تقديرها</span> للدعم الذي قدمه برنامج الأمم المتحدة للبيئة إلى لمؤتمر الوزاري الأفريقي المعني بالبيئة من خلال مكتبه الإقليمي في أفريقيا،</p>
+      </container>
+      <container name="وإذ تعترف" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">وإذ تعترف</span> بالعمل الجاري لمنتدى وزراء البيئة في أمريكا اللاتينية ومنطقة البحر الكاريبي، وإذ تحيط علماً بنتائج الاجتماع العشرين للمنتدى المعقود في كارتاخينا بكولومبيا في آذار/مارس 2016،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>1-</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> 	<span class="italic">تطلب</span> إلى المدير التنفيذي أن يقوم، في حدود ولاية برنامج البيئة ووفقاً لبرنامج عمله وميزانيته، بدعم وتيسير عقد و/أو تعزيز المنتديات الإقليمية القائمة لوزراء البيئة والسلطات البيئية؛ </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <num>2-</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve"> 	<span class="italic">تطلب كذلك</span> إلى المدير التنفيذي أن يقوم، في حدود ولاية برنامج البيئة، بدعم وتيسير انعقاد منتديات إقليمية جديدة لوزراء البيئة والسلطات البيئية، بناء على طلب المناطق المعنية، ومن خلال العملية الحكومية الدولية، بالشراكة مع جميع البلدان في كل منطقة، ورهناً بتوافر الموارد المالية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>3-</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">تطلب</span> إلى المدير التنفيذي تقديم آخر المعلومات المستجدة إلى جمعية الأمم المتحدة للبيئة في دورتها الثالثة المقبلة عن التقدم المحرز في تنفيذ هذا القرار من خلال العمل فيما بين الدورات ذي الصلة بجمعية الأمم المتحدة للبيئة، حسب الاقتضاء.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location refersTo="#adoptionMeeting">الجلسة العامة السادسة</location>
+          <eol />
+          <docDate date="2016-05-27" refersTo="#adoptionDate">27 أيار/مايو 2016</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
