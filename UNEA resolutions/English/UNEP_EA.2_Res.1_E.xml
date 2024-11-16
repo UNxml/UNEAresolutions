@@ -1,0 +1,191 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/"></FRBRuri>
+          <FRBRdate date="2016-05-27" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/eng@/"></FRBRuri>
+          <FRBRdate date="2016-08-03" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" showAs="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="RULES OF PROCEDURE" href="http://metadata.un.org/thesaurus/1005622" showAs="RULES OF PROCEDURE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ELECTION OF OFFICERS" href="http://metadata.un.org/thesaurus/1001939" showAs="ELECTION OF OFFICERS" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2016-08-03" outcome="recommendedForAdoption" by="" />
+        <step date="2016-05-27" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">UNITED NATIONS</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.2/Res.1</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2016-08-03" class="rightSmall" refersTo="#dateOfIssuance">3 August 2016</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="2" eId="coverPage_1__session_1">Second session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi</location>, <event refersTo="#eventDuration"><date date="2016-05-23" refersTo="#startDate">23</date>–<date date="2016-05-27" refersTo="#endDate">27 May 2016</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2/1.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Amendments to the rules of procedure</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The United Nations Environment Assembly</span>
+        </p>
+      </formula>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_2">
+        <num>1.</num>
+        <content eId="para_2__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="MercuryDocument">
+        <content eId="para_3__content">
+          <p xml:space="preserve"> <span class="italic">Adopts</span> the following amendments to its rules of procedure:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4">
+        <num>(a)</num>
+        <content eId="para_4__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="Normal-pool">
+        <content eId="para_5__content">
+          <p xml:space="preserve"> Rule 18 as amended reads as follows:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_6" class="NormalNonumber">
+        <content eId="para_6__content">
+          <p xml:space="preserve">During the final meeting of a regular session, the United Nations Environment Assembly shall elect a president, eight vice-presidents and a rapporteur from among its members. These officers shall constitute the Bureau of the United Nations Environment Assembly. The Bureau shall assist the president in the general conduct of business of the United Nations Environment Assembly. The chairpersons of such sessional committees or working parties as may be established under rule 61 below shall be invited to participate in meetings of the Bureau.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7">
+        <num>(b)</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="Normal-pool">
+        <content eId="para_8__content">
+          <p xml:space="preserve"> Rule 20 as amended reads as follows:</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="NormalNonumber">
+        <content eId="para_9__content">
+          <p xml:space="preserve">The president, the vice-presidents and the rapporteur shall hold office until their successors are elected. They shall commence their terms of office at the closure of the session at which they are elected and remain in office until the closure of the next regular session. Subject to the provisions of rule 18, they shall be eligible for  re-election. None of them may hold office after the expiration of the term of office of the member of which the officer concerned is a representative. </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_10">
+        <num>2.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <content eId="para_11__content">
+          <p xml:space="preserve"> <span class="italic">Decides</span> that the above amendments shall take effect at the beginning of its third session. Therefore the Bureau elected for the second session of the United Nations Environment Assembly shall remain in office until the closure of its third session.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location refersTo="#adoptionMeeting">6th plenary meeting</location>
+          <eol />
+          <docDate date="2016-05-27" refersTo="#adoptionDate">27 May 2016</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
