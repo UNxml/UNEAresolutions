@@ -1,0 +1,235 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/"></FRBRuri>
+          <FRBRdate date="2016-05-27" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/fra@/"></FRBRuri>
+          <FRBRdate date="2016-08-03" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-1/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" showAs="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="RULES OF PROCEDURE" href="http://metadata.un.org/thesaurus/1005622" showAs="RULES OF PROCEDURE" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ELECTION OF OFFICERS" href="http://metadata.un.org/thesaurus/1001939" showAs="ELECTION OF OFFICERS" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2016-08-03" outcome="recommendedForAdoption" by="" />
+        <step date="2016-05-27" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.2/Res.1</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2016-08-03" class="rightSmall" refersTo="#dateOfIssuance">3 août 2016</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="2" eId="coverPage_1__session_1">Deuxième session</session>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi</location>, <event refersTo="#eventDuration"><date date="2016-05-23" refersTo="#startDate">23</date>-<date date="2016-05-27" refersTo="#endDate">27 mai 2016</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2/1.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Amendements au règlement intérieur</span>
+        </docTitle>
+      </p>
+    </preface>
+    <mainBody>
+      <container name="table" eId="container_1">
+        <table eId="container_1_table_1" akn4un:data-width-type="5000-pct">
+          <tr>
+            <td akn4un:data-width-type="1368-dxa">
+              <p>
+                <span class="bold">NATIONS</span>
+              </p>
+              <p>
+                <span class="bold">UNIES</span>
+              </p>
+            </td>
+            <td akn4un:data-width-type="5529-dxa"></td>
+            <td akn4un:data-width-type="2815-dxa" akn4un:data-justification="Right">
+              <p>
+                <span class="bold">
+                  <a href="https://cms.unov.org/vintars/ShowRecord.aspx?RecordID=af0185c1-cdf9-469c-897f-f19a093e6782&amp;eRef">EP</a>
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="1368-dxa"></td>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="5529-dxa"></td>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:null,&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="2815-dxa">
+              <p>
+                <span class="bold">
+                  <a href="https://cms.unov.org/vintars/ShowRecord.aspx?RecordID=aa4b2a5e-8234-4ca9-b691-49b1555d3836&amp;eRef">UNEP</a>
+                </span>/<a href="https://cms.unov.org/vintars/ShowRecord.aspx?RecordID=91eda26d-b722-4c2d-b79c-28c14817c628&amp;eRef">EA</a>.2/Res.1</p>
+            </td>
+          </tr>
+          <tr>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:24,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="1368-dxa"></td>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:24,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="5529-dxa">
+              <p>
+                <span class="bold">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement </span>
+              </p>
+            </td>
+            <td akn4un:data-borders-info="{&quot;Top&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:4,&quot;Space&quot;:0},&quot;Right&quot;:null,&quot;Bottom&quot;:{&quot;Style&quot;:&quot;single&quot;,&quot;Size&quot;:24,&quot;Space&quot;:0},&quot;Left&quot;:null,&quot;InsideHorizontal&quot;:null,&quot;InsideVertical&quot;:null}" akn4un:data-width-type="2815-dxa">
+              <p>Distr. Générale</p>
+              <p>3 août 2016</p>
+              <p>Français</p>
+              <p>Original : anglais</p>
+            </td>
+          </tr>
+        </table>
+      </container>
+      <paragraph eId="para_2" class="AATitle">
+        <content eId="para_2__content">
+          <p xml:space="preserve">
+            <span class="bold">Assemblée des Nations Unies pour l’environnement  du Programme des Nations Unies pour l’environnement </span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_3" class="AATitle">
+        <content eId="para_3__content">
+          <p xml:space="preserve">Nairobi, 23<span class="bold">-</span>27 mai 2016</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_4" class="Normal-pool">
+        <content eId="para_4__content">
+          <p xml:space="preserve">
+            <span class="italic">L’Assemblée des Nations Unies pour l’environnement</span>
+          </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_5" class="NormalNonumber">
+        <num>1.</num>
+        <list eId="para_5_list">
+          <intro eId="para_5_list_intro">
+            <p xml:space="preserve">
+              <span class="italic">	Adopte </span>les amendements ci‑après au règlement intérieur :</p>
+          </intro>
+          <point eId="para_5_list_point_a">
+            <num>a)</num>
+            <content eId="para_5_list_point_a_content">
+              <p xml:space="preserve"> L’article 18 tel que modifié se lit comme suit :</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_6" class="NormalNonumber">
+        <content eId="para_6__content">
+          <p xml:space="preserve">L’Assemblée des Nations Unies pour l’environnement élit parmi ses membres, à la dernière séance d’une session ordinaire, un président, huit vice‑présidents et un rapporteur, qui constituent le Bureau de l’Assemblée. Le Bureau assiste le président dans la conduite générale des débats de l’Assemblée des Nations Unies pour l’environnement. Les présidents des comités et groupes de travail de session qui peuvent être constitués conformément à l’article 61 sont invités à participer aux réunions du Bureau.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_7" class="NormalNonumber">
+        <num>b)</num>
+        <content eId="para_7__content">
+          <p xml:space="preserve"> L’article 20 tel que modifié se lit comme suit :</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_8" class="NormalNonumber">
+        <content eId="para_8__content">
+          <p xml:space="preserve">Le président, les vice‑présidents et le rapporteur restent en fonction jusqu’à l’élection de leurs successeurs. Le Bureau entre en fonction à la clôture de la session durant laquelle il a été élu et reste en fonction jusqu’à la clôture de la session ordinaire suivante. Sous réserve des dispositions de l’article 18, ils sont rééligibles. Aucun d’entre eux ne peut rester en poste après expiration du mandat du membre dont il est le représentant.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="NormalNonumber">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve"> 	<span class="italic">Décide </span>que les amendements susmentionnés prendront effet au début de sa troisième session. Par conséquent, le Bureau élu à la deuxième session de l’Assemblée des Nations Unies pour l’environnement restera en fonction jusqu’à la clôture de sa troisième session.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location refersTo="#adoptionMeeting">6e séance plénière</location>
+          <eol />
+          <docDate date="2016-05-27" refersTo="#adoptionDate">27 mai 2016</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
