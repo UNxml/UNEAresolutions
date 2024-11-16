@@ -1,0 +1,201 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/"></FRBRuri>
+          <FRBRdate date="2016-05-27" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/spa@/"></FRBRuri>
+          <FRBRdate date="2016-08-03" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" showAs="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL POLICY" href="http://metadata.un.org/thesaurus/1002083" showAs="ENVIRONMENTAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2016-05-26" outcome="draftResolution" as="UNEP/EA.2/L.3/Rev.1" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2016-08-03" outcome="recommendedForAdoption" by="" />
+        <step date="2016-05-27" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">NACIONES UNIDAS</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.2/Res.2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. General</docStatus>
+      </p>
+      <p>
+        <docDate date="2016-08-03" class="rightSmall" refersTo="#dateOfIssuance">3 de agosto de 2016</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="2" eId="coverPage_1__session_1">Segundo período de sesiones</session>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi</location>, <event refersTo="#eventDuration"><date date="2016-05-23" refersTo="#startDate">23</date> a <date date="2016-05-27" refersTo="#endDate">27 de mayo de 2016</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2/2.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">El papel y las funciones de los foros regionales de ministros de medio ambiente y autoridades del medio ambiente </span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+          <p xml:space="preserve"> <span class="italic">La Asamblea de las Naciones Unidas sobre el Medio Ambiente,</span></p>
+      </formula>
+      <container name="Recordando" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Recordando</span> la decisión 27/2 del Consejo de Administración, adoptada en su 27º y primer período de sesiones de carácter universal, celebrado en Nairobi del 18 al 22 de febrero de 2013, de fortalecer la presencia regional del Programa de las Naciones Unidas para el Medio Ambiente a fin de ayudar a los países en la ejecución de sus programas, políticas y planes nacionales sobre el medio ambiente,</p>
+      </container>
+      <container name="Recordando también" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recordando también</span> la decisión 13/6 del Consejo de Administración sobre el Programa Regional para África de 1985, y 11/7 de 1983 sobre el Programa Regional para África, en las que se había invitado a los Gobiernos de la región a convocar, en cooperación con las organizaciones e instituciones regionales, una conferencia sobre el medio ambiente de África para examinar las prioridades ambientales nacionales y determinar los problemas comunes que merecieran la elaboración de un programa de acción regional para hacer frente a los graves problemas ambientales de África, y se había pedido al Director Ejecutivo que prestara los servicios de secretaría a esa conferencia por conducto de la Oficina Regional para África,</p>
+      </container>
+      <container name="Recordando además" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Recordando además </span>la decisión 20/11 del Consejo de Administración, de 1999, sobre el apoyo a la cooperación entre el Consejo de Ministros Árabes encargados del medio ambiente y el Programa de las Naciones Unidas para el Medio Ambiente por conducto de las oficinas regionales para Asia Occidental y África, en la que se pidió al Director Ejecutivo que apoyara, dentro de los límites de los recursos disponibles, las metas y los objetivos del Consejo de Ministros Árabes encargados del Medio Ambiente y las oficinas regionales para Asia Occidental y África y estableciera un mecanismo apropiado con miras a respaldar la aplicación y coordinación de los programas regionales en la región árabe,</p>
+      </container>
+      <container name="Recordando" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Recordando</span> la resolución 10/V del Consejo de Administración, de 1982, en la que se había recomendado a los Gobiernos de América Latina y el Caribe que periódicamente convocaran reuniones intergubernamentales regionales sobre el medio ambiente en América Latina y el Caribe a fin de establecer políticas y una estrategia para la región en este ámbito y se había pedido al Director Ejecutivo del Programa de las Naciones Unidas para el Medio Ambiente que prestara el apoyo de la Secretaría Permanente a estas reuniones regionales intergubernamentales, por conducto de la Oficina Regional para América Latina y el Caribe,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Acogiendo con beneplácito</span> los progresos y logros de los foros regionales de ministros de medio ambiente a los que el Programa de las Naciones Unidas para el Medio Ambiente presta apoyo y reconociendo que estas plataformas son importantes para fortalecer la participación de los países en la preparación y seguimiento de los períodos de sesiones de la Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente,</p>
+      </container>
+      <container name="Reconociendo con agradecimiento" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Reconociendo con agradecimiento</span> el primer Foro de Ministros y Autoridades de Medio Ambiente de Asia y el Pacífico, celebrada en Bangkok los días 19 y 20 de mayo de 2015, patrocinado conjuntamente con el Gobierno de Tailandia,</p>
+      </container>
+      <container name="Observando" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Observando</span> la solicitud del primer Foro de Ministros y Autoridades de Medio Ambiente de Asia y el Pacífico al Director Ejecutivo del Programa de las Naciones Unidas para el Medio Ambiente de celebrar períodos ordinarios de sesiones del Foro de Ministros y Autoridades de Medio Ambiente de Asia y el Pacífico,</p>
+      </container>
+      <container name="Expresando agradecimiento" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Expresando agradecimiento</span> por el respaldo del Programa de las Naciones Unidas para el Medio Ambiente a la Conferencia Ministerial Africana sobre el Medio Ambiente a través de su Oficina Regional para África,</p>
+      </container>
+      <container name="Reconociendo" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Reconociendo</span> el trabajo continuo del Foro de Ministros de Medio Ambiente de América Latina y el Caribe, y tomando nota de los resultados de la 20ª reunión del Foro celebrada en marzo de 2016 en Cartagena, Colombia,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14">
+        <num>1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15" class="Normalnumber">
+        <content eId="para_15__content">
+          <p xml:space="preserve"> <span class="italic">Solicita</span> al Director Ejecutivo que, con arreglo al mandato del Programa de las Naciones Unidas para el Medio Ambiente y de conformidad con el programa de trabajo y el presupuesto, brinde apoyo a los foros regionales existentes de ministros y autoridades de medio ambiente y facilite su convocatoria o fortalecimiento;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="Normalnumber">
+        <content eId="para_17__content">
+          <p xml:space="preserve"> <span class="italic">Solicita también</span> al Director Ejecutivo que, con arreglo al mandato del Programa de las Naciones Unidas para el Medio Ambiente, brinde apoyo a los nuevos foros regionales de ministros y autoridades de medio ambiente y facilite su convocatoria, a solicitud de las regiones, a través del proceso intergubernamental, con todos los países de las respectivas regiones y sujeto a la disponibilidad de recursos financieros;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="Normalnumber">
+        <content eId="para_19__content">
+          <p xml:space="preserve"> <span class="italic">Solicita además</span> al Director Ejecutivo que presente una actualización de los avances realizados en la aplicación de la presente resolución, a través de los trabajos entre períodos de sesiones relativos a la Asamblea de las Naciones Unidas para el Medio Ambiente, cuando proceda.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location refersTo="#adoptionMeeting">Sexta sesión plenaria</location>
+          <eol />
+          <docDate date="2016-05-27" refersTo="#adoptionDate">27 de mayo de 2016</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
