@@ -1,0 +1,185 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/"></FRBRuri>
+          <FRBRdate date="2016-05-27" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/eng@/"></FRBRuri>
+          <FRBRdate date="2016-08-03" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2016-05-27/2-2/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-09-15" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" showAs="UNEP. Environment Assembly (2nd sess. : 2016 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL POLICY" href="http://metadata.un.org/thesaurus/1002083" showAs="ENVIRONMENTAL POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PROGRAMME IMPLEMENTATION" href="http://metadata.un.org/thesaurus/1005169" showAs="PROGRAMME IMPLEMENTATION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2016-05-26" outcome="draftResolution" as="UNEP/EA.2/L.3/Rev.1" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2016-08-03" outcome="recommendedForAdoption" by="" />
+        <step date="2016-05-27" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">UNITED NATIONS</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.2/Res.2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2016-08-03" class="rightSmall" refersTo="#dateOfIssuance">3 August 2016</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="2" eId="coverPage_1__session_1">Second session</session>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi</location>, <event refersTo="#eventDuration"><date date="2016-05-23" refersTo="#startDate">23</date>–<date date="2016-05-27" refersTo="#endDate">27 May 2016</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>2/2.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Role and functions of the regional forums of ministers of the environment and environment authorities </span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The United Nations Environment Assembly,</span>
+        </p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>decision 27/2 of the Governing Council, taken at its twenty-seventh and first universal session, held in Nairobi from 18 to 22 February 2013, to strengthen the regional presence of the United Nations Environment Programme in order to assist countries in the implementation of their national environmental programmes, policies and plans,</p>
+      </container>
+      <container name="Recalling also" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Recalling also</span> Governing Council decisions 13/6 of 1985 on the African environmental conference and 11/7 of 1983 on the Regional Programme for Africa, inviting the Governments of the region to convene, in cooperation with regional organizations and institutions, an African environmental conference to discuss national environmental priorities and identify common problems worthy of a regional programme of action to deal with serious environmental problems in Africa and requesting the Executive Director to provide the secretariat services for the conference through the Regional Office for Africa,</p>
+      </container>
+      <container name="Recalling further" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Recalling further </span>Governing Council decision 20/11 of 1999 on support for cooperation between the Council of Arab Ministers Responsible for the Environment and the United Nations Environment Programme through the regional offices for West Asia and Africa, requesting the Executive Director to support, within available resources, the goals and aims of the Council of Arab Ministers Responsible for the Environment and the regional offices for West Asia and Africa and to establish an appropriate mechanism with a view to supporting the implementation and coordination of regional programmes in the Arab region, </p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> Governing Council resolution 10/V of 1982 recommending to the Governments of Latin America and the Caribbean that they periodically convoke intergovernmental regional meetings on the environment in Latin America and the Caribbean in order to establish policies and a strategy for the region in this field and requesting the Executive Director of the United Nations Environment Programme to lend the support of the permanent secretariat for these intergovernmental regional meetings, through the Regional Office for Latin America and the Caribbean,</p>
+      </container>
+      <container name="Welcoming" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Welcoming</span> the progress and achievements of regional forums of environment ministers to which the United Nations Environment Programme provides support, and recognizing those forums as important platforms for strengthening the engagement of countries in the preparation of and follow-up to sessions of the United Nations Environment Assembly,</p>
+      </container>
+      <container name="Acknowledging with appreciation" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Acknowledging with appreciation</span> the First Forum of Ministers and Environment Authorities of Asia and the Pacific, held in Bangkok on 19 and 20 May 2015, co-hosted by the Government of Thailand,</p>
+      </container>
+      <container name="Noting" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Noting</span> the request of the First Forum of Ministers and Environment Authorities of Asia and the Pacific to the Executive Director of the United Nations Environment Programme to hold regular sessions of the Forum of Ministers and Environment Authorities of Asia and the Pacific,</p>
+      </container>
+      <container name="Expressing appreciation" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Expressing appreciation</span> for the support provided by the United Nations Environment Programme to the African Ministerial Conference on the Environment through its Regional Office for Africa,</p>
+      </container>
+      <container name="Acknowledging" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> the ongoing work of the Forum of Ministers of the Environment of Latin America and the Caribbean, and taking note of the outcomes of the twentieth meeting of the Forum, held in March 2016 in Cartagena, Colombia,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_11">
+        <num>1.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director, within the mandate of the United Nations Environment Programme, and in accordance with the programme of work and budget, to support and to facilitate convening and/or strengthening the existing regional forums of ministers of the environment and environment authorities;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13">
+        <num>2.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve"> <span class="italic">Also requests</span> the Executive Director, within the mandate of the United Nations Environment Programme, to support and to facilitate convening new regional forums of ministers of the environment and environment authorities upon the request of the regions, through the intergovernmental process, with all countries in the respective regions, and subject to the availability of financial resources;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_15">
+        <num>3.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"> <span class="italic">Further requests</span> the Executive Director to provide an update on progress made in implementing the present resolution through intersessional work relevant to the United Nations Environment Assembly as appropriate.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <conclusions eId="conclusions">
+      <p>
+        <event refersTo="#adoption">
+          <location refersTo="#adoptionMeeting">6th plenary meeting</location>
+          <eol />
+          <docDate date="2016-05-27" refersTo="#adoptionDate">27 May 2016</docDate>
+        </event>
+      </p>
+    </conclusions>
+  </statement>
+</akomaNtoso>
