@@ -1,0 +1,247 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/spa@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.9" by="The European Union" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">NACIONES UNIDAS</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 de marzo de 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Quinto período de sesiones</session>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea de las Naciones Unidas sobre el Medio Ambiente el 2 de marzo de 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#híbrido">(híbrido)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> y <date date="2021-02-23" refersTo="#endDate">23 de febrero de 2021</date></event>  y <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 de febrero </date>a <date date="2022-03-02" refersTo="#endDate">2 de marzo de 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/5.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Soluciones basadas en la naturaleza en pro del desarrollo sostenible </span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea de las Naciones Unidas sobre el Medio Ambiente,</span>
+        </p>
+      </formula>
+      <container name="Subrayando" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Subrayando </span>la importancia de fortalecer las medidas en favor de la naturaleza a efectos de la aplicación de la Agenda 2030 para el Desarrollo Sostenible y los Objetivos de Desarrollo Sostenible, la Declaración de Río sobre el Medio Ambiente y el Desarrollo, el Convenio sobre la Diversidad Biológica y otros convenios relacionados con la biodiversidad, la Convención Marco de las Naciones Unidas sobre el Cambio Climático y el Acuerdo de París aprobado en virtud de la misma, la Convención de las Naciones Unidas de Lucha contra la Desertificación en los Países Afectados por Sequía Grave o Desertificación, en Particular en África, el Marco de Sendái para la Reducción del Riesgo de Desastres (2015-2030), el Decenio de las Naciones Unidas sobre la Restauración de los Ecosistemas (2021-2030) y la década de acción y resultados en favor del desarrollo sostenible (2020‑2030); aguardando con interés la aprobación y aplicación de un marco mundial de la diversidad biológica posterior a 2020 ambicioso, equilibrado, práctico, eficaz y sólido; y observando el Compromiso de los Líderes por la Naturaleza: Unidos para Revertir la Pérdida de Biodiversidad para 2030 en pro del Desarrollo Sostenible, </p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Acogiendo con beneplácito</span> el informe de la Plataforma Intergubernamental Científico‑Normativa sobre Diversidad Biológica y Servicios de los Ecosistemas titulado <span class="italic">Informe de la Evaluación Mundial sobre la Diversidad Biológica y los Servicios de los Ecosistemas</span><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Grupo Intergubernamental de Expertos sobre el Cambio Climático, <span class="italic">Climate Change 2022: Impacts, Adaptation, and Vulnerability</span>, Contribución del Grupo de Trabajo II al Sexto Informe de Evaluación del Grupo Intergubernamental de Expertos sobre el Cambio Climático (Cambridge University Press, 2022).</p></authorialNote> y la contribución del Grupo de Trabajo I, titulado <span class="italic">Climate Change 2021: The Physical Science Basis </span>(Cambio climático 2021: Bases físicas)<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> Plataforma Intergubernamental Científico‑Normativa sobre Diversidad Biológica y Servicios de los Ecosistemas (IPBES),<span class="italic"> Informe de la Evaluación Mundial sobre la Diversidad Biológica y los Servicios de los Ecosistemas </span>(Bonn (Alemania), Secretaría de la IPBES, 2019).</p></authorialNote>, y del Grupo de Trabajo II, titulado <span class="italic">Climate Change 2022: Impacts, Adaptation and Vulnerability </span>(Cambio climático 2022: impactos, adaptación y vulnerabilidad)<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve"> Grupo Intergubernamental de Expertos sobre el Cambio Climático, <span class="italic">Climate Change 2021: The Physical Science Basis.</span> Contribución del Grupo de Trabajo I al Sexto Informe de Evaluación del Grupo Intergubernamental de Expertos sobre el Cambio Climático (Cambridge University Press, 2021).</p></authorialNote>, al sexto Informe de Evaluación del Grupo Intergubernamental de Expertos sobre el Cambio Climático, y tomando nota de otros informes pertinentes,</p>
+      </container>
+      <container name="Reconociendo" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>las interdependencias entre la pérdida de diversidad biológica, la contaminación, el cambio climático, la desertificación y la degradación de las tierras y sus vinculaciones con el bienestar humano, en particular la salud, y la importancia de garantizar la integridad de todos los ecosistemas,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Reconociendo también</span> que una oportunidad clave de fortalecer las medidas en favor de la naturaleza para alcanzar los Objetivos de Desarrollo Sostenible consiste en mejorar la cooperación, la aplicación y la ampliación de las soluciones basadas en la naturaleza, a la vez que se garantizan sus salvaguardias sociales y ambientales, dado que las soluciones basadas en la naturaleza son eficientes y eficaces cuando se conciben en función del contexto para reportar múltiples beneficios y se aplican de conformidad con la mejor información científica disponible, </p>
+      </container>
+      <container name="Recordando" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recordando </span>las decisiones V/6, VI/12, VII/11 y IX/7 de la Conferencia de las Partes en el Convenio sobre la Diversidad Biológica relativas al enfoque ecosistémico, y su decisión 14/5 sobre la diversidad biológica y el cambio climático, y reconociendo, para las Partes en el Convenio, la función indispensable del Convenio en la conservación, restauración y uso sostenible de la diversidad biológica y en la gestión integrada de los recursos naturales, </p>
+      </container>
+      <container name="Reconociendo" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>la necesidad de una definición convenida multilateralmente del concepto de soluciones basadas en la naturaleza, consciente del concepto de enfoques basados en los ecosistemas y en armonía con este, y a la luz de las inquietudes sobre el posible uso indebido del concepto de soluciones basadas en la naturaleza, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8">
+        <num>1.</num>
+        <list eId="para_8_list">
+          <intro eId="para_8_list_intro">
+          <p xml:space="preserve"> <span class="italic">Decide </span>que las soluciones basadas en la naturaleza consisten en medidas encaminadas a proteger, conservar, restaurar, utilizar de forma sostenible y gestionar los ecosistemas terrestres, de agua dulce, costeros y marinos naturales o modificados que hacen frente a los problemas sociales, económicos y ambientales de manera eficaz y adaptativa, procurando al mismo tiempo bienestar humano, servicios ecosistémicos, resiliencia y beneficios para la biodiversidad, y reconoce que las soluciones basadas en la naturaleza:</p>
+          </intro>
+          <point eId="para_8_list_point_a">
+            <num>a)</num>
+            <content eId="para_8_list_point_a_content">
+          <p xml:space="preserve"> Respetan las salvaguardias sociales y ambientales, en consonancia con las tres “convenciones de Río” (el Convenio sobre la Diversidad Biológica, la Convención de las Naciones Unidas de Lucha contra la Desertificación y la Convención Marco de las Naciones Unidas sobre el Cambio Climático), con inclusión de tales salvaguardias para las comunidades locales y los pueblos indígenas; </p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_b">
+            <num>(b)</num>
+            <content eId="para_8_list_point_b_content">
+          <p xml:space="preserve"> Pueden aplicarse de acuerdo con las circunstancias locales, nacionales y regionales, de manera compatible con la Agenda 2030 para el Desarrollo Sostenible, y pueden gestionarse de forma adaptativa;</p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_c">
+            <num>(c)</num>
+            <content eId="para_8_list_point_c_content">
+          <p xml:space="preserve"> Se cuentan entre las medidas que cumplen una función indispensable en el empeño mundial de carácter general por alcanzar los Objetivos de Desarrollo Sostenible, en particular abordando de forma eficiente y eficaz los principales desafíos sociales, económicos y ambientales, como la pérdida de diversidad biológica, el cambio climático, la degradación de las tierras, la desertificación, la seguridad alimentaria, los riesgos de desastres, el desarrollo urbano, la disponibilidad de agua, la erradicación de la pobreza, la desigualdad y el desempleo, así como el desarrollo social, el desarrollo económico sostenible, la salud humana y una amplia gama de servicios ecosistémicos;</p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_d">
+            <num>(d)</num>
+            <content eId="para_8_list_point_d_content">
+          <p xml:space="preserve"> Pueden contribuir a estimular la innovación sostenible y la investigación científica; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_18">
+        <num>2.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> <span class="italic">Reconoce </span>que las soluciones basadas en la naturaleza pueden contribuir de manera significativa a la acción climática, al tiempo que concede la necesidad de analizar sus efectos, también a largo plazo, y es consciente de que no sustituyen la necesidad de reducciones rápidas, drásticas y sostenidas de las emisiones de gases de efecto invernadero, si bien pueden mejorar las medidas en favor de la adaptación y la resiliencia al cambio climático, así como de la mitigación de este y sus repercusiones; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>3.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> <span class="italic">Reconoce también</span> el potencial de los productos de base biológica sostenibles e idóneos desde el punto de vista ambiental, la innovación y las tecnologías derivadas de soluciones basadas en la naturaleza, cuando contribuyen al consumo y la producción sostenibles y son beneficiosos para la naturaleza y coherentes con los compromisos internacionales y los acuerdos multilaterales pertinentes sobre la diversidad biológica, el clima, el medio ambiente y el desarrollo sostenible, al tiempo que es consciente de los posibles riesgos conexos, en particular para las comunidades locales y los pueblos indígenas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>4.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> <span class="italic">Reconoce </span>que el concepto de soluciones basadas en la naturaleza es consciente del concepto de los enfoques basados en los ecosistemas definidos en el marco del Convenio sobre la Diversidad Biológica y de otros enfoques de gestión y conservación acometidos en virtud de los marcos normativos y legislativos nacionales existentes y establecidos en los acuerdos ambientales multilaterales pertinentes, y está en armonía con ese concepto; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>5.</num>
+        <intro eId="para_24_list_intro">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva del Programa de las Naciones Unidas para el Medio Ambiente que, con sujeción a la disponibilidad de recursos y con vistas a seguir apoyando la aplicación de soluciones basadas en la naturaleza, según se definen en la presente resolución, convoque consultas intergubernamentales de manera transparente, inclusiva y equilibrada desde el punto de vista regional, procurando que haya un equilibrio entre los géneros, a fin de emprender las siguientes tareas:</p>
+        </intro>
+        <point eId="para_24_list_point_a">
+          <num>a)</num>
+          <content eId="para_24_list_point_a_content">
+          <p xml:space="preserve"> Recopilar ejemplos de las mejores prácticas en soluciones basadas en la naturaleza que se atengan a la mejor información científica disponible; </p>
+          </content>
+        </point>
+        <point eId="para_24_list_point_b">
+          <num>b)</num>
+          <content eId="para_24_list_point_b_content">
+          <p xml:space="preserve"> Evaluar las propuestas, los criterios, las normas y las directrices existentes y debatir los nuevos en potencia a fin de abordar las divergencias, con vistas a lograr un entendimiento común entre los Estados miembros respecto de la aplicación de soluciones basadas en la naturaleza, en particular respecto del apoyo a los Estados miembros en el diseño, la aplicación y la evaluación de soluciones basadas en la naturaleza, aprovechando la labor, las iniciativas y las plataformas existentes, según proceda, y sin perjuicio de las medidas e iniciativas existentes de los distintos Estados miembros y de las nuevas propuestas de estos; </p>
+          </content>
+        </point>
+        <point eId="para_24_list_point_c">
+          <num>c)</num>
+          <content eId="para_24_list_point_c_content">
+          <p xml:space="preserve"> Determinar las opciones para apoyar la inversión sostenible en soluciones basadas en la naturaleza e intercambiar información sobre fuentes bilaterales y multilaterales de financiación para que los países en desarrollo puedan desarrollar y desplegar soluciones basadas en la naturaleza; </p>
+          </content>
+        </point>
+      </paragraph>
+      <paragraph eId="para_32">
+        <num>6.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> <span class="italic">Solicita también</span> a la Directora Ejecutiva que, con sujeción a la disponibilidad de recursos, preste apoyo a las consultas intergubernamentales, en particular facilitando la participación de los países en desarrollo y los asociados e interesados pertinentes, de conformidad con las normas aplicables de las Naciones Unidas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34">
+        <num>7.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> <span class="italic">Exhorta </span>a los Estados miembros y la Directora Ejecutiva a que, en colaboración con otras entidades pertinentes de las Naciones Unidas, presten apoyo a la aplicación de la presente resolución en asociación con las comunidades locales, las mujeres y los jóvenes, así como con los pueblos indígenas, con su consentimiento libre, previo e informado, ya que sus conocimientos y métodos han demostrado ser eficaces para la conservación, restauración y uso sostenible de la diversidad biológica; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36">
+        <num>8.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> <span class="italic">Exhorta </span>a los Estados miembros a que adopten un enfoque que deje el control en manos de los países, responda a las cuestiones de género y sea participativo y del todo transparente a la hora de diseñar, aplicar y hacer el seguimiento de soluciones basadas en la naturaleza. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

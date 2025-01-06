@@ -1,0 +1,236 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/spa@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NITROGEN" href="http://metadata.un.org/thesaurus/1004419" showAs="NITROGEN" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.12" by="Sri Lanka" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">NACIONES UNIDAS</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 de marzo de 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Quinto período de sesiones</session>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea de las Naciones Unidas sobre el Medio Ambiente el 2 de marzo de 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#híbrido">(híbrido)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> y <date date="2021-02-23" refersTo="#endDate">23 de febrero de 2021</date></event>   y <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 de febrero </date>a <date date="2022-03-02" refersTo="#endDate">2 de marzo de 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/2.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Gestión sostenible del nitrógeno</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea de las Naciones Unidas sobre el Medio Ambiente,</span>
+        </p>
+      </formula>
+      <container name="Observando con preocupación" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Observando con preocupación</span> que los niveles excesivos de nutrientes, en particular los de nitrógeno y fósforo reactivos, ejercen un impacto significativo en la composición de las especies en los ecosistemas terrestres, de agua dulce y costeros, con efectos en cascada sobre la diversidad biológica, la calidad del suelo, del agua y del aire, la función de los ecosistemas y el bienestar humano,</p>
+      </container>
+      <container name="Observando con preocupación también" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Observando con preocupación también </span>que la forma en que actualmente se utiliza el nitrógeno en el conjunto de la economía mundial es ineficiente, por lo que se pierde en el medio ambiente una gran proporción de nitrógeno reactivo antropogénico,</p>
+      </container>
+      <container name="Observando" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Observando </span>los beneficios que la reducción de los residuos de nitrógeno aportaría a los entornos atmosféricos, terrestres, de agua dulce y marinos, así como a la salud humana, los servicios de los ecosistemas y los esfuerzos para combatir la contaminación, el cambio climático y la pérdida de diversidad biológica, al tiempo que se garantizaría la seguridad alimentaria y se podrían ahorrar cada año miles de millones de dólares de los Estados Unidos<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Según la publicación del Programa de las Naciones Unidas para el Medio Ambiente <span class="italic">Fronteras 2018/19: Nuevos temas de interés ambiental</span> (capítulo 4, “La fijación de nitrógeno”), el ahorro anual se estima en 100.000 millones de dólares.</p></authorialNote>,</p>
+      </container>
+      <container name="Reconociendo" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>la necesidad de una acción coherente para hacer frente a los múltiples retos mundiales que plantea el acoplamiento natural de los ciclos del carbono y el nitrógeno, y reafirmando la necesidad de una mayor cooperación internacional para la gestión sostenible del nitrógeno,</p>
+      </container>
+      <container name="Recordando" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recordando</span> la resolución 70/1 de la Asamblea General, de 25 de septiembre de 2015, titulada “Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible”, </p>
+      </container>
+      <container name="Recordando también" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Recordando también </span>los Objetivos de Desarrollo Sostenible y sus metas interrelacionadas,</p>
+      </container>
+      <container name="Reconociendo" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>la prioridad fundamental de salvaguardar la seguridad alimentaria y acabar con el hambre, y el hecho de que la producción agropecuaria mundial y la seguridad alimentaria dependen de la utilización sostenible de los nutrientes y de la reducción de los residuos de nutrientes, incluidos el nitrógeno y el fósforo,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Reconociendo también </span>las medidas ya adoptadas por los países y en el marco de los acuerdos intergubernamentales en relación con la calidad del agua, la calidad del aire, el clima y la biodiversidad, y reconociendo las medidas adoptadas por el Programa de las Naciones Unidas para el Medio Ambiente (PNUMA), el Fondo para el Medio Ambiente Mundial (FMAM), la Alianza Mundial sobre la Gestión de los Nutrientes, la Iniciativa Mundial sobre las Aguas Residuales, el Programa de Acción Mundial para la Protección del Medio Marino frente a las Actividades Realizadas en Tierra, el Convenio sobre la Contaminación Atmosférica Transfronteriza a Gran Distancia y el proyecto FMAM-PNUMA para el establecimiento de un sistema internacional de gestión del nitrógeno que vincule la ciencia y la política relativas a la gestión sostenible del nitrógeno,</p>
+      </container>
+      <container name="Recordando" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Recordando </span>la resolución 4/14 de la Asamblea sobre el Medio Ambiente sobre la gestión sostenible del nitrógeno, y reafirmando la importancia de la reducción a largo plazo de las múltiples amenazas de contaminación resultantes del nitrógeno reactivo antropogénico, con efectos adversos en los entornos terrestres, de agua dulce y marinos, la contaminación atmosférica y las emisiones de gases de efecto invernadero, y reconociendo al mismo tiempo los beneficios del uso del nitrógeno para la alimentación y la energía,</p>
+      </container>
+      <container name="Tomando nota" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Tomando nota </span>de los resultados de la cuarta reunión de los socios del proyecto FMAM‑PNUMA para el establecimiento de un sistema internacional de gestión del nitrógeno con los miembros del Comité de Representantes Permanentes del Programa de las Naciones Unidas para el Medio Ambiente, celebrada en Nairobi los días 29 y 30 de abril de 2019 como seguimiento de la adopción de la resolución 4/14,</p>
+      </container>
+      <container name="Tomando nota también" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Tomando nota también </span>de la labor del Grupo de Trabajo sobre el Nitrógeno del Programa de las Naciones Unidas para el Medio Ambiente y de su equipo de trabajo para la aplicación de la resolución 4/14,</p>
+      </container>
+      <container name="Tomando nota además" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Tomando nota además </span>del proceso en curso establecido en 2017 bajo los auspicios del Programa de las Naciones Unidas para el Medio Ambiente para producir una evaluación internacional del nitrógeno a través del proyecto del FMAM-PNUMA dirigido al establecimiento de un sistema internacional de gestión del nitrógeno con el apoyo del Fondo para el Medio Ambiente Mundial y otras partes interesadas, antes del sexto período de sesiones de la Asamblea sobre el Medio Ambiente,</p>
+      </container>
+      <container name="Tomando nota" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Tomando nota </span>del lanzamiento de la Campaña Mundial de las Naciones Unidas sobre la Gestión Sostenible del Nitrógeno en octubre de 2019 y de la adopción de la Declaración de Colombo sobre Gestión Sostenible del Nitrógeno por sus signatarios el Día de las Naciones Unidas, el 24 de octubre de 2019,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="Normal-pool">
+        <content eId="para_16__content">
+          <p xml:space="preserve"> <span class="italic">Alienta </span>a los Estados miembros a que aceleren las medidas para reducir significativamente los residuos de nitrógeno a nivel mundial para 2030 y más allá, mediante la mejora de la gestión sostenible del nitrógeno;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17">
+        <num>2.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="Normal-pool">
+        <content eId="para_18__content">
+          <p xml:space="preserve"> <span class="italic">Alienta también </span>a los Estados miembros a que compartan información sobre sus planes de acción nacionales, según las circunstancias de cada Estado; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19">
+        <num>3.</num>
+        <list eId="para_19_list">
+          <intro eId="para_19_list_intro">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva del Programa de las Naciones Unidas para el Medio Ambiente que:</p>
+          </intro>
+          <point eId="para_19_list_point_a">
+            <num>a)</num>
+            <content eId="para_19_list_point_a_content">
+          <p xml:space="preserve"> Apoye a los Estados miembros, a petición de estos, en la elaboración de planes de acción nacionales para la gestión sostenible del nitrógeno, en función de la disponibilidad de recursos;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_b">
+            <num>b)</num>
+            <content eId="para_19_list_point_b_content">
+          <p xml:space="preserve"> Determine las posibles modalidades de las opciones que se están considerando para mejorar la coordinación de las políticas en todo el ciclo global del nitrógeno a escala nacional, regional y mundial, incluido, entre otras opciones, para un mecanismo de coordinación intergubernamental para las políticas de nitrógeno, como se especifica en el apartado a) de la resolución 4/14;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_c">
+            <num>c)</num>
+            <content eId="para_19_list_point_c_content">
+          <p xml:space="preserve"> Presente al Comité de Representantes Permanentes, en su 159ª reunión, que se celebrará en 2022, información actualizada sobre la aplicación de la resolución 4/14, incluido el estado de la evaluación solicitada en el apartado c) de la resolución, y una hoja de ruta para seguir aplicando la resolución en el período previo al sexto período de sesiones de la Asamblea sobre el Medio Ambiente;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_d">
+            <num>d)</num>
+            <content eId="para_19_list_point_d_content">
+          <p xml:space="preserve"> Invite a los Estados miembros a que designen puntos focales para formar parte del Grupo de Trabajo sobre el Nitrógeno del Programa de las Naciones Unidas para el Medio Ambiente;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_e">
+            <num>e)</num>
+            <content eId="para_19_list_point_e_content">
+          <p xml:space="preserve"> Informe a la Asamblea sobre el Medio Ambiente, en su sexto período de sesiones, sobre los progresos realizados en la aplicación de la presente resolución y la resolución 4/14.</p>
+        </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

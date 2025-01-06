@@ -1,0 +1,262 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/spa@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL LAKES" href="http://metadata.un.org/thesaurus/1003315" showAs="INTERNATIONAL LAKES" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.8" by="Indonesia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Pakistan" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">NACIONES UNIDAS</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.4</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 de marzo de 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Quinto período de sesiones</session>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea de las Naciones Unidas sobre el Medio Ambiente el 2 de marzo de 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Español">Español</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#híbrido">(híbrido)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> y <date date="2021-02-23" refersTo="#endDate">23 de febrero de 2021</date></event>  y <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 de febrero </date>a <date date="2022-03-02" refersTo="#endDate">2 de marzo de 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/4.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Gestión sostenible de los lagos</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea de las Naciones Unidas sobre el Medio Ambiente,</span>
+        </p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Recordando </span>los compromisos asumidos en el documento final de la Conferencia de las Naciones Unidas sobre el Desarrollo Sostenible, titulado “El futuro que queremos”<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Resolución 66/288 de la Asamblea General, anexo.</p></authorialNote>,</p>
+      </container>
+      <container name="Reconociendo" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>la resolución 70/1 de la Asamblea General, de 25 de septiembre de 2015, titulada “Transformar nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible”, en la que se observa que los lagos son uno de los ecosistemas relacionados con el agua que deben ser protegidos y restaurados, como se establece en la meta 6.6 de los Objetivos de Desarrollo Sostenible,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Reconociendo también </span>la complementariedad entre los objetivos de la Convención relativa a los Humedales de Importancia Internacional, especialmente como Hábitat de Aves Acuáticas, la Agenda 2030 para el Desarrollo Sostenible y la gestión sostenible de los lagos,</p>
+      </container>
+      <container name="Reconociendo además" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Reconociendo además </span>la resolución 75/212 de la Asamblea General, de 21 de diciembre de 2020, relativa a la Conferencia de las Naciones Unidas sobre el Examen Amplio de Mitad de Período del Logro de los Objetivos del Decenio Internacional para la Acción “Agua para el Desarrollo Sostenible” (2018-2028),</p>
+      </container>
+      <container name="Aguardando con interés" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Aguardando con interés </span>la convocatoria de la Conferencia de las Naciones Unidas sobre el Examen Amplio de Mitad de Período del Logro de los Objetivos del Decenio Internacional para la Acción “Agua para el Desarrollo Sostenible” (2018-2028), que se celebrará en Nueva York del 22 al 24 de marzo de 2023, y pidiendo, entre otras cosas, que se acelere la consecución de los objetivos y metas acordados internacionalmente en relación con el agua, entre ellos los que figuran en la Agenda 2030 para el Desarrollo Sostenible, en particular el Objetivo de Desarrollo Sostenible 6, relativo a garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos, y la promoción de la aplicación de los objetivos del Decenio Internacional para la Acción,</p>
+      </container>
+      <container name="Recordando" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Recordando </span>la resolución 3/10 de la Asamblea de las Naciones Unidas sobre el Medio Ambiente, relativa a combatir la contaminación del agua para proteger y restablecer los ecosistemas relacionados con el agua,</p>
+      </container>
+      <container name="Observando con preocupación" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Observando con preocupación </span>que, al ritmo actual de progreso, el mundo no se encamina a alcanzar las metas relacionadas con el agua de los Objetivos de Desarrollo Sostenible a nivel mundial para 2030, lo que tendrá repercusiones importantes sobre el bienestar humano y las tres dimensiones del desarrollo sostenible, a saber, la medioambiental, la económica y la social,</p>
+      </container>
+      <container name="Destacando" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Destacando </span>la importancia del enfoque ecosistémico para la gestión integrada de la tierra, el agua y los recursos vivos y la necesidad de intensificar los esfuerzos para hacer frente a la desertificación, la degradación de la tierra, la erosión y la sequía, la pérdida de diversidad biológica y la escasez de agua, que se consideran importantes retos ambientales, económicos y sociales para el desarrollo sostenible mundial y que afectan a los lagos y hacen necesaria una gestión sostenible de los lagos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>que los lagos naturales y artificiales contienen más del 90% del agua dulce de la superficie de la Tierra y contribuyen en gran medida a garantizar la disponibilidad y la accesibilidad del agua para proteger la vida y los medios de subsistencia, y contribuyen también a los avances en relación con la Agenda 2030 para el Desarrollo Sostenible,</p>
+      </container>
+      <container name="Comprendiendo" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Comprendiendo </span>que los lagos tienen características singulares, como un tiempo prolongado de retención del agua, la integración de la naturaleza y una respuesta no lineal a las presiones, que hacen que su gestión sostenible sea un proceso continuado a largo plazo,</p>
+      </container>
+      <container name="Comprendiendo también" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Comprendiendo también </span>que los lagos proporcionan una amplia gama de servicios ecosistémicos, como el suministro de agua para el consumo humano, la salud, los alimentos y la energía; regulan los servicios para el ciclo alimentario, la depuración del agua, el clima y la biodiversidad; y permiten la realización de actividades recreativas y tradicionales, </p>
+      </container>
+      <container name="Destacando" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Destacando </span>el grave impacto del cambio climático en el medio ambiente y reconociendo que la gestión sostenible de los lagos y otros ecosistemas de agua dulce puede desempeñar un papel positivo como medida de adaptación al cambio climático y puede servir como medida de reducción de las catástrofes relacionadas con el agua derivadas del mismo,</p>
+      </container>
+      <container name="Reconociendo" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>que el estado de los entornos lacustres, especialmente en lo que respecta a la calidad y cantidad del agua, se está deteriorando gravemente en todo el mundo, lo que supone una amenaza para la salud humana, la diversidad biológica y el medio ambiente, y que es necesario abordarlo urgentemente de forma sostenible,</p>
+      </container>
+      <container name="Tomando en consideración" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Tomando en consideración </span>que los lagos pueden tener una estrecha relación con los valores culturales, históricos y sociales y que estos valores pueden desempeñar un papel fundamental en la gestión sostenible de los lagos, lo que otorga una importancia vital a la cooperación con las comunidades locales y la educación y concienciación ambiental, </p>
+      </container>
+      <container name="Reconociendo" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>la necesidad de que todas las partes interesadas realicen esfuerzos concertados, por ejemplo a través de asociaciones entre los sectores público y privado y la participación de agentes locales, nacionales y mundiales para apoyar la implementación de la gestión sostenible de los lagos,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Reconociendo también </span>que los lagos transfronterizos pueden estar sujetos a acuerdos bilaterales, internacionales y multilaterales pertinentes, en cuyo caso los esfuerzos de gestión sostenible de esos lagos deben llevarse a cabo en el marco de los respectivos acuerdos,</p>
+      </container>
+      <container name="Recordando y reafirmando" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Recordando y reafirmando </span>la meta 6.5 de los Objetivos de Desarrollo Sostenible, consistente en haber implementado para 2030 una gestión integrada de los recursos hídricos a todos los niveles, incluso mediante la cooperación transfronteriza, según proceda,</p>
+      </container>
+      <container name="Reafirmando" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Reafirmando </span>la importancia de los enfoques integrados, intersectoriales, colaborativos y coordinados, a todos los niveles, en la gestión y protección de los lagos, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20">
+        <num>1.</num>
+        <list eId="para_20_list">
+          <intro eId="para_20_list_intro">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a todos los Estados miembros y los miembros de los organismos especializados que emprendan y apliquen lo siguiente, tanto individual como colectivamente, según proceda, e invita a las organizaciones internacionales pertinentes a hacerlo también, cuando proceda: </p>
+          </intro>
+          <point eId="para_20_list_point_a">
+            <num>a)</num>
+            <content eId="para_20_list_point_a_content">
+          <p xml:space="preserve"> Proteger, conservar, restaurar y garantizar el uso sostenible de los lagos, incluyendo aspectos como la calidad del agua, la erosión, la sedimentación y la diversidad biológica acuática, mediante una gestión integrada a todos los niveles, tal y como se establece en las metas 6.5 y 6.6 de los Objetivos de Desarrollo Sostenible, de forma que se abarque la masa de agua y toda la cuenca lacustre, con el apoyo de la reglamentación pertinente, desarrollo institucional, asignaciones presupuestarias, un seguimiento y datos bien gestionados, investigación integrada, tecnología sostenible y cooperación internacional; </p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_b">
+            <num>b)</num>
+            <content eId="para_20_list_point_b_content">
+          <p xml:space="preserve"> Integrar los lagos en los planes de desarrollo nacionales y regionales, en particular en lo referente a la adaptación al clima, la gestión de los recursos hídricos y la conservación de la diversidad biológica, a fin de avanzar en la consecución del Objetivo de Desarrollo Sostenible 6, la resiliencia climática y la conservación de la diversidad biológica;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_c">
+            <num>c)</num>
+            <content eId="para_20_list_point_c_content">
+          <p xml:space="preserve"> Tener en cuenta la cultura y los conocimientos locales, así como su dependencia e impacto en los lagos, garantizando la cooperación con las comunidades locales y los pueblos indígenas y el desarrollo de sus capacidades, según proceda, y de conformidad con las circunstancias nacionales;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_d">
+            <num>d)</num>
+            <content eId="para_20_list_point_d_content">
+          <p xml:space="preserve"> Involucrar a todas las partes interesadas, con inclusión de centros universitarios y de investigación, empresas privadas y organizaciones no gubernamentales, en un esfuerzo concertado a fin de aplicar una gestión sostenible de los lagos;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_e">
+            <num>e)</num>
+            <content eId="para_20_list_point_e_content">
+          <p xml:space="preserve"> Tener en cuenta la investigación y la orientación científica, haciendo hincapié en la vinculación entre ciencia y política;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_f">
+            <num>f)</num>
+            <content eId="para_20_list_point_f_content">
+          <p xml:space="preserve"> Desarrollar el trabajo en red y la colaboración internacional para una gestión integrada de los lagos, sostenible y resistente al clima, e intercambiar periódicamente datos e información entre los Estados que comparten un lago transfronterizo, según lo previsto en los acuerdos internacionales;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34">
+        <num>2.</num>
+        <list eId="para_34_list">
+          <intro eId="para_34_list_intro">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva del Programa de las Naciones Unidas para el Medio Ambiente que adopte medidas en las tres esferas siguientes:</p>
+          </intro>
+          <point eId="para_34_list_point_a">
+            <num>a)</num>
+            <content eId="para_34_list_point_a_content">
+          <p xml:space="preserve"> Apoyar la promoción de la gestión sostenible de los lagos a todos los niveles, en coordinación con los convenios pertinentes, según proceda, incluida la Convención sobre los Humedales de Importancia Internacional;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_b">
+            <num>b)</num>
+            <content eId="para_34_list_point_b_content">
+          <p xml:space="preserve"> Facilitar la colaboración entre los Estados miembros y los miembros de los organismos especializados en materia de investigación, creación de capacidades e intercambio de conocimientos, información y mejores prácticas, en particular mediante la cooperación Norte-Sur, Sur-Sur y triangular;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_c">
+            <num>c)</num>
+            <content eId="para_34_list_point_c_content">
+          <p xml:space="preserve"> Fomentar la integración de la gestión sostenible de los lagos en la agenda global y la concienciación sobre la gestión sostenible de los lagos a nivel mundial para seguir destacando el importante papel que desempeñan los lagos en el apoyo al desarrollo sostenible y el mantenimiento del bienestar de los ecosistemas y la humanidad.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

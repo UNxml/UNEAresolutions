@@ -1,0 +1,431 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/spa@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL INSTRUMENTS" href="http://metadata.un.org/thesaurus/1003310" showAs="INTERNATIONAL INSTRUMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PLASTIC PRODUCTS" href="http://metadata.un.org/thesaurus/1004940" showAs="PLASTIC PRODUCTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MARINE POLLUTION" href="http://metadata.un.org/thesaurus/1003920" showAs="MARINE POLLUTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-02-16" outcome="draftResolution" as="UNEP/EA.5/L.23" by="The co-facilitators of cluster 1" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">NACIONES UNIDAS</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 de marzo de 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Quinto período de sesiones</session>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea de las Naciones Unidas sobre el Medio Ambiente el 2 de marzo de 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#híbrido">(híbrido)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> y <date date="2021-02-23" refersTo="#endDate">23 de febrero de 2021</date></event>   y <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 de febrero </date>a <date date="2022-03-02" refersTo="#endDate">2 de marzo de 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/14.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Fin de la contaminación por plásticos: hacia un instrumento internacional jurídicamente vinculante</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea de las Naciones Unidas sobre el Medio Ambiente,</span>
+        </p>
+      </formula>
+      <container name="Observando con preocupación" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Observando con preocupación</span> que el rápido aumento de los elevados niveles de contaminación por plásticos representa un grave problema medioambiental a escala mundial, que incide negativamente en las dimensiones económica, social y ambiental del desarrollo sostenible,</p>
+      </container>
+      <container name="Reconociendo" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>que la contaminación por plásticos incluye los microplásticos,</p>
+      </container>
+      <container name="Observando con preocupación" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Observando con preocupación</span> las repercusiones específicas de la contaminación por plásticos en el medio marino, </p>
+      </container>
+      <container name="Observando" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Observando </span>que la contaminación por plásticos, tanto en el medio marino como en otros, puede ser de carácter transfronterizo y debe abordarse, junto con sus repercusiones, mediante un enfoque que abarque todo el ciclo de vida del plástico y tenga en cuenta las circunstancias y capacidades de cada país,</p>
+      </container>
+      <container name="Reafirmando" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Reafirmando </span>la resolución 70/1 de la Asamblea General, de 25 de septiembre de 2015, en la que la Asamblea General aprobó la Agenda 2030 para el Desarrollo Sostenible,</p>
+      </container>
+      <container name="Reafirmando también" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Reafirmando también</span> los principios de la Declaración de Río sobre el Medio Ambiente y el Desarrollo, aprobada en Río de Janeiro (Brasil) en 1992,</p>
+      </container>
+      <container name="Destacando" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Destacando </span>la urgente necesidad de reforzar la interfaz científico-normativa a todos los niveles, mejorar la comprensión del impacto global de la contaminación por plásticos en el medio ambiente y promover acciones efectivas y progresivas en los ámbitos local, regional y mundial, sin dejar de reconocer la importancia del plástico en la sociedad,</p>
+      </container>
+      <container name="Recordando" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Recordando </span>las resoluciones 1/6, 2/11, 3/7, 4/6, 4/7 y 4/9<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Sobre desechos plásticos y microplásticos marinos (1/6), basura plástica y microplásticos marinos (2/11, 4/6), basura marina y microplásticos (3/7), gestión ambientalmente racional de los desechos (4/7) y combatir la contaminación causada por productos de plástico desechables (4/9).</p></authorialNote> de la Asamblea de las Naciones Unidas sobre el Medio Ambiente, y afirmando la urgente necesidad de fortalecer la coordinación, cooperación y gobernanza mundiales para adoptar medidas inmediatas con vistas a eliminar a la larga la contaminación por plásticos tanto en el medio marino como en otros, y evitar los perjuicios de la contaminación por plásticos en los ecosistemas y las actividades humanas que dependen de ellos,</p>
+      </container>
+      <container name="Reconociendo" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>la amplia gama de enfoques, alternativas sostenibles y tecnologías disponibles para abordar el ciclo de vida completo del plástico, resaltando además la necesidad de mejorar la colaboración internacional para facilitar el acceso a la tecnología, la creación de capacidades y la cooperación científica y técnica, y destacando que no existe un enfoque único,</p>
+      </container>
+      <container name="Subrayando" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Subrayando </span>la importancia de promover el diseño ecológico de productos y materiales para que sea posible reutilizarlos, reelaborarlos, reciclarlos y, por lo tanto, mantenerlos en la economía durante el mayor tiempo posible junto con los recursos de los que están hechos, y reducir al mínimo la generación de desechos,  contribuyendo así significativamente a la producción y el consumo sostenibles del plástico,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Acogiendo con beneplácito</span> los esfuerzos realizados por los Gobiernos y las organizaciones internacionales, en particular mediante planes de acción, iniciativas e instrumentos nacionales, regionales e internacionales, incluso los acuerdos multilaterales pertinentes, como las iniciativas del Grupo de los Siete y del Grupo de los 20, incluidos los planes de acción de 2015 y 2017 que abordan la basura marina; el marco de aplicación de medidas relativas a la basura marina del Grupo de los 20; la iniciativa “Osaka Blue Ocean Vision”; la Carta del Plástico Oceánico; el marco de acción contra la basura marina de la Asociación de Naciones de Asia Sudoriental (ASEAN); la Declaración de Bangkok sobre la Lucha contra los Detritos Marinos en la Región de la ASEAN; la hoja de ruta del Foro de Cooperación Económica de Asia y el Pacífico sobre la basura marina; la Declaración de los Líderes de la Alianza de los Pequeños Estados Insulares de 2021; la Declaración de San Juan de la Comunidad del Caribe; el Convenio de Basilea sobre el Control de los Movimientos Transfronterizos de los Desechos Peligrosos y su Eliminación; y el documento final de la Conferencia Ministerial sobre Basura Marina y Contaminación por plásticos de 2021, y reconociendo la necesidad de tomar iniciativas complementarias y de una visión global coherente y coordinada a largo plazo,</p>
+      </container>
+      <container name="Observando con aprecio" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Observando con aprecio</span> la importante labor de la Alianza Mundial sobre la Basura Marina y las medidas para luchar contra la basura marina y la contaminación por plásticos que el Programa de las Naciones Unidas para el Medio Ambiente respalda y ejecuta, y tomando en consideración el resumen de la Presidencia del grupo especial de expertos de composición abierta sobre la basura y los microplásticos marinos, que presenta posibles opciones para la continuación de los trabajos que se someterán al examen de la Asamblea sobre el Medio Ambiente en su quinto período de sesiones,</p>
+      </container>
+      <container name="Reafirmando" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Reafirmando </span>la importancia de la cooperación, la coordinación y la complementariedad entre los convenios e instrumentos regionales e internacionales pertinentes, con el debido respeto a sus respectivos mandatos, para prevenir la contaminación por plásticos y sus riesgos conexos para la salud humana y los efectos adversos para el bienestar humano y el medio ambiente, incluido el Protocolo de 1997 que Enmienda el Convenio Internacional para Prevenir la Contaminación por los Buques, 1973, modificado por el Protocolo de 1978; el Convenio de Basilea sobre el Control de los Movimientos Transfronterizos de los Desechos Peligrosos y su Eliminación; el Convenio de Estocolmo sobre Contaminantes Orgánicos Persistentes; el Convenio de Rotterdam sobre el Procedimiento de Consentimiento Fundamentado Previo aplicable a Ciertos Plaguicidas y Productos Químicos Peligrosos Objeto de Comercio Internacional; la Convención de las Naciones Unidas sobre el Derecho del Mar; el Convenio sobre la Prevención de la Contaminación del Mar por Vertimiento de Desechos y otras Materias de 1972 y su Protocolo; el Enfoque Estratégico para la Gestión de Productos Químicos a Nivel Internacional; la Convención Marco de las Naciones Unidas sobre el Cambio Climático; el Convenio sobre la Diversidad Biológica; y otras organizaciones internacionales, instrumentos y programas regionales, y reconociendo las iniciativas de las organizaciones no gubernamentales y el sector privado, </p>
+      </container>
+      <container name="Reconociendo" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>que cada país es quien está mejor posicionado para entender sus propias circunstancias nacionales, incluidas las actividades de los interesados, en relación con la lucha contra la contaminación por plásticos, incluso en el medio marino,</p>
+      </container>
+      <container name="Reconociendo también" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Reconociendo también</span> la importante contribución de los trabajadores en entornos informales y cooperativos a la recogida, clasificación y reciclaje del plástico en muchos países, </p>
+      </container>
+      <container name="Subrayando" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Subrayando</span> que es necesario seguir actuando a nivel internacional mediante la elaboración de un instrumento internacional jurídicamente vinculante sobre la contaminación por plásticos, incluso en el medio marino,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva que convoque un comité intergubernamental de negociación que inicie sus trabajos durante el segundo semestre de 2022, con el objetivo de completar su trabajo a finales de 2024;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> <span class="italic">Reconoce </span>que algunas de las obligaciones jurídicas dimanantes de un nuevo instrumento jurídicamente vinculante requerirán asistencia técnica, financiera y de creación de capacidad para que los países en desarrollo y los países con economías en transición puedan cumplirlas realmente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21">
+        <num>3.</num>
+        <list eId="para_21_list">
+          <intro eId="para_21_list_intro">
+          <p xml:space="preserve"> <span class="italic">Decide </span>que el comité intergubernamental de negociación elaborará un instrumento internacional jurídicamente vinculante sobre la contaminación por plásticos, incluso en el medio marino, denominado en adelante “el instrumento”, que podría incluir enfoques tanto vinculantes como voluntarios, basado en un enfoque global que aborde todo el ciclo de vida del plástico, teniendo en cuenta, entre otras cosas, los principios de la Declaración de Río sobre el Medio Ambiente y el Desarrollo, así como las circunstancias y capacidades nacionales, y contendrá las siguientes disposiciones:</p>
+          </intro>
+          <point eId="para_21_list_point_a">
+            <num>a)</num>
+            <content eId="para_21_list_point_a_content">
+          <p xml:space="preserve"> 	Especificar los objetivos del instrumento;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_b">
+            <num>b)</num>
+            <content eId="para_21_list_point_b_content">
+          <p xml:space="preserve"> 	Promover la producción y el consumo sostenibles del plástico mediante, entre otras cosas, el diseño de productos y la gestión ambientalmente racional de los desechos, incluso a través de enfoques de eficiencia de recursos y de economía circular;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_c">
+            <num>c)</num>
+            <content eId="para_21_list_point_c_content">
+          <p xml:space="preserve"> 	Promover medidas de cooperación nacional e internacional para reducir la contaminación por plásticos en el medio marino, incluida la existente; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_d">
+            <num>d)</num>
+            <content eId="para_21_list_point_d_content">
+          <p xml:space="preserve"> 	Desarrollar, aplicar y actualizar planes de acción nacionales que reflejen los enfoques impulsados por los países para contribuir a los objetivos del instrumento;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_e">
+            <num>e)</num>
+            <content eId="para_21_list_point_e_content">
+          <p xml:space="preserve"> 	Promover planes de acción nacionales para trabajar en la prevención, reducción y eliminación de la contaminación por plásticos, y apoyar la cooperación regional e internacional; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_f">
+            <num>f)</num>
+            <content eId="para_21_list_point_f_content">
+          <p xml:space="preserve"> 	Especificar la presentación de informes nacionales, según proceda;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_g">
+            <num>g)</num>
+            <content eId="para_21_list_point_g_content">
+          <p xml:space="preserve"> 	Evaluar periódicamente los avances en la aplicación del instrumento; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_h">
+            <num>h)</num>
+            <content eId="para_21_list_point_h_content">
+          <p xml:space="preserve"> 	Evaluar periódicamente la eficacia del instrumento en la consecución de sus objetivos; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_i">
+            <num>i)</num>
+            <content eId="para_21_list_point_i_content">
+          <p xml:space="preserve"> 	Proporcionar evaluaciones científicas y socioeconómicas relacionadas con la contaminación por plásticos; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_j">
+            <num>j)</num>
+            <content eId="para_21_list_point_j_content">
+          <p xml:space="preserve"> 	Aumentar los conocimientos mediante la sensibilización, la educación y el intercambio de información; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_k">
+            <num>k)</num>
+            <content eId="para_21_list_point_k_content">
+          <p xml:space="preserve"> 	Promover la cooperación y coordinación con los convenios, instrumentos y organizaciones regionales e internacionales pertinentes, y al mismo tiempo reconocer sus respectivos mandatos, evitando la duplicación y promoviendo la complementariedad de las iniciativas;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_l">
+            <num>l)</num>
+            <content eId="para_21_list_point_l_content">
+          <p xml:space="preserve"> 	Fomentar la actuación de todos los interesados, incluido el sector privado, y promover la cooperación a nivel mundial, regional, nacional y local; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_m">
+            <num>m)</num>
+            <content eId="para_21_list_point_m_content">
+          <p xml:space="preserve"> 	Poner en marcha un programa de acción con múltiples partes interesadas; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_n">
+            <num>n)</num>
+            <content eId="para_21_list_point_n_content">
+          <p xml:space="preserve"> 	Especificar los acuerdos para la creación de capacidad y la asistencia técnica, la transferencia de tecnología en condiciones mutuamente convenidas y la asistencia financiera, reconociendo que la aplicación efectiva de algunas obligaciones legales en virtud del instrumento dependerá de la disponibilidad de capacidad y de una asistencia financiera y técnica adecuada; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_o">
+            <num>o)</num>
+            <content eId="para_21_list_point_o_content">
+          <p xml:space="preserve"> 	Promover la investigación y el desarrollo de enfoques sostenibles, asequibles, innovadores y rentables; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_p">
+            <num>p)</num>
+            <content eId="para_21_list_point_p_content">
+          <p xml:space="preserve"> 	Abordar la cuestión del cumplimiento; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>4.</num>
+        <list eId="para_24_list">
+          <intro eId="para_24_list_intro">
+          <p xml:space="preserve"> <span class="italic">Decide también</span> que el comité intergubernamental de negociación, en sus deliberaciones sobre el instrumento que elaborará, tome en consideración: </p>
+          </intro>
+          <point eId="para_24_list_point_a">
+            <num>a)</num>
+            <content eId="para_24_list_point_a_content">
+          <p xml:space="preserve"> 	Las obligaciones, medidas y enfoques voluntarios para apoyar la consecución de los objetivos del instrumento;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_b">
+            <num>b)</num>
+            <content eId="para_24_list_point_b_content">
+          <p xml:space="preserve"> 	La necesidad de crear un mecanismo financiero para apoyar la aplicación del instrumento, incluso la opción de crear un fondo multilateral específico;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_c">
+            <num>c)</num>
+            <content eId="para_24_list_point_c_content">
+          <p xml:space="preserve"> 	Flexibilidad para que en algunas disposiciones el cumplimiento de los compromisos se pueda dejar a discreción de los países, en función de sus circunstancias nacionales;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_d">
+            <num>d)</num>
+            <content eId="para_24_list_point_d_content">
+          <p xml:space="preserve"> 	La mejor información científica disponible, los conocimientos tradicionales, los conocimientos de los pueblos indígenas y los sistemas de conocimientos locales;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_e">
+            <num>e)</num>
+            <content eId="para_24_list_point_e_content">
+          <p xml:space="preserve"> 	La experiencia adquirida y las mejores prácticas, incluso las de entornos informales y cooperativos; </p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_f">
+            <num>f)</num>
+            <content eId="para_24_list_point_f_content">
+          <p xml:space="preserve"> 	La posibilidad de crear un mecanismo que proporcione datos científicos y socioeconómicos, así como su evaluación, para informar las políticas relacionadas con la contaminación por plásticos; </p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_g">
+            <num>g)</num>
+            <content eId="para_24_list_point_g_content">
+          <p xml:space="preserve"> 	Una organización eficiente y la racionalización de los servicios de secretaría;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_h">
+            <num>h)</num>
+            <content eId="para_24_list_point_h_content">
+          <p xml:space="preserve"> 	Cualquier otro aspecto que el comité intergubernamental de negociación considere pertinente; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_198">
+        <num>5.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve"> <span class="italic">Solicita</span> a la Directora Ejecutiva del Programa de las Naciones Unidas para el Medio Ambiente que convoque un grupo de trabajo especial de composición abierta, que se reunirá una vez durante el primer semestre de 2022 para preparar la labor del comité intergubernamental de negociación, en particular el calendario y la organización de los trabajos del comité, teniendo en cuenta las disposiciones especificadas en los párrafos 3 y 4 de la presente resolución; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200">
+        <num>6.</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve"> <span class="italic">Destaca</span> la necesidad de garantizar una participación lo más amplia y eficaz posible en la labor del grupo de trabajo especial de composición abierta y el comité intergubernamental de negociación;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_202">
+        <num>7.</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva que, como medida prioritaria, proporcione el apoyo necesario a los países en desarrollo y los países con economías en transición para facilitar su participación efectiva en la labor del grupo de trabajo especial de composición abierta y el comité intergubernamental de negociación;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_204">
+        <num>8.</num>
+        <content eId="para_204__content">
+          <p xml:space="preserve"> <span class="italic">Solicita también</span> a la Directora Ejecutiva que garantice el apoyo necesario de la Secretaría del Programa de las Naciones Unidas para el Medio Ambiente al grupo de trabajo especial de composición abierta y el comité intergubernamental de negociación;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_206">
+        <num>9.</num>
+        <content eId="para_206__content">
+          <p xml:space="preserve"> <span class="italic">Decide </span>que la participación en el grupo de trabajo especial de composición abierta y el comité intergubernamental de negociación esté abierta a todos los Estados Miembros de las Naciones Unidas y a los miembros de sus organismos especializados, las organizaciones regionales de integración económica y los interesados pertinentes, de conformidad con las normas aplicables de las Naciones Unidas;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208">
+        <num>10.</num>
+        <content eId="para_208__content">
+          <p xml:space="preserve"> <span class="italic">Invita </span>a los Gobiernos y demás interesados que estén en condiciones de hacerlo a que aporten recursos presupuestarios adicionales para contribuir a la aplicación de la presente resolución;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_210">
+        <num>11.</num>
+        <content eId="para_210__content">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva que facilite la participación de las iniciativas y los instrumentos regionales e internacionales pertinentes y de todos los interesados dentro del mandato del comité intergubernamental de negociación, y una estrecha cooperación y coordinación con ellos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_212">
+        <num>12.</num>
+        <content eId="para_212__content">
+          <p xml:space="preserve"> <span class="italic">Solicita también</span> a la Directora Ejecutiva que, al término de las negociaciones del comité intergubernamental de negociación, convoque una conferencia diplomática de plenipotenciarios con el fin de aprobar el instrumento y abrirlo a la firma;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214">
+        <num>13.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve"> <span class="italic">Solicita además</span> a la Directora Ejecutiva que, durante el sexto período de sesiones de la Asamblea de las Naciones Unidas sobre el Medio Ambiente, presente un informe sobre los progresos realizados en la labor del comité intergubernamental de negociación;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_216">
+        <num>14.</num>
+        <content eId="para_216__content">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva que continúe apoyando y haciendo avanzar la labor de la Alianza Mundial sobre la Basura Marina, y que promueva los conocimientos científicos y tecnológicos con respecto a la contaminación por plásticos, incluso en el medio marino, en relación con las metodologías de seguimiento, y comparta la información y los datos científicos y de otro tipo que estén disponibles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218">
+        <num>15.</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve"> <span class="italic">Exhorta </span>a todos los Estados miembros a que continúen e intensifiquen las iniciativas, y adopten medidas voluntarias, para luchar contra la contaminación por plásticos, incluidas las medidas relacionadas con el consumo y la producción sostenibles, que pueden incluir enfoques de economía circular, y a que desarrollen y apliquen planes de acción nacionales, al tiempo que fomentan la acción y las iniciativas internacionales dentro de los marcos normativos nacionales, y, con carácter voluntario, faciliten información estadística sobre la gestión ambientalmente racional de los residuos plásticos, según proceda, teniendo en cuenta las circunstancias nacionales; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220">
+        <num>16.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva que, junto con la primera reunión del comité intergubernamental de negociación y aprovechando las iniciativas existentes, convoque, con sujeción a la disponibilidad de recursos financieros, un foro abierto a todas las partes interesadas en el que se intercambie información y se lleven a cabo actividades relacionadas con la contaminación por plásticos.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

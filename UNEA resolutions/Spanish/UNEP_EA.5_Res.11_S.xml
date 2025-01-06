@@ -1,0 +1,243 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/spa@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-21" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE CONSUMPTION" href="http://metadata.un.org/thesaurus/1006318" showAs="SUSTAINABLE CONSUMPTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE PRODUCTION" href="http://metadata.un.org/thesaurus/1001025" showAs="SUSTAINABLE PRODUCTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.17" by="The Group of African States" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">NACIONES UNIDAS</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 de marzo de 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Quinto período de sesiones</session>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea de las Naciones Unidas sobre el Medio Ambiente el 2 de marzo de 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Español">Español</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#híbrido">(híbrido)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> y <date date="2021-02-23" refersTo="#endDate">23 de febrero de 2021</date></event>  y <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 de febrero </date>a <date date="2022-03-02" refersTo="#endDate">2 de marzo de 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/11.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Fomento de la economía circular como contribución al logro de un consumo y una producción sostenibles</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea de las Naciones Unidas sobre el Medio Ambiente,</span>
+        </p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> la resolución 4/1 de la Asamblea relativa a las vías innovadoras para lograr el consumo y la producción sostenibles, en la que se reconoce que, sumada a otros enfoques de consumo y producción sostenibles, una economía más circular donde los productos y los materiales se diseñen de manera que sea posible reutilizarlos, reelaborarlos, reciclarlos o recuperarlos y, por lo tanto, mantenerlos en la economía durante el mayor tiempo posible, junto con los recursos a partir de los que están hechos, y se evite o reduzca al mínimo la generación de desechos, en particular los peligrosos, y se prevengan o reduzcan las emisiones de gases de efecto invernadero, puede contribuir significativamente al consumo y la producción sostenibles, </p>
+      </container>
+      <container name="Reconociendo" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que la aplicación de enfoques de economía circular como vía para lograr modelos de consumo y producción sostenibles puede contribuir a abordar el cambio climático, la pérdida de diversidad biológica, la degradación de la tierra y el impacto del estrés hídrico, la contaminación y sus repercusiones en la salud humana, contribuyendo así a la consecución de los objetivos conexos en el marco de la Agenda 2030 para el Desarrollo Sostenible y otros objetivos medioambientales acordados internacionalmente,</p>
+      </container>
+      <container name="Tomando nota" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Tomando nota </span>de las conclusiones de la Plataforma para la Aceleración de la Economía Circular, presentadas en el Informe sobre la <span class="italic">Circularity Gap Report 2020</span><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Circle Economy, <span class="italic">The Circularity Gap Report 2020 </span>(2020), disponible en <a href="https://pacecircular.org/sites/default/files/2020-01/Circularity Gap Report 2020.pdf">https://pacecircular.org/sites/default/files/2020-01/Circularity%20Gap%20Report%202020.pdf</a>.</p></authorialNote>, en el sentido de que la brecha de la circularidad mundial se está ampliando, agravada por las tendencias de la economía lineal, que se caracterizan por tasas elevadas de extracción de recursos materiales y la acumulación continua de existencias y bajos niveles de procesamiento y reciclaje al final del ciclo de uso,</p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito </span>el análisis realizado por el Panel Internacional de Recursos en su informe <span class="italic">Global Resources Outlook 2019: Natural Resources for the Future We Want</span><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> Panel Internacional de Recursos, <span class="italic">Global Resource Outlook 2019: Natural Resources for the Future We Want</span> (Programa de las Naciones Unidas para el Medio Ambiente, 2019). </p></authorialNote>, que cita como consideraciones normativas para una economía más circular el establecimiento de una infraestructura eficaz para la gestión y el reciclaje de residuos, la incentivación de ciclos de vida más largos y diseños más sostenibles para los productos, la reducción de obstáculos normativos para el desarrollo o la adopción de procesos de retención de valor, y el reconocimiento de la importancia de la gestión sostenible de los recursos materiales, </p>
+      </container>
+      <container name="Reconociendo" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que los intercambios internacionales, las experiencias compartidas, el desarrollo de capacidades, la financiación y la cooperación pueden ayudar a aplicar enfoques de economía circular para lograr un consumo y una producción sostenibles, y acogiendo con satisfacción los esfuerzos para hacer avanzar los enfoques de economía circular y, en este contexto, observando el establecimiento de iniciativas regionales y mundiales, </p>
+      </container>
+      <container name="Reconociendo también" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también </span>que los enfoques de economía circular requieren la ampliación de las prácticas sostenibles a lo largo de las cadenas de valor y que existen modelos empresariales y mejores prácticas que adoptan enfoques de economía circular, tecnologías que mejoran la gestión de los recursos en todos los sectores y “tecnologías de salto” que generan ahorros económicos y mejoran la eficiencia de los recursos sin dejar de impulsar el desarrollo, sin perjuicio de la necesidad de la innovación circular, </p>
+      </container>
+      <container name="Reconociendo además" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reconociendo además </span>la labor realizada en el marco de los acuerdos, convenios, organizaciones y foros internacionales pertinentes, incluidos los relacionados con la gestión racional de los productos químicos y los residuos, </p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito </span>el trabajo realizado por el Programa de las Naciones Unidas para el Medio Ambiente en su Alianza a Favor de Vehículos y Combustibles Menos Contaminantes y la contribución realizada por la Alianza a una economía más circular al abordar las emisiones, la contaminación, los productos químicos y los residuos asociados a los vehículos, </p>
+      </container>
+      <container name="Reconociendo" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>la introducción o el fortalecimiento de reglamentos y normas por parte de los Estados miembros y los grupos regionales para garantizar la seguridad vial, reducir las repercusiones negativas para el medio ambiente y la salud de los vehículos utilizados y promover combustibles menos contaminantes, </p>
+      </container>
+      <container name="Reconociendo también" eId="container_11">
+        <p xml:space="preserve">	<span class="italic">Reconociendo también </span>que los enfoques de economía circular ofrecen una oportunidad para adoptar prácticas de consumo y producción más eficientes y menos consumidoras de recursos, y tecnologías e infraestructuras ecológicamente racionales, al tiempo que se apoyan los medios de vida, </p>
+      </container>
+      <container name="Acogiendo con beneplácito" eId="container_12">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito </span>la prórroga concedida hasta 2030 por la Asamblea General en su resolución 76/202 de 17 de diciembre de 2021, del mandato del Marco Decenal de Programas sobre Modalidades de Consumo y Producción Sostenibles, y tomando nota de la decisión de la Junta del Marco Decenal de seguir elaborando una nueva estrategia mundial sobre consumo y producción sostenibles que refleje una vía ambiciosa e inclusiva para los enfoques sistémicos y circulares y para la cooperación multilateral y de múltiples partes interesadas, </p>
+      </container>
+      <container name="Acogiendo con beneplácito también" eId="container_13">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito también </span>la celebración de la reunión UNEP@50, que conmemora el 50º aniversario de la creación del Programa de las Naciones Unidas para el Medio Ambiente, y la reunión internacional Stockholm+50, que conmemora el 50º aniversario de la Conferencia de las Naciones Unidas sobre el Medio Humano y sus documentos finales, </p>
+      </container>
+      <container name="Acogiendo con beneplácito además" eId="container_14">
+        <p xml:space="preserve">	<span class="italic">Acogiendo con beneplácito además </span>el trabajo del Grupo Internacional de Recursos, en particular a través de sus informes periódicos <span class="italic">Global Resources Outlook</span>, para preparar opciones sobre una base científica dirigidas a lograr el Objetivo de Desarrollo Sostenible 12 y los Objetivos de Desarrollo Sostenible conexos, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"> <span class="italic">Invita </span>a los Estados miembros a integrar enfoques de la economía circular en sus estrategias y planes de acción nacionales y regionales, incluidos los relacionados con los acuerdos ambientales multilaterales pertinentes, teniendo en cuenta las circunstancias y capacidades nacionales; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17">
+        <num>2.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"> <span class="italic">Invita también </span>a los Estados miembros a adoptar medidas, en cooperación con el sector privado, para mejorar el diseño de los productos, teniendo en cuenta las evaluaciones del ciclo de vida, para favorecer la prolongación de la vida útil de los productos y su reparación y reutilización, y hacer más fácil su reciclaje en el contexto de una economía circular, para contribuir al uso eficiente de los recursos;  </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19">
+        <num>3.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> <span class="italic">Invita además </span>a los Estados miembros y las organizaciones y redes pertinentes a cooperar para compartir y debatir las mejores prácticas relativas a la información pertinente sobre los productos a lo largo de las cadenas de valor en el contexto de la economía circular, en consonancia con la legislación nacional e internacional; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> <span class="italic">Subraya </span>la necesidad de establecer asociaciones e invita a los Estados miembros, el sector privado, las organizaciones no gubernamentales, la comunidad científica, las instituciones internacionales pertinentes y otras partes interesadas a promover y mejorar enfoques, modelos empresariales, innovaciones e inversiones de economía circular para contribuir, entre otras cosas, a la gestión, el uso y el consumo sostenibles de los recursos naturales y los materiales;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> <span class="italic">Invita </span>a los Estados miembros a colaborar, según proceda y en consonancia con las circunstancias y políticas nacionales, con entidades subnacionales, nacionales y regionales para reforzar las políticas y los marcos jurídicos y reglamentarios, en particular los relativos a la contratación pública sostenible, la innovación tecnológica, la responsabilidad ampliada del productor, el ciclo de vida de los materiales y la simbiosis industrial para apoyar la adopción de enfoques de economía circular, con miras a contribuir a alcanzar el consumo y la producción sostenibles; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25">
+        <num>6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> <span class="italic">Alienta </span>a los Estados miembros a que mejoren la gestión del conocimiento y a desarrollar plataformas, campañas y mecanismos sólidos de promoción, comunicación, divulgación y concienciación; apoyen la educación, la investigación, la innovación y el desarrollo; mejoren el desarrollo de capacidades; fomenten las asociaciones entre los sectores público y privado, según proceda; y refuercen el intercambio de información dentro de cada país y entre distintos países y regiones en relación con los enfoques de consumo y producción sostenibles, incluida la economía circular; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27">
+        <num>7.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> <span class="italic">Invita </span>a los Estados miembros que estén en condiciones de conseguirlo a que hagan más previsible y accesible el apoyo mediante, por ejemplo, una financiación sostenible de fuentes tanto públicas como privadas, tecnologías ecológicamente racionales para la adopción de la economía circular y otros enfoques de consumo y producción sostenibles, especialmente por parte de las microempresas y las pequeñas y medianas empresas, en particular en los países en desarrollo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29">
+        <num>8.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> <span class="italic">Reconoce </span>la importancia de los diálogos multilaterales inclusivos y con múltiples partes interesadas sobre el consumo y la producción sostenibles, la eficiencia de los recursos y la economía circular para promover el desarrollo sostenible;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31">
+        <num>9.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva del Programa de las Naciones Unidas para el Medio Ambiente que, en consulta con los Estados miembros, los miembros de los organismos especializados y las partes interesadas pertinentes, siga recopilando información y realizando nuevos análisis sobre los vehículos usados y los combustibles limpios, con miras a reducir el impacto negativo de los vehículos usados en el medio ambiente y la salud, incluida la eliminación al final de su vida útil, y a promover los combustibles limpios, y que preste apoyo a los Estados miembros que lo soliciten;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33">
+        <num>10.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva que, en colaboración con otras entidades de las Naciones Unidas, incluido el Grupo Internacional de Recursos, los asociados para el desarrollo y las redes internacionales pertinentes de múltiples interesados, incluido el Marco Decenal de Programas sobre Modalidades de Consumo y Producción Sostenibles, facilite la colaboración entre los Estados miembros y los miembros de los organismos especializados en la investigación, la creación de capacidad, la gestión de conocimientos y el intercambio de mejores prácticas para promover vías innovadoras para el consumo y la producción sostenibles, incluida la economía circular, y facilite también una conversación sobre los recursos naturales y los materiales en el contexto de la economía circular; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35">
+        <num>11.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva que informe a la Asamblea sobre el Medio Ambiente en su sexto período de sesiones acerca de la aplicación de la presente resolución.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

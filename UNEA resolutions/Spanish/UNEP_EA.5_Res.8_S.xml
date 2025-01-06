@@ -1,0 +1,401 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/spa@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SCIENCE AND TECHNOLOGY POLICY" href="http://metadata.un.org/thesaurus/1005738" showAs="SCIENCE AND TECHNOLOGY POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHEMICALS" href="http://metadata.un.org/thesaurus/1000921" showAs="CHEMICALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLLUTION" href="http://metadata.un.org/thesaurus/030400" showAs="POLLUTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.14" by="Burkina Faso, Costa Rica, Ghana, Mali, Niger, Norway, Switzerland, United Kingdom of Great Britain and Northern Ireland and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">NACIONES UNIDAS</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 de marzo de 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Quinto período de sesiones</session>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea de las Naciones Unidas sobre el Medio Ambiente el 2 de marzo de 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Spanish">Español</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#híbrido">(híbrido)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> y <date date="2021-02-23" refersTo="#endDate">23 de febrero de 2021</date></event> y <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 de febrero </date>a <date date="2022-03-02" refersTo="#endDate">2 de marzo de 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/8.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Grupo científico-normativo para seguir contribuyendo a la gestión racional de los productos químicos y los desechos y evitar la contaminación </span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">La Asamblea de las Naciones Unidas sobre el Medio Ambiente,</span>
+        </p>
+      </formula>
+      <container name="Recordando" eId="container_2">
+        <p xml:space="preserve">	<span class="italic">Recordando</span> su resolución 4/8 sobre la gestión racional de los productos químicos y los desechos, en la que se subraya la necesidad urgente de fortalecer la interfaz científico‑normativa a todos los niveles con vistas a apoyar y promover medidas con fundamento científico, en los planos local, nacional, regional y mundial, relativas a la gestión racional de los productos químicos y los desechos después de 2020,</p>
+      </container>
+      <container name="Recordando también" eId="container_3">
+        <p xml:space="preserve">	<span class="italic">Recordando también</span> su resolución 5/2, en virtud de la cual se aprobó la Estrategia de Mediano Plazo del Programa de las Naciones Unidas para el Medio Ambiente para el período 2022-2025 con su subprograma sobre productos químicos y acción contra la contaminación, junto con los programas de acción relativos a la naturaleza y la acción climática, su promoción de conocimientos científicos sólidos y el intercambio de información y conocimientos, </p>
+      </container>
+      <container name="Acogiendo con aprecio" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Acogiendo con aprecio</span> la labor de promoción de la gestión racional de los productos químicos y los desechos y la prevención de la contaminación mediante los acuerdos multilaterales pertinentes, otros instrumentos internacionales y organismos intergubernamentales, entre otros el Programa Interinstitucional para la Gestión Racional de los Productos Químicos y la Conferencia Internacional sobre Gestión de los Productos Químicos, y acogiendo con beneplácito la continuación de sus trabajos científicos para seguir contribuyendo a la gestión racional de los productos químicos y los desechos y evitar la contaminación, </p>
+      </container>
+      <container name="Reconociendo" eId="container_5">
+        <p xml:space="preserve">	<span class="italic">Reconociendo</span> la importancia de las evaluaciones con base científica para fundamentar los procesos de adopción de decisiones, </p>
+      </container>
+      <container name="Tomando nota" eId="container_6">
+        <p xml:space="preserve">	<span class="italic">Tomando nota </span>del informe preparado por la Directora Ejecutiva del Programa de las Naciones Unidas para el Medio Ambiente en colaboración con las organizaciones que integran el 	Programa Interinstitucional para la Gestión Racional de los Productos Químicos titulado “Una evaluación de las diversas opciones para fortalecer la interfaz científico‑normativa a escala internacional en pos de la gestión racional de los productos químicos y los desechos”<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Programa de las Naciones Unidas para el Medio Ambiente, “Una evaluación de las diversas opciones para fortalecer la interfaz científico‑normativa a escala internacional en pos de la gestión racional de los productos químicos y los desechos”.</p></authorialNote>, </p>
+      </container>
+      <container name="Reconociendo" eId="container_7">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que la mejora de la disponibilidad de la información y las evaluaciones científicas puede abordar los problemas en materia de capacidad, permitir una acción más eficaz y eficiente para minimizar y prevenir las repercusiones negativas de la gestión no racional de los productos químicos y los desechos, y evitar la contaminación 	para mejorar el bienestar humano y contribuir a la prosperidad de todos, </p>
+      </container>
+      <container name="Reafirmando" eId="container_8">
+        <p xml:space="preserve">	<span class="italic">Reafirmando</span> que la gestión racional de los productos químicos y los desechos es crucial para la protección de la salud humana y el medio ambiente,</p>
+      </container>
+      <container name="Reconociendo" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Reconociendo </span>que la contaminación atmosférica es el mayor riesgo ambiental para la salud humana, con un impacto desproporcionado en las mujeres, los niños y los ancianos,</p>
+      </container>
+      <container name="Convencida" eId="container_10">
+        <p xml:space="preserve">	<span class="italic">Convencida </span>de que un grupo científico-normativo podría apoyar a los países en sus esfuerzos por iniciar acciones, por ejemplo, la aplicación de los acuerdos ambientales multilaterales y otros instrumentos internacionales pertinentes, la promoción de la gestión racional de los productos químicos y los desechos, y la lucha contra la contaminación mediante la prestación de asesoramiento científico pertinente para la formulación de políticas, y que podría seguir prestando apoyo a los acuerdos multilaterales pertinentes, otros instrumentos internacionales y organismos intergubernamentales, el sector privado y otros  interesados en su labor, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_11">
+        <num>1.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> <span class="italic">Decide </span>que se establezca un grupo científico-normativo para seguir contribuyendo a la gestión racional de los productos químicos y los desechos y evitar la contaminación, y que los pormenores de su mandato se especificarán más adelante de acuerdo con las disposiciones de los párrafos 4 y 5 de la presente resolución; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12">
+        <num>2.</num>
+        <list eId="para_12_list">
+          <intro eId="para_12_list_intro">
+          <p xml:space="preserve"> <span class="italic">Considera</span> que las principales funciones del grupo deberían ser, entre otras, las siguientes: </p>
+          </intro>
+          <point eId="para_12_list_point_a">
+            <num>a)</num>
+            <content eId="para_12_list_point_a_content">
+          <p xml:space="preserve"> Realizar un “escaneo de horizontes” para identificar los problemas de interés para los encargados de la formulación de políticas y, cuando sea posible, proponer opciones basadas en pruebas para abordarlos; </p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_b">
+            <num>b)</num>
+            <content eId="para_12_list_point_b_content">
+          <p xml:space="preserve"> Realizar evaluaciones de los problemas actuales e identificar posibles opciones basadas en pruebas para abordar, en la medida de lo posible, esos problemas, en particular los que afectan a los países en desarrollo;</p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_c">
+            <num>c)</num>
+            <content eId="para_12_list_point_c_content">
+          <p xml:space="preserve"> Proporcionar información actualizada y pertinente, identificar las principales lagunas en la investigación científica, alentar y apoyar la comunicación entre los científicos y los encargados de la formulación de políticas, explicar y difundir los resultados para diferentes públicos y sensibilizar al público en general; </p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_d">
+            <num>d)</num>
+            <content eId="para_12_list_point_d_content">
+          <p xml:space="preserve"> Facilitar el intercambio de información con los países, en particular con los países en desarrollo que buscan información científica pertinente; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_23">
+        <num>3.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> <span class="italic">Considera también </span>que el grupo deberá ser un órgano intergubernamental independiente con un programa de trabajo aprobado por sus Gobiernos miembros para proporcionar pruebas científicas pertinentes para la formulación de políticas sin ser prescriptivo en materia de políticas; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25">
+        <num>4.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> <span class="italic">Decide también </span>convocar, en función de la disponibilidad de recursos, un grupo de trabajo especial de composición abierta que comenzará a trabajar en 2022, con la ambición de completar su labor a finales de 2024;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27">
+        <num>5.</num>
+        <list eId="para_27_list">
+          <intro eId="para_27_list_intro">
+          <p xml:space="preserve"> <span class="italic">Decide además</span> que el grupo de trabajo especial de composición abierta preparará propuestas para que el grupo científico-normativo examine las siguientes cuestiones: </p>
+          </intro>
+          <point eId="para_27_list_point_a">
+            <num>a)</num>
+            <content eId="para_27_list_point_a_content">
+          <p xml:space="preserve"> Diseño institucional y gobernanza del grupo;</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_b">
+            <num>b)</num>
+            <content eId="para_27_list_point_b_content">
+          <p xml:space="preserve"> Nombre y alcance del grupo; </p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_c">
+            <num>c)</num>
+            <content eId="para_27_list_point_c_content">
+          <p xml:space="preserve"> Las principales funciones del grupo, tal como se establece en el párrafo 2 de la presente resolución, respetando los mandatos de los acuerdos multilaterales pertinentes y de otros instrumentos internacionales y órganos intergubernamentales, evitando el solapamiento y la duplicación del trabajo, y promoviendo la coordinación y la cooperación;</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_d">
+            <num>d)</num>
+            <content eId="para_27_list_point_d_content">
+          <p xml:space="preserve"> Relaciones del grupo con los principales interesados, incluidas las organizaciones gubernamentales y no gubernamentales, y la sociedad civil; </p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_e">
+            <num>e)</num>
+            <content eId="para_27_list_point_e_content">
+          <p xml:space="preserve"> Procesos para determinar y ejecutar el programa de trabajo del grupo;</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_f">
+            <num>f)</num>
+            <content eId="para_27_list_point_f_content">
+          <p xml:space="preserve"> Disposiciones para identificar y contratar a expertos que contribuyan al trabajo del grupo; </p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_g">
+            <num>g)</num>
+            <content eId="para_27_list_point_g_content">
+          <p xml:space="preserve"> Procedimientos para el examen y la aprobación de los informes y las evaluaciones elaborados por el grupo; </p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_h">
+            <num>h)</num>
+            <content eId="para_27_list_point_h_content">
+          <p xml:space="preserve"> Disposiciones para el apoyo de la secretaría para el grupo; </p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_i">
+            <num>i)</num>
+            <content eId="para_27_list_point_i_content">
+          <p xml:space="preserve"> Opciones de financiación voluntaria de la labor del grupo; </p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_j">
+            <num>j)</num>
+            <content eId="para_27_list_point_j_content">
+          <p xml:space="preserve"> Reglamento y principios operativos que rigen la labor del grupo; </p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_k">
+            <num>k)</num>
+            <content eId="para_27_list_point_k_content">
+          <p xml:space="preserve"> Un presupuesto indicativo para el grupo; </p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_l">
+            <num>l)</num>
+            <content eId="para_27_list_point_l_content">
+          <p xml:space="preserve"> Cualquier otro asunto que el grupo de trabajo especial de composición abierta considere que debería abordarse; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_53">
+        <num>6.</num>
+        <list eId="para_53_list">
+          <intro eId="para_53_list_intro">
+          <p xml:space="preserve"> <span class="italic">Decide además</span> que el grupo de trabajo especial de composición abierta deberá tener en cuenta la necesidad de garantizar que el grupo: </p>
+          </intro>
+          <point eId="para_53_list_point_a">
+            <num>a)</num>
+            <content eId="para_53_list_point_a_content">
+          <p xml:space="preserve"> Pueda ofrecer productos que sean pertinentes desde el punto de vista normativo, sin que sean prescriptivos en ese sentido; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_b">
+            <num>b)</num>
+            <content eId="para_53_list_point_b_content">
+          <p xml:space="preserve"> Sea interdisciplinario, lo que garantiza las contribuciones de expertos con una amplia gama de conocimientos disciplinarios; esté abierto a una participación inclusiva, que incluya a los pueblos indígenas; y esté equilibrado desde el punto de vista geográfico, regional y de género; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_c">
+            <num>c)</num>
+            <content eId="para_53_list_point_c_content">
+          <p xml:space="preserve"> Cuente con procedimientos que busquen garantizar que la labor del grupo sea transparente e imparcial y que pueda producir informes y evaluaciones creíbles y científicamente sólidos; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_d">
+            <num>d)</num>
+            <content eId="para_53_list_point_d_content">
+          <p xml:space="preserve"> Realice una labor que complemente, sin duplicar, la labor de los acuerdos multilaterales pertinentes, otros instrumentos internacionales y organismos intergubernamentales, incluidos los que son miembros del Programa Interinstitucional para la Gestión Racional de los Productos Químicos; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_e">
+            <num>e)</num>
+            <content eId="para_53_list_point_e_content">
+          <p xml:space="preserve"> Coordine, según proceda, con otros organismos científico-normativo, por ejemplo, el Grupo Intergubernamental de Expertos sobre el Cambio Climático y la Plataforma Intergubernamental Científico‑normativa sobre Diversidad Biológica y Servicios de los Ecosistemas; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_f">
+            <num>f)</num>
+            <content eId="para_53_list_point_f_content">
+          <p xml:space="preserve"> Pueda abordar los posibles conflictos de intereses y el uso de información comercialmente sensible; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_g">
+            <num>g)</num>
+            <content eId="para_53_list_point_g_content">
+          <p xml:space="preserve"> Tenga la flexibilidad de responder, en la medida de lo posible, a las necesidades que hayan identificado los interesados y acordado sus Gobiernos miembros, y de cumplir sus funciones principales, tal y como se ha expuesto anteriormente en la presente resolución; </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_h">
+            <num>h)</num>
+            <content eId="para_53_list_point_h_content">
+          <p xml:space="preserve"> Sea eficaz en función de los costos y cuente con una estructura lo más reducida posible y coherente con el logro de un alto impacto. </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_71">
+        <num>7.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve"> <span class="italic">Decide</span> que el grupo de trabajo especial de composición abierta incluya a los Gobiernos y las organizaciones regionales de integración económica y esté abierto a la participación de observadores de las entidades de las Naciones Unidas, los acuerdos multilaterales pertinentes, otros instrumentos internacionales y órganos intergubernamentales, incluidos los que son miembros del Programa Interinstitucional para la Gestión Racional de los Productos Químicos, y los representantes de los interesados; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73">
+        <num>8.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve"> <span class="italic">Solicita</span> a la Directora Ejecutiva que coopere estrechamente con las secretarías de los 	acuerdos ambientales multilaterales y las organizaciones y organismos internacionales pertinentes, 	según proceda; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75">
+        <num>9.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve"> <span class="italic">Solicita también</span> a la Directora Ejecutiva que convoque reuniones del grupo de trabajo especial de composición abierta e invite a la Organización Mundial de la Salud a desempeñar un papel, según proceda; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77">
+        <num>10.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve"> <span class="italic">Solicita además</span> a la Directora Ejecutiva que, una vez concluidas las propuestas preparadas por el grupo de trabajo especial de composición abierta, convoque una reunión intergubernamental con el fin de estudiar la creación de un grupo científico-normativo; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva que rinda informe sobre los resultados del grupo de trabajo especial de composición abierta a la Asamblea de las Naciones Unidas sobre el Medio Ambiente y los acuerdos multilaterales, otros instrumentos internacionales y órganos intergubernamentales pertinentes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81">
+        <num>12.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve"> <span class="italic">Invita</span> a los Gobiernos y otras entidades que estén en condiciones de hacerlo a que proporcionen recursos extrapresupuestarios para la aplicación de la presente resolución, en particular para facilitar la plena participación de los países en desarrollo y los países con economías en transición en el grupo de trabajo especial de composición abierta; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83">
+        <num>13.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve"> <span class="italic">Solicita </span>a la Directora Ejecutiva que proporcione una secretaría al grupo de trabajo especial de composición abierta y prepare los informes analíticos y resumidos necesarios para su labor.</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85">
+        <num>14.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve"> <span class="italic">Invita</span> a los órganos rectores de los acuerdos multilaterales pertinentes, otros instrumentos internacionales y los organismos intergubernamentales a que examinen la presente resolución, según proceda.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

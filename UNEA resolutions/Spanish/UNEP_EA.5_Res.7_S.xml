@@ -1,0 +1,316 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/spa@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/spa@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="spa"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/spa@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/spa@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHEMICALS" href="http://metadata.un.org/thesaurus/1000921" showAs="CHEMICALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL MANAGEMENT" href="http://metadata.un.org/thesaurus/1002079" showAs="ENVIRONMENTAL MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.13" by="Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">NACIONES UNIDAS</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.7</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. general</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 de marzo de 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#inglés" name="originalLanguage">Original: inglés</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Asamblea de las Naciones Unidas sobre el Medio Ambiente del Programa de las Naciones Unidas para el Medio Ambiente</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Quinto período de sesiones</session>
+      </p>
+      <p>
+        <docTitle>Resolución aprobada por la Asamblea de las Naciones Unidas sobre el Medio Ambiente el 2 de marzo de 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Español">Español</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#híbrido">(híbrido)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> y <date date="2021-02-23" refersTo="#endDate">23 de febrero de 2021</date></event>  y <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 de febrero </date>a <date date="2022-03-02" refersTo="#endDate">2 de marzo de 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/7.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Gestión racional de los productos químicos y los desechos</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+          <p xml:space="preserve"> <span class="italic">La Asamblea de las Naciones Unidas sobre el Medio Ambiente;</span></p>
+      </formula>
+      <container name="Reconociendo" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Reconociendo</span> que el logro de los Objetivos de Desarrollo Sostenible se ve amenazado por una serie de riesgos ambientales crecientes y que se refuerzan mutuamente, y que dada la naturaleza interconectada del cambio climático, la pérdida de diversidad biológica, la degradación de las tierras y la contaminación del aire y el agua es esencial que estos problemas se aborden de forma integrada y coherente con los mandatos y las prioridades de los acuerdos ambientales multilaterales existentes, </p>
+      </container>
+      <container name="Poniendo de relieve" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Poniendo de relieve </span>la importancia transversal de la gestión racional de los productos químicos y los desechos con respecto a muchos de los objetivos y las metas de la Agenda 2030 para el Desarrollo Sostenible, entre ellos, en particular, los relativos a la salud humana, las modalidades de consumo y producción sostenibles, el cambio climático y la diversidad biológica, </p>
+      </container>
+      <container name="Reconociendo" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Reconociendo</span> que un medio ambiente limpio, sano y sostenible es importante para el disfrute de los derechos humanos, tomando nota de la resolución 48/13 del Consejo de Derechos Humanos, titulada “El derecho humano a un medio ambiente limpio, saludable y sostenible”, y observando que la Asamblea General ha sido invitada a examinar la cuestión,</p>
+      </container>
+      <container name="Acogiendo con beneplácito l" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Acogiendo con beneplácito l</span>os progresos realizados a través de la labor del Programa de las Naciones Unidas para el Medio Ambiente y otras entidades de las Naciones Unidas, el Enfoque Estratégico para la Gestión de Productos Químicos a Nivel Internacional y acuerdos ambientales multilaterales pertinentes, </p>
+      </container>
+      <container name="Consciente" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Consciente</span> de que el uso de productos químicos y la cantidad de desechos generados aumentarán sustancialmente en los próximos años, y expresando una gran preocupación por la gestión no racional de los productos químicos y los desechos y sus repercusiones negativas en la salud humana y el medio ambiente, </p>
+      </container>
+      <container name="Recordando" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Recordando</span> la resolución 4/8 de la Asamblea sobre el Medio Ambiente relativa a la gestión racional de los productos químicos y los desechos, así como la evaluación de la aplicación del enfoque integrado de la financiación de la gestión racional de los productos químicos y los desechos, y tomando nota del debate sobre el enfoque integrado de la financiación en el marco del Enfoque Estratégico y la gestión racional de los productos químicos y los desechos después de 2020, </p>
+      </container>
+      <container name="Reconociendo" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Reconociendo </span>la necesidad de adoptar nuevas medidas para reducir o eliminar los riesgos asociados a las cuestiones relativas a los productos químicos y los desechos que se analizan en el informe del Programa de las Naciones Unidas para el Medio Ambiente titulado “An Assessment Report on Issues of Concern: Chemicals and Waste Issues Posing Risks to Human Health and the Environment”<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Programa de las Naciones Unidas para el Medio Ambiente, “An Assessment Report on Issues of Concern: Chemicals and Waste Issues Posing Risks to Human Health and the Environment”.</p></authorialNote>, </p>
+      </container>
+      <container name="Teniendo en cuenta" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Teniendo en cuenta</span> la Estrategia de Mediano Plazo del Programa de las Naciones Unidas para el Medio Ambiente, que incluye medidas relativas a los productos químicos y la contaminación, el clima y la naturaleza, ya que se trata de los tres programas temáticos, fundacionales y de facilitación del Programa, interconectados entre sí, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_13" class="CH3">
+        <heading>		La gestión racional de los productos químicos y los desechos, y la Conferencia Internacional sobre Gestión de los Productos Químicos </heading>
+      </paragraph>
+      <paragraph eId="para_14">
+        <num>1.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> <span class="italic">Observa</span> con preocupación que no se ha alcanzado la meta fijada por la Agenda 2030 para el Desarrollo Sostenible –de lograr para 2020 la gestión ambientalmente racional de los productos químicos y de todos los desechos a lo largo de su ciclo de vida, de conformidad con los marcos internacionales convenidos, y de reducir significativamente su liberación a la atmósfera, el agua y el suelo a fin de minimizar su efecto adverso en la salud humana y el medio ambiente– y se compromete a intensificar los esfuerzos para alcanzar esta meta;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> <span class="italic">Acoge con beneplácito</span> el documento “Green and Sustainable Chemistry: Framework Manual” del Programa de las Naciones Unidas para el Medio Ambiente y su resumen, que destacan la importancia crucial de la innovación ambientalmente racional, y alienta su uso, según proceda; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> <span class="italic">Expresa su preocupación </span>por el hecho de que los niveles crecientes de movimientos transfronterizos ilícitos de desechos peligrosos y otros desechos, según informan los países en desarrollo, tienen un impacto desproporcionadamente negativo, e invita a la Conferencia de las Partes en el Convenio de Basilea sobre el Control de los Movimientos Transfronterizos de los Desechos Peligrosos y su Eliminación a que siga examinando esa cuestión; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>4.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> <span class="italic">Invita </span>a los Gobiernos y todos los interesados que participan en el proceso “Más allá de 2020” a establecer un marco habilitador ambicioso y mejorado para abordar la gestión racional de los productos químicos y los desechos más allá de 2020, que refleje un enfoque de ciclo de vida y la necesidad de lograr modalidades de consumo y producción sostenibles, y abordar los medios de aplicación del marco en el quinto período de sesiones de la Conferencia Internacional sobre Gestión de los Productos Químicos, y pide a todos los interesados que lleven el proceso en curso entre períodos de sesiones a una conclusión satisfactoria; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>5.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> <span class="italic">Solicita</span> a la Directora Ejecutiva del Programa de las Naciones Unidas para el Medio Ambiente que mantenga y fortalezca el respaldo al Enfoque Estratégico para la Gestión de Productos Químicos a Nivel Internacional en la preparación del quinto período de sesiones de la Conferencia Internacional sobre Gestión de los Productos Químicos, y que vele por que los servicios de secretaría y el apoyo administrativo con vistas a la aplicación de cualesquiera decisiones que adopte la Conferencia tengan continuidad; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="CH3">
+        <heading>		El enfoque integrado de la financiación y la prórroga por una sola vez de la duración del Programa especial de apoyo al fortalecimiento institucional a nivel nacional para la aplicación de los Convenios de Basilea sobre el Control de los Movimientos Transfronterizos de los Desechos Peligrosos y su Eliminación, el Convenio de Estocolmo sobre Contaminantes Orgánicos Persistentes, el Convenio de Rotterdam sobre el Procedimiento de Consentimiento Fundamentado Previo Aplicable a Ciertos Plaguicidas y Productos Químicos Peligrosos Objeto de Comercio Internacional, el Convenio de Minamata sobre el Mercurio y el Enfoque Estratégico para la Gestión Internacional de los Productos Químicos (en adelante “el Programa Especial”)</heading>
+      </paragraph>
+      <paragraph eId="para_25">
+        <num>6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> <span class="italic">Reafirma</span> la pertinencia e importancia del enfoque integrado para la financiación de la gestión racional de los productos químicos y los desechos, y subraya que los tres componentes de un enfoque integrado –incorporación, participación de la industria y financiación externa específica– se refuerzan mutuamente y todos ellos son importantes para la financiación de la gestión racional de los productos químicos y los desechos a todos los niveles;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27">
+        <num>7.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> <span class="italic">Acoge con beneplácito</span> el importante papel del Fondo para el Medio Ambiente Mundial, al tiempo que subraya la necesidad de seguir mejorando sus modalidades de acceso en consonancia con la decisión SC-10/3 del Convenio de Estocolmo, en particular en lo que se refiere a su esfera de actividad en materia de productos químicos y desechos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29">
+        <num>8.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> <span class="italic">Invita</span> al Fondo para el Medio Ambiente Mundial, y alienta a los donantes de su fondo fiduciario, a que mantengan y potencien  su apoyo a la gestión racional de los productos químicos y los desechos, en particular por intermedio de la función que desempeña el Fondo como mecanismo de financiación del Convenio de Estocolmo y el Convenio de Minamata; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31">
+        <num>9.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> <span class="italic">Recuerda </span>la resolución 1/5 de la Asamblea de las Naciones Unidas sobre el Medio Ambiente, relativa a los productos químicos y los desechos,  en la que la Asamblea aprobó el mandato del Programa especial de apoyo al fortalecimiento institucional a nivel nacional para la aplicación de los Convenios de Basilea, Estocolmo y Rotterdam, el Convenio de Minamata y el Enfoque Estratégico para la Gestión de Productos Químicos a Nivel Internacional;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33">
+        <num>10.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> <span class="italic">Alienta</span> a la Junta Ejecutiva del Programa Especial a que revise los procedimientos de solicitud de financiación a la luz de las necesidades y los retos expresados por los países en desarrollo, incluidos los relacionados con los gastos de funcionamiento, con miras a promover una aplicación eficaz y eficiente de los criterios de elegibilidad en consonancia con el mandato del Programa Especial, sin poner en peligro la capacidad del Programa para recibir financiación de las fuentes existentes; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35">
+        <num>11.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve"> <span class="italic">Acoge con beneplácito </span>la evaluación de mitad de período realizada por la Oficina de Evaluación del Programa de las Naciones Unidas para el Medio Ambiente en 2019 que, entre otras cosas, otorgó al Programa especial una calificación general de “satisfactorio” en relación con su desempeño hasta la fecha;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37">
+        <num>12.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> <span class="italic">Toma nota</span> del documento preparado por la Secretaría en el que se esboza el futuro valor añadido del Programa Especial;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39">
+        <num>13.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> <span class="italic">Hace notar</span> la recomendación de la Junta Ejecutiva del Programa especial, adoptada en la reanudación de su sexta reunión en septiembre de 2021, de ampliar a cinco años la duración del Programa Especial, e incluir en el Enfoque Estratégico y la gestión racional de los productos químicos y los desechos después de 2020; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41">
+        <num>14.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> <span class="italic">Hace notar también</span> que el Programa especial desempeña un papel importante de apoyo a los países en desarrollo –teniendo en cuenta las necesidades especiales de los países menos adelantados y de los pequeños Estados insulares en desarrollo y de los países con economías en transición, y da prioridad a los que tienen menos capacidad– a la hora de establecer y mantener una capacidad nacional sostenible para gestionar racionalmente los productos químicos y los desechos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43">
+        <num>15.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> <span class="italic">Alienta</span> a los Gobiernos que estén en condiciones de hacerlo e invita al sector privado, incluida la industria, las fundaciones, otras organizaciones no gubernamentales y otros interesados, a que movilicen recursos financieros para contribuir al Programa Especial y no dejen de hacerlo;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45">
+        <num>16.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"> <span class="italic">Decide </span>prorrogar la duración del Programa Especial por un período de cinco años, de conformidad con el párrafo 24 del mandato aprobado en la resolución 1/5 de la Asamblea sobre el Medio Ambiente, e incluir en el Programa Especial el Enfoque Estratégico y la gestión racional de los productos químicos y los desechos después de 2020; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="CH3">
+        <heading>		Cuestiones de interés</heading>
+      </paragraph>
+      <paragraph eId="para_48">
+        <num>17.</num>
+        <content eId="para_48__content">
+          <p xml:space="preserve"> <span class="italic">Acoge con beneplácito</span> los  informes preparados por el Programa de las Naciones Unidas para el Medio Ambiente en respuesta a las solicitudes formuladas en los períodos de sesiones tercer y cuarto de la Asamblea sobre el Medio Ambiente, que suponen una importante contribución a la gestión racional de los productos químicos y los desechos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_50">
+        <num>18.</num>
+        <content eId="para_50__content">
+          <p xml:space="preserve"> <span class="italic">Insta </span>a los Estados miembros e invita a otros interesados a que adopten nuevas medidas para reducir o eliminar los riesgos asociados a las cuestiones tratadas en el informe titulado “An Assessment Report on Issues of Concern: Chemicals and Waste Issues Posing Risks to Human Health and the Environment”; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_52">
+        <num>19.</num>
+        <content eId="para_52__content">
+          <p xml:space="preserve"> <span class="italic">Solicita</span> a la Directora Ejecutiva que recabe la opinión de los Estados miembros y otros interesados sobre las prioridades para la labor futura, basándose en las medidas e iniciativas existentes, y las posibles medidas internacionales adicionales en relación con las cuestiones examinadas en el Informe de evaluación de las cuestiones que suscitan preocupación, y en particular sobre las cuestiones señaladas en el informe titulado “Global Chemicals Outlook II – From Legacies to Innovative Solutions: Implementing the 2030 Agenda for Sustainable Development<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> Programa de las Naciones Unidas para el Medio Ambiente. “Global Chemicals Outlook II – From Legacies to Innovative Solutions: Implementing the 2030 Agenda for Sustainable Development” (2019).</p></authorialNote>, y que se asegure de que se dedica el tiempo suficiente a su examen; y que prepare un análisis resumido, teniendo en cuenta las opiniones recibidas para su examen por la Asamblea sobre el Medio Ambiente y por otros órganos internacionales, incluida la Conferencia Internacional sobre la Gestión de los Productos Químicos, según proceda;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54">
+        <num>20.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve"> <span class="italic">Invita</span> a los Estados miembros, las organizaciones internacionales y otros interesados a deliberar sobre las repercusiones negativas de los plaguicidas y fertilizantes, y toma nota de la iniciativa conjunta de la Organización de las Naciones Unidas para la Alimentación y la Agricultura, la Organización Mundial de la Salud y el Programa de las Naciones Unidas para el Medio Ambiente que tiene por objeto eliminar el daño que suponen los plaguicidas altamente peligrosos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_56" class="CH3">
+        <heading>		Solicitudes a la Directora Ejecutiva</heading>
+      </paragraph>
+      <paragraph eId="para_57">
+        <num>21.</num>
+        <content eId="para_57__content">
+          <p xml:space="preserve"> <span class="italic">Solicita</span> a la Directora Ejecutiva que colabore estrechamente con los demás miembros del Programa Interinstitucional para la Gestión Racional de los Productos Químicos y otras entidades e instrumentos pertinentes de las Naciones Unidas, así como con los acuerdos ambientales multilaterales pertinentes, para fomentar la cooperación y la colaboración eficaces en la promoción de la gestión racional de los productos químicos y los desechos; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59">
+        <num>22.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve"> <span class="italic">Solicita también</span> a la Directora Ejecutiva que, con sujeción a la disponibilidad de recursos, y en cooperación con la Organización Mundial de la Salud, actualice el informe titulado<span class="italic"> State of the Science of Endocrine Disrupting Chemicals 2012 </span>antes del sexto período de sesiones de la Asamblea sobre el Medio Ambiente;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_61">
+        <num>23.</num>
+        <content eId="para_61__content">
+          <p xml:space="preserve"> <span class="italic">Solicita además</span> a la Directora Ejecutiva que informe a la Asamblea sobre el Medio Ambiente, en su sexto período de sesiones, sobre la aplicación de la presente resolución y la ejecución del programa de trabajo con respecto a los productos químicos y los desechos;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_63">
+        <num>24.</num>
+        <content eId="para_63__content">
+          <p xml:space="preserve"> <span class="italic">Solicita</span> a la Directora Ejecutiva que, en función de la disponibilidad de recursos y en cooperación con la Organización Mundial de la Salud, presente una gran variedad de opciones para abordar la cuestión de los contaminantes de asbesto en los productos y el medio ambiente para que la Asamblea sobre el Medio Ambiente las examine en su sexto período de sesiones. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
