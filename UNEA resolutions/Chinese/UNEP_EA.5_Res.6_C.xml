@@ -1,0 +1,299 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/zho@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BIOLOGICAL DIVERSITY" href="http://metadata.un.org/thesaurus/1000612" showAs="BIOLOGICAL DIVERSITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HEALTH" href="http://metadata.un.org/thesaurus/10" showAs="HEALTH" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.11" by="The Group of African States" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">第五届会议</session>
+      </p>
+      <p>
+        <docTitle>联合国环境大会2022年3月2日通过的决议</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#内罗毕">内罗毕</location>
+          <location refersTo="#混合">（混合）</location>
+          <event refersTo="#firstPart">
+            <date date="2021-02-22" refersTo="#startDate">2021年2月22</date>日和<date date="2021-02-23" refersTo="#endDate">23</date></event>日 和<event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">2022年2月28</date>日至<date date="2022-03-02" refersTo="#endDate">3月2日</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	生物多样性与健康</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">联合国环境大会，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve"> 回顾联大2015年9月25日题为“变革我们的世界：2030年可持续发展议程”的第70/1号决议，其中除其他外，设想了一个人类与自然和谐相处、野生生物和其他生物物种受到保护的世界，</p>
+      </container>
+      <container name="又" eId="container_3">
+        <p xml:space="preserve"> 又回顾《第三次发展筹资问题国际会议亚的斯亚贝巴行动议程》，其目的是加强可持续发展筹资框架和《2030年可持续发展议程》的执行手段，</p>
+      </container>
+      <container name="还" eId="container_4">
+        <p xml:space="preserve"> 还回顾由三方联盟（联合国粮食及农业组织、世界卫生组织、世界动物卫生组织）和联合国环境规划署组成的“同一健康”高级别专家小组对“同一健康”的新操作性定义，</p>
+      </container>
+      <container name="回顾" eId="container_5">
+        <p xml:space="preserve"> 回顾联合国环境大会关于环境与健康的第3/4号决议，其中指出人类、动物和植物的健康与环境是相互关联的，</p>
+      </container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve"> 回顾《生物多样性公约》关于生物多样性与人类健康的第XIII/6号决定以及关于健康与生物多样性的第14/4号决定，</p>
+      </container>
+      <container name="欢迎" eId="container_7">
+        <p xml:space="preserve"> 欢迎2021年10月11日至15日以“生态文明：共建地球生命共同体”为主题，在中国昆明举行生物多样性公约缔约方大会第十五次会议第一部分，</p>
+      </container>
+      <container name="期待" eId="container_8">
+        <p xml:space="preserve"> 期待一个目标远大、变革性、平衡、有效和务实的2020年后全球生物多样性框架，</p>
+      </container>
+      <container name="表示注意到" eId="container_9">
+        <p xml:space="preserve"> 表示注意到目前正在讨论根据《生物多样性公约》制定一项针对生物多样性和健康的全球行动计划，</p>
+      </container>
+      <container name="又" eId="container_10">
+        <p xml:space="preserve"> 又表示注意到联合国环境规划署和国际家畜研究所最近题为“预防下一次大流行病：人畜共患病以及如何阻断传播链”的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 联合国环境规划署和国际家畜研究所，《预防下一次大流行病：人畜共患病以及如何阻断传播链》（肯尼亚内罗毕，2020年）。</p></authorialNote>，其中表明了人类活动与出现新型人畜共患病之间的联系，以及世界卫生组织和生物多样性公约题为“连接全球优先事项：生物多样性与人类健康——知识状况审查” 的报告<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> 世界卫生组织和生物多样性公约，《连接全球优先事项：生物多样性与人类健康——知识状况审查》（2015年）。</p></authorialNote>，</p>
+      </container>
+      <container name="意识到" eId="container_11">
+        <p xml:space="preserve"> 意识到有效可持续地利用、养护和恢复生物多样性可以改善健康成果和惠益，并可成为促进创建一个更加健康、公平和可持续的世界的有效手段，</p>
+      </container>
+      <container name="认识到" eId="container_12">
+        <p xml:space="preserve"> 认识到气候变化、生物多样性丧失和污染这几种相互关联的危机正在对卫生系统造成破坏和压力，包括传染病和非传染性疾病的出现以及卫生不平等现象的加剧，</p>
+      </container>
+      <container name="又" eId="container_13">
+        <p xml:space="preserve"> 又认识到生物多样性丧失对人类、动物和生态系统健康构成威胁，而可持续地利用、养护和恢复生物多样性、生态系统及其服务可为健康和福祉带来惠益，</p>
+      </container>
+      <container name="注意到" eId="container_14">
+        <p xml:space="preserve"> 注意到热浪、干旱和洪水等极端气候事件的频率和强度不断增加，导致生态系统功能受损和生态系统服务减少，不仅威胁到人类的健康、生计和福祉，也威胁到动物、植物和生态系统；卫生基础设施薄弱的地区（主要是发展中国家）如果在防备和应对这些挑战方面得不到支持，将最为无力应付，</p>
+      </container>
+      <container name="意识到" eId="container_15">
+        <p xml:space="preserve"> 意识到抗微生物药物耐药性对全球健康和发展日益构成威胁，如果要实现可持续发展目标，就需要在整个“同一健康”的范围内继续采取多部门行动，</p>
+      </container>
+      <container name="表示注意到" eId="container_16">
+        <p xml:space="preserve"> 表示注意到《生物多样性公约》关于与其他公约、国际组织和倡议合作的第14/30号决定，其中欢迎埃及的倡议，即促进采取协调一致的办法来应对生物多样性丧失、气候变化以及土地和生态系统退化的问题，</p>
+      </container>
+      <container name="申明" eId="container_17">
+        <p xml:space="preserve"> 申明全球卫生治理应旨在有助于预防、发现、更好地防备和应对危机，同时应对全球卫生的不平等问题以及加强发展中国家和经济转型国家卫生系统的必要性，包括以南北合作、南南合作和三方合作为途径，</p>
+      </container>
+      <container name="承认" eId="container_18">
+        <p xml:space="preserve"> 承认要从冠状病毒病（COVID-19）大流行的影响中恢复经济，将需要建立更公平的卫生系统和增加获得安全有效的冠状病毒病疫苗的途径，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19">
+        <num>1.</num>
+        <list eId="19">
+          <intro eId="para_19_list_intro">
+          <p xml:space="preserve"> 请联合国环境规划署执行主任通过联合国环境规划署在三方联盟中发挥的重要作用，与其他相关合作伙伴一道，进一步协助会员国和专门机构成员采取措施：</p>
+          </intro>
+          <point eId="para_19_list_point_a">
+            <num>(a)</num>
+            <content eId="para_19_list_point_a_content">
+          <p xml:space="preserve"> 鉴于人类、动物和生态系统健康之间的联系，鼓励采取对环境有积极惠益的行动；</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_b">
+            <num>(b)</num>
+            <content eId="para_19_list_point_b_content">
+          <p xml:space="preserve"> 制定行动，提高用于监测和监督的数据的可用性、质量和及时性，提高“同一健康”各部门的实力和能力，并支持根据国情和优先事项及时发现和应对与环境因素有关的健康风险；</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_c">
+            <num>(c)</num>
+            <content eId="para_19_list_point_c_content">
+          <p xml:space="preserve"> 促进合作，根据“同一健康”办法，应对生物多样性丧失、气候变化和其他相关环境危机对全球健康的影响；</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_d">
+            <num>(d)</num>
+            <content eId="para_19_list_point_d_content">
+          <p xml:space="preserve"> 促进大流行病防范、预防和应对方面的合作，更广泛而言，促进与健康有关的研究和开发方面的合作，包括涉及遗传资源的研发，同时酌情考虑到获取和惠益分享框架；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_29">
+        <num>2.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 鼓励会员国将生物多样性的可持续利用、养护和恢复纳入部门政策和方案的主流并加以协调，以提高生态系统的复原力，遏制和扭转生物多样性的丧失，监测和控制外来入侵物种，并加强粮食安全，以期预防当前和今后的健康风险，包括具有流行和大流行潜力的疾病爆发；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31">
+        <num>3.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> 请执行主任与联合国粮食及农业组织、世界卫生组织和世界动物卫生组织以及所有相关利益攸关方合作，支持会员国和专门机构成员提高对以下方面的认识：生物多样性丧失的驱动因素及其与传染病和非传染性疾病的出现和传播之间的相互联系，以及根据现有最佳科学知识投资于关系人类健康的自然和生态系统服务的重要性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33">
+        <num>4.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 请执行主任与联合国粮食及农业组织、世界卫生组织和世界动物卫生组织及其他相关伙伴合作，在具备资金的情况下，应会员国和专门机构成员的请求，支持其评估健康的环境层面，并在即将出台的“同一健康”联合行动计划中强调这些事项；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35">
+        <num>5.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve"> 鼓励会员国促进合作，以减少溢出事件和人畜共患病爆发的风险并对其进行管理，阻断传播链，并迅速和透明地作出反应，以预防流行病和大流行病；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37">
+        <num>6.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> 又鼓励会员国促进发达国家和发展中国家有效参加与健康有关的生物技术研究活动，包括根据国情有能力为此类研究提供遗传资源的会员国；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39">
+        <num>7.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> 还鼓励会员国酌情努力遵守和实施获取和惠益分享框架，以促进生物多样性的可持续利用和养护，其中包括根据国情为健康相关研究和开发提供遗传资源的会员国；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 邀请会员国在部门政策中根据“同一健康”办法，加强生物多样性的养护和可持续利用与公共卫生之间的联系，以预防、发现、更好地防备和应对健康风险，并投资于加强提供与健康有关的生态系统服务，同时酌情考虑到“同一健康”高级别专家小组的建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43">
+        <num>9.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> 鼓励会员国加强国际合作，以期应对发展中国家在实施“同一健康”办法方面面临的具体挑战，包括根据国情和优先事项，加强卫生监测能力和促进对策；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45">
+        <num>10.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"> 促请会员国减少与为食品、圈养繁殖、药品目的而捕获的野生生物活体贸易和宠物贸易有关的健康风险，为此要管制其商贸和确保可持续和安全地消费野生肉类，包括在出售野生动物活体的食品市场实行足够的卫生管制；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47">
+        <num>11.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 邀请会员国和其他各方酌情自愿提供预算外资金，以支持本决议的执行；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49">
+        <num>12.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve"> 邀请会员国、国际金融机构和其他伙伴加强支持，包括为最不发达国家和小岛屿发展中国家等发展中国家调动资源，帮助这些国家努力应对健康的环境层面，包括与生物多样性丧失、气候变化和污染有关的问题，以期建立更具复原力的卫生系统，并加强大流行病的防范、预防、发现和应对；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51">
+        <num>13.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve"> 邀请所有会员国和包括私营部门在内的相关利益攸关方，考虑到抗微生物药物耐药性问题构成的威胁，协助提高对必须解决该问题的认识和理解，并制定措施解决这一全球卫生问题，包括对抗微生物药物和相关残留物进行适当的废物管理，以及缓解抗药性细菌和基因通过环境传播的问题；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53">
+        <num>14.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve"> 邀请包括私营部门在内的所有相关利益攸关方协助提高对健康所涉环境层面的认识和理解，特别是为废物健全管理和应对污染制定措施和行动。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

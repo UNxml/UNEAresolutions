@@ -1,0 +1,400 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/zho@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SCIENCE AND TECHNOLOGY POLICY" href="http://metadata.un.org/thesaurus/1005738" showAs="SCIENCE AND TECHNOLOGY POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHEMICALS" href="http://metadata.un.org/thesaurus/1000921" showAs="CHEMICALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLLUTION" href="http://metadata.un.org/thesaurus/030400" showAs="POLLUTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.14" by="Burkina Faso, Costa Rica, Ghana, Mali, Niger, Norway, Switzerland, United Kingdom of Great Britain and Northern Ireland and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">第五届会议</session>
+      </p>
+      <p>
+        <docTitle>联合国环境大会2022年3月2日通过的决议</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#内罗毕">内罗毕</location>
+          <location refersTo="#混合">（混合）</location>
+          <event refersTo="#firstPart">
+            <date date="2021-02-22" refersTo="#startDate">2021年2月22</date>日和<date date="2021-02-23" refersTo="#endDate">23</date></event>日 和<event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">2022年2月28</date>日至<date date="2022-03-02" refersTo="#endDate">3月2日</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/8.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	进一步促进化学品和废物健全管理并防止污染的科学与政策委员会</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">联合国环境大会，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	回顾其关于化学品和废物健全管理的第4/8号决议，并强调指出迫切需要在各级加强科学与政策衔接，以支持和促进在地方、国家、区域和全球各级采取以科学为基础的行动，落实2020年后化学品和废物健全管理，</p>
+      </container>
+      <container name="又" eId="container_3">
+        <p xml:space="preserve">	又回顾其第5/2号决议，其中核准了联合国环境规划署2022–2025年期间中期战略及其关于化学品和污染行动的次级方案，以及关于自然行动和气候行动、推广可靠科学成果以及促进信息和知识共享的次级方案， </p>
+      </container>
+      <container name="赞赏" eId="container_4">
+        <p xml:space="preserve">	赞赏相关多边协定、其他国际文书和政府间机构（包括组织间健全管理化学品方案和国际化学品管理大会）促进化学品和废物健全管理以及防止污染方面的工作，并欢迎它们继续开展科学工作，以进一步促进化学品和废物的健全管理并防止污染，</p>
+      </container>
+      <container name="认识到" eId="container_5">
+        <p xml:space="preserve">	认识到基于科学的评估很重要，可为决策进程提供参考，</p>
+      </container>
+      <container name="注意到" eId="container_6">
+        <p xml:space="preserve">	注意到联合国环境规划署执行主任与组织间健全管理化学品方案的成员组织合作编写的报告，题为“在国际一级加强化学品和废物健全管理的科学与政策衔接的备选方案评估”，<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">联合国环境规划署，《在国际一级加强化学品和废物健全管理的科学与政策衔接的备选方案评估》（2020年）。</p></authorialNote></p>
+      </container>
+      <container name="承认" eId="container_7">
+        <p xml:space="preserve">	承认改善科学信息和评估的可得性可以应对能力挑战，以便采取更加有效和高效的行动，最大限度地减少和防止化学品和废物不当管理的不利影响，并防止污染，以改善人类福祉，促进各方共同繁荣，</p>
+      </container>
+      <container name="重申" eId="container_8">
+        <p xml:space="preserve">	重申化学品和废物的健全管理对于保护人类健康和环境至关重要，</p>
+      </container>
+      <container name="认识到" eId="container_9">
+        <p xml:space="preserve">	认识到空气污染是人类健康面临的最大环境风险，对妇女、儿童和老年人的影响格外严重，</p>
+      </container>
+      <container name="深信" eId="container_10">
+        <p xml:space="preserve">	深信科学与政策委员会能够通过就各问题提供与政策相关的科学咨询意见来支持各国努力采取行动，包括执行多边环境协定和其他相关国际文书，促进化学品和废物的健全管理，并应对污染问题，委员会还能进一步支持相关多边协定、其他国际文书和政府间机构、私营部门和其他相关利益攸关方的工作，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_11">
+        <num>1.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> 决定应设立一个科学与政策委员会，以进一步促进化学品和废物的健全管理并防止污染，具体细节将根据本决议第4和第5段的规定进一步具体说明；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12">
+        <num>2.</num>
+        <list eId="para_12_list">
+          <intro eId="para_12_list_intro">
+          <p xml:space="preserve"> 认为委员会的主要职能除其他外，应包括：</p>
+          </intro>
+          <point eId="para_12_list_point_a">
+            <num>(a)</num>
+            <content eId="para_12_list_point_a_content">
+          <p xml:space="preserve"> 开展“前景扫描”，以确定与决策者相关的问题，并尽可能提出应对这些问题的循证备选方案；</p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_b">
+            <num>(b)</num>
+            <content eId="para_12_list_point_b_content">
+          <p xml:space="preserve"> 对当前问题进行评估，并确定可能的循证备选方案，以尽可能应对这些问题，特别是与发展中国家相关的问题；</p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_c">
+            <num>(c)</num>
+            <content eId="para_12_list_point_c_content">
+          <p xml:space="preserve"> 提供最新的相关信息，查明科学研究中的主要差距，鼓励和支持科学家和决策者之间的沟通，为不同的受众解释和传播研究结果，并提高公众认识；</p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_d">
+            <num>(d)</num>
+            <content eId="para_12_list_point_d_content">
+          <p xml:space="preserve"> 促进与各国，特别是寻求相关科学信息的发展中国家分享信息；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_23">
+        <num>3.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 又认为委员会应是一个独立的政府间机构，其工作方案应由其成员国政府核准，以提供与政策相关的科学证据，但不对政策作出规定；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25">
+        <num>4.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 决定在资源允许的情况下，召集一个不限成员名额特设工作组，于2022年开始工作，目标是在2024年底前完成工作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27">
+        <num>5.</num>
+        <list eId="para_27_list">
+          <intro eId="para_27_list_intro">
+          <p xml:space="preserve"> 又决定不限成员名额特设工作组将为科学与政策委员会审议下列问题编写提案：</p>
+          </intro>
+          <point eId="para_27_list_point_a">
+            <num>(a)</num>
+            <content eId="para_27_list_point_a_content">
+          <p xml:space="preserve"> 委员会的体制设计和治理；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_b">
+            <num>(b)</num>
+            <content eId="para_27_list_point_b_content">
+          <p xml:space="preserve"> 委员会的名称和范围；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_c">
+            <num>(c)</num>
+            <content eId="para_27_list_point_c_content">
+          <p xml:space="preserve"> 本决议第2段规定的委员会主要职能，同时尊重相关多边协定及其他国际文书和政府间机构的任务，避免工作重叠和重复，并促进协调与合作；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_d">
+            <num>(d)</num>
+            <content eId="para_27_list_point_d_content">
+          <p xml:space="preserve"> 委员会与相关主要利益攸关方，包括政府和非政府组织以及民间社会的关系；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_e">
+            <num>(e)</num>
+            <content eId="para_27_list_point_e_content">
+          <p xml:space="preserve"> 确定和执行委员会工作方案的进程；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_f">
+            <num>(f)</num>
+            <content eId="para_27_list_point_f_content">
+          <p xml:space="preserve"> 确定专家并使其参与促进委员会工作的安排；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_g">
+            <num>(g)</num>
+            <content eId="para_27_list_point_g_content">
+          <p xml:space="preserve"> 审查和通过由委员会编写的报告和评估的程序；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_h">
+            <num>(h)</num>
+            <content eId="para_27_list_point_h_content">
+          <p xml:space="preserve"> 为委员会提供秘书处支助的安排；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_i">
+            <num>(i)</num>
+            <content eId="para_27_list_point_i_content">
+          <p xml:space="preserve"> 为委员会工作自愿供资的备选方案；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_j">
+            <num>(j)</num>
+            <content eId="para_27_list_point_j_content">
+          <p xml:space="preserve"> 关于委员会工作的议事规则和运行原则；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_k">
+            <num>(k)</num>
+            <content eId="para_27_list_point_k_content">
+          <p xml:space="preserve"> 委员会的指示性预算；</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_l">
+            <num>(l)</num>
+            <content eId="para_27_list_point_l_content">
+          <p xml:space="preserve"> 不限成员名额特设工作组认为应予处理的任何其他事项；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_53">
+        <num>6.</num>
+        <list eId="para_53_list">
+          <intro eId="para_53_list_intro">
+          <p xml:space="preserve"> 还决定不限成员名额特设工作组应考虑到有必要确保委员会：</p>
+          </intro>
+          <point eId="para_53_list_point_a">
+            <num>(a)</num>
+            <content eId="para_53_list_point_a_content">
+          <p xml:space="preserve"> 能够提供与政策相关的成果，但不对政策作出规定；</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_b">
+            <num>(b)</num>
+            <content eId="para_53_list_point_b_content">
+          <p xml:space="preserve"> 具有跨学科性，确保具有广泛学科专门知识的专家作出贡献；包容各方（包括土著人民）的参与；实现地域、区域和性别平衡；</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_c">
+            <num>(c)</num>
+            <content eId="para_53_list_point_c_content">
+          <p xml:space="preserve"> 制定程序，力求确保委员会的工作透明而公正，并确保其能够编写可信和科学上可靠的报告和评估； </p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_d">
+            <num>(d)</num>
+            <content eId="para_53_list_point_d_content">
+          <p xml:space="preserve"> 开展的工作可以补充而不是重复相关多边协定、其他国际文书和政府间机构（包括组织间健全管理化学品方案的成员）的工作；</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_e">
+            <num>(e)</num>
+            <content eId="para_53_list_point_e_content">
+          <p xml:space="preserve"> 酌情与其他科学与政策机构进行协调，如政府间气候变化专门委员会及生物多样性和生态系统服务政府间科学与政策平台；</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_f">
+            <num>(f)</num>
+            <content eId="para_53_list_point_f_content">
+          <p xml:space="preserve"> 有能力处理潜在的利益冲突并保护商业敏感信息；</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_g">
+            <num>(g)</num>
+            <content eId="para_53_list_point_g_content">
+          <p xml:space="preserve"> 具有灵活性，可以尽量满足利益攸关方确定并经委员会成员国政府同意的需求，并履行本决议规定的主要职能；</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_h">
+            <num>(h)</num>
+            <content eId="para_53_list_point_h_content">
+          <p xml:space="preserve"> 具有成本效益，具有适于实现最大影响的最精简结构；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_71">
+        <num>7.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve"> 决定不限成员名额特设工作组应包括各国政府和区域经济一体化组织，并向来自联合国实体、相关多边协定、其他国际文书和政府间机构（包括组织间健全管理化学品方案的成员）的观察员和利益攸关方代表开放；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73">
+        <num>8.</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve"> 请执行主任酌情与相关多边环境协定秘书处以及相关国际组织和机构密切合作；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75">
+        <num>9.</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve"> 又请执行主任召开不限成员名额特设工作组会议并邀请世界卫生组织酌情发挥作用；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77">
+        <num>10.</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve"> 还请执行主任在完成不限成员名额特设工作组编写的提案后，召开一次政府间会议，旨在审议设立一个科学与政策委员会的问题；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79">
+        <num>11.</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve"> 请执行主任向联合国环境大会以及相关多边协定、其他国际文书和政府间机构报告不限成员名额特设工作组的成果；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81">
+        <num>12.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve"> 邀请有能力的各国政府和其他各方为执行本决议提供预算外资源，特别是使发展中国家和经济转型国家能够充分参与不限成员名额特设工作组；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83">
+        <num>13.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve"> 请执行主任为不限成员名额特设工作组提供一个秘书处，并编写其工作所需的分析和摘要报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85">
+        <num>14.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve"> 邀请相关多边协定、其他国际文书和政府间机构的理事机构酌情审议本决议。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

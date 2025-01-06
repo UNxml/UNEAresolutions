@@ -1,0 +1,249 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/zho@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.9" by="The European Union" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">第五届会议</session>
+      </p>
+      <p>
+        <docTitle>联合国环境大会2022年3月2日通过的决议</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#内罗毕">内罗毕</location>
+          <location refersTo="#混合">（混合）</location>
+          <event refersTo="#firstPart">
+            <date date="2021-02-22" refersTo="#startDate">2021年2月22</date>日和<date date="2021-02-23" refersTo="#endDate">23</date></event>日 和<event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">2022年2月28</date>日至<date date="2022-03-02" refersTo="#endDate">3月2日</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/5.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	支持可持续发展的基于自然的解决方案</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">联合国环境大会，</p>
+      </formula>
+      <container name="强调" eId="container_2">
+        <p xml:space="preserve"> 强调指出必须加强自然保护行动，以落实《2030年可持续发展议程》和可持续发展目标、《关于环境与发展的里约宣言》、《生物多样性公约》和其他与生物多样性有关的公约、《联合国气候变化框架公约》和据此通过的《巴黎协定》、《联合国关于在发生严重干旱和/或荒漠化的国家特别是在非洲防治荒漠化的公约》、《2015–2030年仙台减少灾害风险框架》、联合国生态系统恢复十年（2021–2030年），以及采取行动实现可持续发展十年（2020–2030年）；期待通过和实施一个目标远大、平衡、实际、有效和强有力的2020年后全球生物多样性框架；注意到《领导人的大自然誓约：联合起来，于2030年前扭转生物多样性减少，促进可持续发展》，</p>
+      </container>
+      <container name="欢迎" eId="container_3">
+        <p xml:space="preserve"> 欢迎生物多样性和生态系统服务政府间科学与政策平台题为“生物多样性和生态系统服务全球评估报告”的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 生物多样性和生态系统服务政府间科学与政策平台，《生物多样性和生态系统服务全球评估报告》（德国波恩，生物多样性平台秘书处，2019年）。</p></authorialNote>，以及第一工作组和第二工作组为政府间气候变化专门委员会第六次评估报告提供的材料，分别题为“2021年气候变化：自然科学基础”<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> 政府间气候变化专门委员会，《2021年气候变化：自然科学基础》。第一工作组为政府间气候变化专门委员会第六次评估报告提供的材料（剑桥大学出版社，2021年）。</p></authorialNote> 和“2022年气候变化：影响、适应和脆弱性”<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve"> 政府间气候变化专门委员会，《2022年气候变化：影响、适应和脆弱性》。 第二工作组为政府间气候变化专门委员会第六次评估报告提供的材料（剑桥大学出版社，2022年）。</p></authorialNote>，并表示注意到其他相关报告，</p>
+      </container>
+      <container name="认识到" eId="container_4">
+        <p xml:space="preserve"> 认识到生物多样性丧失、污染、气候变化、荒漠化和土地退化之间的相互依存关系及其与包括健康在内的人类福祉的相互联系，以及必须确保所有生态系统的完整性，</p>
+      </container>
+      <container name="又" eId="container_5">
+        <p xml:space="preserve"> 又认识到加强自然保护行动以实现可持续发展目标的一个关键机会是加强合作、执行和推广基于自然的解决方案，同时确保其社会和环境保障，因为只要针对具体情况、为实现多重惠益来设计基于自然的解决方案，并根据现有最佳科学知识加以应用，这些解决方案就是高效而有效的，</p>
+      </container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve"> 回顾生物多样性公约缔约方大会关于生态系统办法的第V/6、VI/12、VII/11和IX/7号决定及其关于生物多样性和气候变化的第14/5号决定，并认识到对于公约缔约方而言，《公约》在养护、恢复和可持续利用生物多样性以及综合管理自然资源方面具有不可或缺的作用，</p>
+      </container>
+      <container name="承认" eId="container_7">
+        <p xml:space="preserve"> 承认需要对基于自然的解决方案这一概念作出经多边商定的定义，该定义要认识到基于生态系统的办法的概念并与之保持一致，且考虑到对基于自然的解决方案这一概念可能被滥用的关切，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8">
+        <num>1.</num>
+        <list eId="para_8_list">
+          <intro eId="para_8_list_intro">
+          <p xml:space="preserve"> 决定基于自然的解决方案就是采取行动保护、养护、恢复、可持续利用和管理自然或经改造的陆地、淡水、沿海和海洋生态系统，以有效和适应性地应对社会、经济和环境挑战，同时对人类福祉、生态系统服务、复原力和生物多样性产生惠益，并认识到基于自然的解决方案：</p>
+          </intro>
+          <point eId="para_8_list_point_a">
+            <num>(a)</num>
+            <content eId="para_8_list_point_a_content">
+          <p xml:space="preserve"> 	 根据里约三公约（《生物多样性公约》、《联合国防治荒漠化公约》和《联合国气候变化框架公约》），尊重社会和环境保障，包括对地方社区和土著人民的这种保障；</p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_b">
+            <num>(b)</num>
+            <content eId="para_8_list_point_b_content">
+          <p xml:space="preserve"> 	可根据地方、国家和区域情况实施，符合《2030年可持续发展议程》，并可进行适应性管理；</p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_c">
+            <num>(c)</num>
+            <content eId="para_8_list_point_c_content">
+          <p xml:space="preserve"> 	是在全球实现可持续发展目标的总体努力中发挥重要作用的行动之一，具体做法包括切实有效地应对重大的社会、经济和环境挑战，如生物多样性丧失、气候变化、土地退化、荒漠化、粮食安全、灾害风险、城市发展、供水、消除贫困、不平等和失业，以及社会发展、可持续经济发展、人类健康和广泛的生态系统服务；</p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_d">
+            <num>(d)</num>
+            <content eId="para_8_list_point_d_content">
+          <p xml:space="preserve"> 	可有助于激发可持续的创新和科学研究；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> 认识到基于自然的解决方案可极大促进气候行动，同时认识到需要分析其影响，包括长期影响，并承认它们不能取代迅速、深入和持续减少温室气体排放的需要，但可以改进适应、抵御和减轻气候变化及其影响的行动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 又认识到基于自然的解决方案产生的可持续和无害环境的生物基产品、创新和技术的潜力，因为它们有助于可持续消费和生产，有益于自然，并符合关于生物多样性、气候、环境和可持续发展的国际承诺和相关多边协定，同时认识到潜在的相关风险，包括对地方社区和土著人民的风险；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>4.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 承认基于自然的解决方案这一概念认识到并符合以下概念：根据《生物多样性公约》确定的基于生态系统的办法，以及根据现有国家政策和立法框架实行并根据相关多边环境协定确立的其他管理和养护办法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>5.</num>
+        <list eId="26">
+          <intro eId="para_26_list_intro">
+          <p xml:space="preserve"> 请联合国环境规划署执行主任在资源允许的情况下，进一步支持执行本决议所界定的基于自然的解决方案，以透明、包容和区域平衡的方式举行政府间协商，努力实现性别均衡，以承担以下事项：</p>
+          </intro>
+          <point eId="para_26_list_point_a">
+            <num>(a)</num>
+            <content eId="para_26_list_point_a_content">
+          <p xml:space="preserve"> 根据现有的最佳科学知识，汇编基于自然的解决方案的最佳做法实例；</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_b">
+            <num>(b)</num>
+            <content eId="para_26_list_point_b_content">
+          <p xml:space="preserve"> 评估现有的和讨论可能出现的新的提案、准绳、标准和准则，以解决分歧，以期会员国之间就执行基于自然的解决方案达成共识，包括支持会员国酌情在现有工作、举措和平台的基础上，设计、实施和评价基于自然的解决方案，并且不妨碍各会员国的现有努力和倡议以及新的建议；</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_c">
+            <num>(c)</num>
+            <content eId="para_26_list_point_c_content">
+          <p xml:space="preserve"> 确定支持对基于自然的解决方案进行可持续投资的备选方案，并分享关于双边和多边资金来源的信息，使发展中国家能够制定和部署基于自然的解决方案；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34">
+        <num>6.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 又请执行主任在资源允许的情况下，支持政府间磋商，包括按照适用的联合国规则，使发展中国家及相关伙伴和利益攸关方能够参与；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36">
+        <num>7.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 促请会员国和执行主任与联合国其他相关实体协作，在征得自由事先知情同意的情况下，与地方社区、妇女和青年以及土著人民合作支持执行本决议，因为事实证明其知识和方法在养护、恢复和可持续利用生物多样性方面是有效的；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38">
+        <num>8.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve"> 促请会员国在设计、执行和监测基于自然的解决方案时，采取国家主导、顾及性别平等、参与性和完全透明的办法。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

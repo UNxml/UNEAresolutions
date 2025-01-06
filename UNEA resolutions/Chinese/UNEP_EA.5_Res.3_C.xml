@@ -1,0 +1,378 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/zho@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="Global Environment Outlook" showAs="Global Environment Outlook" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.20" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">第五届会议</session>
+      </p>
+      <p>
+        <docTitle>联合国环境大会2022年3月2日通过的决议</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#内罗毕">内罗毕</location>
+          <location refersTo="#混合">（混合）</location>
+          <event refersTo="#firstPart">
+            <date date="2021-02-22" refersTo="#startDate">2021年2月22</date>日和<date date="2021-02-23" refersTo="#endDate">23</date></event>日 和<event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">2022年2月28</date>日至<date date="2022-03-02" refersTo="#endDate">3月2日</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">今后的《全球环境展望》</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">联合国环境大会，</p>
+      </formula>
+      <container name="念及" eId="container_2">
+        <p xml:space="preserve"> 念及联大1972年12月15日第27/2997号决议所载的联合国环境规划署的任务，以及加强其任务的其他决议，包括不断审查世界环境状况的任务，以确保新出现的具有广泛国际意义的环境问题得到各国政府适当和充分的考虑， </p>
+      </container>
+      <container name="回顾" eId="container_3">
+        <p xml:space="preserve"> 回顾理事会关于环境状况和联合国环境规划署就应对实质性环境挑战所作贡献的第27/11号决定，</p>
+      </container>
+      <container name="念及" eId="container_4">
+        <p xml:space="preserve"> 念及联合国可持续发展大会题为“我们希望的未来”的成果文件<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 联大第66/288号决议，附件。</p></authorialNote>，特别是关于推动联合国环境规划署建立科学与政策的牢固衔接、以支持知情决策的第88 (d)段，</p>
+      </container>
+      <container name="回顾" eId="container_5">
+        <p xml:space="preserve"> 回顾环境大会关于不断审查世界环境的第4/23号决议，该决议设立了一个今后的《全球环境展望》进程指导委员会，并请该委员会向环境大会第五届会议提交一份备选方案文件，以便为《全球环境展望》进程今后形式和职能的决定提供参考，</p>
+      </container>
+      <container name="认识到" eId="container_6">
+        <p xml:space="preserve"> 认识到可信、相关且正当的专家主导的政府间评估可以发挥促进科学界与政策界之间的对话并支持环境问题决策的作用，以根据《2030年可持续发展议程》、可持续发展目标和其他国际商定的环境目标，实现迈向可持续未来所需的转变，</p>
+      </container>
+      <container name="又" eId="container_7">
+        <p xml:space="preserve"> 又认识到《全球环境展望》进程自1995年启动以来，已编制了旗舰报告，为决策提供了参考，并为理事会和环境大会的关键决定以及加强联合国环境规划署的科学与政策衔接作出了贡献，</p>
+      </container>
+      <container name="还" eId="container_8">
+        <p xml:space="preserve"> 还认识到指导委员会关于今后《全球环境展望》进程的协商成果表明各方大力支持继续开展这一进程，</p>
+      </container>
+      <container name="注意到" eId="container_9">
+        <p xml:space="preserve"> 注意到指导委员会在备选方案文件中为评价备选方案而提出的标准，即任务一致性、相关性、正当性、可信度、可及性、附加值及总体可行性，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve"> 重申《全球环境展望》进程的目标是不断审查世界环境状况，以定期为会员国和利益攸关方的集体和个人行动提供参考和支持，同时加强联合国环境规划署的科学与政策衔接；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12">
+        <num>2.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve"> 申明《全球环境展望》进程旨在实现本决议第1段提出的目标，并开展一项由专家主导的政府间评估；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14">
+        <num>3.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 请联合国环境规划署执行主任根据环境大会议事规则设立一个政府间多利益攸关方特设咨询小组，确保所有联合国区域的地域平衡，并确保学科和性别平衡；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 表示注意到指导委员会向环境大会第五届会议提交的关于今后《全球环境展望》进程的备选方案文件，并表示注意到委员会进行协商的结果；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18">
+        <num>5.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 决定《全球环境展望》进程的核心职能应是每四年进行一次具有区域针对性的专家主导的政府间全球权威评估，以评估和跟踪趋势，评价全球政策对策的成效，评价前几次《全球环境展望》评估中探讨的所有五个环境主题的未来前景，并评价环境变化的驱动因素和上述环境主题之间的相互作用，同时借鉴但不重复现有的评估，并在必要时应环境大会的要求辅以《全球环境展望》专题评估，以填补知识空白；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>6.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> 请执行主任着手编制第七期《全球环境展望》评估，以提交环境大会今后届会（不早于2025年）核可；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>7.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 决定《全球环境展望》进程应根据联合国环境规划署的任务，查明政府间确定的为能力建设、知识生成和政策制定提供支持的需求和条款，并应酌情与相关机构合作，为满足这些需求提供支助服务；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>8.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 又决定《全球环境展望》评估的决策者摘要应通过政府间审查进程，继续以透明和包容的审批和范围界定程序为基础；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>9.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> 重申应继续邀请各国政府在《全球环境展望》评估的政府间同行审评进程中提供意见和建议；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28">
+        <num>10.</num>
+        <list eId="para_28_list">
+          <intro eId="para_28_list_intro">
+          <p xml:space="preserve"> 请执行主任根据政府间多利益攸关方咨询小组的指导意见：</p>
+          </intro>
+          <point eId="para_28_list_point_a">
+            <num>(a)</num>
+            <content eId="para_28_list_point_a_content">
+          <p xml:space="preserve"> 	召开一次政府间的多利益攸关方和专家会议，以建立一套体现上述《全球环境展望》进程的目标和核心职能的程序；</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_b">
+            <num>(b)</num>
+            <content eId="para_28_list_point_b_content">
+          <p xml:space="preserve"> 	对将为《全球环境展望》进程作出贡献的外部专家（包括咨询小组成员、撰稿人、研究员、同行审评人员和编审）开展提名和遴选进程，确保所有联合国区域的地域平衡以及学科和性别平衡；</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_c">
+            <num>(c)</num>
+            <content eId="para_28_list_point_c_content">
+          <p xml:space="preserve"> 	确保《全球环境展望》进程借鉴以下方面的证据基础：同行审评文献、各语种经过同行审评的国家评估，以及其他国际评估和联合国主导的评估、数据和分析、其他可信来源的信息，这些来源包括世界环境情况室和联合国环境规划署内外的知识生成要素；</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_d">
+            <num>(d)</num>
+            <content eId="para_28_list_point_d_content">
+          <p xml:space="preserve"> 	根据本决议附件所载的遴选进程职权范围和指导意见，设立一个多学科专家科学咨询小组，负责监督《全球环境展望》进程的科研操守；</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_e">
+            <num>(e)</num>
+            <content eId="para_28_list_point_e_content">
+          <p xml:space="preserve"> 	根据环境大会在本决议中确定的需要，制定灵活的多年期工作计划和有时限的预算，列出评估和支助服务等活动方案；</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_f">
+            <num>(f)</num>
+            <content eId="para_28_list_point_f_content">
+          <p xml:space="preserve"> 	为每项评估提供由专家编写的范围界定文件和决策者摘要，供会员国代表在不限成员名额特设会议上审议，以便审查与核可，以此加强科学与政策的衔接；</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_g">
+            <num>(g)</num>
+            <content eId="para_28_list_point_g_content">
+          <p xml:space="preserve"> 	根据多年期工作计划和有时限的预算，为环境大会核准的专家主导的政府间评估界定范围，并核准开展这些评估；</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_h">
+            <num>(h)</num>
+            <content eId="para_28_list_point_h_content">
+          <p xml:space="preserve"> 	继续开展《全球环境展望》青年研究员方案，以加强年轻一代的参与；</p>
+        </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_66">
+        <num>11.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve"> 决定如果需要执行主任和政府间多利益攸关方咨询小组履行额外职能以支持《全球环境展望》进程，这些职能应由环境大会核准；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68">
+        <num>12.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve"> 请执行主任根据联合国环境规划署不断审查世界环境状况的任务，管理《全球环境展望》进程，为此要制定和实施精简和具有成本效益的治理和管理办法；由包括环境基金在内的核心资金提供充足、可预测和稳定的资金；在联合国环境规划署秘书处内为该进程分配足够的人力资源；培养内部贡献和专长；促进与合作中心的伙伴关系和技术支持单位的援助；酌情促进为该进程调动预算外资源；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70">
+        <num>13.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve"> 又请执行主任定期与联合国环境规划署常驻代表委员会就《全球环境展望》进程的重要内容进行协商。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/"></FRBRuri>
+                <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/zho@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/zho@/"></FRBRuri>
+                <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="zho"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/zho@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/zho@.xml"></FRBRuri>
+                <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_72" class="ZZAnxheader">
+              <heading>附件</heading>
+            </paragraph>
+            <paragraph eId="para_73" class="ZZAnxtitle">
+              <subheading>多学科专家科学咨询小组成员遴选进程的职权范围和 指导意见</subheading>
+            </paragraph>
+            <paragraph eId="para_74">
+              <num>1.</num>
+              <content eId="para_74__content">
+                <p xml:space="preserve">多学科专家科学咨询小组负责主持专家会议、提供科学监督、遴选专家，并代表《全球环境展望》进程。它将由25至30名成员组成，需确保学科和性别平衡以及五个联合国区域的均衡地域代表性，同时考虑到下文2 (b)分段所列的指导意见。</p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76">
+              <num>2.</num>
+              <list eId="para_76_list">
+                <intro eId="para_76_list_intro">
+                <p xml:space="preserve">在提名和遴选多学科专家科学咨询小组成员时应考虑到以下准则：</p>
+                </intro>
+                <point eId="para_76_list_point_a">
+                  <num>(a)</num>
+                  <content eId="para_76_list_point_a_content">
+                <p xml:space="preserve"> 能够履行上文第1段所述的职能；</p>
+                  </content>
+                </point>
+                <point eId="para_76_list_point_b">
+                  <num>(b)</num>
+                  <content eId="para_76_list_point_b_content">
+                <p xml:space="preserve"> 具备自然科学和社会科学方面的环境科学专长；</p>
+                  </content>
+                </point>
+                <point eId="para_76_list_point_c">
+                  <num>(c)</num>
+                  <content eId="para_76_list_point_c_content">
+                <p xml:space="preserve"> 具备《全球环境展望》进程主要工作内容方面的科学、技术或政策专长和知识；</p>
+                  </content>
+                </point>
+                <point eId="para_76_list_point_d">
+                  <num>(d)</num>
+                  <content eId="para_76_list_point_d_content">
+                <p xml:space="preserve"> 具备宣传、推广科学并将科学纳入政策制定进程方面的经验；</p>
+                  </content>
+                </point>
+                <point eId="para_76_list_point_e">
+                  <num>(e)</num>
+                  <content eId="para_76_list_point_e_content">
+                <p xml:space="preserve"> 具备国际科学和政策进程中的领导和工作能力；</p>
+                  </content>
+                </point>
+                <point eId="para_76_list_point_f">
+                  <num>(f)</num>
+                  <content eId="para_76_list_point_f_content">
+                <p xml:space="preserve"> 能够向包括青年在内的多种利益攸关方传播科学知识和科学研究结果。</p>
+              </content>
+                </point>
+              </list>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

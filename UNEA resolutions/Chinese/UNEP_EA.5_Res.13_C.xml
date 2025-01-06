@@ -1,0 +1,236 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/zho@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GEOGRAPHICAL DISTRIBUTION" href="http://metadata.un.org/thesaurus/1002640" showAs="GEOGRAPHICAL DISTRIBUTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF COMPOSITION" href="http://metadata.un.org/thesaurus/1006155" showAs="STAFF COMPOSITION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.19" by="Russian Federation" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">第五届会议</session>
+      </p>
+      <p>
+        <docTitle>联合国环境大会2022年3月2日通过的决议</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#内罗毕">内罗毕</location>
+          <location refersTo="#混合">（混合）</location>
+          <event refersTo="#firstPart">
+            <date date="2021-02-22" refersTo="#startDate">2021年2月22</date>日和<date date="2021-02-23" refersTo="#endDate">23</date></event>日 和<event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">2022年2月28</date>日至<date date="2022-03-02" refersTo="#endDate">3月2日</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">根据《联合国宪章》第一百零一条第三款适当考虑公平地域 分配原则</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">联合国环境大会，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve">	回顾《联合国宪章》第一百零一条第三款，即必须满足效率、才干及忠诚之最高标准，并在征聘办事人员时，于可能范围内，应充分注意地域上之普及；以及第八条，其中规定联合国对于男女均得在其主要及辅助机关在平等条件之下，充任任何职务，不得加以限制，</p>
+      </container>
+      <container name="又" eId="container_3">
+        <p xml:space="preserve">	又回顾第五委员会是联大授权主管行政和预算事项的适当主要委员会，并重申第五委员会的作用是透彻分析和核准人力和财政资源及政策，以确保高成效和高效率地全面执行所有已获授权的方案和活动以及执行这方面的政策，</p>
+      </container>
+      <container name="还" eId="container_4">
+        <p xml:space="preserve">	还回顾联合国环境规划署是联大的一个附属机构，因此环境署理事机构采取的任何行动都必须尊重联大第五委员会及行政和预算问题咨询委员会的特权，并必须在其决定和建议的范围内，</p>
+      </container>
+      <container name="回顾" eId="container_5">
+        <p xml:space="preserve">	回顾应由第五委员会及行政和预算问题咨询委员会提出建议，并由联大决定适用于整个秘书处，包括联合国环境规划署的地域分配方面的目标，</p>
+      </container>
+      <container name="回顾" eId="container_6">
+        <p xml:space="preserve">	回顾联大2017年12月24日关于人力资源管理的第72/254号决议，并在这方面确认《联合国工作人员条例和细则》<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve"> ST/SGB/2018/1。</p></authorialNote> 条例4.2和4.3各项规定的重要性，</p>
+      </container>
+      <container name="回顾" eId="container_7">
+        <p xml:space="preserve">	回顾联大1987年12月21日关于人事问题的第42/220号决议，其中规定“不得将任何职位视为专替任何会员国或国家集团保留的职位，秘书长应确保按公平地域分配原则忠实执行上述原则”，</p>
+      </container>
+      <container name="回顾" eId="container_8">
+        <p xml:space="preserve">	回顾环境大会关于2022–2025年期间中期战略以及2022–2023两年期工作方案和预算的第5/2号决定，其中除其他外，环境大会请联合国环境规划署执行主任根据《联合国宪章》第一百零一条第三款，适当考虑公平地域分配原则，并感兴趣地注意到执行主任关于第5/2号决定第18段（涉及在联合国环境规划署征聘战略中适用公平地域分配原则）执行进展情况的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> UNEP/EA.5/26。</p></authorialNote>，同时注意到该报告在通知后短时间内得以提交，</p>
+      </container>
+      <container name="认识到" eId="container_9">
+        <p xml:space="preserve">	认识到必须根据《联合国宪章》第一百零一条第三款以及联合国全系统性别均等战略，在联合国环境规划署内部适当考虑公平地域分配和性别均等，以进一步提高环境署执行任务的效率、成效、包容性、多样性和透明度，</p>
+      </container>
+      <container name="关切" eId="container_10">
+        <p xml:space="preserve">	关切联合国环境规划署秘书处工作人员的地域分配不平衡，并欢迎执行主任正在努力在征聘工作人员时应对这一问题，同时认识到必须加大力度解决这种不平衡问题，</p>
+      </container>
+      <container name="" eId="container_11">
+          <p xml:space="preserve">	努力确保对联合国环境规划署的信心得到保持和加强，做法是适当考虑在尽可能广泛的地域范围内征聘工作人员的原则，侧重于任职人数不足和无人任职的会员国的国民，</p>
+      </container>
+      <container name="表示赞赏" eId="container_12">
+        <p xml:space="preserve">	表示赞赏执行主任定期向联合国环境规划署常驻代表委员会通报有关人力资源事项的最新情况，</p>
+      </container>
+      <container name="认识到" eId="container_13">
+        <p xml:space="preserve">	认识到会员国与联合国环境规划署秘书处酌情开展合作、以宣传环境署内部空缺情况的重要性，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14">
+        <num>1.</num>
+        <list eId="para_14_list">
+          <intro eId="para_14_list_intro">
+          <p xml:space="preserve"> 请执行主任：</p>
+          </intro>
+          <point eId="para_14_list_point_a">
+            <num>(a)</num>
+            <content eId="para_14_list_point_a_content">
+          <p xml:space="preserve"> 在与联合国环境规划署秘书处组成有关的所有事项上加强《联合国宪章》第八条和第一百零一条第三款的应用；</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_b">
+            <num>(b)</num>
+            <content eId="para_14_list_point_b_content">
+          <p xml:space="preserve"> 适当考虑在尽可能广泛的地域范围内征聘工作人员的重要性；</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_c">
+            <num>(c)</num>
+            <content eId="para_14_list_point_c_content">
+          <p xml:space="preserve"> 适当考虑征聘任职人数不足和无人任职的会员国的国民，在任命按地域分配的员额时铭记区域多样性；</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_d">
+            <num>(d)</num>
+            <content eId="para_14_list_point_d_content">
+          <p xml:space="preserve"> 实施执行主任关于第5/2号决定第18段（涉及在联合国环境规划署征聘战略中适用公平地域分配原则）执行进展情况的报告第29段所列的四点计划，并向常驻代表委员会报告其实施情况；</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_e">
+            <num>(e)</num>
+            <content eId="para_14_list_point_e_content">
+          <p xml:space="preserve"> 继续与常驻代表委员会成员分享联合国环境规划署秘书处内所有高级专业人员空缺的详细情况；</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_f">
+            <num>(f)</num>
+            <content eId="para_14_list_point_f_content">
+          <p xml:space="preserve"> 确保空缺申请人得到平等待遇，无论其在何教育体系中获得职位所需的资格；</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_g">
+            <num>(g)</num>
+            <content eId="para_14_list_point_g_content">
+          <p xml:space="preserve"> 促进本决议执行工作的透明度和问责制，并继续沿用向常驻代表委员会报告的现行做法；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_30">
+        <num>2.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 鼓励会员国与联合国环境规划署合作，在其本国国民中宣传空缺情况；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32">
+        <num>3.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> 请执行主任向环境大会第六届会议报告本决议的执行情况。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,220 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/zho@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL MANAGEMENT" href="http://metadata.un.org/thesaurus/1002079" showAs="ENVIRONMENTAL MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINING" href="http://metadata.un.org/thesaurus/1004172" showAs="MINING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINERALS" href="http://metadata.un.org/thesaurus/1004167" showAs="MINERALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.18" by="Argentina, Democratic Republic of the Congo, Ghana, Senegal and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.12</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">第五届会议</session>
+      </p>
+      <p>
+        <docTitle>联合国环境大会2022年3月2日通过的决议</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#内罗毕">内罗毕</location>
+          <location refersTo="#混合">（混合）</location>
+          <event refersTo="#firstPart">
+            <date date="2021-02-22" refersTo="#startDate">2021年2月22</date>日和<date date="2021-02-23" refersTo="#endDate">23</date></event>日 和<event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">2022年2月28</date>日至<date date="2022-03-02" refersTo="#endDate">3月2日</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/12.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	矿物和金属管理的环境方面</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">联合国环境大会，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve"> 回顾其关于矿产资源治理的第4/19号决议，并表示注意到联合国环境规划署执行主任题为“关于矿产资源治理的第4/19号决议的执行进展”的报告<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> UNEP/EA.5/14。</p></authorialNote>和题为“矿产资源治理和全球目标：国际协作议程”的报告<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> 联合国环境规划署和昆士兰大学，《矿产资源治理和全球目标：国际协作议程》（内罗毕，2021年）。</p></authorialNote>，</p>
+      </container>
+      <container name="又" eId="container_3">
+        <p xml:space="preserve"> 又回顾其关于实现可持续消费和生产的创新途径的第4/1号决议及其进展报告，以及其关于可持续基础设施的第4/5号决议及其进展报告，并考虑到资源效率、循环经济和二级资源方面的事态发展，</p>
+      </container>
+      <container name="确认" eId="container_4">
+        <p xml:space="preserve"> 确认在本决议下审议的矿物和金属不包括矿物燃料，本决议的范围包含矿物和金属的整个生命周期，包括开采、现场和场外加工、精炼、采矿废物和尾矿的管理、场地及关闭或废弃矿场的复原、制造和回收，</p>
+      </container>
+      <container name="重申" eId="container_5">
+        <p xml:space="preserve"> 重申《关于环境与发展的里约宣言》 及其所有原则，</p>
+      </container>
+      <container name="欢迎" eId="container_6">
+        <p xml:space="preserve"> 欢迎推出《全球尾矿管理行业标准》，这是实现杜绝尾矿库溃坝以及保护人类健康和环境免受尾矿设施威胁这一远大目标的重要里程碑，并鼓励有效执行该全球标准，</p>
+      </container>
+      <container name="着重指出" eId="container_7">
+        <p xml:space="preserve"> 着重指出与手工和小规模采矿有关的具体环境挑战及其相关的健康风险，</p>
+      </container>
+      <container name="强调" eId="container_8">
+        <p xml:space="preserve"> 强调指出需要加强行动，支持矿物和金属的环境可持续性管理，并认识到各国在监管和行政能力上面临的挑战，</p>
+      </container>
+      <container name="确认" eId="container_9">
+        <p xml:space="preserve"> 确认高度依赖矿物和金属的清洁技术对于应对气候变化十分重要，并强调指出矿物和金属的环境可持续管理可极大促进实现《2030年可持续发展议程》，包括过渡到可持续消费和生产模式，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve"> 鼓励会员国，并邀请来自公共和私营部门的矿物和金属整个生命周期的相关利益攸关方，酌情使其采矿做法和采矿投资与《2030年可持续发展议程》相一致，并与多边环境协定下的义务和决定相一致；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12">
+        <num>2.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve"> 请执行主任在资源允许的情况下，召集透明和包容性的政府间区域协商，包括与相关国际组织、区域和多边环境协定以及担任观察员的相关利益攸关方进行协商，以便为全球政府间会议提供参考，目的是根据《2030年可持续发展议程》，制定非规范性提案，以增强矿物和金属在其整个生命周期内的环境可持续性；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13">
+        <num>3.</num>
+        <list eId="para_13_list">
+          <intro eId="para_13_list_intro">
+          <p xml:space="preserve"> 决定政府间区域协商将：</p>
+          </intro>
+          <point eId="para_13_list_point_a">
+            <num>(a)</num>
+            <content eId="para_13_list_point_a_content">
+          <p xml:space="preserve"> 评估公共和私营部门以及其他相关利益攸关方为提高矿物和金属的环境可持续性而开展的现有活动和行动，并除其他外，确定最佳做法、负责任的商业做法、标准、准则、技术工具、环境可持续技术以及在采矿中使用可再生能源；</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_b">
+            <num>(b)</num>
+            <content eId="para_13_list_point_b_content">
+          <p xml:space="preserve"> 查明加强国际合作的机会，包括为了促进采矿部门的能力建设以及技术、工艺和科学合作，特别是与发展中国家的合作；</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_c">
+            <num>(c)</num>
+            <content eId="para_13_list_point_c_content">
+          <p xml:space="preserve"> 酌情确定可能的前进方向，供环境大会第六届会议审议；</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>4.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 请执行主任通过全球资源信息数据库（GRID日内瓦中心）加强有关砂的科学、技术和政策知识，并支持关于砂的无害环境开采和使用的全球政策和行动；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 又请执行主任在资源允许的情况下，酌情在相关多边环境协定秘书处、组织和利益攸关方的参与下，并考虑到已经推出的《全球尾矿管理行业标准》，汇编一份关于尾矿管理的环境问题方面知识差距的报告；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>6.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> 还请执行主任向联合国环境大会第六届会议报告在执行本决议方面取得的进展，包括通过提交关于协商的摘要报告，供环境大会第六届会议审议。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

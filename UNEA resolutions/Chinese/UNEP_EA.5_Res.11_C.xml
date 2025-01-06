@@ -1,0 +1,243 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/zho@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/zho@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="zho"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/zho@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/zho@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-21" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE CONSUMPTION" href="http://metadata.un.org/thesaurus/1006318" showAs="SUSTAINABLE CONSUMPTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE PRODUCTION" href="http://metadata.un.org/thesaurus/1001025" showAs="SUSTAINABLE PRODUCTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.17" by="The Group of African States" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">联合国</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">联合国环境规划署 联合国环境大会</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">第五届会议</session>
+      </p>
+      <p>
+        <docTitle>联合国环境大会2022年3月2日通过的决议</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Chinese">Chinese</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#内罗毕">内罗毕</location>
+          <location refersTo="#混合">（混合）</location>
+          <event refersTo="#firstPart">
+            <date date="2021-02-22" refersTo="#startDate">2021年2月22</date>日和<date date="2021-02-23" refersTo="#endDate">23</date></event>日 和<event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">2022年2月28</date>日至<date date="2022-03-02" refersTo="#endDate">3月2日</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/11.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	加强循环经济，促进实现可持续消费和生产</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">联合国环境大会，</p>
+      </formula>
+      <container name="回顾" eId="container_2">
+        <p xml:space="preserve"> 回顾关于实现可持续消费和生产的创新途径的第4/1号决议，其中确认，除了其他的可持续生产和消费办法之外，通过提高经济的循环性，使产品和材料经设计可以实现再用、再制造、再生或回收，从而与生产它们所用的各种资源一起尽可能长久地存留在经济中，避免或尽量减少废物、特别是危险废物的产生，防止或减少温室气体排放，可以大幅度促进可持续消费和生产，</p>
+      </container>
+      <container name="确认" eId="container_3">
+        <p xml:space="preserve"> 确认采用循环经济办法作为实现可持续消费和生产模式的途径，可有助于应对气候变化、生物多样性丧失、土地退化以及缺水的影响、污染及其对人类健康的影响，从而促进实现《2030年可持续发展议程》下的相关目标和其他国际商定的环境目标，</p>
+      </container>
+      <container name="表示注意到" eId="container_4">
+        <p xml:space="preserve"> 表示注意到循环经济加速平台在《2020年循环差距报告》<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 循环经济，《2020年循环差距报告》（2020年），可查阅https://pacecircular.org/sites/default/files/2020-01/Circularity%20Gap%20Report%202020.pdf。</p></authorialNote> 中提出的结论，即全球循环差距正在扩大，而线性经济趋势加剧了这种差距，这种趋势的特点是物质资源的高开采率、持续的库存积累，以及用途结束后加工和循环水平较低，</p>
+      </container>
+      <container name="欢迎" eId="container_5">
+        <p xml:space="preserve"> 欢迎国际资源委员会在其报告《2019年全球资源展望：自然资源与我们想要的未来》<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> 国际资源委员会，《2019年全球资源展望：自然资源与我们想要的未来》（联合国环境规划署，2019年）。</p></authorialNote> 中所作的分析，即提高经济循环性的政策考虑包括建立有效的废物管理和回收基础设施，激励延长产品生命周期和可持续产品设计，减少国家法规对开发或采用价值保留流程造成的障碍，以及承认可持续物质资源管理的重要性，</p>
+      </container>
+      <container name="认识到" eId="container_6">
+        <p xml:space="preserve"> 认识到国际交流、分享经验、能力发展、资金与合作可有助于实施循环经济办法，以实现可持续消费和生产，并欢迎推动循环经济办法的努力，在此方面注意到区域和全球举措得以确立，</p>
+      </container>
+      <container name="又" eId="container_7">
+        <p xml:space="preserve"> 又认识到循环经济办法要求沿着价值链推广可持续做法，并承认存在采纳循环经济办法的商业模式和最佳做法、改善各部门资源管理的技术，以及实现经济节约和提高资源效率，同时仍然推动发展的“跨越式技术”，尽管需要循环创新，</p>
+      </container>
+      <container name="还" eId="container_8">
+        <p xml:space="preserve"> 还认识到在相关国际协定、公约、组织和论坛下开展的工作，包括与化学品和废物健全管理有关的工作，</p>
+      </container>
+      <container name="欢迎" eId="container_9">
+        <p xml:space="preserve"> 欢迎联合国环境规划署在其清洁燃料和清洁车辆伙伴关系中开展的工作，以及该伙伴关系通过应对与车辆有关的排放、污染、化学品和废物问题，为提高经济循环性作出的贡献，</p>
+      </container>
+      <container name="认识到" eId="container_10">
+        <p xml:space="preserve"> 认识到会员国和区域组采用或加强了法规和标准，以确保车辆适合上路行驶，减少旧车辆对环境和健康的负面影响，并推广清洁燃料，</p>
+      </container>
+      <container name="又" eId="container_11">
+        <p xml:space="preserve"> 又认识到循环经济办法提供了机会，可以转向资源效率更高、资源密集程度更低的消费和生产做法，以及无害环境的技术和基础设施，同时支持生计，</p>
+      </container>
+      <container name="欢迎" eId="container_12">
+        <p xml:space="preserve"> 欢迎联大在2021年12月17日第76/202号决议中将可持续消费和生产模式十年方案框架的任务期限延长至2030年，并表示注意到十年框架执行局的决定，即继续制定可持续消费和生产全球新战略，其中将体现目标远大和包容性的途径，以推动系统性循环办法以及多边和多利益攸关方合作，</p>
+      </container>
+      <container name="又" eId="container_13">
+        <p xml:space="preserve"> 又欢迎举行纪念联合国环境规划署成立五十周年的环境署@50会议，以及纪念联合国人类环境会议及其成果文件五十周年的斯德哥尔摩+50国际会议，</p>
+      </container>
+      <container name="还" eId="container_14">
+        <p xml:space="preserve"> 还欢迎国际资源委员会开展工作，包括通过其定期的《全球资源展望》报告，制定基于科学的备选方案，以实现可持续发展目标12和相关的可持续发展目标，</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"> 邀请会员国结合各国的国情和能力，将循环经济办法纳入国家和区域战略和行动计划，包括与相关多边环境协定有关的战略和行动计划；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17">
+        <num>2.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"> 又邀请会员国与私营部门合作采取措施，结合生命周期评估，加强产品设计，从而有利于循环经济背景下产品寿命的延长、维修、再使用和更方便的再循环，以促进资源效率；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19">
+        <num>3.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 还邀请会员国、相关组织和网络开展合作，根据国内法和国际法，分享和讨论循环经济背景下价值链上相关产品信息方面的最佳做法；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 着重指出需要建立伙伴关系，并邀请会员国、私营部门、非政府组织、科学界、相关国际机构和其他相关利益攸关方促进和加强循环经济办法以及商业模式、创新和投资，以促进自然资源和材料的可持续管理、使用和消费等；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23">
+        <num>5.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 邀请会员国根据国情和政策，酌情与国家以下各级、国家和区域实体接触，以加强政策、法律和监管框架，例如关于可持续公共采购、技术创新、生产者延伸责任、材料生命周期和行业互利共生的政策、法律和监管框架，支持采用循环经济办法，以期促进实现可持续消费和生产；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25">
+        <num>6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 鼓励会员国加强知识管理并制定强有力的宣传、交流、外联和提高认识机制、平台和运动；支持教育、研究、创新和发展；加强能力建设；酌情促进公私伙伴关系；加强国家和区域内部和之间关于可持续消费和生产办法（包括循环经济）的信息共享；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27">
+        <num>7.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 邀请有能力的会员国提高支助的可预测性并增加获得支助的机会，例如公共和私人来源的可持续资金、便于采用循环经济以及其他可持续消费和生产办法的无害环境技术，尤其需支持中小微企业采用这些办法，特别是在发展中国家；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29">
+        <num>8.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 认识到必须就可持续消费和生产、资源效率和循环经济开展包容性的多边和多利益攸关方对话，以促进可持续发展；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31">
+        <num>9.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> 请联合国环境规划署执行主任与会员国、专门机构成员和相关利益攸关方协商，继续收集关于旧车辆和清洁燃料的信息并进一步加以分析，以期减少旧车辆（包括报废处置）对环境和健康的负面影响，并推广清洁燃料，且应会员国的请求提供支持；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33">
+        <num>10.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 请执行主任与其他联合国实体，包括国际资源委员会、发展伙伴和相关的国际多利益攸关方网络（包括可持续消费和生产模式十年方案框架）合作，促进会员国和专门机构成员在研究、能力建设、知识管理和分享最佳做法方面进行协作，以推广可持续消费和生产的创新途径，包括循环经济，并促进在循环经济背景下就自然资源和材料进行对话；</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35">
+        <num>11.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve"> 请执行主任向联合国环境大会第六届会议报告本决议的执行情况。</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
