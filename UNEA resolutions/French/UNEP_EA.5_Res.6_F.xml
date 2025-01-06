@@ -1,0 +1,299 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/fra@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BIOLOGICAL DIVERSITY" href="http://metadata.un.org/thesaurus/1000612" showAs="BIOLOGICAL DIVERSITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HEALTH" href="http://metadata.un.org/thesaurus/10" showAs="HEALTH" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.11" by="The Group of African States" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. Générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 mars 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Cinquième session</session>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée des Nations Unies pour l’environnement le 2 mars 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybride">(hybride)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> et <date date="2021-02-23" refersTo="#endDate">23 février 2021</date></event> et <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 février</date>–<date date="2022-03-02" refersTo="#endDate">2 mars 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Biodiversité et santé</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée des Nations Unies pour l’environnement,</span>
+        </p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>la résolution 70/1 de l’Assemblée générale, datée du 25 septembre 2015 et intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », dans laquelle il a été envisagé notamment un monde où l’humanité vivrait en harmonie avec la nature et où la faune et la flore sauvages et les autres espèces vivantes seraient protégées,</p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> le Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement, qui vise à renforcer le cadre de financement du développement durable et les moyens de mise en œuvre du Programme de développement durable à l’horizon 2030, </p>
+      </container>
+      <container name="Rappelant en outre" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Rappelant en outre</span> la nouvelle définition opérationnelle de l’expression « Une seule santé » établie par le Groupe d’experts de haut niveau pour l’approche « Une seule santé » de l’Alliance tripartite plus, qui comprend l’Organisation des Nations Unies pour l’alimentation et l’agriculture, l’Organisation mondiale de la Santé, l’Organisation mondiale de la santé animale et le Programme des Nations Unies pour l’environnement,</p>
+      </container>
+      <container name="Rappelant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>sa résolution 3/4 sur l’environnement et la santé, dans laquelle elle note que la santé des hommes, des animaux et des végétaux est liée à l’environnement, </p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>la décision XIII/6 de la Convention sur la diversité biologique, qui porte sur la diversité biologique et la santé humaine, et la décision 14/4 sur la santé et la diversité biologique, </p>
+      </container>
+      <container name="Se félicitant" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Se félicitant </span>de la tenue de la première partie de la quinzième réunion de la Conférence des Parties à la Convention sur la diversité biologique à Kunming (Chine) du 11 au 15 octobre 2021 sur le thème « Civilisation écologique : bâtir un avenir commun pour toutes les formes de vie sur Terre »,</p>
+      </container>
+      <container name="Attendant avec intérêt" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Attendant avec intérêt</span> un cadre mondial de la biodiversité pour l’après-2020 ambitieux, porteur de transformation, équilibré, efficace et pragmatique, </p>
+      </container>
+      <container name="Prenant note" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Prenant note </span>des travaux actuellement menés aux fins de l’élaboration d’un plan d’action mondial pour la biodiversité et la santé dans le cadre de la Convention sur la diversité biologique,</p>
+      </container>
+      <container name="Prenant note également" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Prenant note également </span>du récent rapport du Programme des Nations Unies pour l’environnement et de l’Institut international de recherche sur l’élevage intitulé « Prévenir de prochaines pandémies : Les zoonoses et comment briser la chaîne de transmission »<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Programme des Nations Unies pour l’environnement et Institut international de recherche sur l’élevage, <span class="italic">Prévenir de prochaines pandémies : Les zoonoses et comment briser la chaîne de transmission</span> (Nairobi, Kenya, 2020).</p></authorialNote>, qui fait ressortir les liens entre les activités humaines et l’émergence de nouvelles zoonoses, ainsi que du rapport de l’Organisation mondiale de la Santé et de la Convention sur la diversité biologique intitulé « Connecting Global Priorities: Biodiversity and Human Health - A State of Knowledge Review »<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> Organisation mondiale de la Santé et Convention sur la diversité biologique, <span class="italic">Connecting Global Priorities: Biodiversity and Human Health - A State of Knowledge Review</span> (2015).</p></authorialNote>,</p>
+      </container>
+      <container name="Consciente" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Consciente</span> que l’utilisation durable, la conservation et la restauration efficaces de la biodiversité peuvent se traduire par une amélioration des résultats et des bienfaits en matière de santé et peuvent constituer un moyen efficace de promouvoir un monde plus sain, plus équitable et plus durable, </p>
+      </container>
+      <container name="Estimant" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Estimant</span> que les crises interdépendantes que sont les changements climatiques, la perte de biodiversité et la pollution ravagent et mettent à l’épreuve les systèmes de santé, notamment du fait de l’émergence de maladies infectieuses et non transmissibles et du creusement des inégalités en matière de santé, </p>
+      </container>
+      <container name="Estimant également" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Estimant également</span> que l’appauvrissement de la biodiversité constitue une menace pour la santé des êtres humains, des animaux et des écosystèmes et que l’utilisation durable, la conservation et la restauration de la biodiversité, des écosystèmes et de leurs services peuvent apporter des bienfaits pour la santé et le bien-être,</p>
+      </container>
+      <container name="Notant" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Notant </span>que la fréquence et l’intensité croissantes des phénomènes climatiques extrêmes, tels que les canicules, les sécheresses et les inondations, menacent non seulement la santé, les moyens de subsistance et le bien-être des êtres humains, mais aussi les animaux, les végétaux et les écosystèmes, car elles modifient le fonctionnement des écosystèmes et amenuisent les services écosystémiques, et que les régions dotées d’infrastructures sanitaires précaires, en particulier dans les pays en développement, seront les moins à même de remédier à ces problèmes si elles ne reçoivent pas un appui pour s’y préparer et y faire face,</p>
+      </container>
+      <container name="Consciente" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Consciente</span> que la résistance aux antimicrobiens constitue une menace croissante pour la santé et le développement dans le monde, qui exige une action multisectorielle continue à l’échelle de l’initiative « Une seule santé » si l’on veut atteindre les objectifs de développement durable,</p>
+      </container>
+      <container name="Prenant note" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Prenant note</span> de la décision 14/30 de la Convention sur la diversité biologique relative à la coopération avec d’autres conventions, organisations et partenariats internationaux, dans laquelle est saluée l’initiative du Gouvernement égyptien de favoriser une approche cohérente pour lutter contre la perte de diversité biologique, les changements climatiques et la dégradation des sols et des écosystèmes, </p>
+      </container>
+      <container name="Affirmant" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Affirmant </span>que la gouvernance mondiale de la santé devrait être conçue de manière à permettre de prévenir, détecter et enrayer les crises et de mieux s’y préparer, tout en remédiant aux inégalités en matière de santé dans le monde et en renforçant les systèmes de santé dans les pays en développement et en transition, y compris dans le cadre de la coopération Nord-Sud et Sud-Sud et de la coopération triangulaire, </p>
+      </container>
+      <container name="Sachant" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Sachant</span> que le relèvement économique à la suite des effets causés par la pandémie de maladie à coronavirus (COVID‑19) nécessitera des systèmes de santé plus équitables et un meilleur accès à des vaccins sûrs et efficaces contre la COVID‑19, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19">
+        <num>1.</num>
+        <list eId="para_19_list">
+          <intro eId="para_19_list_intro">
+          <p xml:space="preserve"> <span class="italic">Prie </span>la Directrice exécutive du Programme des Nations Unies pour l’environnement, grâce au rôle important joué par ce dernier dans l’Alliance tripartite plus, et avec d’autres partenaires concernés, d’aider davantage les États Membres et les membres d’institutions spécialisées à prendre des mesures pour :</p>
+          </intro>
+          <point eId="para_19_list_point_a">
+            <num>a)</num>
+            <content eId="para_19_list_point_a_content">
+          <p xml:space="preserve"> Favoriser les activités ayant des effets positifs sur l’environnement, compte tenu des liens entre la santé des êtres humains, des animaux et des écosystèmes ;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_b">
+            <num>b)</num>
+            <content eId="para_19_list_point_b_content">
+          <p xml:space="preserve"> Mettre en place des activités visant à améliorer la disponibilité, la qualité et les délais de communication des données de suivi et de surveillance, ainsi que les capacités et les moyens dans tous les secteurs de l’initiative « Une seule santé », et appuyer la détection en temps utile des risques sanitaires liés aux facteurs environnementaux et les interventions en conséquence, selon la situation et les priorités des différents pays ;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_c">
+            <num>c)</num>
+            <content eId="para_19_list_point_c_content">
+          <p xml:space="preserve"> Favoriser la coopération afin de faire face aux effets sur la santé mondiale causés par la perte de biodiversité, les changements climatiques et d’autres crises environnementales connexes, conformément à l’approche « Une seule santé » ;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_d">
+            <num>d)</num>
+            <content eId="para_19_list_point_d_content">
+          <p xml:space="preserve"> Favoriser la coopération dans le contexte de la préparation, de la prévention et de la riposte face aux pandémies et, plus largement, dans le contexte de la recherche-développement en matière de santé, y compris lorsque les ressources génétiques entrent en jeu, tout en tenant compte des cadres d’accès et de partage des avantages, le cas échéant ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_29">
+        <num>2.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> <span class="italic">Engage</span> les États Membres à intégrer et coordonner l’utilisation durable, la conservation et la restauration de la biodiversité dans les politiques et programmes sectoriels afin de renforcer la résilience des écosystèmes, de juguler et d’inverser la perte de biodiversité, de surveiller et de maîtriser les espèces exotiques envahissantes et de promouvoir la sécurité sanitaire des aliments, en vue de prévenir les risques sanitaires actuels et futurs, y compris les maladies à potentiel épidémique et pandémique ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31">
+        <num>3.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> <span class="italic">Prie</span> la Directrice exécutive, agissant en collaboration avec l’Organisation des Nations Unies pour l’alimentation et l’agriculture, l’Organisation mondiale de la Santé et l’Organisation mondiale de la santé animale, ainsi que toutes les parties prenantes concernées, d’aider les États Membres et les membres des institutions spécialisées à mieux faire connaître les facteurs de perte de biodiversité et leurs liens avec l’émergence et la propagation des maladies infectieuses et non transmissibles, ainsi que l’importance d’investir dans la nature et les services écosystémiques liés à la santé humaine, sur la base des meilleures données scientifiques disponibles ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33">
+        <num>4.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> <span class="italic">Prie </span>la Directrice exécutive, agissant en partenariat avec l’Organisation des Nations Unies pour l’alimentation et l’agriculture, l’Organisation mondiale de la Santé et l’Organisation mondiale de la santé animale et d’autres partenaires concernés, sous réserve de la disponibilité de ressources financières, d’aider les États Membres et les membres d’institutions spécialisées, à leur demande, à évaluer la dimension environnementale de la santé et de mettre ces questions en évidence dans le prochain plan d’action conjoint « Une seule santé » ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35">
+        <num>5.</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve"> <span class="italic">Engage</span> les États Membres à favoriser la coopération afin de réduire le risque de transmission et d’épidémie zoonotiques et de les gérer, de rompre le cycle de transmission et d’intervenir avec rapidité et transparence pour prévenir les épidémies et les pandémies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37">
+        <num>6.</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> <span class="italic">Engage également</span> les États Membres à promouvoir la participation effective des pays développés et en développement aux activités de recherche biotechnologique liées à la santé, y compris les États Membres qui sont en mesure de fournir des ressources génétiques aux fins de ces recherches, en fonction de la situation nationale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39">
+        <num>7.</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> <span class="italic">Engage en outre</span> les États Membres à s’efforcer de respecter et de mettre en œuvre des cadres d’accès et de partage des avantages, s’il y a lieu, afin de contribuer à l’utilisation durable et à la conservation de la biodiversité, y compris dans les États Membres qui fournissent des ressources génétiques pour la recherche-développement dans le domaine de la santé, en fonction de la situation nationale ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41">
+        <num>8.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> <span class="italic">Invite </span>les États Membres à consolider les liens entre la conservation et l’utilisation durable de la biodiversité et la santé publique dans les politiques sectorielles et conformément à l’approche « Une seule santé », afin de prévenir, détecter et enrayer les crises et de mieux s’y préparer, et à investir dans le renforcement de la fourniture de services écosystémiques liés à la santé, compte tenu, s’il y a lieu, des recommandations du Groupe d’experts de haut niveau pour l’approche « Une seule santé » ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43">
+        <num>9.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> <span class="italic">Engage</span> les États Membres à resserrer la coopération internationale en vue de relever les défis auxquels les pays en développement font face dans la mise en œuvre de l’approche « Une seule santé », notamment en renforçant la capacité de surveillance sanitaire et en promouvant des interventions, conformément à la situation et aux priorités nationales ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45">
+        <num>10.</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"> <span class="italic">Exhorte </span>les États Membres à réduire les risques sanitaires liés au commerce d’animaux sauvages vivants capturés à des fins d’alimentation, d’élevage en captivité, de production de médicaments et de commerce d’animaux de compagnie, en réglementant leur commerce et en garantissant la consommation durable et sûre de viande d’animaux sauvages, notamment par des contrôles sanitaires adéquats sur les marchés alimentaires où des animaux sauvages vivants sont vendus ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47">
+        <num>11.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> <span class="italic">Invite</span> les États Membres et autres intéressés à fournir, au besoin, des ressources financières extrabudgétaires volontaires à l’appui de la mise en œuvre de la présente résolution ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49">
+        <num>12.</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve"> <span class="italic">Invite</span> les États Membres, les institutions financières internationales et les autres partenaires à renforcer leur appui, y compris la mobilisation de ressources en faveur des pays en développement, notamment les pays les moins avancés et les petits États insulaires en développement, dans le cadre des efforts qu’ils déploient au niveau national pour prendre en compte les dimensions environnementales de la santé, notamment les questions liées à la perte de biodiversité, aux changements climatiques et à la pollution, en vue de mettre en place des systèmes de santé plus résilients et de renforcer la préparation, la prévention, la détection et l’intervention face aux pandémies ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51">
+        <num>13.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve"> <span class="italic">Invite </span>tous les États Membres et les parties prenantes concernées, y compris le secteur privé, à contribuer à faire savoir et comprendre combien la lutte contre la résistance aux antimicrobiens est importante, compte tenu de la menace qu’elle représente, et à mettre au point des mesures permettant de s’attaquer à ce problème de santé mondial, notamment par la bonne gestion des déchets d’antimicrobiens et de leurs résidus et par l’atténuation de la transmission des bactéries et des gènes résistants dans l’environnement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53">
+        <num>14.</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve"> <span class="italic">Invite </span>toutes les parties prenantes concernées, y compris le secteur privé, à aider à faire prendre conscience de la dimension environnementale de la santé et à en faire connaître les effets et, en particulier, à mettre en place des mesures et des activités pour la gestion rationnelle des déchets et la lutte contre la pollution.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

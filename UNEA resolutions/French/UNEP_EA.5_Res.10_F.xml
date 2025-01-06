@@ -1,0 +1,241 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/fra@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-21" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"></keyword>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"></keyword>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" href="http://metadata.un.org/thesaurus/2000002" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.16" by="The Group of African States" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 mars 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Cinquième session</session>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée des Nations Unies pour l’environnement le 2 mars 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Français">Français</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybride">(hybride)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> et <date date="2021-02-23" refersTo="#endDate">23 février 2021</date></event> et <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 février</date>–<date date="2022-03-02" refersTo="#endDate">2 mars 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	La dimension environnementale d’une reprise post-COVID‑19 durable, résiliente et inclusive</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée des Nations Unies pour l’environnement,</span>
+        </p>
+      </formula>
+      <container name="Notant avec inquiétude" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Notant avec inquiétude</span> que la pandémie de maladie à coronavirus (COVID‑19) a ralenti les progrès sur la voie de la réalisation du Programme de développement durable à l’horizon 2030 et des objectifs de développement durable,</p>
+      </container>
+      <container name="Rappelant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant</span> la résolution 76/208, datée du 17 décembre 2021 et consignant le rapport de l’Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement, dans laquelle l’Assemblée générale note avec une vive préoccupation que la pandémie de COVID‑19 a de graves répercussions sur la santé, la sécurité et le bien-être des êtres humains, qu’elle entraîne de grands bouleversements pour les sociétés et les économies, qu’elle a des conséquences désastreuses pour la vie et les moyens d’existence des populations et que ce sont les pauvres et les plus vulnérables qui sont les plus touchés, </p>
+      </container>
+      <container name="Réaffirmant" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Réaffirmant</span> que la pandémie de COVID‑19 n’a pas atténué l’urgence de la nécessité de traiter la dimension environnementale du développement durable, mais qu’elle a au contraire rendu plus impératif que jamais la prise de mesures d’urgence par la communauté internationale pour faire face à la crise environnementale et favoriser une reprise durable, résiliente et inclusive à long terme, </p>
+      </container>
+      <container name="Soulignant" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Soulignant </span>l’intérêt d’aborder la dimension environnementale d’une reprise durable, résiliente et inclusive après la pandémie dans le contexte de l’Assemblée des Nations Unies pour l’environnement,</p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>la Déclaration de Rio sur l’environnement et le développement, le document final de la Conférence des Nations Unies sur le développement durable, intitulé « L’avenir que nous voulons »<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Résolution 66/288 de l’Assemblée générale, annexe.</p></authorialNote>, le Programme d’action d’Addis-Abeba issu de la troisième Conférence internationale sur le financement du développement, la résolution 70/1 de l’Assemblée générale, datée du 25 septembre 2015 et intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », la résolution 74/306 de l’Assemblée générale, datée du 15 septembre 2020 et intitulée « Action globale et coordonnée face à la pandémie de maladie à coronavirus (COVID‑19) », et la résolution 75/1 de l’Assemblée générale, datée du 21 septembre 2020 et intitulée « Déclaration faite à l’occasion de la célébration du soixante-quinzième anniversaire de l’Organisation des Nations Unies »,</p>
+      </container>
+      <container name="Se félicitant" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Se félicitant</span> des divers mesures prises aux niveaux national, régional et mondial pour assurer une reprise durable, résiliente et inclusive après la pandémie de COVID‑19, notamment celles visant à mettre en place des moyens d’échange des connaissances et des expériences et celles dans le cadre desquelles des partenariats solides doivent permettre de relever les multiples défis de la reprise et à renforcer le développement durable,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8" class="NormalNonumber">
+        <num>1.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres à renforcer les mesures visant à assurer une reprise mondiale durable, résiliente et inclusive, notamment en continuant à renforcer la lutte contre les changements climatiques, la perte de biodiversité et la pollution, et en mettant en œuvre le Programme de développement durable à l’horizon 2030, compte tenu de la situation de leur pays ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="NormalNonumber">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve">	<span class="italic">Invite </span>les États Membres à échanger des connaissances et à renforcer leurs capacités, notamment dans les pays en développement, dans les domaines de la recherche-développement, de l’innovation technologique, afin de contribuer à intensifier l’échange d’informations et de connaissances, et le soutien technique, au service d’une reprise durable, résiliente et inclusive ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="NormalNonumber">
+        <num>3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>la Directrice exécutive du Programme des Nations Unies pour l’environnement d’apporter un appui et une collaboration aux pays dans les domaines de la recherche-développement, de l’innovation technologique, du renforcement des capacités et de l’échange des connaissances au service d’une reprise durable, résiliente et inclusive, et invite les autres entités et partenaires des Nations Unies dans le même sens ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="NormalNonumber">
+        <num>4.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve">	<span class="italic">Prie également</span> la Directrice exécutive, par l’intermédiaire du système redynamisé des coordonnateurs résidents et des équipes de pays des Nations Unies reconfigurées, d’appuyer les pays en matière d’information, de connaissances, de renforcement des capacités et d’appui technique, au service d’une reprise durable, résiliente et inclusive ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="NormalNonumber">
+        <num>5.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve">	<span class="italic">Prie en outre</span> la Directrice exécutive de diffuser les meilleures pratiques et d’assurer l’échange de connaissances entre pairs et une assistance technique aux pays, en particulier aux pays en développement, afin d’appuyer les efforts de mobilisation des ressources et de renforcer et d’intensifier l’action au niveau national au service d’une reprise durable, résiliente et inclusive ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="NormalNonumber">
+        <num>6.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> le secteur privé et les institutions financières multilatérales à continuer d’appuyer les pays dont l’économie a été touchée par la pandémie de COVID‑19 afin de parvenir à une reprise durable, résiliente et inclusive.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

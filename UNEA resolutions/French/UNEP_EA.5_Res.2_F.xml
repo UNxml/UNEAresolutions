@@ -1,0 +1,236 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/fra@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NITROGEN" href="http://metadata.un.org/thesaurus/1004419" showAs="NITROGEN" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.12" by="Sri Lanka" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 mars 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Cinquième session</session>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée des Nations Unies pour l’environnement le 2 mars 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybride">(hybride)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> et <date date="2021-02-23" refersTo="#endDate">23 février 2021</date></event> et <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 février</date>–<date date="2022-03-02" refersTo="#endDate">2 mars 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/2.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Gestion durable de l’azote</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée des Nations Unies pour l’environnement,</span>
+        </p>
+      </formula>
+      <container name="Notant avec inquiétude" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Notant avec inquiétude </span>que des niveaux excessifs de nutriments, en particulier d’azote réactif et de phosphore, ont des répercussions importantes sur la composition des espèces dans les écosystèmes terrestres, d’eau douce et côtiers, et ont des effets en cascade sur la biodiversité, la qualité des sols, de l’eau et de l’air, le fonctionnement des écosystèmes et le bien-être humain,</p>
+      </container>
+      <container name="Notant avec inquiétude également" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Notant avec inquiétude également</span> que l’utilisation de l’azote à l’échelle de l’économie mondiale est actuellement inefficace, ce qui se traduit par la perte d’une grande partie de l’azote réactif anthropique dans l’environnement,</p>
+      </container>
+      <container name="Notant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Notant </span>les avantages que la réduction des déchets azotés apporterait aux environnements atmosphériques, terrestres, d’eau douce et marins et à la santé humaine, aux services écosystémiques et aux efforts de lutte contre la pollution, les changements climatiques et la perte de biodiversité, garantissant la sécurité alimentaire tout en offrant la possibilité d’économiser des milliards de dollars par an<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Selon la publication du Programme des Nations Unies pour l’environnement <span class="italic">Frontiers 2018/19 : Emerging Issues of Environmental Concern</span> (chap. 4, « The Nitrogen Fix »), les économies annuelles sont estimées à 100 milliards de dollars.</p></authorialNote>,</p>
+      </container>
+      <container name="Sachant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Sachant</span> qu’il faut mener une action cohérente pour relever les multiples défis mondiaux que pose le couplage naturel des cycles du carbone et de l’azote et réaffirmant qu’il faut renforcer la coopération internationale pour assurer la gestion durable de l’azote,</p>
+      </container>
+      <container name="Rappelant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>la résolution 70/1 de l’Assemblée générale, datée du 25 septembre 2015 et intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 »,</p>
+      </container>
+      <container name="Rappelant également" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> les objectifs de développement durable et les cibles correspondantes,</p>
+      </container>
+      <container name="Consciente" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Consciente </span>que la sauvegarde de la sécurité alimentaire et l’éradication de la faim constituent une priorité fondamentale et que la production agricole et animale mondiale et la sécurité alimentaire sont tributaires de l’utilisation durable des nutriments et de la réduction du gaspillage de nutriments, notamment de l’azote et du phosphore,</p>
+      </container>
+      <container name="Consciente" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Consciente </span>des mesures déjà prises par les pays et dans le cadre d’accords intergouvernementaux en ce qui concerne la qualité de l’eau, la qualité de l’air, le climat et la biodiversité, et ne perdant pas de vue les mesures prises par le Programme des Nations Unies pour l’environnement (PNUE), le Fonds pour l’environnement mondial (FEM), le Partenariat mondial sur la gestion des nutriments, l’Initiative mondiale sur les eaux usées, le Programme d’action mondial pour la protection du milieu marin contre la pollution due aux activités terrestres, la Convention sur la pollution atmosphérique transfrontière à longue distance et le projet FEM-PNUE visant à mettre en place un système international de gestion de l’azote pour relier la science et les politiques en matière de gestion durable de l’azote,</p>
+      </container>
+      <container name="Rappelant" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>sa résolution 4/14 sur la gestion durable de l’azote et réaffirmant l’importance de la réduction sur le long terme des multiples menaces de pollution résultant de l’azote réactif d’origine anthropique, qui a des effets néfastes sur les milieux terrestres, d’eau douce et marins, et la pollution de l’air et les émissions de gaz à effet de serre, tout en reconnaissant les bienfaits de l’utilisation de l’azote pour la production alimentaire et énergétique,</p>
+      </container>
+      <container name="Prenant note" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Prenant note </span>des résultats de la quatrième réunion des partenaires du projet FEM-PNUE visant à mettre en place un système international de gestion de l’azote avec les membres du Comité des représentants permanents du Programme des Nations Unies pour l’environnement, qui s’est tenue à Nairobi les 29 et 30 avril 2019 dans le cadre du suivi de l’adoption de la résolution 4/14,</p>
+      </container>
+      <container name="Prenant note également" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Prenant note également </span>des travaux du Groupe de travail sur l’azote du Programme des Nations Unies pour l’environnement et de son équipe spéciale chargée d’appliquer la résolution 4/14,</p>
+      </container>
+      <container name="Prenant note en outre" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Prenant note en outre </span>du processus en cours établi en 2017 sous les auspices du Programme des Nations Unies pour l’environnement dans le but de produire l’évaluation internationale de l’azote, réalisée dans le cadre du projet FEM-PNUE en vue de l’établissement d’un système international de gestion de l’azote avec l’appui du Fonds pour l’environnement mondial et d’autres parties prenantes, avant sa sixième session,</p>
+      </container>
+      <container name="Prenant note" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Prenant note </span>du lancement de la Campagne mondiale des Nations Unies pour une gestion durable de l’azote en octobre 2019 et de l’adoption par ses signataires de la Déclaration de Colombo sur la gestion durable de l’azote en marge de la Journée des Nations Unies, le 24 octobre 2019,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="Normal-pool">
+        <content eId="para_16__content">
+          <p xml:space="preserve"> <span class="italic">Engage</span> les États Membres à accélérer les activités visant à réduire sensiblement les déchets azotés au niveau mondial d’ici à 2030 et au‑delà en améliorant la gestion durable de l’azote ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17">
+        <num>2.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="Normal-pool">
+        <content eId="para_18__content">
+          <p xml:space="preserve"> <span class="italic">Engage également </span>les États Membres à échanger des informations sur les plans d’action nationaux, si elles sont disponibles, en fonction des circonstances nationales ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19">
+        <num>3.</num>
+        <list eId="para_19_list">
+          <intro eId="para_19_list_intro">
+          <p xml:space="preserve"> <span class="italic">Prie </span>la Directrice exécutive du Programme des Nations Unies pour l’environnement :</p>
+          </intro>
+          <point eId="para_19_list_point_a">
+            <num>a)</num>
+            <content eId="para_19_list_point_a_content">
+          <p xml:space="preserve"> D’aider les États Membres, à leur demande, à élaborer des plans d’action nationaux pour la gestion durable de l’azote, sous réserve des ressources disponibles ;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_b">
+            <num>b)</num>
+            <content eId="para_19_list_point_b_content">
+          <p xml:space="preserve"> De déterminer les modalités possibles des solutions envisagées pour améliorer la coordination des politiques relatives au cycle mondial de l’azote aux niveaux national, régional et mondial, y compris, entre autres, pour un mécanisme intergouvernemental de coordination des politiques relatives à l’azote, comme indiqué à l’alinéa a) de sa résolution 4/14 ;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_c">
+            <num>c)</num>
+            <content eId="para_19_list_point_c_content">
+          <p xml:space="preserve"> De présenter au Comité des représentants permanents, à sa cent-cinquante-neuvième réunion, qui doit se tenir en 2022, un exposé sur l’application de sa résolution 4/14, notamment sur l’état d’avancement de l’évaluation demandée à l’alinéa c) de la résolution, ainsi qu’une feuille de route pour la poursuite de l’application de la résolution au cours de la période précédant sa sixième session ;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_d">
+            <num>d)</num>
+            <content eId="para_19_list_point_d_content">
+          <p xml:space="preserve"> D’inviter les États Membres à désigner des coordonnateurs pour rejoindre le Groupe de travail sur l’azote du Programme des Nations Unies pour l’environnement ;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_e">
+            <num>e)</num>
+            <content eId="para_19_list_point_e_content">
+          <p xml:space="preserve"> De lui faire rapport, à sa sixième session, sur les progrès accomplis dans l’application de la présente résolution et de sa résolution 4/14.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

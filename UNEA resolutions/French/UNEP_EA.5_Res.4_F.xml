@@ -1,0 +1,261 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/fra@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL LAKES" href="http://metadata.un.org/thesaurus/1003315" showAs="INTERNATIONAL LAKES" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.8" by="Indonesia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Pakistan" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.4</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 mars 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Cinquième session</session>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée des Nations Unies pour l’environnement le 2 mars 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Français">Français</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybride">(hybride)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> et <date date="2021-02-23" refersTo="#endDate">23 février 2021</date></event> et <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 février</date>–<date date="2022-03-02" refersTo="#endDate">2 mars 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/4.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Gestion durable des lacs</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée des Nations Unies pour l’environnement,</span>
+        </p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> les engagements pris dans le document final de la Conférence des Nations Unies sur le développement durable, intitulé « L’avenir que nous voulons »<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Résolution 66/288 de l’Assemblée générale, annexe.</p></authorialNote>,</p>
+      </container>
+      <container name="Prenant acte" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Prenant acte</span> de la résolution 70/1 de l’Assemblée générale, datée du 25 septembre 2015 et intitulée « Transformer notre monde : le Programme de développement durable à l’horizon 2030 », dans laquelle il est noté que les lacs sont l’un des écosystèmes liés à l’eau qu’il convient de protéger et de restaurer, comme le prévoit la cible 6.6 des objectifs de développement durable,</p>
+      </container>
+      <container name="Considérant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que les objectifs de la Convention relative aux zones humides d’importance internationale particulièrement comme habitats des oiseaux d’eau, le Programme de développement durable à l’horizon 2030 et la gestion durable des lacs sont complémentaires,</p>
+      </container>
+      <container name="Prenant acte" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Prenant acte</span> de la résolution 75/212 de l’Assemblée générale, du 21 décembre 2020, sur la Conférence des Nations Unies consacrée à l’examen approfondi à mi‑parcours de la réalisation des objectifs de la Décennie internationale d’action sur le thème « L’eau et le développement durable » (2018-2028),</p>
+      </container>
+      <container name="Attendant avec intérêt" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Attendant avec intérêt</span> la Conférence des Nations Unies consacrée à l’examen approfondi à  mi‑parcours de la réalisation des objectifs de la Décennie internationale d’action sur le thème « L’eau et le développement durable » (2018-2028), qui se tiendra à New York du 22 au 24 mars 2023, et préconisant, entre autres, l’accélération de la réalisation des buts et objectifs relatifs à l’eau arrêtés au niveau international, notamment ceux qui figurent dans le Programme de développement durable à l’horizon 2030, y compris l’objectif de développement durable n° 6, qui consiste à garantir la disponibilité et la gestion durable de l’eau et de l’assainissement pour toutes et tous, et la promotion de la mise en œuvre des objectifs de la Décennie internationale d’action,</p>
+      </container>
+      <container name="Rappelant" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Rappelant</span> sa résolution 3/10 sur la lutte contre la pollution des eaux afin de protéger et de restaurer les écosystèmes liés à l’eau,</p>
+      </container>
+      <container name="Notant avec préoccupation" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Notant avec préoccupation </span>qu’au rythme actuel des progrès, le monde n’est pas en voie d’atteindre d’ici à 2030 les cibles relatives à l’eau des objectifs de développement durable au niveau mondial, ce qui aura une incidence considérable sur le bien-être humain et sur les trois piliers du développement durable, à savoir environnementaux, économiques et sociaux,</p>
+      </container>
+      <container name="Insistant" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Insistant </span>sur l’importance d’adopter une approche écosystémique visant une exploitation intégrée des terres, des eaux et des espèces vivantes, et sur la nécessité de redoubler d’efforts afin de lutter contre la désertification, la dégradation des terres, l’érosion et la sécheresse, la perte de biodiversité et la pénurie d’eau, qui sont considérées comme des obstacles majeurs au développement durable de la planète dans ses dimensions environnementale, économique et sociale, et qui touchent les lacs et nécessitent d’assurer la gestion durable des lacs,</p>
+      </container>
+      <container name="Considérant" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que les lacs naturels et artificiels contiennent plus de 90 % de l’eau douce à la surface de la Terre et qu’ils contribuent grandement à la disponibilité et l’accessibilité de l’eau pour protéger les vies et les moyens de subsistance et à promouvoir la réalisation du Programme de développement durable à l’horizon 2030,</p>
+      </container>
+      <container name="Constatant" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Constatant</span> que les lacs possèdent des caractéristiques uniques, telles qu’une longue durée de rétention de l’eau, l’intégration de la nature et une réponse non linéaire au stress, faisant de leur gestion durable un processus continu à long terme,</p>
+      </container>
+      <container name="Constatant également" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Constatant également</span> que les lacs fournissent un large éventail de services écosystémiques, notamment l’approvisionnement en eau pour la consommation humaine, la santé, l’alimentation et l’énergie, régulent les services pour le cycle alimentaire, la purification de l’eau, le climat et la biodiversité, et sont le lieu d’activités récréatives et traditionnelles, </p>
+      </container>
+      <container name="Soulignant" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Soulignant</span> les graves répercussions des changements climatiques sur l’environnement et estimant que la gestion durable des lacs et autres écosystèmes d’eau douce peut jouer un rôle positif dans l’adaptation aux changements climatiques et peut servir à réduire les catastrophes liées à l’eau qui en découlent,</p>
+      </container>
+      <container name="Consciente" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Consciente</span> que l’état des milieux lacustres, notamment en ce qui concerne la quantité et la qualité de l’eau, se détériore gravement à l’échelle mondiale, menaçant la santé humaine, la biodiversité et l’environnement, et qu’il est urgent de remédier à ce problème de manière durable,</p>
+      </container>
+      <container name="Constatant" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Constatant</span> que les lacs peuvent être étroitement liés aux valeurs culturelles, historiques et sociétales, lesquelles peuvent jouer un rôle clef dans la gestion durable des lacs, et que, partant, la mobilisation des populations locales et la sensibilisation et l’éducation écologiques sont fondamentales, </p>
+      </container>
+      <container name="Sachant" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Sachant</span> qu’il faut que toutes les parties prenantes mènent une action concertée, notamment par le biais de partenariats entre les secteurs public et privé, qui associent des acteurs locaux, nationaux et mondiaux pour appuyer la mise en place de la gestion durable des lacs,</p>
+      </container>
+      <container name="Estimant" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Estimant</span> que les lacs transfrontaliers peuvent faire l’objet d’accords bilatéraux, internationaux et multilatéraux, auquel cas les efforts de gestion durable des lacs concernés doivent relever des accords en question,</p>
+      </container>
+      <container name="Rappelant et réaffirmant" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Rappelant et réaffirmant</span> la cible 6.5 des objectifs de développement durable visant à assurer, d’ici à 2030, la gestion intégrée des ressources en eau à tous les niveaux, y compris au moyen de la coopération transfrontière selon qu’il convient,</p>
+      </container>
+      <container name="Réaffirmant" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> l’importance d’approches intégrées, intersectorielles, collaboratives et coordonnées, à tous les niveaux, dans la gestion et la protection des lacs, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20">
+        <num>1.</num>
+        <list eId="para_20_list">
+          <intro eId="para_20_list_intro">
+          <p xml:space="preserve"> <span class="italic">Prie</span> tous les États Membres et membres d’institutions spécialisées d’entreprendre et de mettre en œuvre les activités ci‑après, individuellement et collectivement, selon qu’il conviendra, et invite également les organisations internationales compétentes en ce sens, s’il y a lieu : </p>
+          </intro>
+          <point eId="para_20_list_point_a">
+            <num>a)</num>
+            <content eId="para_20_list_point_a_content">
+          <p xml:space="preserve"> Protéger, conserver et restaurer les lacs et en assurer l’utilisation durable, y compris des aspects tels que la qualité de l’eau, l’érosion, la sédimentation et la biodiversité aquatique, en appliquant une gestion intégrée à tous les niveaux, comme indiqué dans les cibles 6.5 et 6.6 des objectifs de développement durable, portant sur la masse d’eau et l’ensemble du bassin lacustre, facilitée par les réglementations, le développement institutionnel, les allocations budgétaires, la surveillance et les données bien gérées, la recherche intégrée, les technologies durables et la coopération internationale ; </p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_b">
+            <num>b)</num>
+            <content eId="para_20_list_point_b_content">
+            </content>
+          </point>
+          <point eId="para_20_list_point_c">
+            <num>c)</num>
+            <content eId="para_20_list_point_c_content">
+          <p xml:space="preserve"> Tenir compte de leur culture et de leurs connaissances locales, ainsi que de leur dépendance et de leurs effets sur les lacs, en assurant la mobilisation et le renforcement des capacités des populations locales et autochtones, s’il y a lieu, et conformément à la situation nationale ;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_d">
+            <num>d)</num>
+            <content eId="para_20_list_point_d_content">
+          <p xml:space="preserve"> Faire participer l’ensemble des parties prenantes, y compris les universités et les centres de recherche, les entreprises privées et les organisations non gouvernementales, à une action concertée visant à mettre en place une gestion durable des lacs ;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_e">
+            <num>e)</num>
+            <content eId="para_20_list_point_e_content">
+          <p xml:space="preserve"> Prendre en compte la recherche et les orientations scientifiques, en mettant l’accent sur le lien entre science et politiques ;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_f">
+            <num>f)</num>
+            <content eId="para_20_list_point_f_content">
+          <p xml:space="preserve"> Développer la mise en réseau et la collaboration internationales pour une gestion intégrée des lacs qui soit durable et résiliente face aux changements climatiques et assurer un échange régulier de données et d’informations entre les États qui partagent un lac transfrontalier, comme le prévoient les accords internationaux ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34">
+        <num>2.</num>
+        <list eId="para_34_list">
+          <intro eId="para_34_list_intro">
+          <p xml:space="preserve"> <span class="italic">Prie</span> la Directrice exécutive du Programme des Nations Unies pour l’environnement de prendre des mesures répondant aux trois grandes priorités suivantes :</p>
+          </intro>
+          <point eId="para_34_list_point_a">
+            <num>a)</num>
+            <content eId="para_34_list_point_a_content">
+          <p xml:space="preserve"> Promouvoir la gestion durable des lacs à tous les niveaux, en coordination avec les conventions pertinentes, s’il y a lieu, notamment la Convention relative aux zones humides d’importance internationale ;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_b">
+            <num>b)</num>
+            <content eId="para_34_list_point_b_content">
+          <p xml:space="preserve"> Faciliter la collaboration entre les États Membres et les membres d’institutions spécialisées en matière de recherche, de renforcement des capacités et d’échange des connaissances, des informations et des meilleures pratiques, notamment par le biais de la coopération Nord-Sud et Sud-Sud et de la coopération triangulaire ;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_c">
+            <num>c)</num>
+            <content eId="para_34_list_point_c_content">
+          <p xml:space="preserve"> Promouvoir la prise en compte de la gestion durable des lacs dans les priorités mondiales et faire mieux connaître la gestion durable des lacs au niveau mondial afin de mettre davantage en évidence le rôle important joué par les lacs dans l’appui au développement durable et le maintien du bien-être des écosystèmes et de l’humanité.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

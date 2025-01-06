@@ -1,0 +1,248 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/fra@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GEOGRAPHICAL DISTRIBUTION" href="http://metadata.un.org/thesaurus/1002640" showAs="GEOGRAPHICAL DISTRIBUTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF COMPOSITION" href="http://metadata.un.org/thesaurus/1006155" showAs="STAFF COMPOSITION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.19" by="Russian Federation" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 mars 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Cinquième session</session>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée des Nations Unies pour l’environnement le 2 mars 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybride">(hybride)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> et <date date="2021-02-23" refersTo="#endDate">23 février 2021</date></event> et <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 février</date>–<date date="2022-03-02" refersTo="#endDate">2 mars 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/13.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Prendre dûment en considération le principe de la répartition géographique équitable, conformément au paragraphe 3 de l’Article 101 de la Charte des Nations Unies</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée des Nations Unies pour l’environnement,</span>
+        </p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>le paragraphe 3 de l’Article 101 de la Charte des Nations Unies, qui porte sur la nécessité d’assurer à l’Organisation les services de personnes possédant les plus hautes qualités de travail, de compétence et d’intégrité et de prendre dûment en considération l’importance d’un recrutement effectué sur une base géographique aussi large que possible, ainsi que l’Article 8, qui dispose qu’aucune restriction n’est imposée par l’Organisation à l’accès des hommes et des femmes, dans des conditions égales, à toutes les fonctions, dans ses organes principaux et subsidiaires, </p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant également</span> que la Cinquième Commission est celle de ses grandes commissions qui est chargée des questions administratives et budgétaires et que c’est à celle-ci qu’il revient d’analyser en profondeur et d’approuver les ressources humaines et financières et les politiques s’y rapportant, pour que tous les programmes et toutes les activités prescrits soient exécutés intégralement et avec efficacité et efficience et que les politiques soient dûment appliquées, </p>
+      </container>
+      <container name="Rappelant en outre" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant en outre </span>que le Programme des Nations Unies pour l’environnement est un organe subsidiaire de l’Assemblée générale et que toute mesure prise par les organes directeurs du Programme pour l’environnement doit donc respecter les prérogatives de la Cinquième Commission et du Comité consultatif pour les questions administratives et budgétaires de l’Assemblée générale et entrer dans le champ de leurs décisions et recommandations, </p>
+      </container>
+      <container name="Rappelant" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>qu’il appartient à la Cinquième Commission et au Comité consultatif pour les questions administratives et budgétaires de faire des recommandations et à l’Assemblée générale d’arrêter les objectifs en matière de répartition géographique qui s’appliquent à l’ensemble du Secrétariat, y compris au Programme des Nations Unies pour l’environnement, </p>
+      </container>
+      <container name="Rappelant également" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant également</span> la résolution 72/254 de l’Assemblée générale, en date du 24 décembre 2017, sur la gestion des ressources humaines et, à cet égard, reconnaissant l’importance des dispositions des articles 4.2 et 4.3 du Statut et du Règlement du personnel de l’Organisation des Nations Unies<authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve"> ST/SGB/2018/1.</p></authorialNote>,</p>
+      </container>
+      <container name="Rappelant en outre" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant en outre </span>la résolution 42/220, en date du 21 décembre 1987, sur les questions relatives au personnel, selon laquelle « aucun poste ne doit être considéré comme l’apanage d’un État Membre ou d’un groupe d’États et qu’il appartient au Secrétaire général de veiller à ce que ce principe soit fidèlement appliqué, conformément au principe d’une répartition géographique équitable »,</p>
+      </container>
+      <container name="Rappelant" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>la décision 5/2 de l’Assemblée pour l’environnement sur la stratégie à moyen terme pour la période 2022–2025 et le programme de travail et le budget pour l’exercice biennal 2022–2023, dans laquelle, entre autres, l’Assemblée pour l’environnement a prié la Directrice exécutive du Programme des Nations Unies pour l’environnement d’accorder l’attention voulue au principe de la répartition géographique équitable, conformément au paragraphe 3 de l’Article 101 de la Charte des Nations Unies, et prenant note avec intérêt du rapport de la Directrice exécutive sur les progrès réalisés dans la mise en œuvre du paragraphe 18 de la décision 5/2 sur l’application du principe de la répartition géographique équitable dans le cadre de la stratégie de recrutement du Programme des Nations Unies pour l’environnement<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> UNEP/EA.5/26.</p></authorialNote>, tout en notant que celui‑ci avait été présenté à bref délai, </p>
+      </container>
+      <container name="Estimant" eId="container_9">
+        <p xml:space="preserve">
+          <span class="italic">	Estimant </span>qu’il importe de prendre dûment en considération le principe de la répartition géographique équitable et de la parité des sexes au sein du Programme des Nations Unies pour l’environnement, conformément au paragraphe 3 de l’Article 101 de la Charte des Nations Unies et à la stratégie sur la parité des sexes applicable à l’ensemble du système des Nations Unies, afin d’améliorer encore l’efficience, l’efficacité, l’inclusivité, la diversité et la transparence dans l’exécution du mandat du Programme pour l’environnement,</p>
+      </container>
+      <container name="Préoccupés" eId="container_10">
+        <p xml:space="preserve">
+          <span class="italic">	Préoccupés</span> par le déséquilibre de la répartition géographique du personnel du secrétariat du Programme des Nations Unies pour l’environnement et se félicitant de l’action actuellement menée par la Directrice exécutive pour régler ce problème lors du recrutement du personnel, tout en considérant qu’il importe de redoubler d’efforts pour remédier à ce déséquilibre,</p>
+      </container>
+      <container name="S’efforçant" eId="container_11">
+        <p xml:space="preserve">
+          <span class="italic">	S’efforçant</span> de faire en sorte que la confiance dans le Programme des Nations Unies pour l’environnement soit maintenue et renforcée en tenant dûment compte du principe selon lequel le recrutement du personnel est effectué sur une base géographique aussi large que possible, en privilégiant les ressortissants des États Membres sous-représentés et non représentés,</p>
+      </container>
+      <container name="Remerciant" eId="container_12">
+        <p xml:space="preserve">
+          <span class="italic">	Remerciant</span> la Directrice exécutive de donner régulièrement au Comité des représentants permanents auprès du Programme des Nations Unies pour l’environnement des informations sur les questions relatives aux ressources humaines,</p>
+      </container>
+      <container name="Reconnaissant" eId="container_13">
+        <p xml:space="preserve">
+          <span class="italic">	Reconnaissant </span>l’importance de la collaboration entre les États Membres et le secrétariat du Programme des Nations Unies pour l’environnement, selon que de besoin, pour faire la publicité des postes vacants au sein du Programme pour l’environnement,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14" class="NormalNonumber">
+        <num>1.</num>
+        <list eId="para_14_list">
+          <intro eId="para_14_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie</span> la Directrice exécutive :</p>
+          </intro>
+          <point eId="para_14_list_point_a">
+            <num>a)</num>
+            <content eId="para_14_list_point_a_content">
+              <p xml:space="preserve"> D’améliorer l’application de l’Article 8 et du paragraphe 3 de l’Article 101 de la Charte des Nations Unies pour tout ce qui concerne la composition du secrétariat du Programme des Nations Unies pour l’environnement ;</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_b">
+            <num>b)</num>
+            <content eId="para_14_list_point_b_content">
+              <p xml:space="preserve"> De prendre dûment en considération l’importance d’un recrutement effectué sur une base géographique aussi large que possible ;</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_c">
+            <num>c)</num>
+            <content eId="para_14_list_point_c_content">
+              <p xml:space="preserve"> De prendre dûment en considération le recrutement de ressortissants d’États Membres sous-représentés ou non représentés, en tenant compte de la diversité régionale lors de la nomination à des postes soumis au principe de la répartition géographique ;</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_d">
+            <num>d)</num>
+            <content eId="para_14_list_point_d_content">
+              <p xml:space="preserve"> De mettre en œuvre le plan en quatre points énoncé au paragraphe 29 du rapport de la Directrice exécutive sur les progrès accomplis dans l’application du paragraphe 18 de la décision 5/2 concernant l’application du principe de la répartition géographique équitable dans la stratégie de recrutement du Programme des Nations Unies pour l’environnement et de faire rapport au Comité des représentants permanents sur sa mise en œuvre ;</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_e">
+            <num>e)</num>
+            <content eId="para_14_list_point_e_content">
+              <p xml:space="preserve"> De continuer à communiquer aux membres du Comité des représentants permanents les détails de tous les postes de la catégorie des administrateurs de rang supérieur qui sont vacants au sein du secrétariat du Programme des Nations Unies pour l’environnement ;</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_f">
+            <num>f)</num>
+            <content eId="para_14_list_point_f_content">
+              <p xml:space="preserve"> De garantir l’égalité de traitement des candidats et candidates aux postes vacants, quel que soit le système éducatif dans lequel ils ont acquis les qualifications requises pour le poste ;</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_g">
+            <num>g)</num>
+            <content eId="para_14_list_point_g_content">
+              <p xml:space="preserve"> De favoriser la transparence et la responsabilité dans la mise en œuvre de la présente résolution et de continuer d’appliquer la pratique en vigueur consistant à faire rapport au Comité des représentants permanents ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_15" class="NormalNonumber">
+        <num>2.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve">	<span class="italic">Engage</span> les États Membres à collaborer avec le Programme des Nations Unies pour l’environnement afin de diffuser les avis de vacance de poste auprès de leurs ressortissants ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="NormalNonumber">
+        <num>3.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve">	<span class="italic">Prie</span> la Directrice exécutive de lui rendre compte de l’application de la présente résolution à sa sixième session.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

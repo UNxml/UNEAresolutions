@@ -1,0 +1,220 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/fra@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL MANAGEMENT" href="http://metadata.un.org/thesaurus/1002079" showAs="ENVIRONMENTAL MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINING" href="http://metadata.un.org/thesaurus/1004172" showAs="MINING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINERALS" href="http://metadata.un.org/thesaurus/1004167" showAs="MINERALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.18" by="Argentina, Democratic Republic of the Congo, Ghana, Senegal and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.12</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 mars 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Cinquième session</session>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée des Nations Unies pour l’environnement le 2 mars 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#French">Français</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybride">(hybride)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> et <date date="2021-02-23" refersTo="#endDate">23 février 2021</date></event> et <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 février</date>–<date date="2022-03-02" refersTo="#endDate">2 mars 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/12.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Aspects environnementaux de la gestion des minéraux et des métaux </span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée des Nations Unies pour l’environnement,</span>
+        </p>
+      </formula>
+      <container name="Rappelant" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>sa résolution 4/19 sur la gouvernance des ressources minérales et prenant note du rapport de la Directrice exécutive du Programme des Nations Unies pour l’environnement intitulé « Progrès accomplis dans l’application de la résolution 4/19 sur la gouvernance des ressources minérales »<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> UNEP/EA.5/14.</p></authorialNote> et du rapport intitulé « Mineral Resource Governance and the Global Goals: An Agenda for International Collaboration »<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> Programme des Nations Unies pour l'environnement et Université du Queensland, <span class="italic">Mineral Resource Governance and the Global Goals: An Agenda for International Collaboration</span> (Nairobi, 2021).</p></authorialNote>,</p>
+      </container>
+      <container name="Rappelant également" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Rappelant également</span> sa résolution 4/1 sur les moyens novateurs de parvenir à une consommation et une production durables et le rapport sur les progrès accomplis dans son application, ainsi que sa résolution 4/5 sur les infrastructures durables et le rapport d’activité y afférent, et compte tenu des évolutions en matière d’utilisation rationnelle des ressources, d’économie circulaire et de ressources secondaires, </p>
+      </container>
+      <container name="Considérant" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Considérant</span> que les minéraux et les métaux considérés dans le cadre de la présente résolution excluent les combustibles minéraux et que le champ d’application de la présente résolution comprend le cycle de vie complet des minéraux et des métaux, y compris l’extraction, le traitement sur site et hors site, le raffinage, la gestion des déchets et des résidus miniers, la réhabilitation des sites et des mines fermées ou abandonnées, la fabrication et le recyclage, </p>
+      </container>
+      <container name="Réaffirmant" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Réaffirmant</span> les dispositions de la Déclaration de Rio sur l’environnement et le développement et tous les principes qui y sont énoncés, </p>
+      </container>
+      <container name="Se félicitant" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Se félicitant </span>du lancement de la Norme industrielle mondiale pour la gestion des résidus miniers, qui constitue une étape importante vers la réalisation de l’objectif zéro rupture de digues à stériles et la protection de la santé humaine et de l’environnement par rapport aux installations de traitement des résidus miniers, et encourageant la mise en œuvre efficace de la norme mondiale, </p>
+      </container>
+      <container name="Rappelant" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Rappelant </span>les problèmes environnementaux dus à l’exploitation minière artisanale et à petite échelle et les risques pour la santé qui y sont associés, </p>
+      </container>
+      <container name="Soulignant" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Soulignant </span>la nécessité de mener une action renforcée afin de favoriser la gestion de la durabilité environnementale des minéraux et des métaux et consciente des défis en matière de capacité réglementaire et administrative auxquels les pays font face, </p>
+      </container>
+      <container name="Estimant" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Estimant</span> que les technologies propres qui sont largement tributaires des minéraux et des métaux sont importantes dans la lutte contre les changements climatiques et soulignant la contribution importante que la gestion écologiquement durable des minéraux et des métaux apporte à la réalisation du Programme de développement durable à l’horizon 2030, y compris au service de modes de consommation et de production durables,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve"> <span class="italic">Engage</span> les États Membres et invite les parties prenantes concernées tout au long du cycle de vie des minéraux et des métaux, issues tant du secteur public que privé, à aligner leurs pratiques minières et leurs investissements dans l’exploitation minière sur le Programme de développement durable à l’horizon 2030 et sur les obligations et décisions prises dans le cadre d’accords multilatéraux relatifs à l’environnement, le cas échéant ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12">
+        <num>2.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve"> <span class="italic">Prie </span>la Directrice exécutive, sous réserve des ressources disponibles, de convoquer des consultations régionales intergouvernementales transparentes et inclusives, y compris avec les organisations internationales compétentes, avec les accords régionaux et multilatéraux relatifs à l’environnement et avec les parties prenantes concernées agissant en tant qu’observateurs, afin d’enrichir les débats d’une réunion intergouvernementale mondiale, dans le but d’élaborer des propositions non contraignantes visant à renforcer la durabilité environnementale des minéraux et des métaux tout au long de leur cycle de vie, conformément au Programme de développement durable à l’horizon 2030 ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13">
+        <num>3.</num>
+        <list eId="para_13_list">
+          <intro eId="para_13_list_intro">
+          <p xml:space="preserve"> <span class="italic">Décide </span>que les consultations régionales intergouvernementales serviront à : </p>
+          </intro>
+          <point eId="para_13_list_point_a">
+            <num>a)</num>
+            <content eId="para_13_list_point_a_content">
+          <p xml:space="preserve"> Faire le point sur les activités et actions actuellement menées dans les secteurs public et privé et par d’autres parties prenantes concernées en vue d’améliorer la durabilité environnementale des minéraux et des métaux et recenser, entre autres, les meilleures pratiques, les pratiques commerciales responsables, les normes, les lignes directrices, les outils techniques, les technologies écologiquement durables et l’utilisation des énergies renouvelables dans l’exploitation minière ;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_b">
+            <num>b)</num>
+            <content eId="para_13_list_point_b_content">
+          <p xml:space="preserve"> Dégager les moyens de renforcer la coopération internationale, notamment en vue de promouvoir le renforcement des capacités et la coopération technologique, technique et scientifique dans le secteur minier, en particulier avec les pays en développement ; </p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_c">
+            <num>c)</num>
+            <content eId="para_13_list_point_c_content">
+          <p xml:space="preserve"> Définir différentes solutions possibles et les soumettre à son examen lors de sa sixième session, s’il y a lieu ; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>4.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> <span class="italic">Prie </span>la Directrice exécutive, en s’appuyant sur la Base de données sur les ressources mondiales (GRID-Genève), d’affiner les connaissances scientifiques et techniques et les connaissances en matière de politiques concernant le sable, afin d’accompagner les politiques et les mesures mondiales relatives à son extraction et à son utilisation dans le respect de l’environnement ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>5.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> <span class="italic">Prie également</span> la Directrice exécutive, sous réserve des ressources disponibles et en mobilisant les secrétariats des accords multilatéraux relatifs à l’environnement, d’organisations et de parties prenantes concernées, le cas échéant, et en gardant à l’esprit le lancement de la Norme industrielle mondiale pour la gestion des résidus miniers, de compiler un rapport sur les lacunes dans les connaissances relatives aux aspects environnementaux de la gestion des résidus ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>6.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> <span class="italic">Prie en outre</span> la Directrice exécutive de lui faire rapport à sa sixième session sur les progrès accomplis dans l’application de la présente résolution, notamment en lui présentant à cette occasion pour examen un rapport récapitulant les consultations. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

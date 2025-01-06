@@ -1,0 +1,391 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/fra@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/fra@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="fra"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/fra@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/fra@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="Global Environment Outlook" showAs="Global Environment Outlook" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.20" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Nations Unies</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr. générale</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 mars 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#anglais" name="originalLanguage">Original: anglais</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Assemblée des Nations Unies pour l’environnement du Programme des Nations Unies pour l’environnement</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Cinquième session</session>
+      </p>
+      <p>
+        <docTitle>Résolution adoptée par l’Assemblée des Nations Unies pour l’environnement le 2 mars 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Français">Français</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybride">(hybride)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> et <date date="2021-02-23" refersTo="#endDate">23 février 2021</date></event> et <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 février</date>–<date date="2022-03-02" refersTo="#endDate">2 mars 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">Avenir du Rapport sur l’avenir de l’environnement mondial</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">L’Assemblée des Nations Unies pour l’environnement,</span>
+        </p>
+      </formula>
+      <container name="Ayant à l’esprit" eId="container_2">
+        <p xml:space="preserve">
+          <span class="italic">	Ayant à l’esprit</span> le mandat du Programme des Nations Unies pour l’environnement, tel qu’il figure dans la résolution 27/2997 de l’Assemblée générale, en date du 15 décembre 1972, et les autres résolutions qui renforcent ce mandat, notamment la composante du mandat qui consiste à suivre l’état de l’environnement dans le monde pour faire en sorte que les gouvernements accordent une attention appropriée et adéquate aux nouveaux problèmes d’environnement de portée internationale, </p>
+      </container>
+      <container name="Rappelant" eId="container_3">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>la décision 27/11 du Conseil d’administration sur l’état de l’environnement et la contribution du Programme des Nations Unies pour l’environnement à la résolution des problèmes environnementaux de fond, </p>
+      </container>
+      <container name="Ayant à l’esprit" eId="container_4">
+        <p xml:space="preserve">
+          <span class="italic">	Ayant à l’esprit </span>le document final de la Conférence des Nations Unies sur le développement durable, intitulé « L’avenir que nous voulons »<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> Résolution 66/288 de l’Assemblée générale, annexe.</p></authorialNote>, en particulier l’alinéa d) du paragraphe 88 concernant la promotion d’une solide interface science-politiques pour que le Programme des Nations Unies pour l’environnement appuie une prise de décision éclairée,</p>
+      </container>
+      <container name="Rappelant" eId="container_5">
+        <p xml:space="preserve">
+          <span class="italic">	Rappelant </span>sa résolution 4/23 sur le suivi de l’environnement mondial, par laquelle un Comité directeur sur l’avenir du Rapport sur l’avenir de l’environnement mondial (GEO) a été créé et a été prié de lui soumettre à sa cinquième session un document sur les options afin d’éclairer la prise d’une décision sur la forme et la fonction futures du rapport GEO, </p>
+      </container>
+      <container name="Estimant" eId="container_6">
+        <p xml:space="preserve">
+          <span class="italic">	Estimant </span>que les évaluations crédibles, pertinentes et légitimes menées par des experts, au niveau intergouvernemental, contribuent à la promotion du dialogue entre les milieux scientifiques et politiques et aident à la prise de décisions sur les questions environnementales visant à assurer la transition requise pour garantir un avenir viable conformément au Programme de développement durable à l’horizon 2030, aux objectifs de développement durable et à d’autres objectifs environnementaux arrêtés sur le plan international, </p>
+      </container>
+      <container name="Estimant également" eId="container_7">
+        <p xml:space="preserve">
+          <span class="italic">	Estimant également </span>que, depuis son lancement en 1995, le processus GEO a inspiré l’élaboration de rapports phares, éclairé la prise de décisions et contribué à la prise de décisions clefs par le Conseil d’administration et l’Assemblée pour l’environnement et au renforcement de l’interface science-politiques du Programme des Nations Unies pour l’environnement,</p>
+      </container>
+      <container name="Estimant en outre" eId="container_8">
+        <p xml:space="preserve">
+          <span class="italic">	Estimant en outre</span> que les résultats des consultations du Comité directeur sur l’avenir du processus GEO ont montré une forte adhésion en faveur de la poursuite de ce processus, </p>
+      </container>
+      <container name="Prenant note" eId="container_9">
+        <p xml:space="preserve">	<span class="italic">Prenant note</span> des critères définis dans le document sur les options du Comité directeur pour évaluer les options, à savoir la cohérence, la pertinence, la légitimité, la crédibilité, l’accessibilité, la valeur ajoutée et la faisabilité globale,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="NormalNonumber">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme</span> que le processus GEO a pour but de suivre l’état de l’environnement mondial afin d’éclairer et d’appuyer régulièrement l’action collective et individuelle des États Membres et des parties prenantes, tout en renforçant l’interface science-politiques du Programme des Nations Unies pour l’environnement ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="NormalNonumber">
+        <num>2.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve">	<span class="italic">Affirme</span> que le but du processus GEO est d’atteindre l’objectif énoncé au paragraphe 1 de la présente résolution et d’entreprendre une évaluation intergouvernementale dirigée par des experts ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="NormalNonumber">
+        <num>3.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>la Directrice exécutive du Programme des Nations Unies pour l’environnement de créer un groupe consultatif spécial intergouvernemental et multipartite, régi par le Règlement intérieur de l’Assemblée pour l’environnement, en faisant en sorte de garantir un équilibre géographique entre toutes les régions des Nations Unies ainsi qu’un équilibre entre les disciplines et entre les genres ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="NormalNonumber">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve">	<span class="italic">Prend note</span> du document sur les options que lui a présenté le Comité directeur sur l’avenir du processus GEO à sa cinquième session, en prenant également note des résultats des consultations menées par le Comité ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="NormalNonumber">
+        <num>5.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve">	<span class="italic">Décide</span> que la fonction essentielle du processus GEO devrait être d’entreprendre, tous les quatre ans, une évaluation intergouvernementale dirigée par des experts, faisant autorité au niveau mondial et comportant des spécificités régionales, qui évalue et suive les tendances, apprécie l’efficacité des mesures prises au niveau mondial, évalue les perspectives d’avenir pour les cinq thèmes environnementaux traités dans les évaluations GEO précédentes et évalue les facteurs du changement environnemental et les interactions entre ces thèmes environnementaux, tout en tirant parti des évaluations existantes, sans faire double emploi avec elles, et en les complétant, si nécessaire, par des évaluations thématiques du GEO à la demande de l’Assemblée pour l’environnement, afin de combler les lacunes dans les connaissances ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="NormalNonumber">
+        <num>6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>la Directrice exécutive d’entamer les préparatifs de l’évaluation qui sera l’objet de la septième édition du Rapport sur l’avenir de l’environnement mondial, qui lui sera soumise pour approbation à une future session, en 2025 au plus tôt ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="NormalNonumber">
+        <num>7.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve">	<span class="italic">Décide </span>que le processus GEO devrait définir les besoins arrêtés au niveau intergouvernemental et les modalités de prestation d’un appui au renforcement des capacités, de la production de connaissances et de l’élaboration de politiques conformément au mandat du Programme des Nations Unies pour l’environnement, et fournir des services d’appui pour répondre à ces besoins, en partenariat avec les institutions compétentes, selon qu’il conviendra ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="NormalNonumber">
+        <num>8.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve">	<span class="italic">Décide également</span> que les résumés à l’intention des décideurs des évaluations de l’avenir de l’environnement mondial doivent continuer à être fondés sur des procédures d’autorisation et de cadrage transparentes et inclusives, dans le cadre d’un processus d’examen intergouvernemental ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="NormalNonumber">
+        <num>9.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve">	<span class="italic">Réaffirme </span>que les gouvernements devraient continuer à être invités à apporter leurs contributions dans le cadre du processus intergouvernemental d’examen par les pairs des évaluations de l’avenir de l’environnement mondial ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="NormalNonumber">
+        <num>10.</num>
+        <list eId="para_55_list">
+          <intro eId="para_55_list_intro">
+            <p xml:space="preserve">	<span class="italic">Prie </span>la Directrice exécutive, suivant les orientations du Groupe consultatif intergouvernemental et multipartite :</p>
+          </intro>
+          <point eId="para_55_list_point_a">
+            <num>a)</num>
+            <content eId="para_55_list_point_a_content">
+              <p xml:space="preserve"> De convoquer une réunion intergouvernementale, multipartite et d’experts pour établir un ensemble de procédures au regard des objectifs et de la fonction essentielle du processus de l’avenir de l’environnement mondial décrits ci‑dessus ; </p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_b">
+            <num>b)</num>
+            <content eId="para_55_list_point_b_content">
+              <p xml:space="preserve"> De mener les processus de nomination et de sélection des experts externes qui contribueront au processus GEO, y compris les membres des groupes consultatifs, les auteurs, les boursiers, les membres des comités de lecture et les éditeurs-réviseurs, en garantissant l’équilibre géographique entre toutes les régions des Nations Unies ainsi que l’équilibre entre les disciplines et entre les genres ;</p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_c">
+            <num>c)</num>
+            <content eId="para_55_list_point_c_content">
+              <p xml:space="preserve"> De faire en sorte que le processus GEO s’appuie sur les données factuelles issues de la littérature validée par des pairs, des évaluations nationales validées par des pairs et publiées dans différentes langues et d’autres évaluations, données et analyses internationales et menées par des entités des Nations Unies, ainsi que sur des informations provenant d’autres sources crédibles, telles que le Tableau de bord pour le suivi de l’état de l’environnement mondial et les éléments de production de connaissances au sein du Programme des Nations Unies pour l’environnement et en dehors de celui‑ci ;</p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_d">
+            <num>d)</num>
+            <content eId="para_55_list_point_d_content">
+              <p xml:space="preserve"> De créer un groupe consultatif scientifique multidisciplinaire d’experts chargé de superviser l’intégrité scientifique du processus GEO, conformément au mandat et aux orientations pour le processus de sélection figurant dans l’annexe de la présente résolution ;</p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_e">
+            <num>e)</num>
+            <content eId="para_55_list_point_e_content">
+              <p xml:space="preserve"> D’élaborer un plan de travail souple et pluriannuel et un budget à échéance établissant un programme d’activités, telles que des évaluations et des services d’appui, en fonction des besoins qu’elle a recensés dans la présente résolution ;</p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_f">
+            <num>f)</num>
+            <content eId="para_55_list_point_f_content">
+              <p xml:space="preserve"> De renforcer l’interface science-politiques en faisant élaborer par des experts, pour chaque évaluation, un document de cadrage et un résumé à l’intention des décideurs qui seront soumis aux représentants des États Membres lors de réunions spéciales à participation non limitée pour examen et approbation ;</p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_g">
+            <num>g)</num>
+            <content eId="para_55_list_point_g_content">
+              <p xml:space="preserve"> D’étudier et d’approuver la réalisation d’évaluations menées par des experts au niveau intergouvernemental, qu’elle aura approuvées, conformément au plan de travail pluriannuel et au budget à échéance ;</p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_h">
+            <num>h)</num>
+            <content eId="para_55_list_point_h_content">
+              <p xml:space="preserve"> De poursuivre le programme de bourses pour les jeunes du projet sur l’avenir de l’environnement mondial afin de renforcer la participation des jeunes générations ;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_65" class="NormalNonumber">
+        <num>11.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve">
+            <span class="italic">	Décide </span>que toutes tâches supplémentaires devant être assumées par la Directrice exécutive et le groupe consultatif intergouvernemental et multipartite à l’appui du processus GEO seront approuvées par elle ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="NormalNonumber">
+        <num>12.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve">	<span class="italic">Prie </span>la Directrice exécutive, conformément au mandat du Programme des Nations Unies pour l’environnement consistant à suivre l’état de l’environnement mondial, d’administrer le processus GEO en mettant en place et en appliquant une gouvernance et une administration rationalisées et efficaces par rapport au coût ; en fournissant des ressources financières adéquates, prévisibles et stables prélevées sur les ressources de base, y compris le Fonds pour l’environnement ; en affectant des ressources humaines suffisantes pour le processus au sein du secrétariat du Programme des Nations Unies pour l’environnement ; en favorisant la fourniture de contributions et de compétences internes ; en facilitant les partenariats avec les centres de collaboration et la prestation d’une assistance par les groupes d’appui technique ; et, si besoin est, en facilitant la mobilisation de ressources extrabudgétaires en faveur du processus ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="NormalNonumber">
+        <num>13.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve">	<span class="italic">Prie également</span> la Directrice exécutive de consulter périodiquement le Comité des représentants permanents auprès du Programme des Nations Unies pour l’environnement concernant certains éléments importants du processus GEO.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/"></FRBRuri>
+                <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/fra@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/fra@/"></FRBRuri>
+                <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="fra"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/fra@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/fra@.xml"></FRBRuri>
+                <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_89" class="ZZAnxheader">
+              <heading>Annexe</heading>
+            </paragraph>
+            <paragraph eId="para_90" class="ZZAnxtitle">
+              <subheading>Mandat et orientations pour le processus de sélection des membres du groupe consultatif scientifique multidisciplinaire d’experts</subheading>
+            </paragraph>
+            <paragraph eId="para_91">
+              <num>1.</num>
+              <content eId="para_91__content">
+                <p xml:space="preserve"></p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="Normalnumber">
+              <content eId="para_92__content">
+                <p xml:space="preserve">Le groupe consultatif scientifique multidisciplinaire d’experts est chargé de présider les réunions d’experts, d’assurer une supervision scientifique, de sélectionner les experts et de représenter le processus GEO. Il comprend de 25 à 30 membres et sa composition doit garantir un équilibre entre les disciplines et entre les genres et une représentation géographique équilibrée des cinq régions des Nations Unies, tout en tenant compte des orientations énoncées à l’alinéa b) du paragraphe 2 ci-dessous. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_93">
+              <num>2.</num>
+              <list eId="para_93_list">
+                <intro eId="para_93_list_intro">
+                <p xml:space="preserve">Les critères suivants doivent être pris en compte lors de la nomination et de la sélection des membres du groupe consultatif scientifique multidisciplinaire d’experts : </p>
+                </intro>
+                <point eId="para_93_list_point_a">
+                  <num>a)</num>
+                  <content eId="para_93_list_point_a_content">
+                <p xml:space="preserve">Être capable de s’acquitter des fonctions énoncées au paragraphe 1 ci‑dessus ;</p>
+                  </content>
+                </point>
+                <point eId="para_93_list_point_b">
+                  <num>b)</num>
+                  <content eId="para_93_list_point_b_content">
+                <p xml:space="preserve">Posséder des compétences scientifiques en matière d’environnement, tant dans le domaine des sciences naturelles que dans celui des sciences sociales ; </p>
+                  </content>
+                </point>
+                <point eId="para_93_list_point_c">
+                  <num>c)</num>
+                  <content eId="para_93_list_point_c_content">
+                <p xml:space="preserve">Posséder des compétences et des connaissances scientifiques et techniques, ou en matière de politiques, concernant les principaux éléments du GEO ; </p>
+                  </content>
+                </point>
+                <point eId="para_93_list_point_d">
+                  <num>d)</num>
+                  <content eId="para_93_list_point_d_content">
+                <p xml:space="preserve">Posséder une expérience en matière de communication scientifique et de promotion et d’intégration de la science dans l’élaboration des politiques ; </p>
+                  </content>
+                </point>
+                <point eId="para_93_list_point_e">
+                  <num>e)</num>
+                  <content eId="para_93_list_point_e_content">
+                <p xml:space="preserve">Aptitude à diriger des travaux au sein de processus scientifiques et politiques internationaux et à y participer ;</p>
+                  </content>
+                </point>
+                <point eId="para_93_list_point_f">
+                  <num>f)</num>
+                  <content eId="para_93_list_point_f_content">
+                <p xml:space="preserve">Aptitude à pratiquer la communication scientifique et la communication des résultats scientifiques à de multiples parties prenantes, y compris les jeunes. </p>
+              </content>
+                </point>
+              </list>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>
