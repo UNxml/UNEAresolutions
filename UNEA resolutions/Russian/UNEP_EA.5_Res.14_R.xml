@@ -1,0 +1,434 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/rus@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL INSTRUMENTS" href="http://metadata.un.org/thesaurus/1003310" showAs="INTERNATIONAL INSTRUMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PLASTIC PRODUCTS" href="http://metadata.un.org/thesaurus/1004940" showAs="PLASTIC PRODUCTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MARINE POLLUTION" href="http://metadata.un.org/thesaurus/1003920" showAs="MARINE POLLUTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-02-16" outcome="draftResolution" as="UNEP/EA.5/L.23" by="The co-facilitators of cluster 1" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Пятая сессия</session>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Ассамблеей Организации Объединенных Наций по окружающей среде 2 марта 2022 года</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#"></location>
+          <event refersTo="#eventDuration">
+            <date date="0001-01-01" refersTo="#startDate"></date>
+            <date date="0001-01-01" refersTo="#endDate"></date>
+          </event>
+        </event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/14.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Прекратим загрязнение пластмассами: за имеющий обязательную юридическую силу международный договор</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде</span>,</p>
+      </formula>
+      <container name="отмечая с обеспокоенностью" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">отмечая с обеспокоенностью</span>, что высокий и быстрорастущий уровень загрязнения пластмассами представляет собой серьезную экологическую проблему в глобальном масштабе, оказывающую отрицательное воздействие на экологический, социальный и экономический компоненты устойчивого развития,</p>
+      </container>
+      <container name="признавая" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что загрязнение пластмассами включает микрочастицы пластмасс,</p>
+      </container>
+      <container name="отмечая с обеспокоенностью" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">отмечая с обеспокоенностью</span> особое воздействие проблемы загрязнения пластмассами на морскую среду, </p>
+      </container>
+      <container name="отмечая" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что проблема загрязнения пластмассами морской и других сред может иметь трансграничный характер, а также требует решения наряду с ее последствиями с применением подхода, основанного на концепции жизненного цикла, с учетом национальных обстоятельств и возможностей,</p>
+      </container>
+      <container name="вновь подтверждая" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая</span> резолюцию 70/1 Генеральной Ассамблеи от 25 сентября 2015 года, в которой Генеральная Ассамблея приняла Повестку дня в области устойчивого развития на период до 2030 года,</p>
+      </container>
+      <container name="вновь подтверждая также" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">вновь подтверждая также</span> принципы Рио-де-Жанейрской декларации по окружающей среде и развитию, принятой в Рио-де-Жанейро, Бразилия, в 1992 году,</p>
+      </container>
+      <container name="подчеркивая" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> настоятельную необходимость укрепления механизма научно‑политического взаимодействия на всех уровнях, углубления понимания глобального воздействия проблемы загрязнения пластмассами на окружающую среду и стимулирования эффективных и последовательных действий на местном, региональном и глобальном уровнях, признавая важное значение пластмасс для общества,</p>
+      </container>
+      <container name="ссылаясь" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюции 1/6, 2/11, 3/7, 4/6, 4/7 и 4/9<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 	Резолюции 1/6 и 2/11 «Лом и микрочастицы пластмасс в морской среде»; резолюции 4/6 и 3/7 «Морской пластиковый мусор и микрочастицы пластмасс»; резолюция 4/7 «Экологически обоснованное регулирование отходов»; резолюция 4/9 «Решение проблемы загрязнения пластмассовыми изделиями одноразового пользования». </p></authorialNote> Ассамблеи Организации Объединенных Наций по окружающей среде и подтверждая неотложную необходимость укрепления глобальной координации, сотрудничества и управления для принятия незамедлительных мер по устранению в долгосрочной перспективе загрязнения морской и других сред пластмассами и предотвращения нанесения ущерба экосистемам и зависящим от них видам человеческой деятельности в результате загрязнения пластмассами,</p>
+      </container>
+      <container name="признавая" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">признавая</span> широкий спектр имеющихся подходов, устойчивых альтернатив и технологий для учета полного жизненного цикла пластмасс, подчеркивая далее необходимость укрепления международного сотрудничества для упрощения доступа к технологиям, развития потенциала и научно-технического сотрудничества, и подчеркивая, что не существует единого подхода,</p>
+      </container>
+      <container name="подчеркивая" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> важность популяризации экологичного проектирования продукции и материалов, чтобы они могли повторно использоваться, восстанавливаться или утилизироваться и, таким образом, сохраняться в хозяйственном обороте как можно дольше наряду с ресурсами, из которых они изготовлены, а также важность сведения к нулю образования отходов, что может внести существенный вклад в устойчивое производство и потребление пластмасс,</p>
+      </container>
+      <container name="приветствуя" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> усилия правительств и международных организаций, предпринимаемых, в частности, в рамках национальных, региональных и международных планов действий, инициатив и документов, включая соответствующие многосторонние соглашения, такие как инициативы Группы семи и Группы двадцати, в том числе планы действий 2015 и 2017 годов по борьбе с морским мусором; рамочная программа действий Группы двадцати в отношении пластмассового мусора в морской среде; проект «Голубой океан: видение из Осаки»; хартия «Океан и пластмассы»; программа действий Ассоциации государств Юго-Восточной Азии (АСЕАН) по борьбе с морским мусором; Бангкокская декларация о борьбе с замусориванием моря в регионе АСЕАН; план действий Азиатско-Тихоокеанского экономического сотрудничества по борьбе с замусориванием моря; Декларация лидеров Альянса малых островных государств 2021 года; Декларация св. Иоанна, принятая Карибским сообществом; Базельская конвенция о контроле за трансграничной перевозкой опасных отходов и их удалением; а также итоговый документ состоявшейся в 2021 году Конференции на уровне министров, посвященной проблеме загрязнения морской среды мусором и пластмассами, а также признавая необходимость взаимодополняющих действий и согласованной и скоординированной долгосрочной глобальной концепции,</p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">с удовлетворением отмечая</span> важную работу, проводимую Глобальным партнерством по морскому мусору, и деятельность по борьбе с морским мусором и загрязнением пластмассами, которая поддерживается и осуществляется Программой Организации Объединенных Наций по окружающей среде, и принимая во внимание подготовленное Председателем резюме доклада специальной группы экспертов открытого состава по проблеме мусора и микрочастиц пластмасс в морской среде, в котором представлены варианты продолжения работы для рассмотрения Программой Организации Объединенных Наций по окружающей среде на ее пятой сессии,</p>
+      </container>
+      <container name="подтверждая" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">подтверждая</span> важность сотрудничества, координации и взаимодополняемости соответствующих региональных и международных конвенций и договоров при должном уважении их соответствующих мандатов для предотвращения загрязнения пластмассами и связанных с этим рисков для здоровья человека и отрицательных последствий для благосостояния человека и окружающей среды, включая Международную конвенцию по предотвращению загрязнения с судов 1973 года, измененную Протоколом 1978 года к ней, с дальнейшими поправками, внесенными Протоколом 1997 года; Базельскую конвенцию о контроле за трансграничной перевозкой опасных отходов и их удалением; Роттердамскую конвенцию о процедуре предварительного обоснованного согласия в отношении отдельных опасных химических веществ и пестицидов в международной торговле; Стокгольмскую конвенцию о стойких органических загрязнителях; Конвенцию Организации Объединенных Наций по морскому праву; Конвенцию по предотвращению загрязнения моря сбросами отходов и других материалов 1972 года и Протокол к ней; Стратегический подход к международному регулированию химических веществ; Рамочную конвенцию Организации Объединенных Наций об изменении климата; Конвенцию о биологическом разнообразии и другие международные организации, региональные договоры и программы, а также признавая усилия, предпринимаемые неправительственными организациями и частным сектором, </p>
+      </container>
+      <container name="признавая" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что страны наилучшим образом осведомлены о своих национальных обстоятельствах, включая деятельность, осуществляемую заинтересованными сторонами в части решения проблемы загрязнения пластмассами, в том числе морской среды,</p>
+      </container>
+      <container name="признавая также" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">признавая также</span> значительный вклад работников неформальных и кооперативных структур в мероприятия по сбору, сортировке и утилизации пластмасс во многих странах, </p>
+      </container>
+      <container name="подчеркивая" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> необходимость дальнейших международных действий путем разработки имеющего обязательную юридическую силу международного договора о борьбе с загрязнением пластмассами, в том числе морской среды,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю созвать межправительственный комитет по ведению переговоров, который должен приступить к работе во второй половине 2022 года и завершить ее к концу 2024 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_19__content">
+          <p xml:space="preserve"> 	<span class="italic">признает</span>, что для эффективного выполнения развивающимися странами и странами с переходной экономикой определенных правовых обязательств, вытекающих из нового имеющего обязательную юридическую силу международного договора, потребуется создание потенциала и техническая и финансовая помощь;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <num>3.</num>
+        <list eId="para_21_list">
+          <intro eId="para_21_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">постановляет</span>, что межправительственный комитет по ведению переговоров должен разработать имеющий обязательную юридическую силу международный договор о борьбе с загрязнением пластмассами, в том числе морской среды, (далее – «Договор»), который мог бы предусматривать как обязательные, так и добровольные подходы, на основе всеобъемлющего подхода с учетом полного жизненного цикла пластмасс, принимая во внимание, среди прочего, принципы Рио-де-Жанейрской декларации по окружающей среде и развитию, а также национальные обстоятельства и возможности, и включая следующие положения:</p>
+          </intro>
+          <point eId="para_21_list_point_a">
+            <num>a)</num>
+            <content eId="para_21_list_point_a_content">
+              <p xml:space="preserve"> 	определить цели договора;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_b">
+            <num>b)</num>
+            <content eId="para_21_list_point_b_content">
+              <p xml:space="preserve"> 	содействовать устойчивому производству и потреблению пластмасс, в частности, путем проектирования продукции и экологически обоснованного регулирования отходов, в том числе с применением подходов, ориентированных на ресурсоэффективность и многооборотность экономики;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_c">
+            <num>c)</num>
+            <content eId="para_21_list_point_c_content">
+              <p xml:space="preserve"> 	стимулировать национальные и международные коллективные меры по сокращению масштабов загрязнения морской среды пластмассами, включая имеющееся загрязнение пластмассами; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_d">
+            <num>d)</num>
+            <content eId="para_21_list_point_d_content">
+              <p xml:space="preserve"> 	разрабатывать, внедрять и обновлять национальные планы действий, основанные на инициативах самих стран, для содействия достижению целей договора;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_e">
+            <num>e)</num>
+            <content eId="para_21_list_point_e_content">
+              <p xml:space="preserve"> 	поддерживать национальные планы действий по предотвращению образования отходов пластмасс, сокращению их объемов и устранению загрязнения ими, а также содействовать региональному и международному сотрудничеству; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_f">
+            <num>f)</num>
+            <content eId="para_21_list_point_f_content">
+              <p xml:space="preserve"> 	надлежащим образом регламентировать представление национальных докладов;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_g">
+            <num>g)</num>
+            <content eId="para_21_list_point_g_content">
+              <p xml:space="preserve"> 	проводить периодическую оценку хода исполнения договора; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_h">
+            <num>h)</num>
+            <content eId="para_21_list_point_h_content">
+              <p xml:space="preserve"> 	проводить периодическую оценку эффективности договора в деле достижения сформулированных в нем целей; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_i">
+            <num>i)</num>
+            <content eId="para_21_list_point_i_content">
+              <p xml:space="preserve"> 	проводить научные и социально-экономические оценки в области загрязнения пластмассами; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_j">
+            <num>j)</num>
+            <content eId="para_21_list_point_j_content">
+              <p xml:space="preserve"> 	углублять знания посредством повышения уровня осведомленности, просветительской деятельности и обмена информацией; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_k">
+            <num>k)</num>
+            <content eId="para_21_list_point_k_content">
+              <p xml:space="preserve"> 	стимулировать сотрудничество и координацию с соответствующими региональными и международными конвенциями, договорами и организациями, признавая их соответствующие мандаты, избегая дублирования и способствуя взаимодополняемости действий;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_l">
+            <num>l)</num>
+            <content eId="para_21_list_point_l_content">
+              <p xml:space="preserve"> 	побуждать к действию все заинтересованные стороны, включая субъекты частного сектора, и способствовать сотрудничеству на местном, национальном, региональном и глобальном уровнях; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_m">
+            <num>m)</num>
+            <content eId="para_21_list_point_m_content">
+              <p xml:space="preserve"> 	инициировать программу действий с участием многих заинтересованных сторон; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_n">
+            <num>n)</num>
+            <content eId="para_21_list_point_n_content">
+              <p xml:space="preserve"> 	определить механизмы укрепления потенциала и оказания технической помощи, передачи технологий на взаимно согласованных условиях и предоставления финансовой помощи, признавая, что эффективное выполнение определенных правовых обязательств в рамках договора будет зависеть от наличия потенциала и достаточной финансовой и технической помощи; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_o">
+            <num>o)</num>
+            <content eId="para_21_list_point_o_content">
+              <p xml:space="preserve"> 	содействовать исследованиям и разработке устойчивых, доступных, инновационных и экономически эффективных подходов; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_p">
+            <num>p)</num>
+            <content eId="para_21_list_point_p_content">
+              <p xml:space="preserve"> 	рассмотреть вопросы соблюдения; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>4.</num>
+        <list eId="para_24_list">
+          <intro eId="para_24_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">постановляет также</span>, что межправительственному комитету по ведению переговоров в его работе по подготовке этого договора следует рассмотреть следующие вопросы: </p>
+          </intro>
+          <point eId="para_24_list_point_a">
+            <num>a)</num>
+            <content eId="para_24_list_point_a_content">
+              <p xml:space="preserve"> 	обязательства, меры и добровольные подходы, способствующие достижению сформулированных в документе целей;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_b">
+            <num>b)</num>
+            <content eId="para_24_list_point_b_content">
+              <p xml:space="preserve"> 	необходимость создания механизма финансирования для поддержки реализации договора, включая вариант создания специального многостороннего фонда;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_c">
+            <num>c)</num>
+            <content eId="para_24_list_point_c_content">
+              <p xml:space="preserve"> 	гибкость в части предоставления странам возможности по их усмотрению выполнять обязательства с учетом национальных обстоятельств согласно отдельным положениям;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_d">
+            <num>d)</num>
+            <content eId="para_24_list_point_d_content">
+              <p xml:space="preserve"> 	наилучшие доступные научные данные, традиционные знания, знания коренных народов и местные системы знаний;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_e">
+            <num>e)</num>
+            <content eId="para_24_list_point_e_content">
+              <p xml:space="preserve"> 	извлеченные уроки и передовые методы, в том числе в неформальных и кооперативных структурах; </p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_f">
+            <num>f)</num>
+            <content eId="para_24_list_point_f_content">
+              <p xml:space="preserve"> 	возможность создания механизма для предоставления актуальной для политики научной и социально-экономической информации и оценки, связанной с загрязнением пластмассами; </p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_g">
+            <num>g)</num>
+            <content eId="para_24_list_point_g_content">
+              <p xml:space="preserve"> 	эффективная организация и упорядоченные процедуры работы секретариата;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_h">
+            <num>h)</num>
+            <content eId="para_24_list_point_h_content">
+              <p xml:space="preserve"> 	любые другие вопросы, которые межправительственный комитет по ведению переговоров может счесть уместными для рассмотрения; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> <span class="italic">поручает</span> Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде созвать специальную рабочую группу открытого состава для проведения одного совещания в первой половине 2022 года в целях подготовки к работе межправительственного комитета по ведению переговоров и обсуждения, в частности, графика и организации работы комитета с учетом положений и элементов, определенных в пунктах 3 и 4 настоящей резолюции; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> 	<span class="italic">подчеркивает</span> необходимость обеспечения максимально широкого и эффективного участия в работе специальной рабочей группы открытого состава и межправительственного комитета по ведению переговоров;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_27__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю в приоритетном порядке оказать необходимую поддержку развивающимся странам и странам с переходной экономикой для обеспечения их эффективного участия в работе специальной рабочей группы открытого состава и межправительственного комитета по ведению переговоров;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает также</span> Директору-исполнителю обеспечить оказание необходимой поддержки со стороны секретариата Программы Организации Объединенных Наций по окружающей среде специальной рабочей группе открытого состава и межправительственному комитету по ведению переговоров;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет</span>, что участие в работе специальной рабочей группы открытого состава и межправительственного комитета по ведению переговоров должно быть открыто для всех государств – членов Организации Объединенных Наций и членов специализированных учреждений Организации Объединенных Наций, региональных организаций экономической интеграции, а также соответствующих заинтересованных сторон согласно применимым правилам Организации Объединенных Наций;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> правительствам и другим заинтересованным субъектам, располагающим соответствующими возможностями, предоставлять внебюджетные ресурсы на цели содействия осуществлению настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю содействовать участию и тесному сотрудничеству и координации с соответствующими региональными и международными договорами и инициативами и всеми соответствующими заинтересованными субъектами в рамках полномочий межправительственного комитета по ведению переговоров;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает также</span> Директору-исполнителю созвать дипломатическую конференцию полномочных представителей по завершении переговоров межправительственного комитета по ведению переговоров с целью принятия договора и открытия его для подписания;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_54" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_54__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает далее</span> Директору-исполнителю представить Ассамблее по окружающей среде на ее шестой сессии доклад о ходе работы межправительственного комитета по ведению переговоров;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_62" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_62__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю продолжать поддерживать и стимулировать работу Глобального партнерства по морскому мусору, одновременно углубляя научно‑технические знания в отношении загрязнения пластмассами, в том числе морской среды, в частности, в области методологий мониторинга и обмена имеющимися научными и другими соответствующими данными и информацией;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_71" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> все государства-члены продолжать и активизировать деятельность и принимать добровольные меры по борьбе с загрязнением пластмассами, включая меры в области устойчивого потребления и производства, которые могут включать подходы, ориентированные на многооборотную экономику, и разрабатывать и реализовывать национальные планы действий, при этом стимулируя международную деятельность и инициативы в соответствии с национальными нормативно-правовыми механизмами, а также на добровольной основе, по мере необходимости и с учетом национальных обстоятельств представлять статистические данные об экологически обоснованном регулировании отходов пластмасс; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю при условии наличия финансовых ресурсов созвать в связи с проведением первой сессии межправительственного комитета по ведению переговоров и с учетом имеющихся инициатив в соответствующем случае форум, открытый для всех заинтересованных сторон, для обмена информацией и проведения мероприятий в связи с загрязнением пластмассами.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

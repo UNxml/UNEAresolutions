@@ -1,0 +1,225 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/rus@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NITROGEN" href="http://metadata.un.org/thesaurus/1004419" showAs="NITROGEN" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.12" by="Sri Lanka" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Пятая сессия</session>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Ассамблеей Организации Объединенных Наций по окружающей среде 2 марта 2022 года</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#найроби">Найроби </location>
+          <location refersTo="#в комбинированном режиме">(в комбинированном режиме)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date>-<date date="2021-02-23" refersTo="#endDate">23 февраля 2021 года</date></event>  и <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 февраля </date>– <date date="2022-03-02" refersTo="#endDate">2 марта 2022 года</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/2.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Устойчивое регулирование азота</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде</span>,</p>
+      </formula>
+      <container name="c обеспокоенностью отмечая" eId="container_2">
+          <p xml:space="preserve"> <span class="italic">c обеспокоенностью отмечая</span>, что чрезмерно высокие уровни содержания питательных веществ, в частности активного азота и фосфора, существенно влияют на видовой состав наземных, пресноводных и прибрежных экосистем, оказывая «эффект домино» на биоразнообразие, качество почвы, воды и воздуха и на функционирование экосистем и благосостояние человека,</p>
+      </container>
+      <container name="c обеспокоенностью отмечая также" eId="container_3">
+          <p xml:space="preserve"> <span class="italic">c обеспокоенностью отмечая также</span>, что в настоящее время использование азота в масштабах мировой экономики не является эффективным, что приводит к безвозвратному поступлению в окружающую среду большой доли активного азота антропогенного происхождения,</p>
+      </container>
+      <container name="отмечая" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что сокращение объема нерачительно используемого азота окажет положительное влияние на атмосферную, наземную, пресноводную и морскую среды, а также на здоровье человека, экосистемные услуги и усилия по борьбе с загрязнением, изменением климата и утратой биоразнообразия, обеспечивая при этом продовольственную безопасность и предлагая возможности для экономии миллиардов долларов США ежегодно<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 	Согласно публикации Программы Организации Объединенных Наций по окружающей среде «Передовые рубежи 2018-2019 года: Намечающиеся проблемы, имеющие экологическое измерение» (раздел 4, «Фиксация азота»), ежегодная экономия оценивается в 100 млрд долл. США.</p></authorialNote>,</p>
+      </container>
+      <container name="признавая" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">признавая</span> необходимость согласованных действий для решения многочисленных глобальных проблем, возникающих в результате естественного сопряжения круговорота углерода и азота, и подтверждая необходимость укрепления международного сотрудничества в интересах устойчивого регулирования азота,</p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюцию 70/1 Генеральной Ассамблеи от 25 сентября 2015 года, озаглавленную «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года», </p>
+      </container>
+      <container name="ссылаясь также" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также</span> на цели в области устойчивого развития и их взаимосвязанные задачи,</p>
+      </container>
+      <container name="признавая" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">признавая</span> основополагающий приоритет обеспечения продовольственной безопасности и ликвидации голода, а также тот факт, что производство продукции растениеводства и животноводства в глобальном масштабе и продовольственная безопасность зависят от рационального и экономного использования питательных веществ, включая азот и фосфор,</p>
+      </container>
+      <container name="признавая также" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">признавая также</span> действия, уже предпринятые на страновом уровне и в рамках межправительственных соглашений, касающихся качества воды и воздуха, климата и биоразнообразия, и признавая действия Программы Организации Объединенных Наций по окружающей среде (ЮНЕП), Глобального экологического фонда (ГЭФ), Глобального партнерства по регулированию концентрации питательных веществ, Глобальной инициативы в области удаления и очистки сточных вод, Глобальной программы действий по защите морской среды от загрязнения в результате осуществляемой на суше деятельности, Конвенции о трансграничном загрязнении воздуха на большие расстояния и совместного проекта ГЭФ и ЮНЕП по созданию международной системы регулирования азота для увязки науки и политики в интересах устойчивого регулирования азота,</p>
+      </container>
+      <container name="ссылаясь" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюцию 4/14 Ассамблеи по окружающей среде об устойчивом регулировании азота и подтверждая важность устранения в долгосрочной перспективе многочисленных угроз загрязнения активным азотом антропогенного происхождения, которое имеет отрицательные последствия для земной, пресноводной и морской сред и усугубляет загрязнение воздуха и выбросы парниковых газов, признавая при этом преимущества использования азота для производства продовольствия и энергии,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению</span> итоги четвертого совещания партнеров совместного проекта ГЭФ и ЮНЕП по созданию международной системы регулирования азота с членами Комитета постоянных представителей при Программе Организации Объединенных Наций по окружающей среде, состоявшегося в Найроби 29 и 30 апреля 2019 года в рамках последующей деятельности во исполнение резолюции 4/14,</p>
+      </container>
+      <container name="принимая к сведению также" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению также</span> деятельность рабочей группы по азоту Программы Организации Объединенных Наций по окружающей среде и ее целевой группы по выполнению резолюции 4/14,</p>
+      </container>
+      <container name="принимая к сведению далее" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению далее</span> осуществляемый в настоящее время процесс, начатый в 2017 году под эгидой Программы Организации Объединенных Наций по окружающей среде, по подготовке международной оценки по проблематике азота, осуществляемой в рамках совместного проекта ГЭФ и ЮНЕП по созданию международной системы регулирования азота при поддержке Глобального экологического фонда и других заинтересованных сторон в преддверии шестой сессии Ассамблеи по окружающей среде,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению</span> начало проведения Глобальной кампании Организации Объединенных Наций по устойчивому регулированию азота в октябре 2019 года и принятие в День Организации Объединенных Наций 24 октября 2019 года Коломбинской декларации по устойчивому регулированию азота подписавшими ее сторонами,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены активизировать действия по значительному сокращению расточительности при использовании азота во всем мире к 2030 году и в последующие годы путем совершенствования устойчивого регулирования азота;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает также</span> государства-члены обмениваться имеющейся информацией о национальных планах действий в соответствии с национальными обстоятельствами; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>3.</num>
+        <list eId="para_18_list">
+          <intro eId="para_18_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде:</p>
+          </intro>
+          <point eId="para_18_list_point_a">
+            <num>a)</num>
+            <content eId="para_18_list_point_a_content">
+              <p xml:space="preserve"> 	оказывать поддержку государствам-членам по их просьбе в разработке национальных планов действий по устойчивому регулированию азота при условии наличия ресурсов;</p>
+            </content>
+          </point>
+          <point eId="para_18_list_point_b">
+            <num>b)</num>
+            <content eId="para_18_list_point_b_content">
+              <p xml:space="preserve"> 	определить возможные условия для реализации рассматриваемых вариантов содействия улучшению координации политики в рамках всего глобального круговорота азота на национальном, региональном и глобальном уровнях, включая, в числе других вариантов, межправительственный механизм для координации политики в отношении азота, как указано в подпункте a) резолюции 4/14;</p>
+            </content>
+          </point>
+          <point eId="para_18_list_point_c">
+            <num>c)</num>
+            <content eId="para_18_list_point_c_content">
+              <p xml:space="preserve"> 	представить Комитету постоянных представителей на его 159-м совещании, которое состоится в 2022 году, справку о выполнении резолюции 4/14, в том числе о статусе проведения оценки, испрошенной в подпункте c) указанной резолюции, и «дорожную карту» для дальнейшего выполнения резолюции в период, предшествующий шестой сессии Ассамблеи по окружающей среде;</p>
+            </content>
+          </point>
+          <point eId="para_18_list_point_d">
+            <num>d)</num>
+            <content eId="para_18_list_point_d_content">
+              <p xml:space="preserve"> 	предложить государствам-членам назначить координаторов для участия в рабочей группе по азоту Программы Организации Объединенных Наций по окружающей среде;</p>
+            </content>
+          </point>
+          <point eId="para_18_list_point_e">
+            <num>e)</num>
+            <content eId="para_18_list_point_e_content">
+              <p xml:space="preserve"> 	представить Ассамблее по окружающей среде на ее шестой сессии доклад о ходе осуществления настоящей резолюции и резолюции 4/14.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,377 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/rus@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="Global Environment Outlook" showAs="Global Environment Outlook" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.20" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Пятая сессия</session>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Ассамблеей Организации Объединенных Наций по окружающей среде 2 марта 2022 года</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#найроби">Найроби </location>
+          <location refersTo="#в комбинированном режиме">(в комбинированном режиме)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date>-<date date="2021-02-23" refersTo="#endDate">23 февраля 2021 года</date></event>  и <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 февраля </date>– <date date="2022-03-02" refersTo="#endDate">2 марта 2022 года</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Подготовка докладов «Глобальная экологическая перспектива» в будущем</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде</span>,</p>
+      </formula>
+      <container name="принимая во внимание" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">принимая во внимание</span> мандат Программы Организации Объединенных Наций по окружающей среде, указанный в резолюции 27/2997 Генеральной Ассамблеи от 15 декабря 1972 года, и другие резолюции, подкрепляющие ее мандат, в том числе мандат о постоянном наблюдении за состоянием окружающей среды в мире для обеспечения того, чтобы возникающие экологические проблемы важного международного значения рассматривались правительствами соответствующим и должным образом, </p>
+      </container>
+      <container name="ссылаясь" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на решение 27/11 Совета управляющих о состоянии окружающей среды и вкладе Программы Организации Объединенных Наций по окружающей среде в решение основных экологических проблем, </p>
+      </container>
+      <container name="принимая во внимание" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">принимая во внимание </span>итоговый документ Конференции Организации Объединенных Наций по устойчивому развитию «Будущее, которого мы хотим»<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 	Резолюция 66/288 Генеральной Ассамблеи, приложение.</p></authorialNote>, в частности пункт 88 d) о содействии укреплению механизма научно-политического взаимодействия в рамках Программы Организации Объединенных Наций по окружающей среде для поддержания принятия обоснованных решений,</p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на свою резолюцию 4/23 о наблюдении за состоянием окружающей среды в мире, в соответствии с которой был учрежден руководящий комитет по вопросу о будущем процессе подготовки докладов «Глобальная экологическая перспектива» и в которой ему поручается представить Ассамблее по окружающей среде на ее пятой сессии документ с изложением вариантов для обоснования решения о будущей форме и функциях процесса подготовки докладов «Глобальная экологическая перспектива», </p>
+      </container>
+      <container name="признавая" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">признавая</span> роль достоверных, актуальных и легитимных межправительственных и экспертных оценок в развитии диалога между научным и политическим сообществами и в содействии принятию решений по экологическим вопросам для достижения преобразований, необходимых для обеспечения устойчивого будущего в соответствии с Повесткой дня в области устойчивого развития на период до 2030 года, целями в области устойчивого развития и другими согласованными на международном уровне целями в области окружающей среды, </p>
+      </container>
+      <container name="признавая также" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что процесс подготовки докладов «Глобальная экологическая перспектива» с начала его осуществления в 1995 году обеспечил составление основных докладов и принятие обоснованных решений, внес вклад в принятие ключевых решений Совета управляющих и Ассамблеи по окружающей среде, а также в укрепление механизма научно‑политического взаимодействия Программы Организации Объединенных Наций по окружающей среде,</p>
+      </container>
+      <container name="признавая далее" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">признавая далее</span>, что результаты консультаций руководящего комитета по вопросу о будущем процессе подготовки докладов «Глобальная экологическая перспектива» продемонстрировали твердую поддержку продолжения этого процесса, </p>
+      </container>
+      <container name="отмечая" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">отмечая </span>критерии оценки вариантов, представленные руководящим комитетом в документе с изложением вариантов, а именно: согласованность в выполнении мандата, актуальность, легитимность, достоверность, доступность, дополнительные преимущества и общая осуществимость, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve"> 	<span class="italic">вновь подтверждает</span>, что целью процесса подготовки докладов «Глобальная экологическая перспектива» является постоянное наблюдение за состоянием окружающей среды в мире с целью периодического представления информации и содействия коллективным и индивидуальным действиям государств-членов и заинтересованных сторон, а также укрепления механизма научно-политического взаимодействия Программы Организации Объединенных Наций по окружающей среде; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> 	<span class="italic">подтверждает</span>, что процесс подготовки докладов «Глобальная экологическая перспектива» направлен на достижение цели, изложенной в пункте 1 настоящей резолюции, и проведение межправительственной экспертной оценки; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_13__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде учредить специальную межправительственную и многостороннюю консультативную группу, действующую в соответствии с правилами процедуры Ассамблеи по окружающей среде, обеспечив в ее составе географическую представленность всех регионов Организации Объединенных Наций, а также дисциплинарную и гендерную сбалансированность;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">принимает к сведению </span>документ с изложением вариантов, представленный руководящим комитетом по вопросу о будущем процессе подготовки докладов «Глобальная экологическая перспектива» Ассамблее по окружающей среде на ее пятой сессии, а также принимает к сведению результаты консультаций, проведенных комитетом; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет</span>, что основная функция процесса подготовки докладов «Глобальная экологическая перспектива» должна заключаться в проведении каждые четыре года авторитетной глобальной межправительственной экспертной оценки с учетом региональной специфики, в которой отслеживаются и оцениваются тенденции, эффективность глобальных ответных мер политики, перспективы в отношении всех пяти экологических тематических направлений, рассмотренных в предыдущих оценках «Глобальной экологической перспективы», движущие факторы изменения состояния окружающей среды и взаимодействие между этими экологическими тематическими направлениями, при этом используя, но не дублируя существующие оценки и дополняя их, при необходимости, тематическими оценками «Глобальной экологической перспективы» для восполнения пробелов в знаниях по поручению Ассамблеи по окружающей среде; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю провести подготовку седьмого издания оценки «Глобальной экологической перспективы» и представить его на утверждение Ассамблее по окружающей среде на ее следующей сессии не ранее 2025 года;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет</span>, что процесс подготовки докладов «Глобальная экологическая перспектива» должен указывать на определенные на межправительственном уровне потребности и обеспечивать условия для создания потенциала, накопления знаний и формирования мер политики в соответствии с мандатом Программы Организации Объединенных Наций по окружающей среде и в надлежащих случаях предоставлять вспомогательные услуги для удовлетворения этих потребностей совместно с соответствующими учреждениями; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет также</span>, что резюме оценок «Глобальной экологической перспективы» для директивных органов должны и впредь основываться на транспарентных и инклюзивных процедурах утверждения и определения круга вопросов в рамках межправительственного процесса обзора; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_46" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_46__content">
+          <p xml:space="preserve"> 	<span class="italic">подтверждает</span>, что следует и впредь предлагать правительствам вносить свой вклад в рамках межправительственного процесса коллегиального обзора оценок «Глобальной экологической перспективы»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <num>10.</num>
+        <list eId="para_55_list">
+          <intro eId="para_55_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю в соответствии с указаниями межправительственной и многосторонней консультативной группы предпринять следующие шаги:</p>
+          </intro>
+          <point eId="para_55_list_point_a">
+            <num>a)</num>
+            <content eId="para_55_list_point_a_content">
+              <p xml:space="preserve"> 	созвать межправительственное совещание с участием многих заинтересованных сторон и экспертов для определения комплекса процедур, отражающих цели и основную функцию процесса подготовки докладов «Глобальная экологическая перспектива», изложенные выше; </p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_b">
+            <num>b)</num>
+            <content eId="para_55_list_point_b_content">
+              <p xml:space="preserve"> 	осуществить процессы выдвижения кандидатур и отбора внешних экспертов, которые будут вносить вклад в процесс подготовки докладов «Глобальная экологическая перспектива», включая членов консультативных групп, авторов, научных специалистов, рецензентов и редакторов-рецензентов, обеспечивая географическую представленность всех регионов Организации Объединенных Наций, а также дисциплинарную и гендерную сбалансированность; </p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_c">
+            <num>c)</num>
+            <content eId="para_55_list_point_c_content">
+              <p xml:space="preserve"> 	обеспечить, чтобы подготовка докладов «Глобальная экологическая перспектива» опиралась на основанную на фактах рецензируемую литературу, национальные рецензируемые оценки на различных языках и другие международные и проводимые под руководством Организации Объединенных Наций оценки, данные и анализ, а также информацию из других достоверных источников, таких как информационная платформа «Состояние окружающей среды в мире» и информационные ресурсы Программы Организации Объединенных Наций по окружающей среде, и других учреждений;</p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_d">
+            <num>d)</num>
+            <content eId="para_55_list_point_d_content">
+              <p xml:space="preserve"> 	учредить многопрофильную научно-экспертную консультативную группу, ответственную за надзор за научной достоверностью докладов «Глобальная экологическая перспектива», в соответствии с положением о процессе отбора ее членов, а также рекомендациями в этом отношении, изложенными в приложении к настоящей резолюции;</p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_e">
+            <num>e)</num>
+            <content eId="para_55_list_point_e_content">
+              <p xml:space="preserve"> 	разработать гибкий многолетний план работы и бюджет с указанием сроков с изложением программы мероприятий, таких как проведение оценок и оказание вспомогательных услуг, в соответствии с потребностями, определенными Ассамблеей по окружающей среде в настоящей резолюции;</p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_f">
+            <num>f)</num>
+            <content eId="para_55_list_point_f_content">
+              <p xml:space="preserve"> 	укрепить механизм научно-политического взаимодействия путем подготовки экспертами для каждой оценки документа об аналитическом исследовании и резюме для директивных органов для рассмотрения на предмет оценки и утверждения представителями государств-членов на специальных совещаниях открытого состава; </p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_g">
+            <num>g)</num>
+            <content eId="para_55_list_point_g_content">
+              <p xml:space="preserve"> 	провести аналитические исследования и утвердить проведение межправительственных и экспертных оценок, одобренных Ассамблеей по окружающей среде, в соответствии с многолетним планом работы и бюджетом с указанием сроков; </p>
+            </content>
+          </point>
+          <point eId="para_55_list_point_h">
+            <num>h)</num>
+            <content eId="para_55_list_point_h_content">
+              <p xml:space="preserve"> 	продолжить осуществление программы стипендий в рамках «Глобальной экологической перспективы» для молодежи с целью расширения участия молодых людей; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_65" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_65__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет</span>, что при необходимости дополнительные функции для содействия подготовке докладов «Глобальная экологическая перспектива» будут осуществляться Директором-исполнителем и межправительственной и многосторонней консультативной группой после утверждения Ассамблеей по окружающей среде;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_76" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_76__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю в соответствии с мандатом Программы Организации Объединенных Наций по окружающей среде о постоянном наблюдении за состоянием окружающей среды в мире руководить процессом подготовки докладов «Глобальная экологическая перспектива» посредством разработки и внедрения упорядоченного и экономически эффективного управления и руководства; обеспечить достаточные, предсказуемые и стабильные финансовые ресурсы из основных фондов, включая Фонд окружающей среды; обеспечить достаточные людские ресурсы, необходимые для осуществления этого процесса, в секретариате Программы Организации Объединенных Наций по окружающей среде; стимулировать вклад собственных сотрудников и использовать их экспертный потенциал; содействовать установлению партнерских отношений с центрами сотрудничества и получению помощи со стороны подразделений групп поддержки; а также при необходимости содействовать мобилизации внебюджетных ресурсов для осуществления этого процесса;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve"> 	<span class="italic">также поручает </span>Директору-исполнителю проводить периодические консультации с Комитетом постоянных представителей при Программе Организации Объединенных Наций по окружающей среде по важным элементам процесса подготовки докладов «Глобальная экологическая перспектива».</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/"></FRBRuri>
+                <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/rus@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/rus@/"></FRBRuri>
+                <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="rus"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/rus@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/rus@.xml"></FRBRuri>
+                <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_89" class="MercuryDocument">
+              <heading>Приложение</heading>
+            </paragraph>
+            <paragraph eId="para_90" class="MercuryDocument">
+              <subheading>Положение о процессе отбора членов многопрофильной экспертной научно-консультативной группы, а также рекомендации в этом отношении </subheading>
+            </paragraph>
+            <paragraph eId="para_91" class="MercuryDocument">
+              <num>1.</num>
+              <content eId="para_91__content">
+                <p xml:space="preserve">	Многопрофильная экспертная научно-консультативная группа отвечает за председательство на совещаниях экспертов, обеспечение надзора за научной достоверностью, отбор экспертов и представление информации о ходе подготовки доклада «Глобальная экологическая перспектива». В ее состав войдут от 25 до 30 членов, и ее состав должен быть сформирован таким образом, чтобы обеспечить дисциплинарную и гендерную сбалансированность, а также географическую представленность пяти регионов Организации Объединенных Наций, принимая во внимание характеристики, изложенные в пункте 2 b) ниже. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_92" class="MercuryDocument">
+              <num>2.</num>
+              <list eId="para_92_list">
+                <intro eId="para_92_list_intro">
+                <p xml:space="preserve">	При выдвижении кандидатур и отборе членов многопрофильной экспертной научно‑консультативной группы следует учитывать наличие у кандидатов следующих характеристик: </p>
+                </intro>
+                <point eId="para_92_list_point_a">
+                  <num>a)</num>
+                  <content eId="para_92_list_point_a_content">
+                <p xml:space="preserve">способность выполнять функции, изложенные в пункте 1 выше;</p>
+                  </content>
+                </point>
+                <point eId="para_92_list_point_b">
+                  <num>b)</num>
+                  <content eId="para_92_list_point_b_content">
+                <p xml:space="preserve">наличие научного опыта в вопросах окружающей среды в области как естественных, так и социальных наук; </p>
+                  </content>
+                </point>
+                <point eId="para_92_list_point_c">
+                  <num>c)</num>
+                  <content eId="para_92_list_point_c_content">
+                <p xml:space="preserve">наличие экспертного опыта в научной, технической или политической областях и знаний об основных элементах процесса подготовки докладов «Глобальная экологическая перспектива»; </p>
+                  </content>
+                </point>
+                <point eId="para_92_list_point_d">
+                  <num>d)</num>
+                  <content eId="para_92_list_point_d_content">
+                <p xml:space="preserve">наличие опыта распространения, популяризации и включения достижений науки в процессы разработки мер политики; </p>
+                  </content>
+                </point>
+                <point eId="para_92_list_point_e">
+                  <num>e)</num>
+                  <content eId="para_92_list_point_e_content">
+                <p xml:space="preserve">способность как выполнять работу в рамках международных научно‑политических процессов, так и руководить ими;</p>
+                  </content>
+                </point>
+                <point eId="para_92_list_point_f">
+                  <num>f)</num>
+                  <content eId="para_92_list_point_f_content">
+                <p xml:space="preserve">способность доносить научную информацию и результаты научной деятельности до различных заинтересованных сторон, включая молодежь. </p>
+              </content>
+                </point>
+              </list>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

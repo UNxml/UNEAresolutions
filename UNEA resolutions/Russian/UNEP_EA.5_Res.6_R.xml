@@ -1,0 +1,298 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/rus@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BIOLOGICAL DIVERSITY" href="http://metadata.un.org/thesaurus/1000612" showAs="BIOLOGICAL DIVERSITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HEALTH" href="http://metadata.un.org/thesaurus/10" showAs="HEALTH" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.11" by="The Group of African States" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Пятая сессия</session>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Ассамблеей Организации Объединенных Наций по окружающей среде 2 марта 2022 года</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#найроби">Найроби </location>
+          <location refersTo="#в комбинированном режиме">(в комбинированном режиме)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date>-<date date="2021-02-23" refersTo="#endDate">23 февраля 2021 года</date></event>  и <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 февраля </date>– <date date="2022-03-02" refersTo="#endDate">2 марта 2022 года</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/6.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Биоразнообразие и здоровье</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюцию 70/1 Генеральной Ассамблеи Организации Объединенных Наций от 25 сентября 2015 года, озаглавленную «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года», в которой, среди прочего, предусматривается построение мира, в котором человечество живет в гармонии с природой и дикой флорой и фауной, и другие живые организмы обеспечены защитой,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также </span>на Аддис-Абебскую программу действий третьей международной конференции по финансированию развития, которая направлена на укрепление структуры финансирования устойчивого развития и средств осуществления Повестки дня в области устойчивого развития на период до 2030 года, </p>
+      </container>
+      <container name="ссылаясь далее" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">ссылаясь далее </span>на новое рабочее определение подхода «Единое здоровье», данное Группой экспертов высокого уровня по концепции «Единое здоровье» Трехстороннего альянса, в состав которого входят Продовольственная и сельскохозяйственная организация Объединенных Наций, Всемирная организация здравоохранения, Всемирная организация здоровья животных и Программа Организации Объединенных Наций по окружающей среде,</p>
+      </container>
+      <container name="ссылаясь" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюцию 3/4 Ассамблеи Организации Объединенных Наций по окружающей среде, касающуюся вопросов окружающей среды и здоровья, в которой отмечается, что здоровье человека, животных и растений и окружающая среда взаимосвязаны, </p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на решение XIII/6 Конвенции о биологическом разнообразии, касающееся вопросов биоразнообразия и здоровья человека, и решение 14/4 о здоровье и биоразнообразии, </p>
+      </container>
+      <container name="приветствуя" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> проведение 11-15 октября 2021 года в Куньмине (Китай) первой части пятнадцатого совещания Конференции Сторон Конвенции о биологическом разнообразии по теме «Экологическая цивилизация: построение общего будущего во имя всего живого на Земле»,</p>
+      </container>
+      <container name="с интересом ожидая" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">с интересом ожидая</span> масштабной, преобразовательной, сбалансированной, эффективной и ориентированной на практические действия системы глобальных мероприятий в сфере биоразнообразия на период после 2020 года, </p>
+      </container>
+      <container name="принимая к сведению" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению</span> текущие обсуждения по вопросу о разработке глобального плана действий по биоразнообразию и здоровью в рамках Конвенции о биологическом разнообразии,</p>
+      </container>
+      <container name="принимая к сведению также" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению также</span> недавний доклад Программы Организации Объединенных Наций по окружающей среде и Международного научно-исследовательского института животноводства под названием «Предотвращение следующей пандемии: зоонозные заболевания и как разомкнуть эпидемиологическую цепь»<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 	United Nations Environment Programme and International Livestock Research Institute, <span class="italic">Preventing the Next Pandemic: Zoonotic Diseases and How to Break the Chain of Transmission</span> (Nairobi, Kenya, 2020).</p></authorialNote>, который демонстрирует связь между деятельностью человека и появлением новых зоонозов, и доклад Всемирной организации здравоохранения и Конвенции о биологическом разнообразии под названием «Интеграция глобальных приоритетов: биоразнообразие и здоровье человека – обзор состояния знаний»<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> 	World Health Organization and Convention on Biological Diversity, Connecting Global Priorities: Biodiversity and Human Health – A State of Knowledge Review (2015).</p></authorialNote>,</p>
+      </container>
+      <container name="сознавая" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">сознавая</span>, что эффективное устойчивое использование, сохранение и восстановление биоразнообразия могут привести к значительному улучшению состояния здоровья, принести пользу для здоровья, и могут быть эффективным средством содействия укреплению здоровья, справедливости и устойчивости в мире, </p>
+      </container>
+      <container name="признавая" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что взаимозависимые кризисы – изменение климата, утрата биоразнообразия и загрязнение окружающей среды – приводят к тяжелым последствиям и увеличивают нагрузку на системы медико-санитарного обслуживания, в том числе в результате возникновения инфекционных и неинфекционных заболеваний и усиления неравенства с точки зрения доступа к медицинскому обслуживанию, </p>
+      </container>
+      <container name="признавая также" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что утрата биоразнообразия представляет угрозу для здоровья человека и животных и состояния экосистем, и что устойчивое использование, сохранение и восстановление биоразнообразия, экосистем и их услуг может принести пользу для здоровья и благополучия людей,</p>
+      </container>
+      <container name="отмечая" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что увеличение частоты и интенсивности экстремальных климатических явлений, таких как аномальная жара, засухи и наводнения, угрожает не только здоровью, средствам к существованию и благополучию человека, но и животным, растениям и экосистемам ввиду ухудшения функционирования экосистем и сужения спектра экосистемных услуг, а регионы со слабой инфраструктурой здравоохранения – в первую очередь в развивающихся странах – будут в наименьшей степени способны выстоять без поддержки, направленной на обеспечение готовности к таким вызовам и реагированию на них,</p>
+      </container>
+      <container name="сознавая" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">сознавая</span>, что устойчивость к противомикробным препаратам представляет собой все возрастающую угрозу для здравоохранения и развития во всем мире, что требует постоянных многосекторальных действий по всему спектру подхода «Единое здоровье» для достижения целей в области устойчивого развития,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению</span> решение 14/30 Конвенции о биологическом разнообразии, касающееся сотрудничества с другими конвенциями, международными организациями и инициативами, в котором приветствуется инициатива Египта по стимулированию согласованного подхода для решения проблем, связанных с утратой биоразнообразия, изменением климата и деградацией земель и экосистем, </p>
+      </container>
+      <container name="подтверждая" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">подтверждая</span>, что руководство здравоохранением в мировом масштабе должно быть направлено на содействие предотвращению и выявлению кризисных ситуаций, более эффективной подготовке к ним и реагированию на них и одновременно на устранение во всем мире неравенства в сфере здравоохранения и на необходимость укрепления систем медико‑санитарного обслуживания в развивающихся странах и странах с переходной экономикой, особенно в Африке, в том числе посредством сотрудничества Север-Юг, Юг-Юг и трехстороннего сотрудничества, </p>
+      </container>
+      <container name="признавая" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что восстановление экономики от последствий пандемии коронавирусного заболевания (COVID‑19) потребует более справедливых систем медико-санитарного обслуживания и улучшения доступа к безопасным и эффективным вакцинам против COVID‑19, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_19_list">
+          <intro eId="para_19_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде, используя значительную роль, которую играет Программа Организации Объединенных Наций по окружающей среде в Трехстороннем альянсе, и с другими соответствующими партнерами, оказывать дальнейшее содействие государствам‑членам и членам специализированных учреждений в следующем: </p>
+          </intro>
+          <point eId="para_19_list_point_a">
+            <num>a)</num>
+            <content eId="para_19_list_point_a_content">
+              <p xml:space="preserve"> 	содействие принятию мер, положительно влияющих на окружающую среду, учитывая связь между здоровьем человека и животных и состоянием экосистем;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_b">
+            <num>b)</num>
+            <content eId="para_19_list_point_b_content">
+              <p xml:space="preserve"> 	принятие мер по повышению доступности, качества и своевременности данных для мониторинга и наблюдения, потенциала и возможностей во всех секторах подхода «Единое здоровье», а также содействие своевременному выявлению и реагированию на риски для здоровья, связанные с экологическими факторами, в соответствии с национальными условиями и приоритетами;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_c">
+            <num>c)</num>
+            <content eId="para_19_list_point_c_content">
+              <p xml:space="preserve"> 	активизация сотрудничества для решения проблемы воздействия утраты биоразнообразия, изменения климата и других связанных с этим экологических кризисов на здоровье населения мира в соответствии с подходом «Единое здоровье»;</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_d">
+            <num>d)</num>
+            <content eId="para_19_list_point_d_content">
+              <p xml:space="preserve"> 	активизация сотрудничества в контексте обеспечения готовности к пандемии, ее профилактики и мер реагирования и, в более широком смысле, в контексте исследований и разработок, связанных со здравоохранением, включая исследования и разработки, связанные с генетическими ресурсами, принимая во внимание, в соответствующих случаях, механизмы доступа и совместного использования выгод;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены учитывать и координировать устойчивое использование, сохранение и восстановление биоразнообразия в отраслевой политике и программах в целях повышения стойкости экосистем, остановить и обратить вспять утрату биоразнообразия, отслеживать и контролировать инвазивные чужеродные виды, а также содействовать безопасности продуктов питания с целью предотвращения текущих и будущих рисков для здоровья, включая вспышки заболеваний, способных перерасти в эпидемии и пандемии;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю в сотрудничестве с Продовольственной и сельскохозяйственной организацией Объединенных Наций, Всемирной организацией здравоохранения и Всемирной организацией здоровья животных, а также со всеми соответствующими заинтересованными сторонами, оказывать поддержку государствам-членам и членам специализированных учреждений в повышении осведомленности о факторах утраты биоразнообразия и их взаимосвязи с возникновением и распространением инфекционных и неинфекционных заболеваний, а также о важности инвестирования в природу и экосистемные услуги, связанные со здоровьем человека, на основе наилучших имеющихся научных данных;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю в партнерстве с Продовольственной и сельскохозяйственной организацией Объединенных Наций, Всемирной организацией здравоохранения и Всемирной организацией здоровья животных и другими соответствующими партнерами, при условии наличия финансовых ресурсов, оказывать государствам-членам и членам специализированных учреждений, при поступлении от них соответствующих просьб, поддержку в оценке экологического компонента здравоохранения и осветить эти вопросы в предстоящем совместном плане действий подхода «Единое здоровье»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены активизировать сотрудничество в целях снижения риска передачи и вспышек зоонозных заболеваний и для их регулирования, предотвращения заражения, а также быстрого и транспарентного реагирования для предотвращения эпидемий и пандемий;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает также</span> государства-члены содействовать эффективному участию развитых и развивающихся стран в деятельности по проведению биотехнологических исследований, связанной со здравоохранением, включая государства-члены, которые в состоянии предоставить генетические ресурсы для таких исследований, в соответствии с национальными условиями;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_40" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_40__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает далее</span> государства-члены работать над соблюдением и внедрением механизмов доступа и совместного использования выгод, когда это целесообразно, чтобы способствовать устойчивому использованию и сохранению биоразнообразия, в том числе в государствах-членах, которые предоставляют генетические ресурсы для исследований и разработок, связанных со здравоохранением, в соответствии с национальными условиями;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> государствам-членам укреплять связи между сохранением и устойчивым использованием биоразнообразия и общественным здравоохранением в отраслевой политике и в соответствии с подходом «Единое здоровье», чтобы предотвращать, выявлять, обеспечивать более эффективную подготовку к рискам для здоровья и реагировать на них, а также вкладывать средства в расширение предоставления экосистемных услуг, связанных со здравоохранением, принимая во внимание, где это целесообразно, рекомендации Группы экспертов высокого уровня по концепции «Единое здоровье»;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_55" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_55__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены укреплять международное сотрудничество с целью решения конкретных проблем, с которыми сталкиваются развивающиеся страны при реализации подхода «Единое здоровье», в том числе путем укрепления потенциала для контроля за состоянием здоровья населения и содействия мерам реагирования в соответствии с национальными условиями и приоритетами;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_64" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_64__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает </span>государства-члены снизить риски для здоровья, связанные с торговлей живыми дикими животными, отловленными для целей производства продуктов питания, разведения в неволе, изготовления лекарств и торговли домашними животными, путем регулирования их коммерческого оборота и обеспечения устойчивого и безопасного потребления мяса диких животных, включая адекватный санитарный контроль на продовольственных рынках, где продаются живые дикие животные;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_74" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_74__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> государствам-членам и другим субъектам предоставить, при необходимости, в добровольном порядке внебюджетные ресурсы на цели содействия осуществлению настоящей резолюции;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> государствам-членам, международным финансовым учреждениям и другим партнерам активизировать поддержку, включая мобилизацию ресурсов для развивающихся стран, в том числе наименее развитых стран и малых островных развивающихся государств, в их национальных усилиях по учету экологических компонентов здравоохранения, включая вопросы, связанные с утратой биоразнообразия, изменением климата и загрязнением окружающей среды, с целью создания более устойчивых систем медико-санитарного обслуживания и повышения готовности к пандемиям, их профилактики, выявления и реагирования на них;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_97" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_97__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> всем государствам-членам и соответствующим заинтересованным сторонам, включая субъекты частного сектора, вносить вклад в повышение осведомленности и понимания важности решения проблемы устойчивости к противомикробным препаратам, учитывая угрозу, которую она представляет, и разработать меры по решению этой глобальной проблемы в области здравоохранения, в том числе путем надлежащего регулирования отходов противомикробных препаратов и связанных с ними остатков, а также смягчения последствий передачи устойчивых бактерий и генов через окружающую среду;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_110" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_110__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> всем соответствующим заинтересованным сторонам, включая субъекты частного сектора, вносить вклад в повышение осведомленности и понимания экологических аспектов здравоохранения и, в частности, разрабатывать меры и действия по рациональному регулированию отходов и решению проблемы загрязнения.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

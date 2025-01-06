@@ -1,0 +1,234 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/rus@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-10/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-21" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="17" href="http://metadata.un.org/sdg/17" showAs="sdg_17" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="partnership" href="http://eurovoc.europa.eu/4199" showAs="partnership" dictionary="EuroVoc"></keyword>
+        <keyword value="partnership" href="http://metadata.un.org/thesaurus/1004748" showAs="partnership" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="16" href="http://metadata.un.org/sdg/16" showAs="sdg_16" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_development" href="http://eurovoc.europa.eu/5585" showAs="sustainable_development" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_development" href="http://metadata.un.org/thesaurus/1006319" showAs="sustainable_development" dictionary="UNBIS"></keyword>
+        <keyword value="civil_society" href="http://eurovoc.europa.eu/8428" showAs="civil_society" dictionary="EuroVoc"></keyword>
+        <keyword value="civil_society" href="http://metadata.un.org/thesaurus/1001012" showAs="civil_society" dictionary="UNBIS"></keyword>
+        <keyword value="justice" href="http://metadata.un.org/thesaurus/1003500" showAs="justice" dictionary="UNBIS"></keyword>
+        <keyword value="peaceful_coexistence" href="http://metadata.un.org/thesaurus/1004777" showAs="peaceful_coexistence" dictionary="UNBIS"></keyword>
+        <keyword value="social_justice" href="http://metadata.un.org/thesaurus/1005970" showAs="social_justice" dictionary="UNBIS"></keyword>
+        <keyword value="right_to_justice" href="http://eurovoc.europa.eu/516" showAs="right_to_justice" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://eurovoc.europa.eu/878" showAs="public_institution" dictionary="EuroVoc"></keyword>
+        <keyword value="public_institution" href="http://metadata.un.org/thesaurus/1005254" showAs="public_institution" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="2" href="http://metadata.un.org/sdg/2" showAs="sdg_2" dictionary="SDGO"></keyword>
+        <keyword value="sustainable_agriculture" href="http://eurovoc.europa.eu/6308" showAs="sustainable_agriculture" dictionary="EuroVoc"></keyword>
+        <keyword value="sustainable_agriculture" href="http://metadata.un.org/thesaurus/1006317" showAs="sustainable_agriculture" dictionary="UNBIS"></keyword>
+        <keyword value="food_security" href="http://eurovoc.europa.eu/c_4523e1dd" showAs="food_security" dictionary="EuroVoc"></keyword>
+        <keyword value="food_security" href="http://metadata.un.org/thesaurus/1002439" showAs="food_security" dictionary="UNBIS"></keyword>
+        <keyword value="food_shortage" href="http://eurovoc.europa.eu/2318" showAs="food_shortage" dictionary="EuroVoc"></keyword>
+        <keyword value="food_shortage" href="http://metadata.un.org/thesaurus/1002440" showAs="food_shortage" dictionary="UNBIS"></keyword>
+        <keyword value="hunger" href="http://eurovoc.europa.eu/961" showAs="hunger" dictionary="EuroVoc"></keyword>
+        <keyword value="hunger" href="http://metadata.un.org/thesaurus/1003004" showAs="hunger" dictionary="UNBIS"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="9" href="http://metadata.un.org/sdg/9" showAs="sdg_9" dictionary="SDGO"></keyword>
+        <keyword value="innovation" href="http://eurovoc.europa.eu/1439" showAs="innovation" dictionary="EuroVoc"></keyword>
+        <keyword value="innovation" href="http://metadata.un.org/thesaurus/1003223" showAs="innovation" dictionary="UNBIS"></keyword>
+        <keyword value="industrialization" href="http://metadata.un.org/thesaurus/1003177" showAs="industrialization" dictionary="UNBIS"></keyword>
+        <keyword value="industrial_infrastructure" href="http://eurovoc.europa.eu/1434" showAs="industrial_infrastructure" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="https://metadata.un.org/sdg">
+        <keyword value="10" href="http://metadata.un.org/sdg/10" showAs="sdg_10" dictionary="SDGO"></keyword>
+        <keyword value="equality" href="http://metadata.un.org/thesaurus/1002102" showAs="equality" dictionary="UNBIS"></keyword>
+        <keyword value="social_inequality" href="http://eurovoc.europa.eu/1420" showAs="social_inequality" dictionary="EuroVoc"></keyword>
+      </classification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="COVID-19" href="http://metadata.un.org/thesaurus/2000002" showAs="COVID-19" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.16" by="The Group of African States" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.10</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Пятая сессия</session>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Ассамблеей Организации Объединенных Наций по окружающей среде 2 марта 2022 года</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#найроби">Найроби </location>
+          <location refersTo="#в комбинированном режиме">(в комбинированном режиме)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date>-<date date="2021-02-23" refersTo="#endDate">23 февраля 2021 года</date></event>  и <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 февраля </date>– <date date="2022-03-02" refersTo="#endDate">2 марта 2022 года</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/10.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Экологический компонент устойчивого, жизнестойкого и инклюзивного восстановления после COVID‑19</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде</span>,</p>
+      </formula>
+      <container name="с обеспокоенностью отмечая" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">с обеспокоенностью отмечая</span>, что пандемия коронавирусного заболевания (COVID‑19) замедлила ход осуществления Повестки дня в области устойчивого развития на период до 2030 года и целей в области устойчивого развития,</p>
+      </container>
+      <container name="ссылаясь" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюцию 76/208 Генеральной Ассамблеи от 17 декабря 2021 года о докладе Ассамблеи Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде, в котором с большой обеспокоенностью отмечаются серьезное негативное воздействие COVID‑19 на здоровье, безопасность и благополучие людей, а также серьезные нарушения жизни общества и функционирования экономики и катастрофические последствия для жизни людей и их средств к существованию и что в наибольшей степени от пандемии страдают беднейшие и наиболее уязвимые слои населения, </p>
+      </container>
+      <container name="подтверждая" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">подтверждая</span>, что пандемия COVID‑19 не уменьшила настоятельность решения вопросов, связанных с экологическим компонентом устойчивого развития, а, наоборот, ускорила необходимость принятия срочных глобальных мер по преодолению экологического кризиса и укреплению долгосрочного устойчивого, жизнестойкого и инклюзивного восстановления после COVID‑19, </p>
+      </container>
+      <container name="подчеркивая" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> актуальность обеспечения экологического компонента устойчивого, жизнестойкого и инклюзивного восстановления после пандемии в контексте Ассамблеи Организации Объединенных Наций по окружающей среде,</p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на Рио-де-Жанейрскую декларацию по окружающей среде и развитию, итоговый документ Конференции Организации Объединенных Наций по устойчивому развитию под названием «Будущее, которого мы хотим»<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 	Резолюция 66/288 Генеральной Ассамблеи, приложение.</p></authorialNote>; Аддис-Абебскую программу действий Третьей международной конференции по финансированию развития; резолюцию 70/1 Генеральной Ассамблеи от 25 сентября 2015 года, озаглавленную «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года»; резолюцию 74/306 Генеральной Ассамблеи от 15 сентября 2020 года, озаглавленную «Всеобъемлющие и скоординированные меры реагирования на пандемию коронавирусного заболевания (COVID‑19)»; и резолюцию 75/1 Генеральной Ассамблеи от 21 сентября 2020 года, озаглавленную «Декларация о праздновании семьдесят пятой годовщины Организации Объединенных Наций»,</p>
+      </container>
+      <container name="высоко оценивая" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">высоко оценивая</span> различные усилия на национальном, региональном и глобальном уровнях по обеспечению устойчивого, жизнестойкого и инклюзивного восстановления после пандемии COVID‑19, в том числе те, которые являются платформами для обмена знаниями и опытом, в рамках которых партнерские связи укрепляются с целью решения многочисленных трудностей в области восстановления и стимулирования устойчивого развития,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_8__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены усилить меры по обеспечению устойчивого, жизнестойкого и инклюзивного восстановления в глобальных масштабах, включая, в частности, продолжение активизации действий по борьбе с изменением климата, потерей биоразнообразия и загрязнением окружающей среды, а также осуществление Повестки дня в области устойчивого развития на период до 2030 года с учетом национальных обстоятельств;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_9" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены обмениваться знаниями и создавать потенциал, особенно в развивающихся странах, в области исследований и разработок; технологических инноваций, способствующих улучшению обмена информацией и знаниями; и технической поддержки в целях устойчивого, жизнестойкого и инклюзивного восстановления;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде и предлагает другим учреждениям Организации Объединенных Наций и ее партнерам оказывать поддержку странам и привлекать их к участию в сферах исследований и разработок, инновационных технологий, создания потенциала и обмен знаниями в целях устойчивого, жизнестойкого и инклюзивного восстановления;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">также поручает</span> Директору-исполнителю через усиленную систему координаторов-резидентов и реорганизованные страновые группы Организации Объединенных Наций оказывать странам поддержку в области информации, знаний, развития потенциала и технической поддержки в целях устойчивого, жизнестойкого и инклюзивного восстановления;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="italic">далее поручает</span> Директору-исполнителю распространять информацию о передовой практике и предоставлять странам, особенно развивающимся, возможности коллективного взаимообучения и техническую помощь в целях поддержки усилий по мобилизации ресурсов, а также по укреплению и расширению масштабов усилий на страновом уровне в отношении мер по устойчивому, жизнестойкому и инклюзивному восстановлению;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> частный сектор и многосторонние финансовые учреждения продолжать оказывать поддержку странам, экономика которых пострадала от пандемии COVID‑19, для достижения устойчивого, жизнестойкого и инклюзивного восстановления.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

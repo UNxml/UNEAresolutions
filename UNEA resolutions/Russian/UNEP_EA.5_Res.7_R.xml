@@ -1,0 +1,317 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/rus@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-7/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHEMICALS" href="http://metadata.un.org/thesaurus/1000921" showAs="CHEMICALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL MANAGEMENT" href="http://metadata.un.org/thesaurus/1002079" showAs="ENVIRONMENTAL MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.13" by="Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.7</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Пятая сессия</session>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Ассамблеей Организации Объединенных Наций по окружающей среде 2 марта 2022 года</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#найроби">Найроби </location>
+          <location refersTo="#в комбинированном режиме">(в комбинированном режиме)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date>-<date date="2021-02-23" refersTo="#endDate">23 февраля 2021 года</date></event>  и <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 февраля </date>– <date date="2022-03-02" refersTo="#endDate">2 марта 2022 года</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/7.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Рациональное регулирование химических веществ и отходов</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде</span>,</p>
+      </formula>
+      <container name="признавая" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что достижению целей в области устойчивого развития препятствует целый ряд возрастающих и взаимоусиливающих экологических рисков и что ввиду взаимосвязанного характера изменения климата, утраты биоразнообразия, деградации земель, загрязнения воздуха, воды и почвы необходимо решать эти проблемы на комплексной основе и в соответствии с мандатами и приоритетами имеющихся многосторонних природоохранных соглашений, </p>
+      </container>
+      <container name="подчеркивая" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> межсекторальную актуальность рационального регулирования химических веществ и отходов для достижения и выполнения многих целей и задач Повестки дня в области устойчивого развития на период до 2030 года, в том числе для здравоохранения, рациональных моделей потребления и производства, изменения климата и биоразнообразия, </p>
+      </container>
+      <container name="признавая" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что чистая, здоровая и устойчивая окружающая среда имеет важное значение для осуществления прав человека, принимая к сведению резолюцию 48/13 Совета по правам человека «Право человека на чистую, здоровую и устойчивую окружающую среду» и отмечая, что Генеральной Ассамблее было предложено рассмотреть этот вопрос, </p>
+      </container>
+      <container name="выражая" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">выражая</span> удовлетворение в связи с ходом осуществления работы в рамках Программы Организации Объединенных Наций по окружающей среде и других учреждений Организации Объединенных Наций, Стратегического подхода к международному регулированию химических веществ и соответствующих многосторонних природоохранных соглашений, </p>
+      </container>
+      <container name="сознавая" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">сознавая</span>, что в ближайшие годы использование химических веществ и количество образующихся отходов будет существенно увеличиваться, и выражая глубокую озабоченность в связи с нерациональным регулированием химических веществ и отходов и их отрицательным воздействием на здоровье человека и окружающую среду, </p>
+      </container>
+      <container name="ссылаясь" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюцию 4/8 Ассамблеи по окружающей среде «Рациональное регулирование химических веществ и отходов», а также на оценку реализации комплексного подхода к финансированию рационального регулирования химических веществ и отходов, и отмечая обсуждение комплексного подхода к финансированию в рамках Стратегического подхода и рационального регулирования химических веществ и отходов после 2020 года, </p>
+      </container>
+      <container name="признавая" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">признавая</span> необходимость принятия дальнейших мер по сокращению или устранению рисков, связанных с химическими веществами и отходами, о которых говорится в докладе Программы Организации Объединенных Наций по окружающей среде «Доклад об оценке по вопросам, вызывающим озабоченность: вопросы, связанные с химическими веществами и отходами и представляющие опасность для здоровья человека и окружающей среды»<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 	Программа Организации Объединенных Наций по окружающей среде, «Доклад об оценке по вопросам, вызывающим озабоченность: вопросы, связанные с химическими веществами и отходами и представляющие опасность для здоровья человека и окружающей среды», 2020 год.</p></authorialNote>, </p>
+      </container>
+      <container name="принимая во внимание" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">принимая во внимание</span> Среднесрочную стратегию Программы Организации Объединенных Наций по окружающей среде, предусматривающую меры в отношении химических веществ и загрязнения, касающиеся климата и природы, в качестве трех взаимосвязанных тематических, основополагающих и содействующих программных направлений Программы Организации Объединенных Наций по окружающей среде, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <heading>	Рациональное регулирование химических веществ и отходов и Международная конференция по регулированию химических веществ </heading>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> 	<span class="italic">с обеспокоенностью отмечает</span>, что задача, поставленная в Повестке дня в области устойчивого развития на период до 2030 года – к 2020 году добиться экологически рационального регулирования химических веществ и всех отходов на протяжении их жизненного цикла в соответствии с согласованными международными принципами и существенно сократить их поступление в воздух, воду и почву, чтобы свести к минимуму их негативное воздействие на здоровье людей и окружающую среду, – не выполнена, и обязуется активизировать усилия по выполнению этой задачи;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve"> 	<span class="italic">приветствует</span> «Общее руководство по «зеленой» и устойчивой химии» Программы Организации Объединенных Наций по окружающей среде и его резюме для директивных органов, в которых подчеркивается важнейшее значение экологически безопасных инноваций, и призывает использовать их в соответствующих случаях; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">выражает обеспокоенность</span> в связи с повышением активности незаконных трансграничных перевозок опасных и других отходов, о которых сообщают развивающиеся страны и которые оказывают непропорционально отрицательное воздействие, и предлагает Конференции Сторон Базельской конвенции о контроле за трансграничной перевозкой опасных отходов и их удалением продолжить рассмотрение этого вопроса; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> правительствам и всем заинтересованным сторонам, участвующим в процессе «Химические вещества после 2020 года», создать масштабную и усовершенствованную благоприятную основу для решения проблемы рационального регулирования химических веществ и отходов после 2020 года, отражающую подход, основанный на жизненном цикле, и необходимость обеспечения рационального потребления и производства, а также рассмотреть средства реализации этой основы на пятой сессии Международной конференции по регулированию химических веществ, и призывает все заинтересованные стороны довести текущий межсессионный процесс до успешного завершения; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде продолжать и расширять поддержку Стратегическому подходу к международному регулированию химических веществ в подготовке к пятой сессии Международной конференции по регулированию химических веществ и обеспечить беспрерывное и эффективное секретариатское обслуживание и административную поддержку для выполнения любого решения, принятого Конференцией; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22" class="MercuryDocument">
+        <heading>	Комплексный подход к финансированию и однократное продление срока действия Специальной программы для оказания поддержки деятельности по укреплению институционального потенциала на национальном уровне в интересах осуществления Базельской конвенции о контроле за трансграничной перевозкой опасных отходов и их удалением, Роттердамской конвенции о процедуре предварительного обоснованного согласия в отношении отдельных опасных химических веществ и пестицидов в международной торговле и Стокгольмской конвенции о стойких органических загрязнителях, Минаматской конвенции о ртути и Стратегического подхода к международному регулированию химических веществ (далее – «Специальная программа»)</heading>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">подтверждает</span> актуальность и важность комплексного подхода к финансированию рационального регулирования химических веществ и отходов и подчеркивает, что три компонента комплексного подхода – актуализация соответствующей деятельности, вовлечение отраслей и целевое внешнее финансирование – носят взаимоусиливающий характер и все они важны для обеспечения финансирования рационального регулирования химических веществ и отходов на всех уровнях; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> 	<span class="italic">приветствует</span> важную роль, которую играет Глобальный экологический фонд, подчеркивая при этом необходимость дальнейшего совершенствования условий доступа к нему в соответствии с решением СК-10/3 Стокгольмской конвенции, а именно в части, касающейся его тематической области «химические вещества и отходы»; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> Глобальному экологическому фонду и призывает доноров его целевого фонда продолжать содействовать рациональному регулированию химических веществ и отходов и расширять это содействие, в частности, используя ГЭФ как механизм финансирования Стокгольмской и Минаматской конвенций; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="italic">ссылается</span> на резолюцию 1/5 Ассамблеи Организации Объединенных Наций по окружающей среде, в которой было утверждено Положение о Специальной программе для оказания поддержки деятельности по укреплению институционального потенциала на национальном уровне в интересах осуществления Базельской, Роттердамской и Стокгольмской конвенций, Минаматской конвенции и Стратегического подхода к международному регулированию химических веществ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> Исполнительный совет Специальной программы пересмотреть процедуры подачи заявок на финансирование в свете заявленных развивающимися странами потребностей и проблем, в том числе связанных с операционными расходами, с целью содействия эффективному и действенному применению критериев отбора в соответствии с Положением о Специальной программе, не ставя при этом под угрозу возможность Специальной программы получать финансирование из существующих источников; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_38" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_38__content">
+          <p xml:space="preserve"> 	<span class="italic">c удовлетворением отмечает</span> среднесрочную оценку, проведенную Управлением по вопросам оценки Программы Организации Объединенных Наций по окружающей среде в 2019 году, в которой, среди прочего, Специальной программе была дана общая оценка «удовлетворительно» в отношении осуществляемой ею по настоящее время деятельности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_44" class="MercuryDocument">
+        <num>12.</num>
+        <content eId="para_44__content">
+          <p xml:space="preserve"> 	<span class="italic">принимает к сведению</span> документ, подготовленный секретариатом, в котором описывается дополнительный положительный эффект Специальной программы в будущем; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <num>13.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve"> 	<span class="italic">отмечает</span> рекомендацию Исполнительного совета Специальной программы, принятую на его шестом возобновленном совещании в сентябре 2021 года, о продлении срока действия Программы на пять лет и о включении в Программу Стратегического подхода и рационального регулирования химических веществ и отходов после 2020 года; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_59" class="MercuryDocument">
+        <num>14.</num>
+        <content eId="para_59__content">
+          <p xml:space="preserve"> 	<span class="italic">отмечает также</span>, что Специальная программа играет важную роль в поддержке, предоставляемой развивающимся странам с учетом особых потребностей наименее развитых стран и малых островных развивающихся государств, а также стран с переходной экономикой, с уделением первоочередного внимания странам, имеющим наименьший потенциал, в деле создания и поддержания устойчивого национального потенциала в области рационального регулирования химических веществ и отходов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68" class="MercuryDocument">
+        <num>15.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> правительства, располагающие соответствующими возможностями, а также частный сектор, в том числе отраслевые круги, фонды, другие неправительственные организации и другие заинтересованные стороны, начать и продолжать работу по мобилизации финансовых ресурсов с целью содействия работе Специальной программы;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_78" class="MercuryDocument">
+        <num>16.</num>
+        <content eId="para_78__content">
+          <p xml:space="preserve"> 	<span class="italic">постановляет</span> продлить срок действия Специальной программы на пять лет в соответствии с пунктом 24 Положения, принятого в резолюции 1/5 Ассамблеи по окружающей среде, и включить в Специальную программу Стратегический подход и рациональное регулирование химических веществ и отходов на период после 2020 года; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79" class="MercuryDocument">
+        <heading>Вопросы, вызывающие озабоченность</heading>
+      </paragraph>
+      <paragraph eId="para_80" class="MercuryDocument">
+        <num>17.</num>
+        <content eId="para_80__content">
+          <p xml:space="preserve"> 	<span class="italic">c удовлетворением отмечает</span> доклады, подготовленные Программой Организации Объединенных Наций по окружающей среде во исполнение поручений, полученных ею на третьей и четвертой сессиях Ассамблеи по окружающей среде, которые представляют собой важный вклад в обеспечение рационального регулирования химических веществ и отходов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81" class="MercuryDocument">
+        <num>18.</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve"> 	<span class="italic">настоятельно призывает</span> государства-члены и предлагает другим заинтересованным сторонам предпринять дальнейшие действия по сокращению или устранению рисков, связанных с вопросами, о которых говорится в «Докладе об оценке по вопросам, вызывающим озабоченность: вопросы, связанные с химическими веществами и отходами и представляющие опасность для здоровья человека и окружающей среды»; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83" class="MercuryDocument">
+        <num>19.</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю запросить мнения государств-членов и других заинтересованных сторон, обеспечив при этом достаточное время для их рассмотрения, в отношении приоритетных направлений дальнейшей работы с учетом имеющихся мер и инициатив и в отношении возможных дальнейших международных действий по вопросам, о которых говорится в «Докладе об оценке по вопросам, вызывающим озабоченность», и, в частности, по вопросам, определенным в докладе «Глобальная перспектива в области химических веществ – II: от устаревших методов к инновационным решениям - осуществление Повестки дня в области устойчивого развития на период до 2030 года»<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> 	Программа Организации Объединенных Наций по окружающей среде, «Глобальная перспектива в области химических веществ – II: от устаревших методов к инновационным решениям – осуществление Повестки дня в области устойчивого развития на период до 2030 года», 2019 год.</p></authorialNote>, и подготовить краткий анализ полученных мнений для рассмотрения Ассамблеей по окружающей среде и, при необходимости, другими международными органами, включая Международную конференцию по регулированию химических веществ;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_86" class="MercuryDocument">
+        <num>20.</num>
+        <content eId="para_86__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> государствам-членам, международным организациям и другим заинтересованным сторонам принять меры в отношении отрицательного воздействия пестицидов и удобрений и отмечает совместную инициативу Продовольственной и сельскохозяйственной организации Объединенных Наций, Всемирной организации здравоохранения и Программы Организации Объединенных Наций по окружающей среде, направленную на устранение вреда, причиняемого в результате использования высокоопасных пестицидов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_87" class="MercuryDocument">
+        <heading>Поручения Директору-исполнителю</heading>
+      </paragraph>
+      <paragraph eId="para_88" class="MercuryDocument">
+        <num>21.</num>
+        <content eId="para_88__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю работать в тесном сотрудничестве с другими членами Межорганизационной программы по рациональному регулированию химических веществ, другими соответствующими учреждениями и документами Организации Объединенных Наций, а также с соответствующими многосторонними природоохранными соглашениями в целях обеспечения эффективного сотрудничества и взаимодействия в части способствования рациональному регулированию химических веществ и отходов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_89" class="MercuryDocument">
+        <num>22.</num>
+        <content eId="para_89__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает также</span> Директору-исполнителю при условии наличия ресурсов и в сотрудничестве со Всемирной организацией здравоохранения актуализировать доклад State of the science of endocrine disrupting chemicals 2012 («Уровень научных знаний о химических веществах, нарушающих работу эндокринной системы, 2012 год») до шестой сессии Ассамблеи по окружающей среде;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_91" class="MercuryDocument">
+        <num>23.</num>
+        <content eId="para_91__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает далее</span> Директору-исполнителю представить Ассамблее по окружающей среде на ее шестой сессии доклад об осуществлении настоящей резолюции и о выполнении программы работы в отношении химических веществ и отходов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_94" class="MercuryDocument">
+        <num>24.</num>
+        <content eId="para_94__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю при условии наличия ресурсов и в сотрудничестве со Всемирной организацией здравоохранения представить полный спектр вариантов решения проблемы загрязнения асбестом продукции и окружающей среды для рассмотрения Ассамблеей по окружающей среде на ее шестой сессии. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

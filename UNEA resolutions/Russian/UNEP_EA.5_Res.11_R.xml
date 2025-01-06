@@ -1,0 +1,242 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/rus@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-21" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE CONSUMPTION" href="http://metadata.un.org/thesaurus/1006318" showAs="SUSTAINABLE CONSUMPTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE PRODUCTION" href="http://metadata.un.org/thesaurus/1001025" showAs="SUSTAINABLE PRODUCTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.17" by="The Group of African States" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Пятая сессия</session>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Ассамблеей Организации Объединенных Наций по окружающей среде 2 марта 2022 года</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#найроби">Найроби </location>
+          <location refersTo="#в комбинированном режиме">(в комбинированном режиме)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date>-<date date="2021-02-23" refersTo="#endDate">23 февраля 2021 года</date></event>  и <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 февраля </date>– <date date="2022-03-02" refersTo="#endDate">2 марта 2022 года</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/11.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Укрепление многооборотности в экономике как вклад в достижение рационального потребления и производства</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на свою резолюцию 4/1 об инновационных путях достижения рационального потребления и производства, в которой признается, что наряду с другими подходами к рациональному производству и потреблению, повышение многооборотности в экономике, в которой товары и материалы создаются таким образом, чтобы их можно было повторно использовать, восстанавливать, утилизировать или рекуперировать, и таким образом сохранять в хозяйственном обороте как можно дольше вместе с ресурсами, из которых они изготовлены, и образование отходов, особенно опасных отходов, предотвращается или сводится к минимуму, а выбросы парниковых газов предотвращаются или уменьшаются, может в значительной мере содействовать рациональному потреблению и производству,</p>
+      </container>
+      <container name="признавая также" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что применение ориентированных на многооборотность в экономике подходов в качестве пути к достижению рациональных моделей потребления и производства может способствовать решению проблем изменения климата, утраты биоразнообразия, деградации земель и воздействия дефицита воды, загрязнения окружающей среды и их влияния на здоровье человека, тем самым способствуя достижению соответствующих целей в рамках Повестки дня в области устойчивого развития на период до 2030 года и других согласованных на международном уровне природоохранных целей,</p>
+      </container>
+      <container name="принимая к сведению" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению</span> выводы Платформы для ускорения развития многооборотности в экономике, представленные в «Докладе о пробелах в обеспечении многооборотности в экономике – 2020»<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 	Circle Economy, <span class="italic">The Circularity Gap Report 2020 </span>(2020), доступно на сайте https://pacecircular.org/sites/default/files/2020-01/Circularity%20Gap%20Report%202020.pdf.</p></authorialNote>, о том, что глобальный разрыв в обеспечении многооборотности в экономике увеличивается, усугубляется из‑за тенденций, присущих линейной экономике, характеризующейся высокими темпами добычи материальных ресурсов, постоянным накоплением товарных запасов, а также низким уровнем переработки и утилизации продукции по достижении ею предельного состояния,</p>
+      </container>
+      <container name="приветствуя" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> анализ, проведенный Международной группой по ресурсам и представленный в ее докладе «Прогнозная оценка мирового ресурсного потенциала – 2019: природные ресурсы для будущего, которого мы хотим»<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> 	International Resource Panel, <span class="italic">Global Resource Outlook 2019: Natural Resources for the Future We Want</span> (United Nations Environment Programme, 2019).</p></authorialNote>, выявивший, что к мерам политики в области многооборотности в экономике относятся: создание эффективной инфраструктуры для обращения с отходами и их утилизации, стимулирование более продолжительного периода использования продукции и рационального проектирования продукции, снижение национальных нормативных барьеров для разработки или внедрения процессов сохранения стоимости, а также признание важности устойчивого управления материальными ресурсами, </p>
+      </container>
+      <container name="признавая" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что обмен опытом, в том числе на международном уровне, создание потенциала, финансирование и сотрудничество могут помочь в реализации ориентированных на многооборотность в экономике подходов, для обеспечения рационального потребления и производства, и приветствуя усилия по продвижению ориентированных на многооборотность в экономике подходов, отмечая в этом контексте создание региональных и глобальных инициатив, </p>
+      </container>
+      <container name="признавая также" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что ориентированные на многооборотность в экономике подходы требуют расширения масштабов устойчивых методов в производственно-сбытовой деятельности, и признавая, что существуют бизнес-модели и передовые методы, использующие ориентированные на многооборотность в экономике подходы; технологии, позволяющие совершенствовать управление ресурсами в различных секторах; и технологии «скачкообразного перехода», обеспечивающие экономию финансовых средств и повышение эффективности использования ресурсов и в то же время стимулирующие развитие, несмотря на необходимость инноваций в сфере многооборотности, </p>
+      </container>
+      <container name="признавая далее" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">признавая далее </span>работу, проведенную в рамках соответствующих международных соглашений, конвенций, организаций и форумов, в том числе связанных с рациональным регулированием химических веществ и отходов, </p>
+      </container>
+      <container name="приветствуя" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> работу, проводимую Программой Организации Объединенных Наций по окружающей среде в рамках ее Партнерства в интересах применения экологически чистых видов топлива и транспортных средств, и вклад Партнерства в повышение многооборотности в экономике путем решения проблемы выбросов, загрязнения, химических веществ и отходов, связанных с транспортными средствами, </p>
+      </container>
+      <container name="признавая" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">признавая</span> введение или укрепление правил и стандартов государствами-членами и региональными группами для обеспечения пригодности к эксплуатации и снижения негативного воздействия подержанных транспортных средств на окружающую среду и здоровье человека и стимулирования использования чистых видов топлива, </p>
+      </container>
+      <container name="признавая также" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что ориентированные на многооборотность в экономике подходы предоставляют возможности для более ресурсоэффективных и неистощительных способов потребления и производства, экологически безопасных технологий и инфраструктуры, в то же время поддерживая источники средств к существованию, </p>
+      </container>
+      <container name="приветствуя" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> продление Генеральной Ассамблеей в ее резолюции 76/202 от 17 декабря 2021 года мандата Десятилетней стратегии действий по переходу к использованию рациональных моделей потребления и производства до 2030 года и принимая к сведению решение Совета Десятилетней стратегии продолжать разработку новой глобальной стратегии рационального потребления и производства, которая будет отражать смелый и инклюзивный путь для системных и многооборотных подходов и многостороннего сотрудничества, </p>
+      </container>
+      <container name="приветствуя также" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">приветствуя также </span>проведение совещания ЮНЕП@50 в ознаменование пятидесятой годовщины создания Программы Организации Объединенных Наций по окружающей среде и международного совещания «Стокгольм+50» в ознаменование 50-летия Конференции Организации Объединенных Наций по проблемам окружающей человека среды и ее итоговых документов, </p>
+      </container>
+      <container name="приветствуя" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> далее работу Международной группы по ресурсам, в том числе в рамках ее регулярных докладов «Прогнозная оценка мирового ресурсного потенциала», по разработке научно обоснованных вариантов достижения цели 12 в области устойчивого развития и связанных с ней целей в области устойчивого развития, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> государствам-членам внедрить ориентированные на многооборотность в экономике подходы в национальные и региональные стратегии и планы действий, включая те, которые связаны с соответствующими многосторонними природоохранными соглашениями, с учетом национальных условий и возможностей; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">также предлагает </span>государствам-членам принять меры в сотрудничестве с частным сектором для улучшения проектирования продукции с учетом оценок жизненного цикла, чтобы способствовать продлению срока службы продукции, ее ремонту, повторному использованию и более легкой утилизации в контексте многооборотности в экономике, чтобы способствовать эффективности использования ресурсов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает далее </span>государствам-членам, соответствующим организациям и сетям сотрудничать в обмене и обсуждении передовых методов в отношении соответствующей информации о продукции в производственно-сбытовой деятельности с учетом многооборотности в экономике в соответствии с национальным и международным правом; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_21__content">
+          <p xml:space="preserve"> 	<span class="italic">подчеркивает</span> необходимость налаживания партнерских связей и предлагает государствам-членам, частному сектору, неправительственным организациям, научному сообществу, соответствующим международным учреждениям и другим соответствующим заинтересованным сторонам поощрять и совершенствовать ориентированные на многооборотность в экономике подходы, а также бизнес-модели, инновации и инвестиции, чтобы способствовать, среди прочего, устойчивому регулированию, использованию и потреблению природных ресурсов и материалов;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> государствам-членам взаимодействовать, по мере необходимости и в соответствии с национальными условиями и политикой, с субнациональными, национальными и региональными структурами для укрепления политики, правовой и нормативной базы, например, касающихся устойчивых государственных закупок, технологических инноваций, расширенной ответственности производителей, жизненного цикла материалов и промышленного симбиоза, для поддержки внедрения ориентированных на многооборотность подходов с целью содействия достижению рационального потребления и производства; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены совершенствовать управление знаниями и разрабатывать эффективные 	механизмы, платформы и кампании для информационно‑пропагандистской и просветительской деятельности и повышения осведомленности; поддерживать образование, исследования, инновации и развитие; активизировать деятельность по созданию потенциала; содействовать развитию государственно-частных партнерств по мере необходимости; и усилить обмен информацией в пределах стран и регионов и между ними относительно подходов к рациональному потреблению и производству, включая многооборотность в экономике; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="italic">предлагает</span> государствам-членам, которые в состоянии сделать это, повысить предсказуемость и расширить доступ к поддержке, такой как устойчивое финансирование из государственных и частных источников, экологически безопасные технологии для внедрения многооборотности и других подходов к рациональному потреблению и производству, особенно микро-, малыми и средними предприятиями, в частности в развивающихся странах;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> 	<span class="italic">признает</span> важность инклюзивных многосторонних диалогов по вопросам рационального потребления и производства, эффективности использования ресурсов и многооборотности для содействия устойчивому развитию;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51" class="MercuryDocument">
+        <num>9.</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде в консультации с государствами-членами, членами специализированных учреждений и соответствующими заинтересованными сторонами продолжить сбор информации и проведение дальнейшего анализа по вопросу о подержанных транспортных средствах и чистых видах топлива с целью снижения негативного воздействия подержанных транспортных средств на окружающую среду и здоровье человека, включая удаление по достижении предельного состояния, и стимулирования использования чистых видов топлива, а также оказывать поддержку государствам-членам по их просьбе;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_60" class="MercuryDocument">
+        <num>10.</num>
+        <content eId="para_60__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю в сотрудничестве с другими подразделениями Организации Объединенных Наций, включая Международную группу по ресурсам, партнеров по развитию и соответствующие международные многосторонние сети, включая Десятилетнюю стратегию действий по переходу к использованию рациональных моделей потребления и производства, содействовать сотрудничеству между государствами-членами и членами специализированных учреждений в области исследований, создания потенциала, менеджмента знаний и обмена передовыми методами для пропаганды инновационных путей рационального потребления и производства, включая многооборотность в экономике, и способствовать проведению обсуждений о природных ресурсах и материалах в контексте многооборотности; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70" class="MercuryDocument">
+        <num>11.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю представить Ассамблее по окружающей среде на ее шестой сессии доклад об осуществлении настоящей резолюции.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,219 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/rus@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL MANAGEMENT" href="http://metadata.un.org/thesaurus/1002079" showAs="ENVIRONMENTAL MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINING" href="http://metadata.un.org/thesaurus/1004172" showAs="MINING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINERALS" href="http://metadata.un.org/thesaurus/1004167" showAs="MINERALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.18" by="Argentina, Democratic Republic of the Congo, Ghana, Senegal and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.12</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Пятая сессия</session>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Ассамблеей Организации Объединенных Наций по окружающей среде 2 марта 2022 года</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#найроби">Найроби </location>
+          <location refersTo="#в комбинированном режиме">(в комбинированном режиме)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date>-<date date="2021-02-23" refersTo="#endDate">23 февраля 2021 года</date></event>  и <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 февраля </date>– <date date="2022-03-02" refersTo="#endDate">2 марта 2022 года</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/12.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Экологические аспекты регулирования полезных ископаемых и металлов</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на свою резолюцию 4/19 о регулировании полезных ископаемых и принимая к сведению доклад Директора-исполнителя Программы Организации Объединенных Наций по окружающей среде под названием «Ход осуществления резолюции 4/19 о регулировании полезных ископаемых»<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 	UNEP/EA.5/14.</p></authorialNote> и доклад ЮНЕП «Регулирование полезных ископаемых и глобальные цели: повестка дня для международного сотрудничества»<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> 	United Nations Environment Programme and University of Queensland, <span class="italic">Mineral Resource Governance and the Global Goals: An Agenda for International Collaboration </span>(Nairobi, 2021). </p></authorialNote>, </p>
+      </container>
+      <container name="ссылаясь также" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также</span> на свою резолюцию 4/1 об инновационных путях обеспечения рационального потребления и производства и доклад о ходе ее осуществления и свою резолюцию 4/5 об устойчивой инфраструктуре и доклад о ходе ее осуществления, а также принимая во внимание изменения в области ресурсоэффективности, многооборотности в экономике и вторичных ресурсов, </p>
+      </container>
+      <container name="признавая" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что полезные ископаемые и металлы, рассматриваемые в настоящей резолюции, не включают минеральное топливо, и что сфера применения настоящей резолюции охватывает полный жизненный цикл полезных ископаемых и металлов, включая добычу, переработку на промышленных площадках и за их пределами, очистку, регулирование отходов и хвостов горнодобывающей промышленности, восстановление участков и закрытых или законсервированных объектов горной добычи, производство продукции и утилизацию, </p>
+      </container>
+      <container name="подтверждая" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">подтверждая</span> Рио-де-Жанейрскую декларацию по окружающей среде и развитию и ее принципы, </p>
+      </container>
+      <container name="приветствуя" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">приветствуя</span> опубликование «Глобального отраслевого стандарта регулирования хвостохранилищ» в качестве важной вехи на пути к достижению цели сведения к нулю числа прорывов дамб хвостохранилищ и охраны здоровья человека и окружающей среды от ущерба, причиняемого хвостохранилищами, и призывая к эффективному применению глобального стандарта; </p>
+      </container>
+      <container name="подчеркивая" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> конкретные экологические проблемы, связанные с кустарной и мелкомасштабной добычей полезных ископаемых, и связанные с ними последствия для здоровья; </p>
+      </container>
+      <container name="подчеркивая" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> необходимость активизации действий по поддержке экологически устойчивого регулирования полезных ископаемых и металлов и признавая проблемы с потенциалом в нормативно-правовой и административной сферах, с которыми сталкиваются страны, </p>
+      </container>
+      <container name="признавая" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что чистые технологии, в значительной степени зависящие от полезных ископаемых и металлов, имеют важное значение для борьбы с изменением климата, и подчеркивая важный вклад, который экологически устойчивое регулирование полезных ископаемых и металлов вносит в реализацию Повестки дня в области устойчивого развития на период до 2030 года, включая формирование рациональных моделей потребления и производства,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10" class="MercuryDocument">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены и предлагает соответствующим заинтересованным сторонам, как из государственного, так и из частного секторов, на протяжении всего жизненного цикла полезных ископаемых и металлов привести свои методы добычи полезных ископаемых и свои инвестиции в горнодобывающую промышленность в соответствие с Повесткой дня в области устойчивого развития на период до 2030 года и, в соответствующих случаях, со своими обязательствами и решениями в рамках многосторонних природоохранных соглашений;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю, при условии наличия ресурсов, провести транспарентные и инклюзивные межправительственные региональные консультации, в том числе с соответствующими международными организациями, региональными и многосторонними природоохранными соглашениями и соответствующими заинтересованными сторонами, выступающими в качестве наблюдателей, чтобы внести вклад в проведение глобального межправительственного совещания с целью разработки не имеющих директивного характера предложений по повышению экологической устойчивости полезных ископаемых и металлов на протяжении всего их жизненного цикла в соответствии с Повесткой дня в области устойчивого развития на период до 2030 года; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13" class="MercuryDocument">
+        <num>3.</num>
+        <list eId="para_13_list">
+          <intro eId="para_13_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">постановляет</span>, что в ходе межправительственных региональных консультаций будут: </p>
+          </intro>
+          <point eId="para_13_list_point_a">
+            <num>a)</num>
+            <content eId="para_13_list_point_a_content">
+              <p xml:space="preserve"> 	проанализированы текущая деятельность и мероприятия в государственном и частном секторах и других соответствующих заинтересованных сторон по повышению экологической устойчивости полезных ископаемых и металлов и определены, среди прочего, передовые методы, ответственные методы хозяйствования, стандарты, руководящие принципы, технические инструменты, экологически устойчивые технологии и использование возобновляемых источников энергии в горнодобывающей промышленности;</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_b">
+            <num>b)</num>
+            <content eId="para_13_list_point_b_content">
+              <p xml:space="preserve"> 	выявлены возможности для расширения международного сотрудничества, в том числе с целью содействия созданию потенциала и технологическому, научно-техническому сотрудничеству в горнодобывающем секторе, в частности с развивающимися странами; </p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_c">
+            <num>c)</num>
+            <content eId="para_13_list_point_c_content">
+              <p xml:space="preserve"> 	определены возможные пути продвижения вперед для рассмотрения Ассамблеей по окружающей среде на ее шестой сессии, по мере необходимости; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_16" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю через Базу данных о всемирных ресурсах («ГРИД-Женева») расширять научные, технические и нормативные знания о песке и поддержать глобальные меры политики и мероприятия по его экологически безопасной добыче и использованию; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20" class="MercuryDocument">
+        <num>5.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает также</span> Директору-исполнителю, при условии наличия ресурсов, при участии секретариатов соответствующих многосторонних природоохранных соглашений, организаций и заинтересованных сторон, в зависимости от обстоятельств, и с учетом опубликования «Глобального отраслевого стандарта регулирования хвостохранилищ», составить доклад о пробелах в знаниях в отношении экологических аспектов регулирования хвостохранилищ; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> 	<span class="italic">поручает далее</span> Директору-исполнителю представить Ассамблее Организации Объединенных Наций по окружающей среде на ее шестой сессии доклад о ходе осуществления настоящей резолюции, в том числе в виде краткого доклада об этих консультациях для рассмотрения Ассамблеей по окружающей среде на шестой сессии. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

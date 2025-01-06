@@ -1,0 +1,325 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/rus@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.15" by="Mongolia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.9</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Пятая сессия</session>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Ассамблеей Организации Объединенных Наций по окружающей среде 2 марта 2022 года</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#найроби">Найроби </location>
+          <location refersTo="#в комбинированном режиме">(в комбинированном режиме)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date>-<date date="2021-02-23" refersTo="#endDate">23 февраля 2021 года</date></event>  и <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 февраля </date>– <date date="2022-03-02" refersTo="#endDate">2 марта 2022 года</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/9.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Экологичная и устойчивая инфраструктура</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде</span>,</p>
+      </formula>
+      <container name="ссылаясь" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюцию 69/313 Генеральной Ассамблеи от 27 июля 2015 года об Аддис‑Абебской программе действий третьей Международной конференции по финансированию развития, в которой признается, что инвестирование в устойчивую и стойкую инфраструктуру, включая транспорт, энергетику, водоснабжение и санитарию для всех, является необходимым условием для достижения многих целей, и выражается обязательство стран содействовать развитию устойчивой, доступной и стойкой качественной инфраструктуры в развивающихся странах путем расширения финансовой и технической поддержки,</p>
+      </container>
+      <container name="ссылаясь также" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">ссылаясь также</span> на резолюцию 70/1 Генеральной Ассамблеи от 25 сентября 2015 года, озаглавленную «Преобразование нашего мира: Повестка дня в области устойчивого развития на период до 2030 года», и на цель 9 в области устойчивого развития, касающуюся создания стойкой инфраструктуры, содействия всеохватной и устойчивой индустриализации и инновациям, </p>
+      </container>
+      <container name="отмечая" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что инфраструктура неразрывно связана со всеми 17 целями в области устойчивого развития и что Управление Организации Объединенных Наций по обслуживанию проектов установило, что инфраструктурные системы влияют на достижение до 92 процентов из 169 отдельных задач в рамках целей в области устойчивого развития<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 	S. Thacker, D. Adshead, G. Morgan, S. Crosskey and others, Infrastructure: Underpinning Sustainable Development (Copenhagen, Denmark, United Nations Office for Project Services, 2018). </p></authorialNote>, включая, в частности, задачи по защите, восстановлению и устойчивому использованию экосистем, сохранению биоразнообразия, борьбе с опустыниванием, эффективности использования ресурсов, устойчивой и инклюзивной городской экономике, рациональным моделям потребления и производства, снижению риска бедствий, смягчению последствий изменения климата и адаптации к ним, созданию рабочих мест и сокращению бедности, </p>
+      </container>
+      <container name="подчеркивая" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> важность экосистемного подхода для комплексного управления земельными, водными и живыми ресурсами и необходимость активизации усилий по борьбе с опустыниванием, деградацией земель, эрозией и засухой, утратой биоразнообразия и нехваткой воды, которые считаются основными экологическими, экономическими и социальными проблемами, препятствующими глобальному устойчивому развитию, </p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на свою резолюцию 4/5 об устойчивой инфраструктуре, в которой она призвала государства-члены предпринять шаги, необходимые для достижения цели 9 в области устойчивого развития и соответствующих задач в рамках других целей в области устойчивого развития, с учетом национальных возможностей и приоритетов и признавая цель перехода к рациональным моделям потребления и производства, разработать и укрепить стратегические подходы к планированию инфраструктуры на уровне национальных и региональных систем и содействовать принятию экологически рациональных решений в качестве основных составляющих стратегических подходов к планированию и развитию инфраструктуры на системном уровне, и поручила Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде подготовить свод передовых методов для оказания помощи государствам-членам в стимулировании и укреплении устойчивости их инфраструктуры, </p>
+      </container>
+      <container name="подчеркивая" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> актуальность других резолюций, принятых на текущей сессии Ассамблеи по окружающей среде, для развития устойчивой и жизнестойкой инфраструктуры, </p>
+      </container>
+      <container name="отмечая" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что меры по содействию повышения многооборотности в экономике открывают возможности для минимизации негативного воздействия инфраструктуры на окружающую среду, например, за счет повышения эффективности использования ресурсов, в том числе материальных,</p>
+      </container>
+      <container name="отмечая также" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">отмечая также</span>, что руководящими органами многосторонних экологических соглашений, включая Конвенцию о биологическом разнообразии<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> 	См., например, решение 14/3 в рамках Конвенции о биологическом разнообразии об учете биоразнообразия в энергетическом и горнодобывающем, инфраструктурном, производственном и перерабатывающем секторах. </p></authorialNote> и Конвенцию по сохранению мигрирующих видов диких животных<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve"> 	См., например, решения 13.130-13.134 в рамках Конвенции по сохранению мигрирующих видов диких животных о развитии инфраструктуры и мигрирующих видах и резолюцию UNEP/CMS/Resolution 7.2 (Rev.COP12) об оценке воздействия и мигрирующих видах. </p></authorialNote>, были приняты многочисленные решения и резолюции по вопросам инфраструктуры и биоразнообразия, </p>
+      </container>
+      <container name="ссылаясь" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюцию 75/1 Генеральной Ассамблеи от 21 сентября 2020 года, озаглавленную «Декларация о праздновании семьдесят пятой годовщины Организации Объединенных Наций», и на резолюцию 75/207 Генеральной Ассамблеи от 21 декабря 2020 года, озаглавленную «Содействие инвестициям в интересах устойчивого развития», в которой подтверждается стремление вернуться на путь достижения целей в области устойчивого развития посредством разработки стратегий устойчивого и инклюзивного восстановления в связи с пандемией коронавирусного заболевания (COVID‑19) и подчеркивается необходимость государственных и частных инвестиций и финансирования для обеспечения качественной, надежной, устойчивой и жизнестойкой инфраструктуры на национальном и международном уровнях, </p>
+      </container>
+      <container name="признавая" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что инвестиции в инфраструктуру занимают центральное место в связанных с COVID‑19 планах многих правительств по восстановлению экономики как средство создания рабочих мест, повышения производительности, устранения неравенства и повышения устойчивости к будущим кризисам, </p>
+      </container>
+      <container name="отмечая" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">отмечая</span>, что, согласно докладу «Восстанавливаем ли мы по принципу « лучше, чем было»? Данные за 2020 год и как обеспечить расходы на инклюзивное «зеленое» восстановление»<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve"> 	Brian J. O’Callaghan and Em Murdock, <span class="italic">Are We Building Back Better? Evidence from 2020 and Pathways to Inclusive Green Recovery Spending </span>(Программа Организации Объединенных Наций по окружающей среде, 2021 год).</p></authorialNote>, подавляющее большинство расходов правительств на восстановление COVID‑19 были признаны «минимально «зелеными», </p>
+      </container>
+      <container name="отмечая также" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">отмечая также</span> Десятилетие Организации Объединенных Наций по восстановлению экосистем (2021-2030 годы) и то, что в 2022 году ожидается принятие Конференцией Сторон Конвенции о биологическом разнообразии новой системы глобальных мероприятий в сфере биоразнообразия  в качестве шага на пути к осуществлению концепции на период до 2050 года «Жить в гармонии с природой», </p>
+      </container>
+      <container name="высоко оценивая" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">высоко оценивая</span> тему пятой сессии Ассамблеи по окружающей среде – «Активизация действий в интересах природы ради достижения целей в области устойчивого развития», </p>
+      </container>
+      <container name="ссылаясь" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на резолюцию 75/271 Генеральной Ассамблеи от 16 апреля 2021 года, озаглавленную «Природа не знает границ: трансграничное сотрудничество – ключевой фактор в сохранении, восстановлении и устойчивом использовании биоразнообразия», в которой подчеркиваются важность сотрудничества для предотвращения фрагментации трансграничных мест обитания и поддержания и укрепления связей между экосистемами и важность проведения оценки воздействия на окружающую среду в соответствии с национальным законодательством в надлежащих случаях, с целью поддержания экологических взаимосвязей между экосистемами и предотвращения их дальнейшей фрагментации, чтобы природа могла продолжать выполнять роль источника экосистемных услуг для людей, </p>
+      </container>
+      <container name="признавая" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">признавая</span>, что термин «природная инфраструктура» может означать стратегически спланированные и регулируемые сети природных земель, таких как леса и водно-болотные угодья, рабочие ландшафты и другие открытые пространства, которые сохраняют или повышают ценности и функции экосистем и обеспечивают связанные с ними выгоды для населения, и могут служить экономически эффективными и устойчивыми альтернативами или дополнениями к существующей инфраструктуре в контексте ограниченных финансовых возможностей и созданию которых следует содействовать в целях восстановления и поддержания здоровых экосистем и обществ в рамках экологически, социально и экономически устойчивого восстановления после пандемии COVID‑19, </p>
+      </container>
+      <container name="принимая к сведению" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">принимая к сведению</span> потенциальное экологическое воздействие инфраструктурных проектов на целостность экосистем и взаимосвязи между ними, </p>
+      </container>
+      <container name="признавая" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">признавая</span> важность сотрудничества между соседними странами на всех уровнях в целях рационального управления земельными, водными ресурсами и сохранения и восстановления биоразнообразия, </p>
+      </container>
+      <container name="признавая также" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что инвестиции в устойчивую и жизнестойкую инфраструктуру важны для решения взаимосвязанных между собой кризисов, обусловленных изменением климата, потерей биоразнообразия, загрязнением и опустыниванием, а также для удовлетворения потребностей экономического восстановления и обеспечения предоставления основных услуг в будущем, </p>
+      </container>
+      <container name="признавая далее" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">признавая далее</span>, что пандемия COVID‑19 продемонстрировала важность комплексной инфраструктуры здравоохранения, в том числе экологически обоснованного регулирования медицинских отходов, </p>
+      </container>
+      <container name="подчеркивая" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span>, что устранение дефицита инвестиций в инфраструктуру и создание приоритетной инфраструктуры могут потребовать значительных, но целенаправленных инвестиций как от государственного, так и от частного секторов, включая совместное финансирование отдельных проектов и внедрение финансовых инструментов в целях создания устойчивой и жизнеспособной инфраструктуры со стороны многосторонних банков развития и других государственных и частных учреждений, </p>
+      </container>
+      <container name="признавая" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">признавая</span> необходимость срочных действий для решения проблем, с которыми сталкиваются при планировании и развитии качественной, надежной, устойчивой и жизнестойкой инфраструктуры, в частности, всеми развивающимися странами, </p>
+      </container>
+      <container name="обращая особое внимание" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">обращая особое внимание</span> на то, что осуществление любых инфраструктурных проектов, включая проекты с потенциальным экологическим воздействием на целостность экосистем и взаимосвязи между ними, должно отвечать положениям соответствующего законодательства и иметь целью предотвратить или минимизировать негативное воздействие на экосистемы и возможности получения средств к существованию, </p>
+      </container>
+      <container name="признавая" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">признавая</span> важность системы мониторинга процесса достижения целей в области устойчивого развития, включая цель 9, наряду с другими соответствующими системами для мониторинга хода обеспечения устойчивости инфраструктуры на агрегированном уровне, и что такие системы могут потребовать обмена знаниями, технической помощи и поддержки в развитии потенциала, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_25" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_25_list">
+          <intro eId="para_25_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены и другие заинтересованные стороны, в зависимости от обстоятельств, сделать следующее:</p>
+          </intro>
+          <point eId="para_25_list_point_a">
+            <num>a)</num>
+            <content eId="para_25_list_point_a_content">
+              <p xml:space="preserve"> 	рассмотреть возможность интеграции и внедрения 10 «международных принципов надлежащей практики в сфере экологически устойчивой инфраструктуры»<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve"> 	См. <span class="italic">International Good Practice Principles for Sustainable Infrastructure: Integrated, Systems-Level Approaches for Policymakers</span> (Программа Организации Объединенных Наций по окружающей среде, 2021 год).</p></authorialNote> в национальную политику, в том числе путем использования и разработки инструментов устойчивой инфраструктуры<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve"> 	Инструмент «Навигатор по устойчивой инфраструктуре» включает в себя базу данных инструментов для поддержки этих усилий, которая поможет пользователям определить наиболее подходящие инструменты для своих нужд. </p></authorialNote> с учетом национальных условий;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_b">
+            <num>b)</num>
+            <content eId="para_25_list_point_b_content">
+              <p xml:space="preserve"> 	внедрять существующие инструменты, такие как руководящие принципы и передовая практика, включая те, которые разработаны в рамках многосторонних природоохранных соглашений или одобрены ими<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve"> 	В том числе предусмотренные в Конвенции по сохранению мигрирующих видов диких животных, доступной по адресу: www.cms.int/en/species/threats/infrastructure. </p></authorialNote>, совместно разрабатывать дополнительные информационные продукты и участвовать в механизмах обмена для распространения передовых методов и приобретенного опыта в отношении устойчивой инфраструктуры;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_c">
+            <num>c)</num>
+            <content eId="para_25_list_point_c_content">
+              <p xml:space="preserve"> 	сотрудничать на международном уровне с целью укрепления систем, в том числе для финансирования, для обеспечения устойчивой и инклюзивной инфраструктуры, которая поддерживает и улучшает экологические взаимосвязи, позволяет избежать дальнейшей 	фрагментации и минимизирует другие потенциальные формы воздействия на экосистемы и возможности получения средств к существованию; </p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_d">
+            <num>d)</num>
+            <content eId="para_25_list_point_d_content">
+              <p xml:space="preserve"> 	рассмотреть роль цифровой инфраструктуры в обеспечении рациональных моделей потребления и производства и повышении устойчивости и эффективности других инфраструктурных систем в рамках комплексных подходов; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_26" class="MercuryDocument">
+        <num>2.</num>
+        <list eId="para_26_list">
+          <intro eId="para_26_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены: </p>
+          </intro>
+          <point eId="para_26_list_point_a">
+            <num>a)</num>
+            <content eId="para_26_list_point_a_content">
+              <p xml:space="preserve"> 	проводить стратегические оценки и оценки воздействия на окружающую среду, чтобы природоохранные соображения учитывались при принятии решений на соответствующих уровнях, и содействовать принятию комплексных, системных подходов к планированию и развитию устойчивой инфраструктуры;</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_b">
+            <num>b)</num>
+            <content eId="para_26_list_point_b_content">
+              <p xml:space="preserve"> 	взаимодействовать, по мере необходимости, с субнациональными учреждениями для рассмотрения возможности интеграции международных принципов надлежащей практики, где это уместно, в местные планы и проекты в сфере инфраструктуры, ориентированные на восстановление;</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_c">
+            <num>c)</num>
+            <content eId="para_26_list_point_c_content">
+              <p xml:space="preserve"> 	содействовать инвестициям в природную инфраструктуру и принятию основанных на природных факторах решений для предоставления основных услуг и улучшения экосистемных услуг, создания рабочих мест и ускорения достижения целей в области устойчивого развития;</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_d">
+            <num>d)</num>
+            <content eId="para_26_list_point_d_content">
+              <p xml:space="preserve"> 	содействовать инвестициям в экологически, социально и экономически устойчивую инфраструктуру здравоохранения для повышения устойчивости и эффективности использования ресурсов при экологически обоснованном регулировании медицинских отходов; </p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_e">
+            <num>e)</num>
+            <content eId="para_26_list_point_e_content">
+              <p xml:space="preserve"> 	содействовать инвестициям в инфраструктуру, которая является экологически, социально и экономически устойчивой, устойчивой к изменению климата, ресурсосберегающей, предотвращает фрагментацию экосистем и способствует формированию рациональных моделей производства и потребления, тем самым содействуя достижению целей в области устойчивого развития и выполнению задач соответствующих многосторонних природоохранных соглашений;</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_f">
+            <num>f)</num>
+            <content eId="para_26_list_point_f_content">
+              <p xml:space="preserve"> 	обеспечить возможности для вовлечения соответствующих заинтересованных сторон, включая местные сообщества, уязвимые слои населения и коренные народы, на всех этапах процесса определения, проектирования, строительства и обслуживания инфраструктуры;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_28" class="MercuryDocument">
+        <num>3.</num>
+        <list eId="para_28_list">
+          <intro eId="para_28_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю оказывать поддержку государствам-членам и членам специализированных учреждений в рамках имеющихся ресурсов путем: </p>
+          </intro>
+          <point eId="para_28_list_point_a">
+            <num>a)</num>
+            <content eId="para_28_list_point_a_content">
+              <p xml:space="preserve"> 	содействия внедрению существующих инструментов, таких как руководящие принципы и передовая практика, которые были разработаны в рамках многосторонних природоохранных соглашений или одобрены ими<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve"> 	Там же.</p></authorialNote>, а также дальнейшему развитию знаний, предоставлению технической помощи и поддержки в развитии потенциала в рамках имеющихся ресурсов для планирования и осуществления инвестиций в устойчивую инфраструктуру, которые будут стимулировать экологически, социально и экономически устойчивое восстановление, в том числе посредством оценки потенциального воздействия на целостность экосистем и взаимосвязи между ними; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_b">
+            <num>b)</num>
+            <content eId="para_28_list_point_b_content">
+              <p xml:space="preserve"> 	работы с государствами-членами и системой Организации Объединенных Наций в рамках существующих платформ, включая Десятилетнюю стратегию действий по переходу к использованию рациональных моделей потребления и производства, и с другими международными партнерами для поддержки долгосрочного обмена опытом, коллективного взаимообучения, технической помощи, создания потенциала и обучения по вопросам устойчивой инфраструктуры;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_c">
+            <num>c)</num>
+            <content eId="para_28_list_point_c_content">
+              <p xml:space="preserve"> 	содействия привлечению частного сектора к планированию и развитию устойчивой и стойкой инфраструктуры, а также мобилизации средств для этого за счет привлечения предприятий, специалистов-практиков, инвесторов и других заинтересованных сторон в частном секторе; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_d">
+            <num>d)</num>
+            <content eId="para_28_list_point_d_content">
+              <p xml:space="preserve"> 	обращения к Международной группе по ресурсам с просьбой способствовать усилиям по объединению науки и политики для создания устойчивой инфраструктуры, чтобы предоставлять экспертные, значимые для политики и опирающиеся на научные данные варианты по данному вопросу; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_e">
+            <num>e)</num>
+            <content eId="para_28_list_point_e_content">
+              <p xml:space="preserve"> 	содействия внедрению международных принципов надлежащей практики посредством их преобразования, по мере необходимости и по просьбе государств-членов, для применения к конкретным подсистемам инфраструктуры и для частного сектора и других групп заинтересованных сторон; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_f">
+            <num>f)</num>
+            <content eId="para_28_list_point_f_content">
+              <p xml:space="preserve"> 	продолжения сбора и обмена передовыми методами, инструментами и опытом для повышения устойчивости инфраструктурных систем и представления доклада, содержащего эту информацию, Ассамблее по окружающей среде на ее шестой сессии.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

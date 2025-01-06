@@ -1,0 +1,248 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/rus@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/rus@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="rus"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/rus@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/rus@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.9" by="The European Union" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">Организация Объединенных Наций</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации бъединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">Ассамблея Организации Объединенных Наций по окружающей среде Программы Организации Объединенных Наций по окружающей среде</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Пятая сессия</session>
+      </p>
+      <p>
+        <docTitle>Резолюция, принятая Ассамблеей Организации Объединенных Наций по окружающей среде 2 марта 2022 года</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Russian">Russian</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#найроби">Найроби </location>
+          <location refersTo="#в комбинированном режиме">(в комбинированном режиме)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date>-<date date="2021-02-23" refersTo="#endDate">23 февраля 2021 года</date></event>  и <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 февраля </date>– <date date="2022-03-02" refersTo="#endDate">2 марта 2022 года</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/5.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Основанные на природных факторах решения для поддержки устойчивого развития </span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">Ассамблея Организации Объединенных Наций по окружающей среде</span>,</p>
+      </formula>
+      <container name="подчеркивая" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">подчеркивая</span> важность активизации действий в интересах природы для осуществления Повестки дня в области устойчивого развития на период до 2030 года и целей устойчивого развития, Рио-де-Жанейрской декларации по окружающей среде и развитию, Конвенции о биологическом разнообразии и других конвенций, связанных с биоразнообразием, Рамочной конвенции Организации Объединенных Наций об изменении климата и принятого в соответствии с ней Парижского соглашения, Конвенции Организации Объединенных Наций по борьбе с опустыниванием в тех странах, которые испытывают серьезную засуху и/или опустынивание, особенно в Африке, Сендайской рамочной программы по снижению риска бедствий на 2015-2030 годы, Десятилетия Организации Объединенных Наций по восстановлению экосистем на 2021-2030 годы и Десятилетия действий по достижению целей в области устойчивого развития на 2020-2030 годы; с интересом ожидая принятия и осуществления целеустремленной, сбалансированной, практичной, эффективной и надежной системы глобальных мероприятий в сфере биоразнообразия на период после 2020 года; а также отмечая Обязательство лидеров в защиту природы «Вместе, чтобы остановить утрату биоразнообразия к 2030 году в интересах устойчивого развития», </p>
+      </container>
+      <container name="с удовлетворением отмечая" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">с удовлетворением отмечая</span> доклад Межправительственной научно-политической платформы по биоразнообразию и экосистемным услугам под названием «Доклад о глобальной оценке биоразнообразия и экосистемных услуг»<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> 	Межправительственная научно-политическая платформа по биоразнообразию и экосистемным услугам, «Доклад о глобальной оценке биоразнообразия и экосистемных услуг» (Бонн, Германия, секретариат МПБЭУ, 2019).</p></authorialNote> и материалы, представленные рабочей группой I, под названием «Изменение климата, 2021 год: физическая научная основа»<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> 	Межправительственная группа экспертов по изменению климата, «Изменение климата, 2021 год: физическая научная основа». Материалы, представленные рабочей группой I для шестого Доклада об оценке Межправительственной группы экспертов по изменению климата (Cambridge University Press, 2021).</p></authorialNote>, а также материалы, представленные рабочей группой II, под названием «Изменение климата, 2022 год: воздействие, адаптация и уязвимость»<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve"> 	Межправительственная группа экспертов по изменению климата, «Изменение климата, 2022 год: воздействие, адаптация и уязвимость», материалы, представленные рабочей группой II для шестого Доклада об оценке Межправительственной группы экспертов по изменению климата (Cambridge University Press, 2022).</p></authorialNote> для шестого Доклада об оценке Межправительственной группы экспертов по изменению климата, и принимая к сведению другие соответствующие доклады,</p>
+      </container>
+      <container name="признавая" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">признавая</span> взаимозависимость между утратой биоразнообразия, загрязнением окружающей среды, изменением климата, опустыниванием, деградацией земель и их взаимосвязь с благосостоянием человека, включая здоровье, и важность обеспечения целостности всех экосистем,</p>
+      </container>
+      <container name="признавая также" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">признавая также</span>, что ключевая возможность для активизации действий в интересах природы для достижения целей устойчивого развития заключается в расширении сотрудничества, внедрении и расширении масштабов решений, основанных на природных факторах, при обеспечении их социальных и экологических гарантий, учитывая, что решения, основанные на природных факторах, являются эффективными и действенными, когда они разработаны с учетом конкретных условий для реализации многочисленных выгод и применяются в соответствии с наилучшими имеющимися научными данными, </p>
+      </container>
+      <container name="ссылаясь" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">ссылаясь</span> на решения V/6, VI/12, VII/11 и IX/7 об экосистемном подходе Конференции Сторон Конвенции о биологическом разнообразии и на ее решение 14/5 о биоразнообразии и изменении климата, и признавая для Сторон Конвенции незаменимую роль Конвенции в сохранении, восстановлении и устойчивом использовании биоразнообразия и в комплексном рациональном использовании природных ресурсов, </p>
+      </container>
+      <container name="признавая" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">признавая</span> необходимость согласованного на многосторонней основе определения концепции решений, основанных на природе, с учетом концепции экосистемных подходов и в гармонии с ней, а также в свете обеспокоенности по поводу потенциального злоупотребления концепцией решений, основанных на природных факторах, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8" class="MercuryDocument">
+        <num>1.</num>
+        <list eId="para_8_list">
+          <intro eId="para_8_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">постановляет</span>, что решения на основе природных факторов – это меры по защите, сохранению, восстановлению, рациональному использованию и регулированию природных или измененных наземных, пресноводных, прибрежных и морских экосистем, которые позволяют эффективно и адаптивно решать социальные, экономические и экологические проблемы, одновременно обеспечивая благосостояние человека, экосистемные услуги, устойчивость и преимущества биоразнообразия, и признает, что решения на основе природных факторов:</p>
+          </intro>
+          <point eId="para_8_list_point_a">
+            <num>a)</num>
+            <content eId="para_8_list_point_a_content">
+              <p xml:space="preserve"> 	удовлетворяют социальным и экологическим гарантиям в соответствии с тремя «Рио-де-Жанейрскими конвенциями» (Конвенция о биологическом разнообразии, Конвенция Организации Объединенных Наций по борьбе с опустыниванием и Рамочная конвенция Организации Объединенных Наций об изменении климата), включая такие гарантии для местных сообществ и коренных народов; </p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_b">
+            <num>b)</num>
+            <content eId="para_8_list_point_b_content">
+              <p xml:space="preserve"> 	могут быть реализованы с учетом местных, национальных и региональных условий, в соответствии с Повесткой дня в области устойчивого развития на период до 2030 года, и могут регулироваться адаптивным образом;</p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_c">
+            <num>c)</num>
+            <content eId="para_8_list_point_c_content">
+              <p xml:space="preserve"> 	входят в число действий, играющих важную роль в общих глобальных усилиях по достижению целей устойчивого развития, в том числе путем эффективного и действенного решения основных социальных, экономических и экологических проблем, таких как утрата биоразнообразия, изменение климата, деградация земель, опустынивание, продовольственная безопасность, риски бедствий, городское развитие, наличие водных ресурсов, ликвидация нищеты, неравенства и безработицы, а также социальное развитие, устойчивое экономическое развитие, здоровье человека и широкий спектр экосистемных услуг;</p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_d">
+            <num>d)</num>
+            <content eId="para_8_list_point_d_content">
+              <p xml:space="preserve"> 	могут способствовать стимулированию устойчивых инноваций и научных исследований; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_9" class="MercuryDocument">
+        <num>2.</num>
+        <content eId="para_9__content">
+          <p xml:space="preserve"> 	<span class="italic">признает</span>, что решения, основанные на природных факторах, могут внести значительный вклад в действия в области климата, признавая при этом необходимость анализа их последствий, в том числе в долгосрочной перспективе, и признавая, что они не заменяют необходимость быстрого, глубокого и устойчивого сокращения выбросов парниковых газов, но могут улучшить меры по адаптации и укреплению потенциала противодействия изменению климата и его воздействию и по смягчению его последствий; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_11" class="MercuryDocument">
+        <num>3.</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> 	<span class="italic">также признает</span> потенциал устойчивых и экологически безопасных биопродуктов, инноваций и технологий, которые являются результатом решений, основанных на природных факторах, когда они способствуют рациональному потреблению и производству, приносят пользу природе и согласуются с международными обязательствами и соответствующими многосторонними соглашениями по биоразнообразию, климату, окружающей среде и устойчивому развитию, осознавая при этом потенциальные сопутствующие риски, в том числе для местных сообществ и коренных народов; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14" class="MercuryDocument">
+        <num>4.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> 	<span class="italic">признает</span>, что концепция решений, основанных на природных факторах, учитывает концепцию экосистемных подходов, определенных в рамках Конвенции о биологическом разнообразии, и другие подходы к управлению и сохранению, осуществляемых в рамках существующей национальной политики и законодательной основы и установленных в рамках соответствующих многосторонних природоохранных соглашений и согласуется с ними; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18" class="MercuryDocument">
+        <num>5.</num>
+        <list eId="para_18_list">
+          <intro eId="para_18_list_intro">
+            <p xml:space="preserve"> 	<span class="italic">поручает</span> Директору-исполнителю Программы Организации Объединенных Наций по окружающей среде, при условии наличия ресурсов и для дальнейшей поддержки реализации решений, основанных на природных факторах, как они определены в настоящей резолюции, созвать межправительственные консультации транспарентным, инклюзивным, регионально сбалансированным образом, стремясь к достижению гендерного баланса, с тем чтобы предпринять следующее:</p>
+          </intro>
+          <point eId="para_18_list_point_a">
+            <num>a)</num>
+            <content eId="para_18_list_point_a_content">
+              <p xml:space="preserve"> 	собрать примеры передовых методов в сфере решений, основанных на природных факторах, на основе наилучших имеющихся научных данных; </p>
+            </content>
+          </point>
+          <point eId="para_18_list_point_b">
+            <num>b)</num>
+            <content eId="para_18_list_point_b_content">
+              <p xml:space="preserve"> 	оценить существующие и обсудить потенциальные новые предложения, критерии, стандарты и руководящие принципы для устранения разногласий с целью достижения единого понимания между государствами-членами для осуществления решений, основанных на природных факторах, включая поддержку государств-членов в разработке, осуществлении и оценке решений, основанных на природных факторах, опираясь на проводимую работу, инициативы и платформы, по мере необходимости, и без ущерба для существующих усилий и инициатив и новых предложений, поступающих от отдельных государств-членов; </p>
+            </content>
+          </point>
+          <point eId="para_18_list_point_c">
+            <num>c)</num>
+            <content eId="para_18_list_point_c_content">
+              <p xml:space="preserve"> 	определить варианты поддержки устойчивых инвестиций в решения, основанные на природных факторах, и обменяться информацией о двусторонних и многосторонних источниках финансирования, чтобы дать возможность развивающимся странам разрабатывать и внедрять решения, основанные на природных факторах; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_23" class="MercuryDocument">
+        <num>6.</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> 	<span class="italic">также поручает</span> Директору-исполнителю, при условии наличия ресурсов, оказывать поддержку в проведении межправительственных консультаций, в том числе обеспечить участие развивающихся стран и соответствующих партнеров и заинтересованных сторон, в соответствии с применимыми правилами Организации Объединенных Наций; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_29" class="MercuryDocument">
+        <num>7.</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены и Директора-исполнителя в сотрудничестве с другими соответствующими структурами Организации Объединенных Наций поддерживать осуществление настоящей резолюции в партнерстве с местными общинами, женщинами и молодежью, а также с коренными народами, с их свободного, предварительного и осознанного согласия, поскольку их знания и методы доказали свою эффективность в сохранении, восстановлении и устойчивом использовании биоразнообразия; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36" class="MercuryDocument">
+        <num>8.</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> 	<span class="italic">призывает</span> государства-члены следовать разработанному по инициативе стран, учитывающему гендерные аспекты, основанному на широком участии и полностью транспарентному подходу при разработке, внедрении и мониторинге решений, основанных на природных факторах. </p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
