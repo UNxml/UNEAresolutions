@@ -1,0 +1,222 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/ara@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-12/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL MANAGEMENT" href="http://metadata.un.org/thesaurus/1002079" showAs="ENVIRONMENTAL MANAGEMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINING" href="http://metadata.un.org/thesaurus/1004172" showAs="MINING" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MINERALS" href="http://metadata.un.org/thesaurus/1004167" showAs="MINERALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.18" by="Argentina, Democratic Republic of the Congo, Ghana, Senegal and Switzerland" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.12</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">الدورة الخامسة</session>
+      </p>
+      <p>
+        <docTitle>قرار اعتمدته جمعية الأمم المتحدة للبيئة في 2 آذار/مارس 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#"></location>
+          <event refersTo="#eventDuration">
+            <date date="0001-01-01" refersTo="#startDate"></date>
+            <date date="0001-01-01" refersTo="#endDate"></date>
+          </event>
+        </event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/12</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">الجوانب البيئية لإدارة المعادن والفلزات</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">إن جمعية الأمم المتحدة للبيئة<span class="italic">،</span></p>
+      </formula>
+      <container name="، وال" eId="container_2">
+        <p xml:space="preserve"> إذ تشير إلى قرارها 4/19 بشأن إدارة الموارد المعدنية، وإذ تحيط علماً بتقرير المديرة التنفيذية لبرنامج الأمم المتحدة للبيئة المعنون ”<a href="https://undocs.org/ar/UNEP/EA.5/14">التقدم المحرز في تنفيذ القرار 4/19</a> بشأن إدارة الموارد المعدنية“<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()  UNEP/EA.5/14.</p></authorialNote><sup>)</sup><span class="italic">، وال</span>تقرير المعنون إدارة الموارد المعدنية والغايات العالمية: خطة للتعاون الدولي<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()  برنامج الأمم المتحدة للبيئة وجامعة كوينزلاند، <span class="italic">إدارة الموارد المعدنية والغايات العالمية: خطة للتعاون الدولي</span> (نيروبي، 2021).</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تشير أيضاً" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير أيضاً</span> إلى قرارها 4/1 بشأن المسارات المبتكرة لتحقيق الاستهلاك والانتاج المستدامين والتقرير المرحلي بشأنه، وإلى قرارها 4/5 بشأن الهياكل الأساسية المستدامة والتقرير المرحلي بشأنه، وإذ تحيط علماً بالتطورات فيما يتعلق بكفاءة الموارد، والاقتصاد الدائري والموارد الثانوية،</p>
+      </container>
+      <container name="وإذ تسلّم" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلّم </span>بأن المعادن والفلزات التي نُظر فيها بموجب هذا القرار تستبعد أنواع الوقود المعدني، وأن نطاق هذا القرار يشمل دورة الحياة الكاملة للمعادن والفلزات، بما في ذلك استخراجها، وتجهيزها داخل الموقع وخارجه، وتكريرها، وإدارة نفايات ومخلفات التعدين، وإعادة تأهيل المواقع والمناجم المغلقة أو المهجورة والتصنيع وإعادة التدوير،</p>
+      </container>
+      <container name="على" eId="container_5">
+        <p xml:space="preserve"> وإذ تعيد التأكيد<span class="italic"> على </span>إعلان ريو بشأن البيئة والتنمية، وجميع المبادئ الواردة فيه،</p>
+      </container>
+      <container name="المعيار العالمي للصناعة بشأن إدارة المخلفات" eId="container_6">
+        <p xml:space="preserve"> وإذ ترحب بإطلاق <span class="italic">المعيار العالمي للصناعة بشأن إدارة المخلفات </span>باعتباره معلماً بارزاً هاماً نحو بلوغ طموح عدم وجود أي مخلفات من انهيارات السدود وحماية صحة الإنسان والبيئة من مرافق المخلفات، وإذ تشجع على التنفيذ الفعال لهذا المعيار العالمي،</p>
+      </container>
+      <container name="على ال" eId="container_7">
+        <p xml:space="preserve"> وإذ تؤكد<span class="italic"> على ال</span>تحديات البيئية المحددة المتعلقة بالتعدين الحرفي والضيق النطاق، والمخاطر الصحية المرتبطة به،</p>
+      </container>
+      <container name="على" eId="container_8">
+        <p xml:space="preserve"> وإذ تشدد<span class="italic"> على </span>الحاجة إلى تعزيز الإجراءات لدعم إدارة الاستدامة البيئية للمعادن والفلزات، وإذ تدرك التحديات التي تواجهها البلدان من حيث القدرات التنظيمية والإدارية،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم</span> بأن التكنولوجيات النظيفة التي تعتمد بشكل كبير على المعادن والفلزات، مهمة لمكافحة تغير المناخ، وإذ تشدد على المساهمة المهمة التي تقدمها الإدارة المستدامة بيئياً للمعادن والفلزات في تحقيق خطة التنمية المستدامة لعام 2030، بما في ذلك بلوغ أنماط الاستهلاك والإنتاج المستدامة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10">
+        <num>1-</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve"> تشجع الدول الأعضاء وتدعو أصحاب المصلحة المعنيين على طول دورة الحياة الكاملة للمعادن والفلزات، من القطاعين العام والخاص، على مواءمة ممارسات التعدين لديهم واستثماراتهم في التعدين مع خطة التنمية المستدامة لعام 2030، ومع التزاماتهم ومقرراتهم بموجب الاتفاقات البيئية المتعددة الأطراف، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12">
+        <num>2-</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve"> تطلب <span class="italic">إلى المديرة التنفيذية، رهناً بتوافر الموارد، أن تعقد مشاورات إقليمية حكومية دولية شفافة وشاملة، بما في ذلك مع المنظمات الدولية ذات الصلة، والاتفاقات البيئية الإقليمية والمتعددة الأطراف، ومع أصحاب المصلحة المعنيين الذين يعملون كمراقبين، لإثراء اجتماع حكومي دولي عالمي؛ بهدف وضع مقترحات غير إلزامية لتعزيز الاستدامة البيئية للمعادن والفلزات طوال دورة حياتها الكاملة، بما يتماشى مع خطة التــــنــــمــــيــــة المــــســــتــــدامــــة لعام 2030؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_13">
+        <num>3-</num>
+        <list eId="para_13_list">
+          <intro eId="para_13_list_intro">
+          <p xml:space="preserve"> تقرر <span class="italic">أن تقوم المشاورات الإقليمية الحكومية الدولية بما يلي:</span></p>
+          </intro>
+          <point eId="para_13_list_point_a">
+            <num>(a)</num>
+            <content eId="para_13_list_point_a_content">
+          <p xml:space="preserve"> <span class="italic">تقييم الأنشطة والإجراءات القائمة في القطاعين العام والخاص والتي يضطلع بها أصحاب المصلحة المعنيون الآخرون لتعزيز الاستدامة البيئية للمعادن والفلزات وتحديد، من بين أمور أخرى، أفضل الممارسات والممارسات التجارية المسؤولة والمعايير والمبادئ التوجيهية والأدوات التقنية والتكنولوجيات المستدامة بيئياً واستخدام الطاقة المتجددة في التعدين</span>؛</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_b">
+            <num>(b)</num>
+            <content eId="para_13_list_point_b_content">
+          <p xml:space="preserve"> تحديد فرص لتعزيز التعاون الدولي، بما في ذلك بهدف تحفيز بناء القدرات والتعاون التكنولوجي والتقني والعلمي في قطاع التعدين، ولا سيما مع البلدان النامية؛</p>
+            </content>
+          </point>
+          <point eId="para_13_list_point_c">
+            <num>(c)</num>
+            <content eId="para_13_list_point_c_content">
+          <p xml:space="preserve"> <span class="italic">تحديد السبل الممكنة للمضي قدماً لتنظر فيها جمعية البيئة في دورتها السادسة، حسب الاقتضاء؛</span></p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>4-</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> تطلب إلى المديرة التنفيذية، من خلال قاعدة بيانات الموارد العالمية (جنيف)، تعزيز المعارف العلمية والتقنية والسياساتية فيما يتعلق بالرمال، ودعم السياسات والإجراءات العالمية المتعلقة باستخراجها واستخدامها بطريقة سليمة بيئياً؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>5-</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> تطلب أيضاً إلى المديرة التنفيذية، رهناً بتوافر الموارد، وبالاشتراك مع أمانات المنظمات والاتفاقات البيئية المتعددة الأطراف ذات الصلة وأصحاب المصلحة المعنيين، حسب الاقتضاء، مع مراعاة إطلاق المعيار العالمي للصناعة بشأن إدارة المخلفات، <span class="italic">تجميع تقرير عن الفجوات في المعارف فيما يتعلق بالجوانب البيئية لإدارة المخلفات؛</span></p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>6-</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> تطلب كذلك إلى المديرة التنفيذية أن تقدم تقريراً إلى جمعية الأمم المتحدة للبيئة في دورتها السادسة بشأن التقدم المحرز في تنفيذ هذا القرار، بما في ذلك من خلال تقرير موجز عن المشاورات لتنظر فيه جمعية البيئة في تلك الدورة.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

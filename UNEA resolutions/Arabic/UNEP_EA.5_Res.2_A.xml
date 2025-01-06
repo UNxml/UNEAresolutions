@@ -1,0 +1,227 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/ara@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-2/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="NITROGEN" href="http://metadata.un.org/thesaurus/1004419" showAs="NITROGEN" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.12" by="Sri Lanka" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.2</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">الدورة الخامسة</session>
+      </p>
+      <p>
+        <docTitle>قرار اعتمدته جمعية الأمم المتحدة للبيئة في 2 آذار/مارس 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#نيروبي">نيروبي </location>
+          <location refersTo="#مختلطة">(مختلطة)</location>، <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> و<date date="2021-02-23" refersTo="#endDate">23 شباط/فبراير2021</date></event>
+          و<event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 شباط/فبراير</date>-<date date="2022-03-02" refersTo="#endDate">2 آذار/مارس 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/2</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">الإدارة المستدامة للنيتروجين</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن جمعية الأمم المتحدة للبيئة،</span>
+        </p>
+      </formula>
+      <container name="إذ تلاحظ مع القلق" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">إذ تلاحظ مع القلق</span> أن المستويات المفرطة من المغذيات، ولا سيما النيتروجين التفاعلي والفوسفور، لها أثر كبير على تكوين الأنواع في النظم الإيكولوجية الأرضية والساحلية والنظم الإيكولوجية للمياه العذبة، وآثار متتالية على التنوع البيولوجي وعلى جودة التربة والمياه والهواء وأداء النظم الإيكولوجية ورفاه الإنسان،</p>
+      </container>
+      <container name="وإذ تلاحظ مع القلق أيضاً" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ مع القلق أيضاً</span> أن استخدام النيتروجين على نطاق الاقتصاد العالمي غير فعال حالياً، مما يؤدي إلى فقدان نسبة كبيرة من النيتروجين التفاعلي البشري في البيئة،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ</span> الفوائد التي سيجلبها الحد من نفايات النيتروجين لبيئة الغلاف الجوي والبيئة الأرضية وبيئة المياه العذبة والبيئة البحرية ولصحة الإنسان وخدمات النظم الإيكولوجية والجهود المبذولة لمكافحة التلوث وتغير المناخ وفقدان التنوع البيولوجي، مما يضمن الأمن الغذائي ويتيح إمكانية توفير مليارات من دولارات الولايات المتحدة سنوياً<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()  وفقاً لمنشور برنامج البيئة بعنوان <span class="italic">حدود 2018/2019: القضايا الناشئة ذات الاهتمام البيئي</span> (الفصل 4، ”إصلاح النيتروجين“)، تُقدر الوفورات السنوية بمبلغ 100 مليار دولار أمريكي.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تسلّم" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلّم</span> بالحاجة إلى اتخاذ إجراءات متسقة للتصدي للتحديات العالمية المتعددة التي يطرحها الاقتران الطبيعي لدورتي الكربون والنيتروجين، وإذ تؤكد من جديد الحاجة إلى تعزيز التعاون الدولي من أجل الإدارة المستدامة للنيتروجين،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير</span> إلى قرار الجمعية العامة 70/1 المؤرخ 25 أيلول/سبتمبر 2015، والمعنون ”تحويل عالمنا: خطة التنمية المستدامة لعام 2030“،</p>
+      </container>
+      <container name="وإذ تشير أيضاً" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير أيضاً</span> إلى أهداف التنمية المستدامة وغاياتها المترابطة،</p>
+      </container>
+      <container name="وإذ تسلّم" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلّم</span> بالأولوية الأساسية لحماية الأمن الغذائي والقضاء على الجوع، وبأن الإنتاج العالمي للمحاصيل والثروة الحيوانية والأمن الغذائي يعتمد على استخدام المغذيات بشكل مستدام وتقليل نفايات المغذيات، بما في ذلك النيتروجين والفوسفور،</p>
+      </container>
+      <container name="وإذ تسلّم أيضاً" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلّم أيضاً</span> بالإجراءات التي اتخذتها البلدان بالفعل وبموجب الاتفاقات الحكومية الدولية المتعلقة بجودة المياه وجودة الهواء والمناخ والتنوع البيولوجي، وإذ تسلّم بالإجراءات التي اتخذها برنامج الأمم المتحدة للبيئة ومرفق البيئة العالمية، والمنتدى العالمي لإدارة المغذيات، والمبادرة العالمية للمياه المستعملة، وبرنامج العمل العالمي لحماية البيئة البحرية من الأنشطة البرية، واتفاقية التلوث الجوي البعيد المدى عبر الحدود، ومـــشـــروع مـــرفـــق البـــيـــئة العالمية - برنامج الأمم المتحدة للبيئة الرامي إلى إنشاء نظام دولي لإدارة النيتروجين لربط العلوم والسياسات يتعلق بالإدارة المستدامة للنيتروجين،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير</span> إلى قرار جمعية البيئة 4/14 بشأن الإدارة المستدامة للنيتروجين، وإذ تعيد التأكيد على أهمية التخفيض الطويل الأجل لمخاطر التلوث المتعددة الناتجة عن النيتروجين التفاعلي البشري المنشأ، بما له من آثار ضارة على البيئة الأرضية، وبيئة المياه العذبة والبيئة البحرية، وعلى تلوث الهواء وانبعاثات غازات الاحتباس الحراري، مع الاعتراف بفوائد استخدام النيتروجين من أجل الغذاء والطاقة،</p>
+      </container>
+      <container name="وإذ تحيط علماً" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">وإذ تحيط علماً</span> بنتائج الاجتماع الرابع للشركاء في مشروع مرفق البيئة العالمية - برنامج الأمم المتحدة للبيئة الرامي إلى إنشاء نظام دولي لإدارة النيتروجين مع أعضاء لجنة الممثلين الدائمين لبرنامج الأمم المتحدة للبيئة، الذي عقد في نيروبي يومي 29 و30 نيسان/أبريل 2019 كمتابعة لاعتماد القرار 4/14،</p>
+      </container>
+      <container name="وإذ تحيط علماً أيضاً" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">وإذ تحيط علماً أيضاً</span> بعمل الفريق العامل التابع لبرنامج الأمم المتحدة للبيئة والمعني بالنيتروجين وفريق العمل التابع له المعني بتنفيذ القرار 4/14،</p>
+      </container>
+      <container name="وإذ تحيط علماً كذلك" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">وإذ تحيط علماً كذلك</span> بالعملية الجارية التي أُنشئت في عام 2017 تحت رعاية برنامج الأمم المتحدة للبيئة لإجراء التقييم الدولي للنيتروجين، الذي يتم تنفيذه من خلال مشروع مرفق البيئة العالمية - برنامج الأمم المتحدة للبيئة من أجل إنشاء نظام دولي لإدارة النيتروجين بدعم من مرفق البيئة العالمية وأصحاب المصلحة الآخرين، قبل الدورة السادسة لجمعية البيئة،</p>
+      </container>
+      <container name="وإذ تحيط علماً" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">وإذ تحيط علماً</span> بإطلاق حملة الأمم المتحدة العالمية بشأن الإدارة المستدامة للنيتروجين في تشرين الأول/أكتوبر 2019 واعتماد إعلان كولومبو بشأن الإدارة المستدامة للنيتروجين من قبل الموقعين عليه في يوم الأمم المتحدة، في 24 تشرين الأول/أكتوبر 2019،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_15">
+        <num>1-</num>
+        <content eId="para_15__content">
+          <p xml:space="preserve"> <span class="italic">تشجع</span> الدول الأعضاء على تسريع الإجراءات للحد بشكل كبير من نفايات النيتروجين على المستوى العالمي بحلول عام 2030 وما بعده من خلال تحسين الإدارة المستدامة للنيتروجين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_17">
+        <num>2-</num>
+        <content eId="para_17__content">
+          <p xml:space="preserve"> <span class="italic">تشجع أيضاً</span> الدول الأعضاء على تبادل المعلومات بشأن خطط العمل الوطنية، حسب توافرها، وفقاً للظروف الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_19">
+        <num>3-</num>
+        <list eId="para_19_list">
+          <intro eId="para_19_list_intro">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية لبرنامج الأمم المتحدة للبيئة أن تقوم بما يلي:</p>
+          </intro>
+          <point eId="para_19_list_point_a">
+            <num>(a)</num>
+            <content eId="para_19_list_point_a_content">
+          <p xml:space="preserve"> دعم الدول الأعضاء، بناءً على طلبها، في وضع خطط عمل وطنية للإدارة المستدامة للنيتروجين، رهناً بتوافر الموارد؛</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_b">
+            <num>(b)</num>
+            <content eId="para_19_list_point_b_content">
+          <p xml:space="preserve"> تحديد الطرائق الممكنة للخيارات التي يجري النظر فيها لتحسين تنسيق السياسات عبر دورة النيتروجين العالمية على المستوى الوطني والإقليمي والعالمي، بما في ذلك، من بين خيارات أخرى، من أجل آلية تنسيق حكومية دولية لسياسات النيتروجين، على النحو المحدد في الفقرة الفرعية (أ) من القرار 4/14؛</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_c">
+            <num>(c)</num>
+            <content eId="para_19_list_point_c_content">
+          <p xml:space="preserve"> عرض على لجنة الممثلين الدائمين، في اجتماعها التاسع والخمسين بعد المائة، المقرر عقده في عام 2022، إحاطة عن تنفيذ القرار 4/14، بما في ذلك حالة التقييم المطلوب في الفقرة الفرعية (ج) من القرار وخارطة طريق لمواصلة تنفيذ القرار في الفترة التي تسبق انعقاد الدورة السادسة لجمعية البيئة؛</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_d">
+            <num>(d)</num>
+            <content eId="para_19_list_point_d_content">
+          <p xml:space="preserve"> دعوة الدول الأعضاء إلى تعيين جهات تنسيق للانضمام إلى الفريق العامل التابع لبرنامج الأمم المتحدة للبيئة والمعني بالنيتروجين؛</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_e">
+            <num>(e)</num>
+            <content eId="para_19_list_point_e_content">
+          <p xml:space="preserve"> تقديم تقرير إلى جمعية البيئة، في دورتها الســادســة، عن التــقــدم المحرز في تنفيذ هذا القرار والقرار 4/14.</p>
+        </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

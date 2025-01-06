@@ -1,0 +1,330 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/ara@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.15" by="Mongolia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.9</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">الدورة الخامسة</session>
+      </p>
+      <p>
+        <docTitle>قرار اعتمدته جمعية الأمم المتحدة للبيئة في 2 آذار/مارس 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#"></location>
+          <event refersTo="#eventDuration">
+            <date date="0001-01-01" refersTo="#startDate"></date>
+            <date date="0001-01-01" refersTo="#endDate"></date>
+          </event>
+        </event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/9</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">الهياكل الأساسية المستدامة والقادرة على الصمود</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن جمعية الأمم المتحدة للبيئة،</span>
+        </p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">إذ تشير </span>إلى قرار الجمعية العامة 69/313 المؤرخ 27 تموز/يوليه 2015 بشأن خطة عمل أديس أبابا الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية، والذي أقر بأن الاستثمار في إنشاء هياكل أساسية مستدامة وقادرة على الصمود، بما في ذلك النقل والطاقة والمياه والصرف الصحي للجميع، شرط مسبق لتحقيق العديد من الأهداف، وأعرب عن التزام جميع البلدان بتيسير إنشاء هياكل أساسية ذات نوعية جيدة في البلدان النامية تكون مستدامة ومتاحة للجميع وقادرة على الصمود، عن طريق تعزيز الدعم المالي والتقني،</p>
+      </container>
+      <container name="وإذ تشير أيضاً" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير أيضاً </span>إلى قرار الجمعية العامة 70/1 المؤرخ 25 أيلول/سبتمبر 2015، المعنون ”تحويل عالمنا: خطة التنمية المستدامة لعام 2030“، والهدف 9 من أهداف التنمية المستدامة بشأن إقامة هياكل أساسية قادرة على الصمود وتحفيز التصنيع الشامل للجميع والمستدام، وتشجيع الابتكار، </p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ</span> أن الهياكل الأساسية ترتبط ارتباطاً وثيقاً بجميع أهداف التنمية المستدامة السبعة عشر وأن مكتب الأمم المتحدة لخدمات المشاريع قد خلص إلى أن نظم الهياكل الأساسية تؤثر على تحقيق ما يصل إلى 92 في المائة من غايات أهداف التنمية المستدامة البالغ عددها 169 غاية<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()  S. Thacker, D. Adshead, G. Morgan, S. Crosskey and others, <span class="italic">Infrastructure: Underpinning Sustainable Development</span> (كوبنهاغن، الدانمرك، مكتب الأمم المتحدة لخدمات المشاريع، 2018).</p></authorialNote><sup>)</sup>، والتي تشمل ولكن لا تقتصر على الأهداف التي تتعلق بحماية النظم الإيكولوجية، واستعادتها واستخدامها المستدام، وحفظ التنوع البيولوجي، ومكافحة التصحر، والكفاءة في استخدام الموارد، والاقتصادات الحضرية المستدامة والشاملة، وأنماط الاستهلاك والإنتاج المستدامة، والحد من مخاطر الكوارث، والتخفيف من حدة تغير المناخ والتكيف معه، وتوليد الوظائف والحد من الفقر،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">وإذ تشدد </span>على أهمية اتباع نهج النظام الإيكولوجي للإدارة المتكاملة للأراضي والمياه والموارد الحية والحاجة إلى تكثيف الجهود المبذولة للتصدي للتصحر، وتدهور الأراضي، والتعرية والجفاف، وفقدان التنوع البيولوجي ونُدرة المياه، والتي تُعد تحديات بيئية واقتصادية واجتماعية رئيسية تواجه التنمية المستدامة على المستوى العالمي، </p>
+      </container>
+      <container name="وإذ تشير" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير </span>إلى قراراها 4/5 بشأن الهياكل الأساسية المستدامة، الذي شجّعت فيه الدول الأعضاء على اتخاذ الخطوات اللازمة لتحقيق الهدف 9 من أهداف التنمية المستدامة والغايات المتعلقة به التي ترد في أهداف التنمية المستدامة الأخرى، مع مراعاة القدرات والأولويات الوطنية وإذ تقر بالهدف المتمثل في التقدم نحو تحقيق أنماط الاستهلاك والإنتاج المستدامة ووضع وتعزيز نُهج استراتيجية وطنية وإقليمية على مستوى النظم لتخطيط الهياكل الأساسية، وتعزيز الحلول القائمة على الطبيعة بوصفها مكونات رئيسية من النُهج الاستراتيجية على مستوى النظم لتخطيط الهياكل الأساسية وتطويرها، وطلبت فيه إلى المديرة التنفيذية لبرنامج الأمم المتحدة للبيئة أن تعد تجميعاً لأفضل الممارسات لمساعدة الدول الأعضاء في تعزيز وتقوية استدامة هياكلها الأساسية،</p>
+      </container>
+      <container name="وإذ تشدد" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">وإذ تشدد</span> على أهمية القرارات الأخرى التي اعتُمدت خلال الدورة الحالية لجمعية البيئة من أجل إنشاء هياكل أساسية مستدامة وقادرة على الصمود،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ</span> أن الإجراءات الرامية إلى تعزيز اقتصادات أكثر اتباعاً لنُهج التدوير تمثل فرصاً للتقليل إلى أقصى حد من الأثر البيئي السلبي الذي تُحدثه الهياكل الأساسية، وذلك على سبيل المثال، من خلال رفع الكفاءة في استخدام الموارد، بما في ذلك الموارد المادية،</p>
+      </container>
+      <container name="وإذ تلاحظ أيضاً" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ أيضاً</span> أن المقررات والقرارات العديدة التي اتُّخذت بشأن الهياكل الأساسية والتنوع البيولوجي قد اعتُمدت من قبل مجالس إدارة الاتفاقات البيئية المتعددة الأطراف، بما فيها اتفاقية التنوع البيولوجي<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()  انظر، على سبيل المثال، المقرر 14/3 الصادر عن اتفاقية التنوع البيولوجي بشأن تعميم التنوع البيولوجي في قطاعات الطاقة والتعدين والبنية التحتية والصناعات التحويلية والتجهيز.</p></authorialNote><sup>)</sup> ومعاهدة المحافظة على الأنواع المهاجرة من الحيوانات الفطرية<sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">()  انظر، على سبيل المثال، المقررات 13-130 إلى 13-134 بشأن تطوير الهياكل الأساسية والأنواع المهاجرة للحيوانات الفطرية الصادرة عن معاهدة المحافظة على الأنواع المهاجرة من الحيوانات الفطرية والقرار 7-2 الصادر عن برنامج الأمم المتحدة للبيئة ومعاهدة المحافظة على الأنواع المهاجرة من الحيوانات الفطرية (Rev.COP12) بشأن تقييم الأثر والأنواع المهاجرة.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير</span> إلى قرار الجمعية العامة 75/1 المؤرخ 21 أيلول/سبتمبر 2020، المعنون ”إعلان بمناسبة الاحتفال بالذكرى السنوية الخامسة والسبعين لإنشاء الأمم المتحدة“، وإلى قرار الجمعية العامة 75/207 المؤرخ 21 كانون الأول/ديسمبر 2020، المعنون ”تشجيع الاستثمارات من أجل التنمية المستدامة“، الذي كرر التأكيد على طموح العودة إلى المسار الصحيح لتحقيق أهداف التنمية المستدامة من خلال تصميم استراتيجيات تعافي تكون مستدامة وشاملة فيما يتعلق بجائحة فيروس كورونا (كوفيد-19) وسلط الضوء على الحاجة إلى الاستثمار والتمويل من جانب القطاعين العام والخاص لإنشاء هياكل أساسية ذات نوعية جيدة وموثوقة ومستدامة وقادرة على الصمود على المستويين الوطني والدولي،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم </span>بأن الاستثمارات في إنشاء الهياكل الأساسية أساسية لخطط التعافي الاقتصادي من جائحة كوفيد-19 الخاصة بالعديد من الحكومات كوسيلة لتوليد فرص عمل، وتعزيز الإنتاجية، ومعالجة التفاوتات، وبناء القدرة على الصمود في وجه الأزمات المستقبلية،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ </span>أنه وفقاً للتقرير المعنون: <span class="italic">”هل نبني بشكل أفضل؟ أدلة مستمدة من 2020 ومسارات للإنفاق الشامل للتعافي الأخضر“</span><sup>(</sup><authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve">()  Brian J. O’Callaghan and Em Murdock, <span class="italic">Are We Building Back Better? Evidence from 2020 and Pathways to Inclusive Green Recovery Spending </span>(United Nations Environment Programme, 2021).</p></authorialNote><sup>)</sup>، تبيّن أن الأغلبية العظمى من الإنفاق على التعافي من جائحة كوفيد‑19 من قبل الحكومات كان ”مراعياً للبيئة عند أدنى حد“،</p>
+      </container>
+      <container name="وإذ تلاحظ أيضاً" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ أيضاً </span>عقد الأمم المتحدة لإصلاح النظم الإيكولوجية 2021-2030 وأنه من المتوقع أن يعتمد مؤتمر الأطراف في اتفاقية التنوع البيولوجي إطاراً عالمياً جديداً بشأن التنوع البيولوجي في عام 2022 كنقطة انطلاق نحو تحقيق رؤية 2050 المتمثلة في ”العيش في وئام مع الطبيعة“،</p>
+      </container>
+      <container name="وإذ تقدر" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">وإذ تقدر </span>موضوع الدورة الخامسة لجمعية الأمم المتحدة للبيئة، ”تعزيز الإجراءات من أجل الطبيعة لتحقيق أهداف التنمية المستدامة“،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير </span>إلى قرار الجمعية العامة 75/271 المؤرخ 16 نيسان/أبريل 2021، والمعنون ”الطبيعة لا تعرف حدوداً: التعاون عبر الحدود - عامل رئيسي لحفظ التنوع البيولوجي وإصلاحه واستخدامه على نحو مستدام“، الذي يؤكد على أهمية التعاون لتجنب تجزئة الموئل العابرة للحدود والحفاظ على الترابط بين النظم الإيكولوجية وتعزيزه ويشدد على أهمية تطبيق تقييمات الأثر البيئي بما يتماشى مع التشريعات الوطنية، عند الاقتضاء، للحفاظ على الترابط الإيكولوجي بين النظم الإيكولوجية وتجنب زيادة تجزئتها حتى تتمكن الطبيعة من الاستمرار في تقديم خدمات النظم الإيكولوجية للناس،</p>
+      </container>
+      <container name="وإذ تقر" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">وإذ تقر</span> بأن الهياكل الأساسية الطبيعية يمكن أن تشمل شبكات من الأراضي الطبيعية والمياه والتربة مخططة ومدارة بشكل استراتيجي، مثل الغابات والأراضي الرطبة والمناظر الطبيعية العاملة وغيرها من المساحات المفتوحة التي تحافظ على قيم ووظائف النظم الإيكولوجية أو تحسنها وتوفر الفوائد المرتبطة بها للناس، ويمكن أن توفر بدائل فعالة من حيث التكلفة وقادرة على الصمود أو مكملات للهياكل الأساسية المبنية في سياق القدرة المالية المقيّدة، وينبغي أن تُعزز بهدف استعادة واستدامة النظم الإيكولوجية والمجتمعات الصحية كجزء من التعافي المستدام بيئياً واجتماعياً واقتصادياً من جائحة كوفيد-19،</p>
+      </container>
+      <container name="وإذ تحيط علماً" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">وإذ تحيط علماً</span> بالأثر البيئي المحتمل لمشاريع الهياكل الأساسية على سلامة النظم الإيكولوجية وترابطها،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم </span>بأهمية التعاون بين البلدان المتجاورة على جميع المستويات من أجل الإدارة المستدامة للأراضي والمياه وحفظ التنوع البيولوجي واستعادته، </p>
+      </container>
+      <container name="وإذ تدرك أيضاً" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">وإذ تدرك أيضاً </span>أن الاستثمارات في إنشاء هياكل أساسية مستدامة وقادرة على الصمود مهمة للتصدي لأزمات تغير المناخ وفقدان التنوع البيولوجي والتلوث والتصحر المترابطة فيما بينها، من أجل تلبية احتياجات التعافي المستدام ولضمان تقديم الخدمات الأساسية في المستقبل،</p>
+      </container>
+      <container name="وإذ تدرك كذلك" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">وإذ تدرك كذلك </span>أن جائحة كوفيد-19 قد أظهرت أهمية الهياكل الأساسية الصحية الشاملة، بما في ذلك الإدارة السليمة بيئياً للنفايات الطبية، </p>
+      </container>
+      <container name="وإذ تشدد على" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">وإذ تشدد على </span>أن سد فجوة الاستثمارات في الهياكل الأساسية ومنح الأولوية للهياكل الأساسية قد يتطلبان ضخ استثمارات كبيرة وموجهة من كلا القطاعين العام والخاص، بما في ذلك التمويل المشترك للمشاريع الفردية ونشر الأدوات المالية لإنشاء الهياكل الأساسية المستدامة والقادرة على الصمود من جانب المصارف الإنمائية المتعددة الأطراف وغيرها من المؤسسات المالية العامة والخاصة،</p>
+      </container>
+      <container name="وإذ تقر" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">وإذ تقر </span>بالحاجة إلى اتخاذ إجراءات عاجلة للتصدي للتحديات التي تواجه تخطيط وتطوير هياكل أساسية ذات نوعية جيدة وموثوقة ومستدامة وقادرة على الصمود، ولا سيما من جانب جميع البلدان النامية،</p>
+      </container>
+      <container name="وإذ تسلط الضوء" eId="container_23">
+          <p xml:space="preserve"> <span class="italic">وإذ تسلط الضوء </span>على أن تنفيذ أي من مشاريع الهياكل الأساسية، بما في ذلك المشاريع ذات الأثر البيئي المحتمل على سلامة النظم البيئية وترابطها، يجب أن يتماشى مع التشريعات ذات الصلة وأن يسعى إلى تجنب أو تقليل الآثار السلبية على النظم البيئية وسبل العيش،</p>
+      </container>
+      <container name="وإذ تقر" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">وإذ تقر </span>بأهمية إطار الرصد لأهداف التنمية المستدامة، بما فيها الهدف 9، إلى جانب الأطر الأخرى ذات الصلة من أجل رصد التقدم المحرز بشأن استدامة الهياكل الأساسية على المستوى الكلي، وأن هذه الأُطر قد تتطلب تبادل المعارف والمساعدة التقنية ودعم القدرات،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_25">
+        <num>1-</num>
+        <list eId="para_25_list">
+          <intro eId="para_25_list_intro">
+          <p xml:space="preserve"> <span class="italic">تشجع </span>الدول الأعضاء وأصحاب المصلحة الآخرين، حسب الاقتضاء، على القيام بما يلي:</p>
+          </intro>
+          <point eId="para_25_list_point_a">
+            <num>(a)</num>
+            <content eId="para_25_list_point_a_content">
+          <p xml:space="preserve"> النظر في إدماج وتنفيذ ”المبادئ الدولية العشرة للممارسات الجيدة من أجل هياكل أساسية مستدامة“<sup>(</sup><authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve">()  انظر <span class="italic">المبادئ الدولية للممارسات الجيدة من أجل هياكل أساسية مستدامة: نُهج متكاملة على مستوى النظم لواضعي السياسات</span> (برنامج الأمم المتحدة للبيئة، 2021).</p></authorialNote><sup>)</sup> في السياسات الوطنية، بما في ذلك من خلال استخدام وتطوير أدوات الهياكل الأساسية المستدامة<sup>(</sup><authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve">()  يشمل ”متصفح أداة البنية التحتية المستدامة“ قاعدة بيانات للأدوات لمساعدة المستخدمين في تحديد أنسب الأدوات لتلبية حاجاتهم.</p></authorialNote><sup>)</sup> مع مراعاة الظروف الوطنية؛</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_b">
+            <num>(b)</num>
+            <content eId="para_25_list_point_b_content">
+          <p xml:space="preserve"> تنفيذ الأدوات القائمة، مثل المبادئ التوجيهية وأفضل الممارسات، التي تشمل تلك التي وضعتها أو صادقت عليها الاتفاقات البيئية المتعددة الأطراف<sup>(</sup><authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve">()  تشمل تلك الواردة في معاهدة المحافظة على الأنواع المهاجرة من الحيوانات الفطرية، والمتاحة على الموقع التالي: <a href="http://www.cms.int/en/species/threats/infrastructure">www.cms.int/en/ species/threats/infrastructure</a>.</p></authorialNote><sup>)</sup>، والمشاركة في إعداد منتجات معرفية إضافية، والمشاركة في آليات التبادل لتقاسم أفضل الممارسات والدروس المستفادة فيما يتعلق بالهياكل الأساسية المستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_c">
+            <num>(c)</num>
+            <content eId="para_25_list_point_c_content">
+          <p xml:space="preserve"> التعاون على المستوى الدولي لتعزيز الأطر، بما في ذلك أطر التمويل، لإنشاء الهياكل الأساسية المستدامة والشاملة للجميع التي تحافظ على الترابط الإيكولوجي وتحسنه، وتتجنب المزيد من التجزئة، وتقلل إلى الحد الأدنى من الآثار المحتملة على النظم الإيكولوجية وسبل العيش؛</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_d">
+            <num>(d)</num>
+            <content eId="para_25_list_point_d_content">
+          <p xml:space="preserve"> النظر في دور الهياكل الأساسية الرقمية في تمكين أنماط الاستهلاك والإنتاج المستدامة وتحسين استدامة وكفاءة نظم الهياكل الأساسية الأخرى كجزء من النُهج المتكاملة؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>2-</num>
+        <list eId="para_26_list">
+          <intro eId="para_26_list_intro">
+          <p xml:space="preserve"> <span class="italic">تشجع </span>الدول الأعضاء على القيام بما يلي:</p>
+          </intro>
+          <point eId="para_26_list_point_a">
+            <num>(a)</num>
+            <content eId="para_26_list_point_a_content">
+          <p xml:space="preserve"> إجراء تقييمات استراتيجية وتقييمات للأثر البيئي حتى يتسنى إدماج الاعتبارات البيئية في عملية اتخاذ القرار على المستويات المناسبة، والمضي قدماً بالنُهج المتكاملة على مستوى النظم لتخطيط الهياكل الأساسية وتنفيذها؛</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_b">
+            <num>(b)</num>
+            <content eId="para_26_list_point_b_content">
+          <p xml:space="preserve"> المشاركة، حسب الاقتضاء، مع المؤسسات دون الوطنية للنظر في إدماج المبادئ الدولية للممارسات الجيدة في خطط ومشاريع الهياكل الأساسية المحلية التي تركز على التعافي، عند الاقتضاء؛</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_c">
+            <num>(c)</num>
+            <content eId="para_26_list_point_c_content">
+          <p xml:space="preserve"> تشجيع الاستثمارات في الهياكل الأساسية الطبيعية، والحلول القائمة على الطبيعة لتقديم الخدمات الأساسية وتحسين خدمات النظم الإيكولوجية، وتوليد فرص عمل، وتسريع وتيرة تحقيق أهداف التنمية المستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_d">
+            <num>(d)</num>
+            <content eId="para_26_list_point_d_content">
+          <p xml:space="preserve"> تشجيع الاستثمار في الهياكل الأساسية الصحية المستدامة بيئياً واجتماعياً واقتصادياً من أجل تعزيز القدرة على الصمود والكفاءة في استخدام الموارد، إلى جانب الإدارة السليمة بيئياً للنفايات الطبية؛</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_e">
+            <num>(e)</num>
+            <content eId="para_26_list_point_e_content">
+          <p xml:space="preserve"> تشجيع الاستثمار في الهياكل الأساسية المستدامة بيئياً واجتماعياً واقتصادياً، والقادرة على الصمود أمام المناخ، والفعالة من حيث الموارد، والتي تمنع تجزئة النظم الإيكولوجية وتساهم في أنماط الإنتاج والاستهلاك المستدامة، وبالتالي تساهم في تحقيق أهداف التنمية المستدامة وأهداف الاتفاقات البيئية المتعددة الأطراف ذات الصلة؛</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_f">
+            <num>(f)</num>
+            <content eId="para_26_list_point_f_content">
+          <p xml:space="preserve"> توفير فرص لإشراك أصحاب المصلحة المعنيين، بمن فيهم المجتمعات المحلية والأشخاص الضعفاء والشعوب الأصلية، في جميع مراحل العملية لتحديد وتصميم وبناء وصيانة الهياكل الأساسية؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_28">
+        <num>3-</num>
+        <list eId="para_28_list">
+          <intro eId="para_28_list_intro">
+          <p xml:space="preserve"> <span class="italic">تطلب </span>إلى المديرة التنفيذية أن تدعم الدول الأعضاء وأعضاء الوكالات المتخصصة، في حدود الموارد المتاحة من خلال ما يلي:</p>
+          </intro>
+          <point eId="para_28_list_point_a">
+            <num>(a)</num>
+            <content eId="para_28_list_point_a_content">
+          <p xml:space="preserve"> تعزيز تنفيذ الأدوات القائمة، مثل المبادئ التوجيهية وأفضل الممارسات، التي وضعتها أو صادقت عليها الاتفاقات البيئية المتعددة الأطراف<sup>(</sup><authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve">()  المرجع نفسه.</p></authorialNote><sup>)</sup>، ومواصلة تطوير المعارف وتقديم المساعدة التقنية ودعم القدرات، في حدود الموارد المتاحة، لتخطيط وضخ استثمارات مستدامة في الهياكل الأساسية من شأنها أن تدفع التعافي المستدام بيئياً واجتماعياً واقتصادياً، بما في ذلك من خلال تقييم الأثر المحتمل على سلامة وترابط النظم الإيكولوجية؛</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_b">
+            <num>(b)</num>
+            <content eId="para_28_list_point_b_content">
+          <p xml:space="preserve"> العمل مع الدول الأعضاء ومنظومة الأمم المتحدة من خلال المنصات القائمة، بما في ذلك إطار العمل العشري للبرامج المتعلقة بأنماط الاستهلاك والإنتاج المستدامة، ومع الشركاء الدوليين الآخرين لتقديم الدعم على المدى الطويل لتبادل الخبرات، والتعلم فيما بين الأقران، والمساعدة التقنية، وبناء القدرات، والتدريب بشأن الهياكل الأساسية المستدامة؛</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_c">
+            <num>(c)</num>
+            <content eId="para_28_list_point_c_content">
+          <p xml:space="preserve"> تيسير مشاركة القطاع الخاص في تخطيط وتطوير الهياكل الأساسية المستدامة والقادرة على الصمود، وتعبئة التمويل لها من خلال إشراك شركات الأعمال، والممارسين، والمستثمرين، وأصحاب المصلحة الآخرين في القطاع الخاص؛</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_d">
+            <num>(d)</num>
+            <content eId="para_28_list_point_d_content">
+          <p xml:space="preserve"> دعوة الفريق الدولي المعني بالموارد إلى المضي قدماً بالجهود الرامية إلى ربط العلوم بالسياسات من أجل الهياكل الأساسية المستدامة بغية تقديم مشورة الخبراء ذات الصلة بالسياسات والخيارات القائمة على العلم بشأن هذه المسألة؛</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_e">
+            <num>(e)</num>
+            <content eId="para_28_list_point_e_content">
+          <p xml:space="preserve"> دعم تنفيذ المبادئ الدولية للممارسات الجيدة بترجمتها، حسب الاقتضاء وبناء على طلب كل دولة عضو، من أجل تطبيقها على نظم فرعية محددة للهياكل الأساسية والقطاع الخاص ومجموعات أصحاب المصلحة الآخرين؛</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_f">
+            <num>(f)</num>
+            <content eId="para_28_list_point_f_content">
+          <p xml:space="preserve"> مواصلة جمع وتبادل أفضل الممارسات والأدوات والخبرات لتحسين استدامة نظم الهياكل الأساسية، وتقديم تقرير يشتمل على هذه المعلومات إلى جمعية البيئة في دورتها السادسة.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,247 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/ara@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-11/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-21" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE CONSUMPTION" href="http://metadata.un.org/thesaurus/1006318" showAs="SUSTAINABLE CONSUMPTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE PRODUCTION" href="http://metadata.un.org/thesaurus/1001025" showAs="SUSTAINABLE PRODUCTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.17" by="The Group of African States" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.11</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">الدورة الخامسة</session>
+      </p>
+      <p>
+        <docTitle>قرار اعتمدته جمعية الأمم المتحدة للبيئة في 2 آذار/مارس 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#نيروبي">نيروبي </location>
+          <location refersTo="#مختلطة">(مختلطة)</location>، <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> و<date date="2021-02-23" refersTo="#endDate">23 شباط/فبراير 2021</date></event>
+و<event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 شباط/فبراير</date>-<date date="2022-03-02" refersTo="#endDate">2 آذار/مارس 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/11</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">تعزيز الاقتصاد الدائري كمساهمة في تحقيق الاستهلاك والإنتاج المستدامين</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن جمعية الأمم المتحدة للبيئة،</span>
+        </p>
+      </formula>
+      <container name="إذ" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">إذ </span>تشير إلى قرارها 4/1 بشأن إيجاد مسارات مبتكرة لتحقيق الاستهلاك والإنتاج المستدامين، الذي يقر بأنه إلى جانب نُهج الإنتاج والاستهلاك المستدامين الأخرى، يمكن أن يساهم تحقيق اقتصاد أكثر اتباعاً لنُهج التدوير حيث تصمَّم المنتجات والمواد على نحو يمكِّن من إعادة استخدامها أو إعادة تصنيعها أو إعادة تدويرها أو استردادها وبالتالي الاحتفاظ بها في الاقتصاد لأطول فترة ممكنة، مع الموارد التي أُنتجت منها، ويمكِّن أيضاً من تجنب إنتاج النفايات، وخاصة النفايات الخطرة، أو التقليل منها إلى أدنى حد ممكن، ومنع انبعاثات غازات الاحتباس الحراري وتخفيضها، مساهمة كبيرة في الاستهلاك والإنتاج المستدامين،</p>
+      </container>
+      <container name="وإذ تقر" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">وإذ تقر </span>أيضاً بأن اتباع نهج الاقتصاد الدائري كمسار لتحقيق أنماط الاستهلاك والإنتاج المستدامة يمكن أن يسهم في معالجة تغير المناخ وفقدان التنوع البيولوجي وتدهور الأراضي وأثر الإجهاد المائي والتلوث وأثر ذلك على صحة الإنسان، مما يسهم في إنجاز الأهداف ذات الصلة في إطار خطة التنمية المستدامة لعام 2030 والأهداف البيئية الأخرى المتفق عليها دولياً،</p>
+      </container>
+      <container name="وإذ تحيط علماً" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">وإذ تحيط علماً </span>بالنتائج التي توصلت إليها منصة تسريع الاقتصاد الدائري الواردة في <span class="italic">تقرير فجوة النهج الدائري لعام 2020</span><sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()  الاقتصاد الدائري، <span class="italic">تقرير فجوة النهج الدائري لعام 2020</span> (2020)، متاح على الموقع التالي https://pacecircular.org/sites/default/files/2020-01/Circularity%20Gap%20Report%202020.pdf.</p></authorialNote><sup>)</sup>، بأن فجوة النهج الدائري العالمية آخذة في الاتساع وتتفاقم بسبب اتجاهات الاقتصاد الخطي التي تتسم بارتفاع معدلات استخراج الموارد من المواد، والتراكم المستمر للمخزونات، وانخفاض مستويات المعالجة عند نهاية الاستخدام وإعادة التدوير،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">وإذ ترحب</span> بتحليل الفريق الدولي المعني بالموارد في تقريره <span class="italic">’’توقعات الموارد العالمية لعام 2019: الموارد الطبيعية من أجل المستقبل الذي نصبو إليه‘‘</span><sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()  الفريق الدولي المعني بالموارد، <span class="italic">’توقعات الموارد العالمية للعام 2019: الموارد الطبيعية من أجل المستقبل الذي نصبو إليه</span> (برنامج الأمم المتحدة للبيئة، 2019).</p></authorialNote><sup>)</sup>، بأن اعتبارات السياسات العامة للاقتصاد الأكثر اتباعاً لنُهج التدوير تشمل إنشاء بنية تحتية فعالة لإدارة النفايات وإعادة تدويرها، وتحفيز دورات حياة المُنتَج الممتدة والتصميم المستدام للمنتجات، والحد من الحواجز التنظيمية التي تعترض تطوير أو تبني عمليات الاحتفاظ بالقيمة وإذا تقر بأهمية الإدارة المستدامة للموارد من المواد،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم</span> بأن التبادلات الدولية والخبرات المشتركة وتنمية القدرات والتمويل والتعاون يمكن أن تساعد على تنفيذ نُهج الاقتصاد الدائري لتحقيق الاستهلاك والإنتاج المستدامين، وإذ ترحب بالجهود المبذولة للمضي قدماً بنُهج الاقتصاد الدائري، مع ملاحظة إنشاء مبادرات إقليمية وعالمية في هذا السياق،</p>
+      </container>
+      <container name="وإذ تسلم أيضاً" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم أيضاً </span>بأن نُهج الاقتصاد الدائري تتطلب توسيع نطاق الممارسات المستدامة على طول سلاسل القيمة وإذ تقر بوجود نماذج أعمال وأفضل الممارسات التي تجسد نُهج الاقتصاد الدائري؛ والتكنولوجيات التي تُحسّن إدارة الموارد عبر القطاعات؛ و’’التكنولوجيات التي تحقق قفزة نوعية‘‘ التي تولد وفورات اقتصادية وتُحسّن كفاءة استخدام الموارد وتدفع أيضاً عجلة التنمية، على الرغم من الحاجة إلى الابتكار الدائري،</p>
+      </container>
+      <container name="وإذ تسلم أيضاً" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم أيضاً</span> بوجود تكنولوجيات لتحسين إدارة الموارد الطبيعية في جميع القطاعات والبلدان، ونماذج للأعمال التجارية وأفضل الممارسات التي تشمل الاقتصاد الدائري وتحقيق قفزة نوعية في التكنولوجيات، التي تحقق وفورات هائلة في الموارد والاقتصاد، مع مواصلة دفع عجلة التنمية،</p>
+      </container>
+      <container name="وإذ تسلم كذلك" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم كذلك</span> بأن العمل المضطلع به في إطار الاتفاقات والاتفاقيات والمنظمات والمنتديات الدولية ذات الصلة، بما في ذلك تلك المتعلقة بالإدارة السليمة للمواد الكيميائية والنفايات،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">وإذ ترحب</span> بالعمل الذي اضطلع به برنامج الأمم المتحدة للبيئة في شراكته من أجل الوقود والمركبات النظيفة، وبالمساهمة التي قدمتها الشراكة في اقتصاد أكثر اتباعاً لنُهج التدوير من خلال معالجة الانبعاثات والتلوث والمواد الكيميائية والنفايات المرتبطة بالمركبات،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم</span> بوضع أو تعزيز اللوائح والمعايير من قبل الدول الأعضاء والمجموعات الإقليمية لضمان صلاحية الطرق، والحد من الأثر البيئي والصحي السلبي للمركبات المستعملة وتعزيز الوقود النظيف،</p>
+      </container>
+      <container name="وإذ تسلم أيضاً" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم أيضاً</span> بأن نُهج الاقتصاد الدائري تتيح فرصاً لاتباع ممارسات استهلاك وإنتاج أكثر كفاءة في استخدام الموارد وأقل كثافة في استخدام الموارد، وتكنولوجيات وهياكل أساسية سليمة بيئياً، وتدعم سبل العيش في الوقت نفسه،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">وإذ ترحب</span> بتمديد الجمعية العامة، في قرارها 76/202 المؤرخ 17 كانون الأول/ديسمبر 2021، لولاية إطار العمل العشري للبرامج المتعلقة بأنماط الاستهلاك والإنتاج المستدامة حتى عام 2030، وإذ تحيط علماً بقرار مجلس إطار العمل العشري مواصلة وضع استراتيجية عالمية جديدة بشأن الاستهلاك والإنتاج المستدامين والتي ستعكس مساراً طموحاً وشاملاً للنُهج المنهجية والدائرية وللتعاون المتعدد الأطراف والمتعدد أصحاب المصلحة،</p>
+      </container>
+      <container name="وإذ ترحب أيضاً" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">وإذ ترحب أيضاً</span> بعقد اجتماع UNEP@50 احتفالاً بالذكرى السنوية الخمسين لإنشاء برنامج الأمم المتحدة للبيئة واجتماع استوكهولم+50 الدولي احتفالاً بالذكرى السنوية الخمسين لمؤتمر الأمم المتحدة المعني بالبيئة البشرية ووثائقه الختامية،</p>
+      </container>
+      <container name="وإذ ترحب كذلك" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">وإذ ترحب كذلك</span> بالعمل الذي يضطلع به الفريق الدولي المعني بالموارد، بما في ذلك من خلال تقاريره المنتظمة <span class="italic">توقعات الموارد العالمية</span>، في وضع خيارات قائمة على العلم لتحقيق الهدف 12 من أهداف التنمية المستدامة وأهداف التنمية المستدامة ذات الصلة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_16">
+        <num>1-</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> الدول الأعضاء إلى إدماج نُهج الاقتصاد الدائري في الاستراتيجيات وخطط العمل الوطنية والإقليمية، بما في ذلك تلك المتعلقة بالاتفاقات البيئية المتعددة الأطراف ذات الصلة، مع مراعاة الظروف والقدرات الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18">
+        <num>2-</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> <span class="italic">تدعو أيضاً</span> الدول الأعضاء إلى اتخاذ تدابير، بالتعاون مع القطاع الخاص، لتعزيز تصميم المنتجات، مع مراعاة تقييمات دورات الحياة، من أجل تمديد عمر المنتج، والإصلاح، وإعادة الاستخدام، وسهولة إعادة التدوير في سياق اقتصاد دائري، للمساهمة في كفاءة استخدام الموارد؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>3-</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> <span class="italic">تدعو كذلك</span> الدول الأعضاء والمنظمات والشبكات ذات الصلة إلى التعاون في مجال تبادل ومناقشة أفضل الممارسات المتعلقة بمعلومات المنتجات ذات الصلة على طول سلاسل القيمة في سياق الاقتصاد الدائري، بما يتماشى مع القانون المحلي والدولي؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>4-</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> <span class="italic">تشدد</span> على الحاجة إلى إقامة شراكات وتدعو الدول الأعضاء والقطاع الخاص والمنظمات غير الحكومية والأوساط العلمية والمؤسسات الدولية ذات الصلة وغيرها من أصحاب المصلحة المعنيين إلى تشجيع وتعزيز نُهج الاقتصاد الدائري وكذلك نماذج الأعمال والابتكارات والاستثمارات للمساهمة في جملة أمور من بينها الإدارة المستدامة للموارد والمواد الطبيعية واستخدامها واستهلاكها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>5-</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> الدول الأعضاء إلى الانخراط، حسب الاقتضاء وبما يتماشى مع الظروف والسياسات الوطنية، مع الكيانات دون الوطنية والوطنية والإقليمية لتعزيز السياسات والأطر القانونية والتنظيمية، مثل تلك المتعلقة بالمشتريات العامة المستدامة، والابتكار التكنولوجي، والمسؤولية الممتدة للمُنتِج، ودورة حياة المواد والتكافل الصناعي لدعم تبني نُهج الاقتصاد الدائري، بهدف المساهمة في تحقيق الاستهلاك والإنتاج المستدامين؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>6-</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> <span class="italic">تشجع</span> الدول الأعضاء على تعزيز إدارة المعارف وإقامة آليات ومنصات وحملات قوية للدعوة والاتصال والترويج والتوعية؛ ودعم التعليم والبحث والابتكار والتطوير؛ وتعزيز بناء القدرات؛ وتحفيز الشراكات بين القطاعين العام والخاص حسب الاقتضاء؛ وتعزيز تبادل المعلومات داخل البلدان والمناطق وفيما بينها فيما يتعلق بنُهج الاستهلاك والإنتاج المستدامين، بما في ذلك الاقتصاد الدائري؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28">
+        <num>7-</num>
+        <content eId="para_28__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> الدول الأعضاء القادرة على ذلك إلى تحسين إمكانية التنبؤ بالدعم وتعزيز إمكانية الحصول عليه، مثل التمويل المستدام من المصادر العامة والخاصة، والتكنولوجيات السليمة بيئياً من أجل تبني الاقتصاد الدائري والنُهج الأخرى للاستهلاك والإنتاج المستدامين، ولا سيما من قبل الشركات متناهية الصغر والصغيرة والمتوسطة الحجم، ولا سيما في البلدان النامية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_30">
+        <num>8-</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> <span class="italic">وإذ تسلم</span> بأهمية الحوارات الشاملة المتعددة الأطراف والمتعددة أصحاب المصلحة بشأن الاستهلاك والإنتاج المستدامين، وكفاءة استخدام الموارد والاقتصاد الدائري لتعزيز التنمية المستدامة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32">
+        <num>9-</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية لبرنامج الأمم المتحدة للبيئة أن تواصل، بالتشاور مع الدول الأعضاء، وأعضاء الوكالات المتخصصة وأصحاب المصلحة ذوي الصلة، جمع المعلومات وإجراء مزيد من التحليل للمركبات المستعملة وأنواع الوقود النظيف، بهدف الحد من الآثار البيئية والصحية السلبية للمركبات المستعملة، بما في ذلك التخلص منها في نهاية عمرها، والترويج للوقود النظيف، ودعم الدول الأعضاء عند الطلب؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34">
+        <num>10-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية أن تيسر، بالتعاون مع كيانات الأمم المتحدة الأخرى، بما في ذلك الفريق الدولي المعني بالموارد، وشركاء التنمية والشبكات الدولية لأصحاب المصلحة المتعددين ذات الصلة، بما في ذلك إطار العمل العشري للبرامج المتعلقة بأنماط الاستهلاك والإنتاج المستدامة، التعاون بين الدول الأعضاء وأعضاء الوكالات المتخصصة في مجال البحث وبناء القدرات وإدارة المعرفة وتبادل أفضل الممارسات لتعزيز المسارات المبتكرة للاستهلاك والإنتاج المستدامين، بما في ذلك الاقتصاد الدائري، وتيسير حواراً بشأن الموارد الطبيعية والمواد في سياق الاقتصاد الدائري؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36">
+        <num>11-</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية أن تقدم تقريراً إلى جمعية الأمم المتحدة للبيئة في دورتها السادسة عن تنفيذ هذا القرار.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

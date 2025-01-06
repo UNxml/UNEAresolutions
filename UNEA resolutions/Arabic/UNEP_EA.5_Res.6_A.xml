@@ -1,0 +1,303 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/ara@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-6/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="BIOLOGICAL DIVERSITY" href="http://metadata.un.org/thesaurus/1000612" showAs="BIOLOGICAL DIVERSITY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="HEALTH" href="http://metadata.un.org/thesaurus/10" showAs="HEALTH" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.11" by="The Group of African States" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.6</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">الدورة الخامسة</session>
+      </p>
+      <p>
+        <docTitle>قرار اعتمدته جمعية الأمم المتحدة للبيئة في 2 آذار/مارس 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#"></location>
+          <event refersTo="#eventDuration">
+            <date date="0001-01-01" refersTo="#startDate"></date>
+            <date date="0001-01-01" refersTo="#endDate"></date>
+          </event>
+        </event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/6</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">التنوع البيولوجي والصحة</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن جمعية الأمم المتحدة للبيئة،</span>
+        </p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">إذ تشير</span> إلى قرار الجمعية العامة للأمم المتحدة 70/1 المؤرخ 25 سبتمبر/أيلول 2015، بعنوان ’’تحويل عالمنا: خطة التنمية المستدامة لعام 2030‘‘، الذي توخى، من بين أمور أخرى، عالماً تعيش فيه البشرية في وئام مع الطبيعة وتُحمى فيه الحياة البرية والأنواع الحية الأخرى،</p>
+      </container>
+      <container name="وإذ تشير أيضاً" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير أيضاً </span>إلى خطة عمل أديس أبابا، الصادرة عن المؤتمر الدولي الثالث لتمويل التنمية والتي تهدف إلى تعزيز إطار تمويل التنمية المستدامة ووسائل تنفيذ خطة التنمية المستدامة لعام 2030،</p>
+      </container>
+      <container name="وإذ تشير كذلك" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير كذلك</span> إلى التعريف التشغيلي الجديد ’’لصحة واحدة‘‘ الذي وضعه فريق الخبراء الرفيع المستوى المعني بالصحة الواحدة التابع للتحالف الثلاثي الذي يشمل منظمة الأغذية والزراعة للأمم المتحدة، ومنظمة الصحة العالمية، والمنظمة العالمية لصحة الحيوان وبرنامج الأمم المتحدة للبيئة،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير</span> إلى قرار جمعية الأمم المتحدة للبيئة 3/4 بشأن البيئة والصحة الذي يشير إلى الترابط بين صحة الإنسان والحيوان والنبات والبيئة،</p>
+      </container>
+      <container name="وإذ تشير أيضاً" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير أيضاً</span> إلى مقرر اتفاقية التنوع البيولوجي 13/6 بشأن التنوع البيولوجي وصحة الإنسان والمقرر 14/4 بشأن الصحة والتنوع البيولوجي،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">وإذ ترحب</span> بعقد الجزء الأول من الاجتماع الخامس عشر لمؤتمر الأطراف في اتفاقية التنوع البيولوجي، في كونمينغ، الصين، من 11 إلى 15 تشرين الأول/أكتوبر 2021، تحت عنوان ’’الحضارة الإيكولوجية: بناء مستقبل مشترك لجميع أشكال الحياة على الأرض‘‘،</p>
+      </container>
+      <container name="وإذ تتطلع" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">وإذ تتطلع</span> إلى إطار عالمي طموح وتحويلي ومتوازن وفعال وعملي للإطار العالمي للتنوع البيولوجي لما بعد عام 2020،</p>
+      </container>
+      <container name="وإذ تحيط علماً" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">وإذ تحيط علماً</span> بالمناقشات الجارية بشأن وضع خطة عمل عالمية بشأن التنوع البيولوجي والصحة في إطار اتفاقية التنوع البيولوجي،</p>
+      </container>
+      <container name="وإذ تحيط علماً أيضاً" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">وإذ تحيط علماً أيضاً</span> بالتقرير الأخير لبرنامج الأمم المتحدة للبيئة والمعهد الدولي لبحوث الماشية عن ’’<span class="italic">منع وقوع الجائحة القادمة: الأمراض الحيوانية المصدر وكيفية كسر سلسلة انتقال العدوى</span>‘‘<sup>(</sup><authorialNote marker="1" placement="bottom" eId="authorialNote_1"><p xml:space="preserve">()  برنامج الأمم المتحدة للبيئة والمعهد الدولي لبحوث الماشية، <span class="italic">’’منع وقوع الجائحة القادمة: الأمراض الحيوانية المصدر وكيفية كسر سلسلة انتقال العدوى‘‘ </span>(نيروبي، كينيا، 2020).</p></authorialNote><sup>)</sup> الذي يبين الروابط بين أنشطة الإنسان وظهور الأمراض الحيوانية المصدر الجديدة وكذلك بالتقرير الصادر عن منظمة الصحة العالمية واتفاقية التنوع البيولوجي بعنوان: ’’<span class="italic">ربط الأولويات العالمية: التنوع البيولوجي وصحة الإنسان - استعراض حالة المعرفة</span>‘‘،<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()  منظمة الصحة العالمية واتفاقية التنوع البيولوجي: ’’<span class="italic">ربط الأولويات العالمية: التنوع البيولوجي وصحة الإنسان - استعراض حالة المعرفة‘‘</span>(2015).</p></authorialNote><sup>)</sup></p>
+      </container>
+      <container name="وإذ تدرك" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">وإذ تدرك</span> أن الحفظ والاستعادة والاستخدام المستدام للتنوع البيولوجي يمكن أن يؤدي إلى تحسينات في النتائج والفوائد الصحية، ويمكن أن يكون وسيلة فعالة لتعزيز عالم أكثر صحةً وإنصافاً واستدامةً،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم</span> بأن الأزمات المترابطة المتمثلة في تغير المناخ وفقدان التنوع البيولوجي والتلوث تتسبب في إلحاق أضرار جسيمة على النظم الصحية وإجهادها، بما في ذلك من خلال ظهور الأمراض المعدية وغير السارية وزيادة التفاوتات الصحية،</p>
+      </container>
+      <container name="وإذ تسلم أيضاً" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم أيضاً</span> بأن فقدان التنوع البيولوجي يشكل تهديدات على صحة الإنسان والحيوان والنظم الإيكولوجية، وأن استخدام وحفظ واستعادة التنوع البيولوجي والنظم الإيكولوجية وخدماتها على نحو مستدام يمكن أن يعود بفوائد على الصحة والرفاه،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ</span> أن تزايد تواتر وشدة الظواهر المناخية القصوى، مثل موجات الحر والجفاف والفيضانات، لا يهدد صحة الإنسان وسبل عيشه ورفاهه فحسب، بل يهدد أيضاً صحة الحيوان والنبات والنظم الإيكولوجية من خلال اختلال أداء النظم الإيكولوجية وانخفاض خدمات النظم الإيكولوجية، وأن المناطق التي بها بنية تحتية صحية ضعيفة - ومعظمها في البلدان النامية - ستكون الأقل قدرة على مواجهة هذه التحديات إذا لم تتلق الدعم للاستعداد لمواجهة هذه التحديات والاستجابة لها،</p>
+      </container>
+      <container name="إذ تدرك" eId="container_15">
+        <p xml:space="preserve"> و<span class="italic">إذ تدرك</span> أن مقاومة مضادات الميكروبات تشكل تهديداً متزايداً للصحة والتنمية على الصعيد العالمي مما يتطلب اتخاذ إجراءات مستمرة متعددة القطاعات عبر طيف ’’الصحة الواحدة‘‘ من أجل تحقيق أهداف التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ تحيط علماً" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">وإذ تحيط علماً </span>بمقرر اتفاقية التنوع البيولوجي 14/30 بشأن التعاون مع الاتفاقيات، والمنظمات الدولية والمبادرات الأخرى، والذي يرحب بمبادرة مصر الرامية إلى تعزيز اتباع نهج متسق في التصدي لفقدان التنوع البيولوجي، وتغير المناخ، وتدهور الأراضي والنظم الإيكولوجية،</p>
+      </container>
+      <container name="وإذ تؤكد" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">وإذ تؤكد</span> أنه ينبغي تصميم إدارة الصحة العالمية للمساعدة في منع واكتشاف الأزمات والاستعداد لها والاستجابة لها بشكل أفضل، مع معالجة أوجه التفاوت في الصحة العالمية والحاجة إلى تعزيز نظم تقديم الخدمات الصحية في البلدان النامية والبلدان التي تمر اقتصاداتها بمرحلة انتقالية، بما في ذلك عن طريق التعاون بين بلدان الشمال والجنوب، والتعاون فيما بين بلدان الجنوب، والتعاون الثلاثي،</p>
+      </container>
+      <container name="وإذ تقر" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">وإذ تقر</span> بأن الانتعاش الاقتصادي من آثار جائحة مرض فيروس كورونا (كوفيد-19) سوف يتطلب نظماً صحيةً أكثر إنصافاً، وتحسين الوصول إلى لقاحات فيروس كورونا الآمنة والفعالة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_19">
+        <num>1-</num>
+        <list eId="19">
+          <intro eId="para_19_list_intro">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية لبرنامج الأمم المتحدة للبيئة، من خلال الدور الهام الذي يضطلع به برنامج الأمم المتحدة للبيئة داخل التحالف الثلاثي، ومع الشركاء المعنيين الآخرين، أن تقدم المزيد من المساعدة للدول الأعضاء والأعضاء في الوكالات المتخصصة في اتخاذ تدابير لتحقيق ما يلي:</p>
+          </intro>
+          <point eId="para_19_list_point_a">
+            <num>(a)</num>
+            <content eId="para_19_list_point_a_content">
+          <p xml:space="preserve"> تشجيع الإجراءات التي لها فوائد إيجابية على البيئة بالنظر إلى الروابط بين صحة الإنسان والحيوان والنظم الإيكولوجية؛</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_b">
+            <num>(b)</num>
+            <content eId="para_19_list_point_b_content">
+          <p xml:space="preserve"> اتخاذ إجراءات لتعزيز توافر وجودة والتوقيت المناسب للبيانات، من أجل الرصد والمراقبة والقدرة والإمكانات عبر قطاعات الصحة الواحدة ودعم الكشف عن المخاطر الصحية المرتبطة بالعوامل البيئية في الوقت المناسب والاستجابة لها، وفقاً للظروف والأولويات الوطنية؛</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_c">
+            <num>(c)</num>
+            <content eId="para_19_list_point_c_content">
+          <p xml:space="preserve"> تعزيز التعاون لمعالجة آثار فقدان التنوع البيولوجي وتغير المناخ والأزمات البيئية الأخرى المتصلة بها على الصحة العالمية وفقاً لنهج الصحة الواحدة؛</p>
+            </content>
+          </point>
+          <point eId="para_19_list_point_d">
+            <num>(d)</num>
+            <content eId="para_19_list_point_d_content">
+          <p xml:space="preserve"> تعزيز التعاون في سياق التأهب للجوائح والوقاية منها والاستجابة لها، وعلى نطاق أوسع في سياق البحث والتطوير المتعلقين بالصحة، بما في ذلك تلك التي تنطوي على الموارد الجينية مع مراعاة أطر الحصول وتقاسم المنافع حسب الاقتضاء؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_29">
+        <num>2-</num>
+        <content eId="para_29__content">
+          <p xml:space="preserve"> <span class="italic">تشجع</span> الدول الأعضاء على تعميم وتنسيق الاستخدام المستدام للتنوع البيولوجي وحفظه واستعادته في السياسات والبرامج القطاعية لتعزيز قدرة النظم الإيكولوجية على الصمود، ووقف وعكس فقدان التنوع البيولوجي، ورصد الأنواع الغريبة الغازية ومكافحتها وتعزيز سلامة الأغذية بهدف التصدي للمخاطر الصحية الحالية والمستقبلية التي تشمل الأمراض التي يحتمل فيها انتشار الأوبئة والجوائح؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_31">
+        <num>3-</num>
+        <content eId="para_31__content">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية، بالتعاون مع منظمة الأغذية والزراعة للأمم المتحدة ومنظمة الصحة العالمية والمنظمة العالمية لصحة الحيوان ومع جميع أصحاب المصلحة المعنيين أن تدعم الدول الأعضاء وأعضاء الوكالات المتخصصة في إذكاء الوعي بدوافع فقدان التنوع البيولوجي وعلاقاتها المتبادلة مع ظهور وانتشار الأمراض المعدية وغير السارية وكذلك بأهمية الاستثمار في الطبيعة وخدمات النظم الإيكولوجية المتعلقة بصحة الإنسان، بناءً على أفضل العلوم المتاحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_33">
+        <num>4-</num>
+        <content eId="para_33__content">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية، بالشراكة مع منظمة الأمم المتحدة للأغذية والزراعة ومنظمة الصحة العالمية والمنظمة العالمية لصحة الحيوان، والشركاء المعنيين الآخرين، رهناً بتوافر الموارد المالية، أن تدعم الدول الأعضاء وأعضاء الوكالات المتخصصة، بناءً على طلبها، في تقييم الأبعاد البيئية للصحة وأن تسلط الضوء على هذه المسائل في خطة العمل المشتركة القادمة للصحة الواحدة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_35">
+        <num>5-</num>
+        <content eId="para_35__content">
+          <p xml:space="preserve"> <span class="italic">تشجع</span> الدول الأعضاء على تعزيز التعاون للحد من مخاطر انتشار الأحداث وتفشي الأمراض الحيوانية المصدر، وإدارتها وكسر تسلسل انتقالها، والاستجابة بسرعة وشفافية للوقاية من الأوبئة والجوائح؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_37">
+        <num>6-</num>
+        <content eId="para_37__content">
+          <p xml:space="preserve"> <span class="italic">تشجع أيضاً</span> الدول الأعضاء على تعزيز المشاركة الفعالة للبلدان المتقدمة والنامية في أنشطة بحوث التكنولوجيا الحيوية المتعلقة بالصحة، بما فيها الدول الأعضاء التي تكون في وضع يسمح لها بأن توفر الموارد الجينية لمثل هذه البحوث، بما يتفق مع الظروف الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_39">
+        <num>7-</num>
+        <content eId="para_39__content">
+          <p xml:space="preserve"> <span class="italic">تشجع كذلك</span> الدول الأعضاء على العمل على تحقيق الامتثال لأطر الحصول وتقاسم المنافع وتنفيذها، عند الاقتضاء، من أجل المساهمة في الاسخدام المستدام للتنوع البيولوجي وحفظه، بما في ذلك في الدول الأعضاء التي توفر الموارد الجينية للبحوث والتطوير المتعلقين بالصحة، بما يتفق مع الظروف الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_41">
+        <num>8-</num>
+        <content eId="para_41__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> الدول الأعضاء إلى تعزيز الروابط بين حفظ التنوع البيولوجي واستخدامه المستدام والصحة العامة في السياسات القطاعية ووفقاً لنهج الصحة الواحدة من أجل الوقاية من المخاطر الصحية واكتشافها بشكل أفضل والاستعداد لها والاستجابة لها، والاستثمار في تعزيز توفير خدمات النظم الإيكولوجية المتعلقة بالصحة، مع مراعاة توصيات فريق الخبراء الرفيع المستوى المعني بالصحة الواحدة عند الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_43">
+        <num>9-</num>
+        <content eId="para_43__content">
+          <p xml:space="preserve"> <span class="italic">تشجع</span> الدول الأعضاء على تعزيز التعاون الدولي بهدف التصدي للتحديات المحددة التي تواجهها البلدان النامية في تنفيذ نهج الصحة الواحدة، بما في ذلك عن طريق تعزيز القدرة على مراقبة الصحة وتعزيز الاستجابات، بما يتماشى مع الظروف والأولويات الوطنية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_45">
+        <num>10-</num>
+        <content eId="para_45__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> الدول الأعضاء إلى الحد من المخاطر الصحية المرتبطة بالتجارة في الأحياء البرية الحية التي يتم اصطيادها لأغراض الغذاء والتربية في البيئات الحبيسة والأدوية وتجارة الحيوانات الأليفة، من خلال تنظيم تجارتها وضمان الاستهلاك المستدام والآمن للحوم البرية، بما في ذلك وضع الضوابط الصحية في أسواق المواد الغذائية التي تبيع الحيوانات البرية الحية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_47">
+        <num>11-</num>
+        <content eId="para_47__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> الدول الأعضاء وغيرها إلى أن تقدم، حسب الاقتضاء، موارد مالية طوعية خارجة عن الميزانية لدعم تنفيذ هذا القرار؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_49">
+        <num>12-</num>
+        <content eId="para_49__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> الدول الأعضاء والمؤسسات المالية الدولية وغيرها من الشركاء المعنيين إلى تعزيز الدعم الذي يشمل تعبئة الموارد للبلدان النامية، بما فيها أقل البلدان نمواً والدول الجزرية الصغيرة النامية، في جهودها الوطنية الرامية إلى معالجة الأبعاد البيئية للصحة، بما في ذلك المسائل المتصلة بفقدان التنوع البيولوجي وتغير المناخ والتلوث، بهدف بناء نظم صحية أكثر قدرة على الصمود وتعزيز الوقاية من الجوائح والتأهب لها واكتشافها والاستجابة لها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_51">
+        <num>13-</num>
+        <content eId="para_51__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> جميع الدول الأعضاء وأصحاب المصلحة المعنيين، بمن فيهم القطاع الخاص، إلى المساهمة في إذكاء الوعي وفهم أهمية معالجة مقاومة مضادات الميكروبات نظراً للتهديدات التي تشكلها ووضع تدابير لمعالجة هذه المسألة الصحية العالمية، بما في ذلك من خلال الإدارة المناسبة لنفايات مضادات الميكروبات والمخلفات المتصلة بها، والتخفيف من آثار انتقال البكتيريا والجينات المقاومة عبر البيئة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_53">
+        <num>14-</num>
+        <content eId="para_53__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> جميع أصحاب المصلحة المعنيين، بمن فيهم القطاع الخاص، إلى المساهمة في إذكاء الوعي بالأبعاد البيئية للصحة وفهمها، ولا سيما وضع تدابير وإجراءات للإدارة السليمة للنفايات، ولمعالجة التلوث.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

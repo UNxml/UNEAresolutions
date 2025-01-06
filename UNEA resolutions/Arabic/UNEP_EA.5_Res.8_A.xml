@@ -1,0 +1,404 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/ara@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-8/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SCIENCE AND TECHNOLOGY POLICY" href="http://metadata.un.org/thesaurus/1005738" showAs="SCIENCE AND TECHNOLOGY POLICY" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="CHEMICALS" href="http://metadata.un.org/thesaurus/1000921" showAs="CHEMICALS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="POLLUTION" href="http://metadata.un.org/thesaurus/030400" showAs="POLLUTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.14" by="Burkina Faso, Costa Rica, Ghana, Mali, Niger, Norway, Switzerland, United Kingdom of Great Britain and Northern Ireland and Uruguay" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.8</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">الدورة الخامسة</session>
+      </p>
+      <p>
+        <docTitle>قرار اعتمدته جمعية الأمم المتحدة للبيئة في 2 آذار/مارس 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#"></location>
+          <event refersTo="#eventDuration">
+            <date date="0001-01-01" refersTo="#startDate"></date>
+            <date date="0001-01-01" refersTo="#endDate"></date>
+          </event>
+        </event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/8</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">فريق معني بالعلوم والســيــاســات لمواصلة المــســاهــمــة في الإدارة الســلــيــمــة للمواد الكيميائية والنفايات ومنع التلوث</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن جمعية الأمم المتحدة للبيئة،</span>
+        </p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">إذ تشير</span> إلى قرارها 4/8 بشأن الإدارة السليمة للمواد الكيميائية والنفايات، وإذ تشدد على الحاجة الملحة إلى تعزيز التفاعل بين العلوم والسياسات على جميع المستويات من أجل دعم وتعزيز على الصُعد المحلي والوطني والإقليمي والعالمي العمل القائم على العلم والمتعلق بالإدارة السليمة للمواد الكيميائية والنفايات بعد عام 2020،</p>
+      </container>
+      <container name="وإذ تشير أيضاً" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير أيضاً</span> إلى قرارها 5/2، الذي وافقت بموجبه على الاستراتيجية المتوسطة الأجل لبرنامج الأمم المتحدة للبيئة للفترة 2022-2025 وبرنامجه الفرعي بشأن الإجراءات المتعلقة بالمواد الكيميائية والتلوث، إلى جانب البرامج المتعلقة بالإجراءات المتعلقة بالطبيعة والعمل المناخي، وتعزيزه للعلوم السليمة وتبادل المعلومات والمعارف،</p>
+      </container>
+      <container name="وإذ تقدر" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">وإذ تقدر</span> العمل بشأن تعزيز الإدارة السليمة للمواد الكيميائية والنفايات ومنع التلوث الذي تقوم به الاتفاقات المتعددة الأطراف ذات الصلة، والصكوك الدولية الأخرى والهيئات الحكومية الدولية، بما في ذلك البرنامج المشترك بين المنظمات للإدارة السليمة للمواد الكيميائية والمؤتمر الدولي لإدارة المواد الكيميائية، وإذ ترحب بمواصلة عملهم العلمي لمواصلة المساهمة في الإدارة السليمة للمواد الكيميائية والنفايات ومنع التلوث،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم </span>بأهمية التقييمات القائمة على العلم لإرشاد عمليات اتخاذ القرار،</p>
+      </container>
+      <container name="وإذ تلاحظ" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">وإذ تلاحظ</span> التقرير الذي أعدته المديرة التنفيذية لبرنامج الأمم المتحدة للبيئة بالتعاون مع المنظمات الأعضاء في البرنامج المشترك بين المنظمات للإدارة السليمة للمواد الكيميائية بعنوان <span class="italic">تقييم الخيارات المتاحة لتعزيز التفاعل بين العلوم والسياسات على المستوى الدولي من أجل الإدارة السليمة للمواد الكيميائية والنفايات</span><sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()  برنامج الأمم المتحدة للبيئة، <span class="italic">تقييم الخيارات المتاحة لتعزيز التفاعل بين العلوم والسياسات على المستوى الدولي من أجل الإدارة السليمة للمواد الكيميائية والنفايات</span> (2020).</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تقر" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">وإذ تقر</span> بأن تحسين توافر المعلومات والتقييمات العلمية يمكن أن يتصدى لتحديات القدرات، ويمكِّن من اتخاذ إجراءات أكثر فعالية وكفاءة لتقليل ومنع الآثار الضارة للإدارة غير السليمة للمواد الكيميائية والنفايات، ومنع التلوث لتحسين رفاهية الإنسان والمساهمة في ازدهار الجميع،</p>
+      </container>
+      <container name="وإذ تؤكد من جديد" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">وإذ تؤكد من جديد</span> على أن الإدارة السليمة للمواد الكيميائية والنفايات أمر بالغ الأهمية لحماية صحة الإنسان والبيئة،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم</span> بأن تلوث الهواء هو أكبر خطر بيئي يهدد صحة الإنسان، وله أثر غير متناسب على النساء والأطفال وكبار السن،</p>
+      </container>
+      <container name="وإذ تقتنع" eId="container_10">
+          <p xml:space="preserve"> <span class="italic">وإذ تقتنع</span> بأن فريقاً معنياً بالعلوم والسياسات يمكن ان يدعم البلدان في جهودها لاتخاذ إجراءات، بما في ذلك تنفيذ الاتفاقات البيئية المتعددة الأطراف وغيرها من الصكوك الدولية ذات الصلة، وتعزيز الإدارة السليمة للمواد الكيميائية والنفايات ومعالجة التلوث من خلال تقديم المشورة العلمية ذات الصلة بالسياسات بشأن القضايا، وأنه يمكن أن يواصل دعم الاتفاقات المتعددة الأطراف ذات الصلة، والصكوك الدولية الأخرى والهيئات الحكومية الدولية، والقطاع الخاص وأصحاب المصلحة الآخرين ذوي الصلة في عملهم،</p>
+      </container>
+    </preamble>
+    <mainBody>      
+      <paragraph eId="para_11">
+        <num>1-</num>
+        <content eId="para_11__content">
+          <p xml:space="preserve"> <span class="italic">تقرر</span> أنه ينبغي إنشاء فريق معني بالعلوم والسياسات لمواصلة المساهمة في الإدارة السليمة للمواد الكيميائية والنفايات ومنع التلوث، ومواصلة تحديد التفاصيل وفقاً للأحكام الواردة في الفقرتين 4 و5 من هذا القرار،</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12">
+        <num>2-</num>
+        <list eId="para_12_list">
+          <intro eId="para_12_list_intro">
+          <p xml:space="preserve"> <span class="italic">ترى </span>أن المهام الرئيسية للفريق ينبغي أن تشمل ما يلي من بين أمور أخرى:</p>
+          </intro>
+          <point eId="para_12_list_point_a">
+            <num>(a)</num>
+            <content eId="para_12_list_point_a_content">
+          <p xml:space="preserve"> إجراء ”مسح أُفقي“ لتحديد القضايا ذات الأهمية لواضعي السياسات، وحيثما أمكن، اقتراح خيارات قائمة على الأدلة لمعالجتها؛</p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_b">
+            <num>(b)</num>
+            <content eId="para_12_list_point_b_content">
+          <p xml:space="preserve"> إجراء تقييمات للقضايا الحالية، وتحديد الخيارات المحتملة القائمة على الأدلة لمعالجة تلك القضايا، حيثما أمكن، ولا سيما القضايا ذات الصلة بالبلدان النامية؛</p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_c">
+            <num>(c)</num>
+            <content eId="para_12_list_point_c_content">
+          <p xml:space="preserve"> توفير أحدث المعلومات ذات الصلة، وتحديد الفجوات الرئيسية في البحث العلمي وتشجيع ودعم التواصل بين العلماء وواضعي السياسات، وتوضيح ونشر النتائج لمختلف الجماهير وزيادة الوعي العام؛</p>
+            </content>
+          </point>
+          <point eId="para_12_list_point_d">
+            <num>(d)</num>
+            <content eId="para_12_list_point_d_content">
+          <p xml:space="preserve"> تيسير تبادل المعلومات بين البلدان، ولا سيما البلدان النامية التي تسعى للحصول على معلومات علمية؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_23">
+        <num>3-</num>
+        <content eId="para_23__content">
+          <p xml:space="preserve"> <span class="italic">ترى أيضاً</span> أن الفريق ينبغي أن يكون هيئة حكومية دولية مستقلة لها برنامج عمل معتمد من الحكومات الأعضاء لتقديم أدلة علمية ذات صلة بالسياسات العامة دون أن تكون إلزامية لها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_25">
+        <num>4-</num>
+        <content eId="para_25__content">
+          <p xml:space="preserve"> <span class="italic">تقرر</span> أن تنشئ، وفقاً لتوافر الموارد، فريق عامل مخصصاً مفتوح العضوية يبدأ عمله في عام 2022، على أمل استكماله بحلول نهاية عام 2024؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_27">
+        <num>5-</num>
+        <list eId="para_27_list">
+          <intro eId="para_27_list_intro">
+          <p xml:space="preserve"> <span class="italic">تقرر أيضاً </span>أن يُعِد الفريق العامل المخصص المفتوح العضوية مقترحات للفريق المعني بالعلوم والسياسات لينظر في المسائل التالية:</p>
+          </intro>
+          <point eId="para_27_list_point_a">
+            <num>(a)</num>
+            <content eId="para_27_list_point_a_content">
+          <p xml:space="preserve"> التصميم المؤسسي للفريق وإدارته؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_b">
+            <num>(b)</num>
+            <content eId="para_27_list_point_b_content">
+          <p xml:space="preserve"> اسم الفريق ونطاق عمله؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_c">
+            <num>(c)</num>
+            <content eId="para_27_list_point_c_content">
+          <p xml:space="preserve"> المهام الرئيسية للفريق، على النحو المبين في الفقرة 2 من هذا القرار، مع احترام ولايات الاتفاقات المتعددة الأطراف ذات الصلة وغيرها من الصكوك الدولية والهيئات الحكومية الدولية، وتجنب التداخل والازدواجية في العمل، وتعزيز التنسيق والتعاون؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_d">
+            <num>(d)</num>
+            <content eId="para_27_list_point_d_content">
+          <p xml:space="preserve"> علاقات الفريق مع أصحاب المصلحة الرئيسيين المعنيين، بما في ذلك المنظمات الحكومية وغير الحكومية، والمجتمع المدني؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_e">
+            <num>(e)</num>
+            <content eId="para_27_list_point_e_content">
+          <p xml:space="preserve"> عمليات تحديد وتنفيذ برنامج عمل الفريق؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_f">
+            <num>(f)</num>
+            <content eId="para_27_list_point_f_content">
+          <p xml:space="preserve"> ترتيبات لتحديد الخبراء الذين يساهمون في عمل الفريق والعمل معهم؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_g">
+            <num>(g)</num>
+            <content eId="para_27_list_point_g_content">
+          <p xml:space="preserve"> إجراءات لاستعراض واعتماد التقارير والتقييمات التي يعدها الفريق؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_h">
+            <num>(h)</num>
+            <content eId="para_27_list_point_h_content">
+          <p xml:space="preserve"> ترتيبات دعم الأمانة للفريق؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_i">
+            <num>(i)</num>
+            <content eId="para_27_list_point_i_content">
+          <p xml:space="preserve"> خيارات للتمويل الطوعي لعمل الفريق؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_j">
+            <num>(j)</num>
+            <content eId="para_27_list_point_j_content">
+          <p xml:space="preserve"> النظام الداخلي للفريق ومبادئ التشغيل التي تحكم عمله؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_k">
+            <num>(k)</num>
+            <content eId="para_27_list_point_k_content">
+          <p xml:space="preserve"> ميزانية إرشادية للفريق؛</p>
+            </content>
+          </point>
+          <point eId="para_27_list_point_l">
+            <num>(l)</num>
+            <content eId="para_27_list_point_l_content">
+          <p xml:space="preserve"> أي مسائل أخرى يرى الفريق العامل المخصص المفتوح العضوية أنه ينبغي تناولها؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_53">
+        <num>6-</num>
+        <list eId="para_53_list">
+          <intro eId="para_53_list_intro">
+          <p xml:space="preserve"> <span class="italic">تقرر كذلك</span> أنه ينبغي أن يأخذ الفريق العامل المخصص المفتوح العضوية في الاعتبار الحاجة إلى ضمان توافر ما يلي في الفريق:</p>
+          </intro>
+          <point eId="para_53_list_point_a">
+            <num>(a)</num>
+            <content eId="para_53_list_point_a_content">
+          <p xml:space="preserve"> أن يكون قادراً على تحقيق نواتج ذات صلة بالسياسة العامة، دون أن تكون إلزامية للسياسات؛</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_b">
+            <num>(b)</num>
+            <content eId="para_53_list_point_b_content">
+          <p xml:space="preserve"> أن يكون فريقاً متعدد التخصصات، ويضمن مساهمات من خبراء لديهم مجموعة واسعة من الخبرات التخصصية، وأن تكون مشاركته شاملة، تشمل الشعوب الأصلية، وأن يكون لديه توازن جغرافي وإقليمي وجنساني؛</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_c">
+            <num>(c)</num>
+            <content eId="para_53_list_point_c_content">
+          <p xml:space="preserve"> أن يكون لديه إجراءات تسعى إلى ضمان أن يتسم عمل الفريق بالشفافية والحياد وأن يمكنه إعداد تقارير وتقييمات ذات مصداقية وقوية علمياً؛</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_d">
+            <num>(d)</num>
+            <content eId="para_53_list_point_d_content">
+          <p xml:space="preserve"> أن يضطلع بأعمال مكملة لعمل الاتفاقات العالمية المتعددة الأطراف ذات الصلة والصكوك الدولية الأخرى والهيئات الحكومية الدولية، بما في ذلك تلك الأعضاء في البرنامج المشترك بين المنظمات للإدارة السليمة للمواد الكيميائية ويتجنب تكرارها؛</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_e">
+            <num>(e)</num>
+            <content eId="para_53_list_point_e_content">
+          <p xml:space="preserve"> أن ينسق، حسب الاقتضاء، مع هيئات أخرى معنية بالسياسات العلمية، مثل الهيئة الحكومية الدولية المعنية بتغير المناخ، والمنبر الحكومي الدولي للعلوم والسياسات المعني بالتنوع البيولوجي وخدمات النظم الإيكولوجية؛</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_f">
+            <num>(f)</num>
+            <content eId="para_53_list_point_f_content">
+          <p xml:space="preserve"> أن يكون قادراً على معالجة تضارب المصالح المحتملة، وحماية المعلومات الحساسة تجارياً؛</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_g">
+            <num>(g)</num>
+            <content eId="para_53_list_point_g_content">
+          <p xml:space="preserve"> أن يتسم بالمرونة للاستجابة، إلى أقصى حد ممكن، للاحتياجات التي حددها أصحاب المصلحة ووافقت عليها الحكومات الأعضاء، وللوفاء بمهامها الرئيسية على النحو المبين في هذا القرار؛</p>
+            </content>
+          </point>
+          <point eId="para_53_list_point_h">
+            <num>(h)</num>
+            <content eId="para_53_list_point_h_content">
+          <p xml:space="preserve"> أن يكون فعالاً من حيث التكلفة، مع هيكل أصغر حجماً يتفق مع تحقيق أكبر تأثير.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_71">
+        <num>7-</num>
+        <content eId="para_71__content">
+          <p xml:space="preserve"> <span class="italic">تقرر</span> أن يضم الفريق العامل المخصص المفتوح العضوية الحكومات ومنظمات التكامل الاقتصادي الإقليمية وأن يكون مفتوحاً للمراقبين من كيانات الأمم المتحدة، والاتفاقات المتعددة الأطراف ذات الصلة، والصكوك الدولية الأخرى والهيئات الحكومية الدولية، بما في ذلك تلك الأعضاء في البرنامج المشترك بين المنظمات للإدارة السليمة للمواد الكيميائية، وممثلي أصحاب المصلحة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_73">
+        <num>8-</num>
+        <content eId="para_73__content">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية أن تتعاون بشكل وثيق مع أمانات الاتفاقات البيئية المتعددة الأطراف ذات الصلة والمنظمات والهيئات الدولية المعنية، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_75">
+        <num>9-</num>
+        <content eId="para_75__content">
+          <p xml:space="preserve"> <span class="italic">تطلب أيضاً</span> إلى المديرة التنفيذية أن تدعو إلى عقد اجتماعات الفريق العامل المخصص المفتوح العضوية وأن تدعو منظمة الصحة العالمية إلى الاضطلاع بدور، حسب الاقتضاء؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_77">
+        <num>10-</num>
+        <content eId="para_77__content">
+          <p xml:space="preserve"> <span class="italic">تطلب كذلك</span> إلى المديرة التنفيذية أن تعقد اجتماعاً حكومياً دولياً، بعد استكمال المقترحات التي أعدها الفريق العامل المخصص المفتوح العضوية، بغرض النظر في إنشاء فريق معني بالعلوم والسياسات؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_79">
+        <num>11-</num>
+        <content eId="para_79__content">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية أن تقدم تقريراً عن نواتج الفريق العامل المخصص المفتوح العضوية إلى جمعية الأمم المتحدة للبيئة وإلى الاتفاقات المتعددة الأطراف ذات الصلة، والصكوك الدولية الأخرى والهيئات الحكومية الدولية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_81">
+        <num>12-</num>
+        <content eId="para_81__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> الحكومات والجهات الأخرى القادرة على توفير موارد من خارج الميزانية لتنفيذ هذا القرار، على أن تفعل ذلك، ولا سيما لتمكين المشاركة الكاملة للبلدان النامية والبلدان التي تمر اقتصاداتها بمرحلة انتقالية في الفريق العامل المخصص المفتوح العضوية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_83">
+        <num>13-</num>
+        <content eId="para_83__content">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية أن توفر أمانة للفريق العامل المخصص المفتوح العضوية وأن تعد التقارير التحليلية والموجزة اللازمة لعمله؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_85">
+        <num>14-</num>
+        <content eId="para_85__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> مجالس إدارة الاتفاقات المتعددة الأطراف المعنية والصكوك الدولية الأخرى والهيئات الحكومية الدولية إلى أن تنظر في هذا القرار، حسب الاقتضاء.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

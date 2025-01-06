@@ -1,0 +1,240 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/ara@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-13/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="GEOGRAPHICAL DISTRIBUTION" href="http://metadata.un.org/thesaurus/1002640" showAs="GEOGRAPHICAL DISTRIBUTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="STAFF COMPOSITION" href="http://metadata.un.org/thesaurus/1006155" showAs="STAFF COMPOSITION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="Russian Federation" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.13</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">الدورة الخامسة</session>
+      </p>
+      <p>
+        <docTitle>قرار اعتمدته جمعية الأمم المتحدة للبيئة في 2 آذار/مارس 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#"></location>
+          <event refersTo="#eventDuration">
+            <date date="0001-01-01" refersTo="#startDate"></date>
+            <date date="0001-01-01" refersTo="#endDate"></date>
+          </event>
+        </event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/13</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">المراعاة الواجبة لمبدأ التوزيع الجغرافي العادل، وفقاً للفقرة 3 من المادة 101 من ميثاق الأمم المتحدة</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن جمعية الأمم المتحدة للبيئة،</span>
+        </p>
+      </formula>
+      <container name="إذ تشير" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">إذ تشير </span>إلى الفقرة 3 من المادة 101 من ميثاق الأمم المتحدة بشأن ضرورة ضمان أعلى مستويات الكفاءة والمقدرة والنزاهة والمراعاة الواجبة لأهمية تعيين الموظفين على أوسع نطاق جغرافي ممكن، وإلى المادة 8 التي تنص على أنه لا يجوز للأمم المتحدة أن تضع أي قيود تحدّ بها جواز اختيار الرجال والنساء للاشتراك بأية صفة وعلى وجه المساواة في فروعها الرئيسية والفرعية،</p>
+      </container>
+      <container name="وإذ تشير أيضاً" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير أيضاً</span> إلى أن اللجنة الخامسة هي اللجنة الرئــــيــــســــيــــة المــــخــــتــــصــــة في الجمعية العامة المكلفة بالمسؤوليات عن المسائل الإدارية ومسائل الميزانية، وإذ تؤكد من جديد على دور اللجنة الخامسة في القيام بتحليل واف للموارد البشرية والمالية والسياسات ذات الصلة والموافقة عليها، بغية ضمان التنفيذ الكامل والفعال والكفء لكافة البرامج والأنشطة التي صدر بها تكليف وتنفيذ السياسات في هذا الصدد؛</p>
+      </container>
+      <container name="وإذ تشير كذلك" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير كذلك</span> إلى أن برنامج الأمم المتحدة للبيئة هو هيئة فرعية تابعة للجمعية العامة، وأن أي إجراءات تتخذها مجالس إدارة برنامج البيئة يجب لذلك أن تحترم صلاحيات اللجنة الخامسة واللجنة الاستشارية لشؤون الإدارة والميزانية التابعتين للجمعية العامة ويجب أن تندرج ضمن معايير مقرراتها وتوصياتها،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير </span>إلى أن للَّجنة الخامسة واللجنة الاستشارية لشؤون الإدارة والميزانية أن تقدما توصيات، وللجمعية العامة أن تقرر بشأن الغايات المتعلقة بالتوزيع الجغرافي التي ستطبق على نطاق الأمانة العامة، بما في ذلك على برنامج الأمم المتحدة للبيئة،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير</span> إلى قرار الجمعية العامة 72/254 المؤرخ 24 كانون الأول/ديسمبر 2017 بشأن إدارة الموارد البشرية، وإذ تقر في هذا الصدد بأهمية أحكام البندين 4-2 و4-3 من النظامين الأساسي والإداري لموظفي الأمم المتحدة<sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()  ST/SGB/2018/1.</p></authorialNote><sup>)</sup>،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير</span> إلى قرار الجــمــعــيــة العامة 42/220 المؤرخ 21 كانون الأول/ديسمبر 1987 بشأن مــــســــائــــل الموظفين، الذي ينص على أنه ”لا يجوز اعتبار أي وظيفة وقفاً على دولة من الدول الأعضاء أو على مجموعة من هذه الدول، وأنه ينبغي للأمين العام أن يعمل على تطبيق هذا المبدأ بأمانة وفقاً لمبدأ التوزيع الجغرافي العادل“،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير</span> إلى مقرر جمعية البيئة 5/2 بشأن الاستراتيجية المتوسطة الأجل للفترة 2022-2025 وبرنامج العمل والميزانية لفترة السنتين 2022-2023، الذي طلبت فيه إلى المديرة التنفيذية لبرنامج الأمم المتحدة للبيئة، في جملة أمور أخرى، أن تراعي مبدأ التوزيع الجغرافي العادل على النحو الواجب، وفقاً للفقرة 3 من المادة 101 من ميثاق الأمم المتحدة، وإذ تلاحظ مع الاهتمام تقرير المديرة التنفيذية عن التقدم المحرز في تنفيذ الفقرة 18 من المقرر 5/2 المتعلقة بتطبيق مبدأ التوزيع الجغرافي العادل في استراتيجية التوظيف لبرنامج الأمم المتحدة للبيئة<sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">(2)  UNEP/EA.5/26.</p></authorialNote><sup>)</sup>، وإذ تلاحظ في الوقت نفسه تقديمه خلال مهلة قصيرة،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم</span> بأهمية المراعاة الواجبة للتوزيع الجغرافي العادل والتكافؤ بين الجنسين داخل برنامج الأمم المتحدة للبيئة وفقاً للفقرة 3 من المادة 101 من ميثاق الأمم المتحدة واستراتيجية التكافؤ بين الجنسين على نطاق منظومة الأمم المتحدة من أجل زيادة تعزيز الكفاءة والفعالية والشمولية والتنوع والشفافية في تنفيذ ولاية برنامج البيئة،</p>
+      </container>
+      <container name="وإذ يساورها القلق" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">وإذ يساورها القلق</span> إزاء اختلال التوازن في التوزيع الجغرافي للموظفين في أمانة برنامج الأمم المتحدة للبيئة، وإذ ترحب بالجهود الجارية التي تبذلها المديرة التنفيذية بغية معالجة هذه المسألة في تعيين الموظفين، وإذ تسلم في الوقت نفسه بأهمية زيادة الجهود الرامية إلى معالجة هذا الاختلال،</p>
+      </container>
+      <container name="وإذ تسعى جاهدة" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">وإذ تسعى جاهدة</span> إلى ضمان الحفاظ على الثقة في برنامج الأمم المتحدة للبيئة وتعزيزها من خلال المراعاة الواجبة لمبدأ تعيين الموظفين على أوسع نطاق جغرافي ممكن، مع التركيز على رعايا الدول الأعضاء الممثلة تمثيلاً ناقصاً وغير الممثلة،</p>
+      </container>
+      <container name="وإذ تعرب" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">وإذ تعرب</span> عن تقديرها للمديرة التنفيذية لما تقدمه من معلومات محدثة بانتظام إلى لجنة الممثلين الدائمين التابعة لبرنامج الأمم المتحدة للبيئة بشأن المسائل المتعلقة بالموارد البشرية،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم</span> بأهمية التعاون بين الدول الأعضاء وأمانة برنامج الأمم المتحدة للبيئة، بغية الترويج للشواغر داخل برنامج البيئة، حسب الاقتضاء،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_14">
+        <num>1-</num>
+        <list eId="para_14_list">
+          <intro eId="para_14_list_intro">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية:</p>
+          </intro>
+          <point eId="para_14_list_point_a">
+            <num>(a)</num>
+            <content eId="para_14_list_point_a_content">
+          <p xml:space="preserve"> تعزيز تطبيق المادة 8 والفقرة 3 من المادة 101 من ميثاق الأمم المتحدة في جميع المسائل المتصلة بتكوين أمانة برنامج الأمم المتحدة للبيئة؛</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_b">
+            <num>(b)</num>
+            <content eId="para_14_list_point_b_content">
+          <p xml:space="preserve"> إيلاء العناية الواجبة لأهمية تعيين الموظفين علـى أوسـع نطاق جغرافي ممكن؛</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_c">
+            <num>(c)</num>
+            <content eId="para_14_list_point_c_content">
+          <p xml:space="preserve"> إيلاء العناية الواجبة لتعيين رعايا الدول الأعضاء الممثلة تمثيلاً ناقصاً وغير الممثلة، مع مراعاة التنوع الإقليمي عند إجراء التعيينات في الوظائف الخاضعة للتوزيع الجغرافي؛</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_d">
+            <num>(d)</num>
+            <content eId="para_14_list_point_d_content">
+          <p xml:space="preserve"> تنفيذ خطة النقاط الأربع المبينة في الفقرة 29 من تقرير المديرة التنفيذية عن التقدم المحرز في تنفيذ الفقرة 18 من المقرر 5/2 المتعلقة بتطبيق مبدأ التوزيع الجغرافي العادل في استراتيجية التوظيف لبرنامج الأمم المتحدة للبيئة، وتقديم تقرير عن تنفيذها إلى لجنة الممثلين الدائمين؛</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_e">
+            <num>(e)</num>
+            <content eId="para_14_list_point_e_content">
+          <p xml:space="preserve"> مواصلة إطلاع أعضاء لجنة الممثلين الدائمين على تفاصيل جميع وظائف كبار الموظفين الفنيين الشاغرة داخل أمانة برنامج الأمم المتحدة للبيئة؛</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_f">
+            <num>(f)</num>
+            <content eId="para_14_list_point_f_content">
+          <p xml:space="preserve"> ضمان المساواة في معاملة المتقدمين للشواغر، بغض النظر عن النظم التعليمية التي حصلوا فيها على مؤهلاتهم المشترطة للوظيفة؛</p>
+            </content>
+          </point>
+          <point eId="para_14_list_point_g">
+            <num>(g)</num>
+            <content eId="para_14_list_point_g_content">
+          <p xml:space="preserve"> تعزيز الشفافية والمساءلة في تنفيذ هذا القرار ومواصلة الممارسة القائمة المتمثلة في تقديم التقارير إلى لجنة الممثلين الدائمين؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_30">
+        <num>2-</num>
+        <content eId="para_30__content">
+          <p xml:space="preserve"> <span class="italic">تشجع</span> الدول الأعضاء على التعاون مع برنامج الأمم المتحدة للبيئة للترويج للشواغر بين رعاياها؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_32">
+        <num>3-</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية تقديم تقرير عن تنفيذ هذا القرار إلى جمعية البيئة في دورتها السادسة.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

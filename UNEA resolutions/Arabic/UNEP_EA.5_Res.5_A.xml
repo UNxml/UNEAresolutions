@@ -1,0 +1,253 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/ara@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/ara@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="ara"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/ara@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-5/ara@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.9" by="The European Union" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">الأمــم المتحـدة</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.5</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">جمعية الأمم المتحدة للبيئة التابعة لبرنامج الأمم المتحدة للبيئة</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">الدورة الخامسة</session>
+      </p>
+      <p>
+        <docTitle>قرار اعتمدته جمعية الأمم المتحدة للبيئة في 2 آذار/مارس 2022</docTitle>
+      </p>
+      <p>
+        <inline name="languageOfExpression" refersTo="#Arabic">Arabic</inline>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#"></location>
+          <event refersTo="#eventDuration">
+            <date date="0001-01-01" refersTo="#startDate"></date>
+            <date date="0001-01-01" refersTo="#endDate"></date>
+          </event>
+        </event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/5</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">الحلول القائمة على الطبيعة لدعم التنمية المستدامة</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">إن جمعية الأمم المتحدة للبيئة،</span>
+        </p>
+      </formula>
+      <container name="إذ تؤكد" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">إذ تؤكد</span> أهمية تعزيز الإجراءات من أجل الطبيعة لتنفيذ خطة التنمية المستدامة لعام 2030 وأهداف التنمية المستدامة، وإعلان ريو بشأن البيئة والتنمية، واتفاقية التنوع البيولوجي وغيرها من الاتفاقيات المتعلقة بالتنوع البيولوجي، واتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ واتفاق باريس المعتمد بموجبها، واتفاقية الأمم المتحدة لمكافحة التصحر في البلدان التي تعاني من الجفاف الشديد و/أو من التصحر، ولا سيما في أفريقيا، وإطار سِنداي للحد من مخاطر الكوارث 2015-2030، وعقد الأمم المتحدة لإصلاح النظم الإيكولوجية 2021-2030 وعقد العمل والتنفيذ من أجل التنمية المستدامة 2020-2030؛ وإذ تتطلع إلى اعتماد وتنفيذ إطار عالمي طموح ومتوازن وعملي وفعال وقوي بشأن التنوع البيولوجي لما بعد عام 2020؛ وإذ تلاحظ تعهد القادة لأجل الطبيعة: متحدون لعكس فقدان التنوع البيولوجي بحلول عام 2030 من أجل التنمية المستدامة،</p>
+      </container>
+      <container name="وإذ ترحب" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">وإذ ترحب</span> بتقرير المنبر الحكومي الدولي للعلوم والسياسات في مجال التنوع البيولوجي وخدمات النظم الإيكولوجية المعنون <span class="italic">تقرير التقييم العالمي بشأن التنوع البيولوجي وخدمات النظم الإيكولوجية</span><sup>(</sup><authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve">()  المنبر الحكومي الدولي للعلوم والسياسات في مجال التنوع البيولوجي وخدمات النظم الإيكولوجية، <span class="italic">تقرير التقييم العالمي بشأن التنوع البيولوجي وخدمات النظم الإيكولوجية</span> (بون، ألمانيا، أمانة المنبر، 2019). </p></authorialNote><sup>)</sup>، ومساهمة الفريق العامل الأول، المعنونة <span class="italic">تغير المناخ 2021: الأساس العلمي الفيزيائي</span><sup>(</sup><authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve">()  الهيئة الحكومية الدولية المعنية بتغير المناخ، <span class="italic">تغير المناخ 2021: الأساس العلمي الفيزيائي</span>. مساهمة الفريق العامل الأول في تقرير التقييم السادس للهيئة الحكومية الدولية المعنية بتغير المناخ (مطبعة جامعة كامبريدج، 2021).</p></authorialNote><sup>)</sup>، والفريق العامل الثاني، المعنونة <span class="italic">تغير المناخ 2022: الآثار والتكيف والضعف</span><sup>(</sup><authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve">()  الهيئة الحكومية الدولية المعنية بتغير المناخ، <span class="italic">تغير المناخ 2022: الآثار والتكيف والضعف</span>، مساهمة الفريق العامل الثاني في تقرير التقييم السادس للهيئة الحكومية الدولية المعنية بتغير المناخ (مطبعة جامعة كامبريدج، 2022).</p></authorialNote><sup>)</sup>، في تقرير التقييم السادس للفريق الحكومي الدولي المعني بتغير المناخ، وإذ تحيط علماً بالتقارير الأخرى ذات الصلة،</p>
+      </container>
+      <container name="وإذ تسلم" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم</span> بالروابط المتبادلة بين فقدان التنوع البيولوجي، والتلوث، وتغير المناخ، والتصحر، وتدهور الأراضي، وأوجه الترابط بينها وبين رفاه الإنسان، بما في ذلك الصحة، وأهمية ضمان سلامة جميع النظم الإيكولوجية،</p>
+      </container>
+      <container name="وإذ تسلم أيضاً" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">وإذ تسلم أيضاً</span> بأن هناك فرصة رئيسية لتعزيز الإجراءات المتعلقة بالطبيعة لتحقيق أهداف التنمية المستدامة تتمثل في تعزيز التعاون والتنفيذ وتوسيع نطاق الحلول القائمة على الطبيعة، وكفالة ضماناتها الاجتماعية والبيئية، بالنظر إلى أن الحلول القائمة على الطبيعة تتسم بالكفاءة والفعالية عند تصميمها على أساس محدد السياق لتحقيق فوائد متعددة وتطبيقها وفقاً لأفضل العلوم المتاحة،</p>
+      </container>
+      <container name="وإذ تشير" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">وإذ تشير</span> إلى المقررات 5/6 و6/12 و7/11 و9/7 الصادرة عن مؤتمر الأطراف في اتفاقية التنوع البيولوجي بشأن نهج النظام الإيكولوجي، ومقررها 14/5 بشأن التنوع البيولوجي وتغير المناخ، وإذ تقر، بالنسبة للأطراف في الاتفاقية، الدور الذي لا غنى عنه للاتفاقية في حفظ التنوع البيولوجي واستعادته واستخدامه المستدام وفي الإدارة المتكاملة للموارد الطبيعية،</p>
+      </container>
+      <container name="وإذ تقر" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">وإذ تقر</span> بالحاجة إلى تعريف متفق عليه متعدد الأطراف لمفهوم الحلول القائمة على الطبيعة، يراعي مفهوم النُهج القائمة على النظم الإيكولوجية وينسجم معها، وفي ضوء الشواغل المتعلقة باحتمال إساءة استخدام مفهوم الحلول القائمة على الطبيعة،</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_8">
+        <num>1-</num>
+        <list eId="para_8_list">
+          <intro eId="para_8_list_intro">
+          <p xml:space="preserve"> <span class="italic">تقرر</span> أن الحلول القائمة على الطبيعة هي إجراءات لحماية النظم الإيكولوجية الأرضية والنظم الإيكولوجية للمياه العذبة والنظم الإيكولوجية الساحلية والبحرية، الطبيعية منها أو المعدلة، وحفظها واستعادتها واستخدامها المستدام وإدارتها، وهي إجراءات تتصدى للتحديات الاجتماعية والاقتصادية والبيئية بشكل فعال وقابل للتكيف، وتعمل في الوقت نفسه على توفير رفاهية الإنسان، وخدمات النظم الإيكولوجية، والقدرة على الصمود ومنافع التنوع البيولوجي، وتسلم بأن الحلول القائمة على الطبيعة:</p>
+          </intro>
+          <point eId="para_8_list_point_a">
+            <num>(a)</num>
+            <content eId="para_8_list_point_a_content">
+          <p xml:space="preserve"> تحترم الضمانات الاجتماعية والبيئية، بما يتماشى مع ’’اتفاقيات ريو‘‘ الثلاث (اتفاقية التنوع البيولوجي، واتفاقية الأمم المتحدة لمكافحة التصحر واتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ)، بما في ذلك هذه الضمانات للمجتمعات المحلية والشعوب الأصلية؛</p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_b">
+            <num>(b)</num>
+            <content eId="para_8_list_point_b_content">
+          <p xml:space="preserve"> يمكن تنفيذها وفقاً للظروف المحلية والوطنية والإقليمية، بما يتسق مع خطة التنمية المستدامة لعام 2030، ويمكن إدارتها بشكل تكيفي؛</p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_c">
+            <num>(c)</num>
+            <content eId="para_8_list_point_c_content">
+          <p xml:space="preserve"> هي من بين الإجراءات التي تؤدي دوراً أساسياً في الجهد العالمي الشامل الرامي إلى تحقيق أهداف التنمية المستدامة، بما في ذلك عن طريق التصدي بفعالية وكفاءة للتحديات الاجتماعية والاقتصادية والبيئية الرئيسية، مثل فقدان التنوع البيولوجي، وتغير المناخ، وتدهور الأراضي، والتصحر، والأمن الغذائي، ومخاطر الكوارث، والتنمية الحضرية، وتوافر المياه، والقضاء على الفقر، وعدم المساواة والبطالة، وكذلك التنمية الاجتماعية، والتنمية الاقتصادية المستدامة، وصحة الإنسان ومجموعة واسعة من خدمات النظم الإيكولوجية؛</p>
+            </content>
+          </point>
+          <point eId="para_8_list_point_d">
+            <num>(d)</num>
+            <content eId="para_8_list_point_d_content">
+          <p xml:space="preserve"> يمكن أن تساعد في تحفيز الابتكار المستدام والبحث العلمي؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_18">
+        <num>2-</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> <span class="italic">تسلم</span> بأن الحلول القائمة على الطبيعة يمكن أن تساهم بشكل كبير في العمل المناخي، وتسلم في الوقت نفسه بالحاجة إلى تحليل تأثيراتها، بما في ذلك على المدى الطويل، وتقر بأنها لا تحل محل الحاجة إلى إجراء تخفيضات سريعة وعميقة ومستدامة في انبعاثات غازات الاحتباس الحراري، ولكن يمكن أن تحسن إجراءات التكيف مع تغير المناخ وآثاره والقدرة على الصمود أمامه وتخفيف آثاره؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>3-</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> <span class="italic">تسلم</span> أيضاً بإمكانات المنتجات والابتكارات والتكنولوجيات البيولوجية المستدامة والسليمة بيئياً التي تنتج عن الحلول القائمة على الطبيعة، عندما تسهم في الاستهلاك والإنتاج المستدامين وتكون مفيدة للطبيعة ومتسقة مع الالتزامات الدولية والاتفاقات المتعددة الأطراف ذات الصلة بشأن التنوع البيولوجي والمناخ والبيئة والتنمية المستدامة، مع إدراك المخاطر المحتملة المرتبطة بها، بما في ذلك بالنسبة للمجتمعات المحلية والشعوب الأصلية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>4-</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> <span class="italic">تقر</span> بأن مفهوم الحلول القائمة على الطبيعة يراعي وينسجم مع مفهوم النُهج القائمة على النظم الإيكولوجية المحددة بموجب اتفاقية التنوع البيولوجي ونُهج الإدارة والحفظ الأخرى المنفذة في إطار السياسة والأطر التشريعية الوطنية القائمة والتي وضعت بموجب الاتفاقات البيئية المتعددة الأطراف ذات الصلة؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>5-</num>
+        <list eId="24">
+          <intro eId="para_24_list_intro">
+          <p xml:space="preserve"> <span class="italic">تطلب</span> إلى المديرة التنفيذية لبرنامج الأمم المتحدة للبيئة أن تعقد، رهناً بتوافر الموارد ولمواصلة دعم تنفيذ الحلول القائمة على الطبيعة على النحو المحدد في هذا القرار، مشاورات حكومية دولية بطريقة شفافة وشاملة ومتوازنة إقليمياً، ساعية لتحقيق التوازن بين الجنسين، من أجل القيام بما يلي:</p>
+          </intro>
+          <point eId="para_24_list_point_a">
+            <num>(a)</num>
+            <content eId="para_24_list_point_a_content">
+          <p xml:space="preserve"> تجميع أمثلة على أفضل الممارسات في مجال الحلول القائمة على الطبيعة، استناداً إلى أفضل العلوم المتاحة؛</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_b">
+            <num>(b)</num>
+            <content eId="para_24_list_point_b_content">
+          <p xml:space="preserve"> تقييم المقترحات والمعايير والمقاييس والمبادئ التوجيهية الحالية ومناقشة الجديدة المحتملة منها لمعالجة الاختلافات، بهدف تحقيق فهم مشترك بين الدول الأعضاء لتنفيذ الحلول القائمة على الطبيعة، بما في ذلك لدعم الدول الأعضاء في تصميم وتنفيذ وتقييم الحلول القائمة على الطبيعة، استناداً إلى الأعمال والمبادرات والمنصات القائمة، حسب الاقتضاء، ودون المساس بالجهود والمبادرات الحالية والمقترحات الجديدة التي تقدمها فرادى الدول الأعضاء؛</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_c">
+            <num>(c)</num>
+            <content eId="para_24_list_point_c_content">
+          <p xml:space="preserve"> تحديد خيارات لدعم الاستثمار المستدام في الحلول القائمة على الطبيعة وتبادل المعلومات المتعلقة بمصادر التمويل الثنائية والمتعددة الأطراف لتمكين البلدان النامية من وضع ونشر الحلول القائمة على الطبيعة؛</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_32">
+        <num>6-</num>
+        <content eId="para_32__content">
+          <p xml:space="preserve"> <span class="italic">تطلب أيضاً</span> إلى المديرة التنفيذية أن تدعم، رهناً بتوافر الموارد، المشاورات الحكومية الدولية، بما في ذلك تمكين مشاركة البلدان النامية والشركاء وأصحاب المصلحة المعنيين، بما يتسق مع قواعد الأمم المتحدة السارية؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_34">
+        <num>7-</num>
+        <content eId="para_34__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> الدول الأعضاء والمديرة التنفيذية إلى أن تدعم، بالتعاون مع كيانات الأمم المتحدة الأخرى ذات الصلة، تنفيذ هذا القرار بالشراكة مع المجتمعات المحلية، والنساء والشباب، وكذلك مع الشعوب الأصلية، بموافقتها الحرة والمسبقة والمستنيرة، حيث أثبتت معارفها وأساليبها فعاليتها في حفظ التنوع البيولوجي واستعادته واستخدامه بشكل مستدام؛</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_36">
+        <num>8-</num>
+        <content eId="para_36__content">
+          <p xml:space="preserve"> <span class="italic">تدعو</span> الدول الأعضاء إلى اتباع نهج قطري، ومستجيب للمنظور الجنساني، وتشاركي، وشفاف بالكامل عند تصميم الحلول القائمة على الطبيعة وتنفيذها ورصدها.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
