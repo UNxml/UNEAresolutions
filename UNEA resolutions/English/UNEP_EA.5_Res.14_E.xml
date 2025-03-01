@@ -1,0 +1,428 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/eng@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-14/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL INSTRUMENTS" href="http://metadata.un.org/thesaurus/1003310" showAs="INTERNATIONAL INSTRUMENTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="PLASTIC PRODUCTS" href="http://metadata.un.org/thesaurus/1004940" showAs="PLASTIC PRODUCTS" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="MARINE POLLUTION" href="http://metadata.un.org/thesaurus/1003920" showAs="MARINE POLLUTION" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-02-16" outcome="draftResolution" as="UNEP/EA.5/L.23" by="The co-facilitators of cluster 1" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.14</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Fifth session</session>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the United Nations Environment Assembly on 2 March 2022</docTitle>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybrid">(hybrid)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> and <date date="2021-02-23" refersTo="#endDate">23 February 2021</date></event>  and <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 February</date>–<date date="2022-03-02" refersTo="#endDate">2 March 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/14.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	End plastic pollution: towards an international legally binding instrument</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The United Nations Environment Assembly,</span>
+        </p>
+      </formula>
+      <container name="Noting with concern" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Noting with concern</span> that the high and rapidly increasing levels of plastic pollution represent a serious environmental problem at a global scale, negatively impacting the environmental, social and economic dimensions of sustainable development,</p>
+      </container>
+      <container name="Recognizing" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that plastic pollution includes microplastics,</p>
+      </container>
+      <container name="Noting with concern" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Noting with concern</span> the specific impact of plastic pollution on the marine environment, </p>
+      </container>
+      <container name="Noting" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Noting</span> that plastic pollution, in marine and other environments, can be of a transboundary nature and needs to be tackled, together with its impacts, through a full-life-cycle approach, taking into account national circumstances and capabilities,</p>
+      </container>
+      <container name="Reaffirming" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> General Assembly resolution 70/1 of 25 September 2015, by which the General Assembly adopted the 2030 Agenda for Sustainable Development,</p>
+      </container>
+      <container name="Reaffirming also" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Reaffirming also</span> the principles of the Rio Declaration on Environment and Development, adopted in Rio de Janeiro, Brazil, in 1992,</p>
+      </container>
+      <container name="Stressing" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Stressing </span>the urgent need to strengthen the science-policy interface at all levels, improve understanding of the global impact of plastic pollution on the environment, and promote effective and progressive action at the local, regional and global levels, recognizing the important role played by plastics in society,</p>
+      </container>
+      <container name="Recalling" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>United Nations Environment Assembly resolutions 1/6, 2/11, 3/7, 4/6, 4/7 and 4/9<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> On marine plastic debris and microplastics (1/6), marine plastic litter and microplastics (2/11, 4/6), marine litter and microplastics (3/7), environmentally sound management of waste (4/7) and addressing single-use plastic products pollution (4/9).</p></authorialNote> and affirming the urgent need to strengthen global coordination, cooperation and governance to take immediate action towards the long-term elimination of plastic pollution in marine and other environments, and to avoid detriment from plastic pollution to ecosystems and the human activities dependent on them,</p>
+      </container>
+      <container name="Recognizing" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the wide range of approaches, sustainable alternatives and technologies available to address the full life cycle of plastics, further highlighting the need for enhanced international collaboration to facilitate access to technology, capacity-building, and scientific and technical cooperation, and stressing that there is no single approach,</p>
+      </container>
+      <container name="Underlining" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Underlining</span> the importance of promoting sustainable design of products and materials so that they can be reused, remanufactured or recycled and therefore retained in the economy for as long as possible, along with the resources they are made of, and of minimizing the generation of waste, which can significantly contribute to sustainable production and consumption of plastics,</p>
+      </container>
+      <container name="Welcoming" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Welcoming </span>efforts made by Governments and international organizations, in particular through national, regional and international action plans, initiatives and instruments, including relevant multilateral agreements such as the initiatives of the Group of 7 and the Group of 20, including the action plans of 2015 and 2017 addressing marine litter; the Group of 20 Implementation Framework for Actions on Marine Litter; Osaka Blue Ocean Vision; the Ocean Plastics Charter; the Association of Southeast Asian Nations (ASEAN) Framework of Action on Marine Debris; the Bangkok Declaration on Combating Marine Debris in the ASEAN region; the Asia-Pacific Economic Cooperation Roadmap on Marine Debris; the 2021 Leaders’ Declaration of the Alliance of Small Island States; the St. John’s Declaration of the Caribbean Community; the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal; and the outcome of the 2021 Ministerial Conference on Marine Litter and Plastic Pollution, and recognizing the need for complementary actions and a coherent and coordinated long-term global vision,</p>
+      </container>
+      <container name="Noting with appreciation" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Noting with appreciation</span> the significant work of the Global Partnership on Marine Litter and action to tackle marine litter and plastic pollution supported and implemented by the United Nations Environment Programme, and taking into account the Chair’s summary of the ad hoc open-ended expert group on marine litter and microplastics, which presented options for continued work for consideration by the United Nations Environment Assembly at its fifth session,</p>
+      </container>
+      <container name="Reaffirming" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> the importance of cooperation, coordination and complementarity among relevant regional and international conventions and instruments, with due respect for their respective mandates, to prevent plastic pollution and its related risks to human health and adverse effects on human well‑being and the environment, including the International Convention for the Prevention of Pollution from Ships of 1973, as modified by the Protocol of 1978 relating thereto and as further amended by the Protocol of 1997; the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and Their Disposal; the Rotterdam Convention on the Prior Informed Consent Procedure for certain Hazardous Chemicals and Pesticides in International Trade; the Stockholm Convention on Persistent Organic Pollutants; the United Nations Convention on the Law of the Sea; the Convention on the Prevention of Marine Pollution by Dumping of Wastes and Other Matter of 1972 and the Protocol thereto; the Strategic Approach to International Chemicals Management; the United Nations Framework Convention on Climate Change; the Convention on Biological Diversity; and other international organizations, regional instruments and programmes, and recognizing efforts led by non‑governmental organizations and the private sector, </p>
+      </container>
+      <container name="Recognizing" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>that each country is best positioned to understand its own national circumstances, including its stakeholder activities, related to addressing plastic pollution, including in the marine environment,</p>
+      </container>
+      <container name="Recognizing also" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Recognizing also </span>the significant contribution made by workers in informal and cooperative settings to the collecting, sorting and recycling of plastics in many countries, </p>
+      </container>
+      <container name="Underlining" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Underlining</span> that further international action is needed by developing an international legally binding instrument on plastic pollution, including in the marine environment,</p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_18">
+        <num>1.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director to convene an intergovernmental negotiating committee, to begin its work during the second half of 2022, with the ambition of completing its work by the end of 2024;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>2.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> <span class="italic">Acknowledges</span> that some legal obligations arising out of a new international legally binding instrument will require capacity-building and technical and financial assistance in order to be effectively implemented by developing countries and countries with economies in transition;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_21">
+        <num>3.</num>
+        <list eId="para_21_list">
+          <intro eId="para_21_list_intro">
+          <p xml:space="preserve"> <span class="italic">Decides</span> that the intergovernmental negotiating committee is to develop an international legally binding instrument on plastic pollution, including in the marine environment, henceforth referred to as “the instrument”, which could include both binding and voluntary approaches, based on a comprehensive approach that addresses the full life cycle of plastic, taking into account, among other things, the principles of the Rio Declaration on Environment and Development, as well as national circumstances and capabilities, and including provisions:</p>
+          </intro>
+          <point eId="para_21_list_point_a">
+            <num>(a)</num>
+            <content eId="para_21_list_point_a_content">
+          <p xml:space="preserve"> 	To specify the objectives of the instrument;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_b">
+            <num>(b)</num>
+            <content eId="para_21_list_point_b_content">
+          <p xml:space="preserve"> 	To promote sustainable production and consumption of plastics through, among other things, product design and environmentally sound waste management, including through resource efficiency and circular economy approaches;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_c">
+            <num>(c)</num>
+            <content eId="para_21_list_point_c_content">
+          <p xml:space="preserve"> 	To promote national and international cooperative measures to reduce plastic pollution in the marine environment, including existing plastic pollution; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_d">
+            <num>(d)</num>
+            <content eId="para_21_list_point_d_content">
+          <p xml:space="preserve"> 	To develop, implement and update national action plans reflecting country‑driven approaches to contribute to the objectives of the instrument;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_e">
+            <num>(e)</num>
+            <content eId="para_21_list_point_e_content">
+          <p xml:space="preserve"> 	To promote national action plans to work towards the prevention, reduction and elimination of plastic pollution, and to support regional and international cooperation; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_f">
+            <num>(f)</num>
+            <content eId="para_21_list_point_f_content">
+          <p xml:space="preserve"> 	To specify national reporting, as appropriate;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_g">
+            <num>(g)</num>
+            <content eId="para_21_list_point_g_content">
+          <p xml:space="preserve"> 	To periodically assess the progress of implementation of the instrument; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_h">
+            <num>(h)</num>
+            <content eId="para_21_list_point_h_content">
+          <p xml:space="preserve"> 	To periodically assess the effectiveness of the instrument in achieving its objectives; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_i">
+            <num>(i)</num>
+            <content eId="para_21_list_point_i_content">
+          <p xml:space="preserve"> 	To provide scientific and socioeconomic assessments related to plastic pollution; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_j">
+            <num>(j)</num>
+            <content eId="para_21_list_point_j_content">
+          <p xml:space="preserve"> 	To increase knowledge through awareness-raising, education and the exchange of information; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_k">
+            <num>(k)</num>
+            <content eId="para_21_list_point_k_content">
+          <p xml:space="preserve"> 	To promote cooperation and coordination with relevant regional and international conventions, instruments and organizations, while recognizing their respective mandates, avoiding duplication and promoting complementarity of action;</p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_l">
+            <num>(l)</num>
+            <content eId="para_21_list_point_l_content">
+          <p xml:space="preserve"> 	To encourage action by all stakeholders, including the private sector, and to promote cooperation at the local, national, regional and global levels; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_m">
+            <num>(m)</num>
+            <content eId="para_21_list_point_m_content">
+          <p xml:space="preserve"> 	To initiate a multi-stakeholder action agenda; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_n">
+            <num>(n)</num>
+            <content eId="para_21_list_point_n_content">
+          <p xml:space="preserve"> 	To specify arrangements for capacity-building and technical assistance, technology transfer on mutually agreed terms, and financial assistance, recognizing that the effective implementation of some legal obligations under the instrument will depend on the availability of capacity-building and adequate financial and technical assistance; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_o">
+            <num>(o)</num>
+            <content eId="para_21_list_point_o_content">
+          <p xml:space="preserve"> 	To promote research into and development of sustainable, affordable, innovative and cost-efficient approaches; </p>
+            </content>
+          </point>
+          <point eId="para_21_list_point_p">
+            <num>(p)</num>
+            <content eId="para_21_list_point_p_content">
+          <p xml:space="preserve"> 	To address compliance; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>4.</num>
+        <list eId="para_24_list">
+          <intro eId="para_24_list_intro">
+          <p xml:space="preserve"> <span class="italic">Also decides </span>that the intergovernmental negotiating committee, in its deliberations on the instrument, is to consider the following: </p>
+          </intro>
+          <point eId="para_24_list_point_a">
+            <num>(a)</num>
+            <content eId="para_24_list_point_a_content">
+          <p xml:space="preserve"> 	Obligations, measures and voluntary approaches in supporting the achievement of the objectives of the instrument;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_b">
+            <num>(b)</num>
+            <content eId="para_24_list_point_b_content">
+          <p xml:space="preserve"> 	The need for a financial mechanism to support the implementation of the instrument, including the option of a dedicated multilateral fund;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_c">
+            <num>(c)</num>
+            <content eId="para_24_list_point_c_content">
+          <p xml:space="preserve"> 	Flexibility that some provisions could allow countries discretion in the implementation of their commitments, taking into account their national circumstances;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_d">
+            <num>(d)</num>
+            <content eId="para_24_list_point_d_content">
+          <p xml:space="preserve"> 	The best available science, traditional knowledge, knowledge of indigenous peoples and local knowledge systems;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_e">
+            <num>(e)</num>
+            <content eId="para_24_list_point_e_content">
+          <p xml:space="preserve"> 	Lessons learned and best practices, including those from informal and cooperative settings; </p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_f">
+            <num>(f)</num>
+            <content eId="para_24_list_point_f_content">
+          <p xml:space="preserve"> 	The possibility of a mechanism to provide policy-relevant scientific and socioeconomic information and assessment related to plastic pollution; </p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_g">
+            <num>(g)</num>
+            <content eId="para_24_list_point_g_content">
+          <p xml:space="preserve"> 	Efficient organization and streamlined secretariat arrangements;</p>
+            </content>
+          </point>
+          <point eId="para_24_list_point_h">
+            <num>(h)</num>
+            <content eId="para_24_list_point_h_content">
+          <p xml:space="preserve"> 	Any other aspects that the intergovernmental negotiating committee may consider relevant; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_198">
+        <num>5.</num>
+        <content eId="para_198__content">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director of the United Nations Environment Programme to convene an ad hoc open-ended working group to hold one meeting during the first half of 2022 to prepare for the work of the intergovernmental negotiating committee and to discuss in particular the timetable and organization of the work of the committee, taking into account the provisions and elements identified in paragraphs 3 and 4 of the present resolution; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_200">
+        <num>6.</num>
+        <content eId="para_200__content">
+          <p xml:space="preserve"> <span class="italic">Stresses</span> the need to ensure the widest and most effective participation possible in the work of the ad hoc open-ended working group and of the intergovernmental negotiating committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_202">
+        <num>7.</num>
+        <content eId="para_202__content">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director, as a priority, to provide the necessary support to developing countries and countries with economies in transition to allow for their effective participation in the work of the ad hoc open-ended working group and of the intergovernmental negotiating committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_204">
+        <num>8.</num>
+        <content eId="para_204__content">
+          <p xml:space="preserve"> <span class="italic">Also requests</span> the Executive Director to ensure the necessary support by the secretariat of the United Nations Environment Programme to the ad hoc open-ended working group and the intergovernmental negotiating committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_206">
+        <num>9.</num>
+        <content eId="para_206__content">
+          <p xml:space="preserve"> <span class="italic">Decides</span> that participation in the ad hoc open-ended working group and the intergovernmental negotiating committee should be open to all States Members of the United Nations and members of United Nations specialized agencies, to regional economic integration organizations and to relevant stakeholders, consistent with applicable United Nations rules;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_208">
+        <num>10.</num>
+        <content eId="para_208__content">
+          <p xml:space="preserve"> <span class="italic">Invites</span> Governments and other stakeholders in a position to do so to provide extrabudgetary resources to help support the implementation of the present resolution;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_210">
+        <num>11.</num>
+        <content eId="para_210__content">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director to facilitate the participation of, and close cooperation and coordination with, relevant regional and international instruments and initiatives and all relevant stakeholders in the context of the mandate of the intergovernmental negotiating committee;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_212">
+        <num>12.</num>
+        <content eId="para_212__content">
+          <p xml:space="preserve"> <span class="italic">Also requests</span> the Executive Director to convene a diplomatic conference of plenipotentiaries upon completion of negotiations by the intergovernmental negotiating committee, for the purpose of adopting the instrument and opening it for signature;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_214">
+        <num>13.</num>
+        <content eId="para_214__content">
+          <p xml:space="preserve"> <span class="italic">Further requests </span>the Executive Director to report on progress on the work of the intergovernmental negotiating committee to the Environmental Assembly at its sixth session;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_216">
+        <num>14.</num>
+        <content eId="para_216__content">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director to continue to support and advance the work of the Global Partnership on Marine Litter, while strengthening scientific, technical and technological knowledge with regard to plastic pollution, including in the marine environment, on methodologies for monitoring, and sharing available scientific and other relevant data and information;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_218">
+        <num>15.</num>
+        <content eId="para_218__content">
+          <p xml:space="preserve"> <span class="italic">Calls upon</span> all Member States to continue and step up activities, and adopt voluntary measures, to combat plastic pollution, including measures related to sustainable consumption and production, which may include circular economy approaches, and to develop and implement national action plans, while fostering international action and initiatives under national regulatory frameworks, and, on a voluntary basis, to provide statistical information on the environmentally sound management of plastic waste, as appropriate, taking into account national circumstances; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_220">
+        <num>16.</num>
+        <content eId="para_220__content">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director, subject to the availability of financial resources, to convene, in conjunction with the first session of the intergovernmental negotiating committee and building upon existing initiatives, where appropriate, a forum that is open to all stakeholders for the exchange of information and activities related to plastic pollution.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

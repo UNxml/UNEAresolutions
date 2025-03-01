@@ -1,0 +1,323 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/eng@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-9/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-11-04" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.15" by="Mongolia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber"></docketNumber>
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.9</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Fifth session</session>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the United Nations Environment Assembly on 2 March 2022</docTitle>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybrid">(hybrid)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> and <date date="2021-02-23" refersTo="#endDate">23 February 2021</date></event>  and <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 February</date>–<date date="2022-03-02" refersTo="#endDate">2 March 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/9.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Sustainable and resilient infrastructure</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The United Nations Environment Assembly,</span>
+        </p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>General Assembly resolution 69/313 of 27 July 2015 on the Addis Ababa Action Agenda of the Third International Conference on Financing for Development, which recognized that investing in sustainable and resilient infrastructure, including transport, energy, water and sanitation for all, was a prerequisite for achieving many goals, and expressed a commitment by countries to facilitate development of sustainable, accessible and resilient quality infrastructure in developing countries through enhanced financial and technical support,</p>
+      </container>
+      <container name="Recalling also" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Recalling also</span> General Assembly resolution 70/1 of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, and Sustainable Development Goal 9 on building resilient infrastructure, promoting inclusive and sustainable industrialization and fostering innovation, </p>
+      </container>
+      <container name="Noting" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Noting</span> that infrastructure is inextricably linked to all 17 of the Sustainable Development Goals and that the United Nations Office for Project Services has found that infrastructure systems affect the achievement of up to 92 per cent of the 169 individual Sustainable Development Goal targets,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> S. Thacker, D. Adshead, G. Morgan, S. Crosskey and others, <span class="italic">Infrastructure: Underpinning Sustainable Development</span> (Copenhagen, Denmark, United Nations Office for Project Services, 2018). </p></authorialNote> including but not limited to those on protection, restoration and sustainable use of ecosystems<span class="italic">, </span>biodiversity conservation, combating desertification, resource efficiency, sustainable and inclusive urban economies, sustainable consumption and production patterns, disaster risk reduction, climate mitigation and adaptation, job creation and poverty reduction, </p>
+      </container>
+      <container name="Stressing" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Stressing</span> the importance of the ecosystem approach for the integrated management of land, water and living resources and the need to step up efforts to tackle desertification, land degradation, erosion and drought, biodiversity loss and water scarcity, which are seen as major environmental, economic and social challenges for global sustainable development, </p>
+      </container>
+      <container name="Recalling" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>its resolution 4/5 on sustainable infrastructure, in which it encouraged Member States to take the steps necessary to achieve Sustainable Development Goal 9 and related targets in other Sustainable Development Goals, taking into account national capabilities and priorities, and recognizing the objective of moving towards sustainable consumption and production patterns, to develop and strengthen national and regional systems-level strategic approaches to infrastructure planning, and to promote nature-based solutions as key components of systems-level strategic approaches to infrastructure planning and development, and requested the Executive Director of the United Nations Environment Programme to prepare a compilation of best practice to assist Member States in promoting and strengthening the sustainability of their infrastructure, </p>
+      </container>
+      <container name="Stressing" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Stressing</span> the relevance of other resolutions adopted at the present session of the Environment Assembly for developing sustainable and resilient infrastructure, </p>
+      </container>
+      <container name="Noting" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Noting </span>that actions to promote more circular economies present opportunities for minimizing the negative environmental impact of infrastructure, for example, through increased efficiency in the use of resources, including material resources,</p>
+      </container>
+      <container name="Noting also" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Noting also</span> that numerous decisions and resolutions on infrastructure and biodiversity have been adopted by the governing bodies of multilateral environmental agreements, including the Convention on Biological Diversity<authorialNote marker="3" placement="bottom" eId="authorialNote_3"><p xml:space="preserve"> See, for example, Convention on Biological Diversity decision 14/3 on mainstreaming of biodiversity in the energy and mining, infrastructure, manufacturing and processing sectors. </p></authorialNote> and the Convention on the Conservation of Migratory Species of Wild Animals,<authorialNote marker="4" placement="bottom" eId="authorialNote_4"><p xml:space="preserve"> See, for example, <a href="https://www.cms.int/sites/default/files/document/cms_cop13_decisions_e_rev.1.pdf">Convention on the Conservation of Migratory Species of Wild Animals decisions 13.130–13.134</a> on infrastructure development and migratory species and <a href="https://www.cms.int/sites/default/files/document/cms_cop12_res.7.2%28rev.cop12%29_e.pdf">resolution UNEP/CMS/Resolution 7.2 (Rev.COP12)</a> on impact assessment and migratory species. </p></authorialNote> </p>
+      </container>
+      <container name="Recalling" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>General Assembly resolution 75/1 of 21 September 2020, entitled “Declaration on the commemoration of the seventy-fifth anniversary of the United Nations”, and General Assembly resolution 75/207 of 21 December 2020, entitled “Promoting investments for sustainable development”, which reaffirmed the ambition to get back on track to achieve the Sustainable Development Goals by designing sustainable and inclusive recovery strategies in relation to the coronavirus disease (COVID‑19) pandemic and highlighted the need for public and private investment in and financing for quality, reliable, sustainable and resilient infrastructure at the national and international levels, </p>
+      </container>
+      <container name="Recognizing" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Recognizing </span>that infrastructure investments are central to the COVID‑19 economic recovery plans of many Governments as a means of creating employment, boosting productivity, addressing inequalities and building resilience to future crises, </p>
+      </container>
+      <container name="Noting" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Noting </span>that, according to the report entitled <span class="italic">Are We Building Back Better? Evidence from 2020 and Pathways to Inclusive Green Recovery Spending</span>,<authorialNote marker="5" placement="bottom" eId="authorialNote_5"><p xml:space="preserve"> Brian J. O’Callaghan and Em Murdock, <span class="italic">Are We Building Back Better? Evidence from 2020 and Pathways to Inclusive Green Recovery Spending </span>(United Nations Environment Programme, 2021).</p></authorialNote> the vast majority of COVID‑19 recovery spending by Governments was found to be “minimally green”, </p>
+      </container>
+      <container name="Noting also" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Noting also</span> the United Nations Decade on Ecosystem Restoration 2021–2030 and that a new global biodiversity framework is expected to be adopted in 2022 by the Conference of the Parties to the Convention on Biological Diversity as a stepping stone towards the 2050 Vision of “Living in harmony with nature”, </p>
+      </container>
+      <container name="Appreciating" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Appreciating</span> the theme of the fifth session of the United Nations Environment Assembly, “Strengthening actions for nature to achieve the Sustainable Development Goals”, </p>
+      </container>
+      <container name="Recalling" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>General Assembly resolution 75/271 of 16 April 2021, entitled “Nature knows no borders: transboundary cooperation – a key factor for biodiversity conservation, restoration and sustainable use”, which emphasizes the importance of cooperation to avoid the fragmentation of transboundary habitats and to maintain and enhance connectivity between ecosystems and stresses the importance of the application of environmental impact assessments in line with national legislation, where appropriate, to maintain ecological connectivity between ecosystems and avoid their further fragmentation so that nature can continue to provide ecosystem services to people, </p>
+      </container>
+      <container name="Acknowledging" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Acknowledging </span>that natural infrastructure can include strategically planned and managed networks of natural lands, water and soil, such as forests and wetlands, working landscapes and other open spaces that conserve or enhance ecosystem values and functions and provide associated benefits to human populations, and can provide cost-effective and resilient alternatives or complements to built infrastructure in the context of constrained fiscal capacity and should be promoted to restore and sustain healthy ecosystems and societies as part of an environmentally, socially and economically sustainable recovery from the COVID‑19 pandemic, </p>
+      </container>
+      <container name="Taking note" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Taking note</span> of the potential environmental impact of infrastructure projects on ecosystem integrity and connectivity, </p>
+      </container>
+      <container name="Recognizing" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the importance of cooperation between neighbouring countries at all levels for sustainably managing land, water and biodiversity conservation and restoration, </p>
+      </container>
+      <container name="Recognizing also" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Recognizing also</span> that investments in sustainable and resilient infrastructure are important for addressing the interconnected crises of climate change, biodiversity loss, pollution and desertification, for meeting sustainable recovery needs and for safeguarding future delivery of essential services, </p>
+      </container>
+      <container name="Recognizing further" eId="container_20">
+        <p xml:space="preserve"> <span class="italic">Recognizing further </span>that the COVID‑19 pandemic has demonstrated the importance of comprehensive health infrastructure, including the environmentally sound management of medical waste, </p>
+      </container>
+      <container name="Stressing" eId="container_21">
+        <p xml:space="preserve"> <span class="italic">Stressing </span>that addressing the infrastructure investment gap and delivering priority infrastructure may require significant but targeted investment from both the public and private sectors, including the co-financing of individual projects and the deployment of financial instruments for sustainable and resilient infrastructure by multilateral development banks and other public and private institutions, </p>
+      </container>
+      <container name="Acknowledging" eId="container_22">
+        <p xml:space="preserve"> <span class="italic">Acknowledging </span>the need for urgent action to address the challenges faced in planning and developing quality, reliable, sustainable and resilient infrastructure, in particular by all developing countries, </p>
+      </container>
+      <container name="Highlighting" eId="container_23">
+        <p xml:space="preserve"> <span class="italic">Highlighting </span>the fact that the implementation of any infrastructure projects, including projects with potential environmental impact on ecosystem integrity and connectivity, must be in line with relevant legislation and seek to avoid or minimize adverse impact on ecosystems and livelihoods, </p>
+      </container>
+      <container name="Acknowledging" eId="container_24">
+        <p xml:space="preserve"> <span class="italic">Acknowledging </span>the importance of the monitoring framework for the Sustainable Development Goals, including Goal 9, alongside other relevant frameworks for monitoring progress on the sustainability of infrastructure at the aggregate level, and that such frameworks may require knowledge-sharing, technical assistance and capacity support, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_25">
+        <num>1.</num>
+        <list eId="para_25_list">
+          <intro eId="para_25_list_intro">
+          <p xml:space="preserve"> <span class="italic">Encourages </span>Member States and other stakeholders, as appropriate, to:</p>
+          </intro>
+          <point eId="para_25_list_point_a">
+            <num>(a)</num>
+            <content eId="para_25_list_point_a_content">
+          <p xml:space="preserve"> Consider integrating and implementing the 10 “international good practice principles for sustainable infrastructure”<authorialNote marker="6" placement="bottom" eId="authorialNote_6"><p xml:space="preserve"> See <span class="italic">International Good Practice Principles for Sustainable Infrastructure: Integrated, Systems-Level Approaches for Policymakers</span> (United Nations Environment Programme, 2021).</p></authorialNote> into national policies, including through the use and development of sustainable infrastructure tools,<authorialNote marker="7" placement="bottom" eId="authorialNote_7"><p xml:space="preserve"> The Sustainable Infrastructure Tool Navigator comprises a database of tools to help users to identify the most relevant tools for their needs. </p></authorialNote> taking into account national contexts;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_b">
+            <num>(b)</num>
+            <content eId="para_25_list_point_b_content">
+          <p xml:space="preserve"> Implement existing tools, such as guidelines and best practices, including those developed under or endorsed by multilateral environmental agreements,<authorialNote marker="8" placement="bottom" eId="authorialNote_8"><p xml:space="preserve"> Including those of the Convention on the Conservation of Migratory Species of Wild Animals, available at <a href="http://www.cms.int/en/species/threats/infrastructure">www.cms.int/en/species/threats/infrastructure</a>. </p></authorialNote> co-develop additional knowledge products, and participate in exchange mechanisms to share best practices and lessons learned with regard to sustainable infrastructure;</p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_c">
+            <num>(c)</num>
+            <content eId="para_25_list_point_c_content">
+          <p xml:space="preserve"> Cooperate internationally to strengthen frameworks, including for financing, for sustainable and inclusive infrastructure that maintains and enhances ecological connectivity, avoids further fragmentation, and minimizes other potential impacts on ecosystems and livelihoods; </p>
+            </content>
+          </point>
+          <point eId="para_25_list_point_d">
+            <num>(d)</num>
+            <content eId="para_25_list_point_d_content">
+          <p xml:space="preserve"> Consider the role of digital infrastructure in enabling sustainable consumption and production patterns and improving the sustainability and efficiency of other infrastructure systems as part of integrated approaches; </p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>2.</num>
+        <list eId="para_26_list">
+          <intro eId="para_26_list_intro">
+          <p xml:space="preserve"> <span class="italic">Encourages </span>Member States to: </p>
+          </intro>
+          <point eId="para_26_list_point_a">
+            <num>(a)</num>
+            <content eId="para_26_list_point_a_content">
+          <p xml:space="preserve"> Conduct strategic and environmental impact assessments so that environmental considerations are integrated into decision-making at appropriate levels, and advance integrated, system-level approaches to the planning and delivery of sustainable infrastructure;</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_b">
+            <num>(b)</num>
+            <content eId="para_26_list_point_b_content">
+          <p xml:space="preserve"> Engage, as appropriate, with subnational institutions to consider integrating the international good practice principles, where relevant, into local recovery-focused infrastructure plans and projects;</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_c">
+            <num>(c)</num>
+            <content eId="para_26_list_point_c_content">
+          <p xml:space="preserve"> Promote investment in natural infrastructure and nature-based solutions for delivering essential services and improving ecosystem services, creating employment and accelerating the achievement of the Sustainable Development Goals;</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_d">
+            <num>(d)</num>
+            <content eId="para_26_list_point_d_content">
+          <p xml:space="preserve"> Promote investment in environmentally, socially and economically sustainable health infrastructure for improved resilience and resource efficiency, with the environmentally sound management of medical waste; </p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_e">
+            <num>(e)</num>
+            <content eId="para_26_list_point_e_content">
+          <p xml:space="preserve"> Promote investment in infrastructure that is environmentally, socially and economically sustainable, climate resilient, resource efficient, that prevents ecosystem fragmentation and contributes to sustainable production and consumption patterns, thus contributing to achieving the Sustainable Development Goals and the objectives of relevant multilateral environmental agreements;</p>
+            </content>
+          </point>
+          <point eId="para_26_list_point_f">
+            <num>(f)</num>
+            <content eId="para_26_list_point_f_content">
+          <p xml:space="preserve"> Provide opportunities for the engagement of relevant stakeholders, including local communities, vulnerable people and indigenous peoples, in all stages of the process to identify, design, build and maintain infrastructure;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_28">
+        <num>3.</num>
+        <list eId="para_28_list">
+          <intro eId="para_28_list_intro">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director to support Member States and members of specialized agencies, within the scope of existing resources, by: </p>
+          </intro>
+          <point eId="para_28_list_point_a">
+            <num>(a)</num>
+            <content eId="para_28_list_point_a_content">
+          <p xml:space="preserve"> Promoting the implementation of existing tools, such as guidelines and best practices, which have been developed under or endorsed by multilateral environmental agreements,<authorialNote marker="9" placement="bottom" eId="authorialNote_9"><p xml:space="preserve"> Ibid.</p></authorialNote> and further developing knowledge, providing technical assistance and capacity support, within available resources, to plan and deliver sustainable infrastructure investment that will drive an environmentally, socially and economically sustainable recovery, including through the assessment of potential impact on ecosystem integrity and connectivity; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_b">
+            <num>(b)</num>
+            <content eId="para_28_list_point_b_content">
+          <p xml:space="preserve"> Working with Member States and the United Nations system through existing platforms, including the 10-Year Framework of Programmes on Sustainable Production and Consumption Patterns, and with other international partners, to support long-term sharing of experiences, peer-to-peer learning, technical assistance, capacity-building and training on sustainable infrastructure;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_c">
+            <num>(c)</num>
+            <content eId="para_28_list_point_c_content">
+          <p xml:space="preserve"> Facilitating private-sector engagement in planning and developing, and mobilizing finance for sustainable and resilient infrastructure by engaging businesses, practitioners, investors and other private-sector stakeholders; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_d">
+            <num>(d)</num>
+            <content eId="para_28_list_point_d_content">
+          <p xml:space="preserve"> Inviting the International Resource Panel to advance efforts for connecting science and policy for sustainable infrastructure in order to provide expert, policy-relevant and science‑based options on the matter; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_e">
+            <num>(e)</num>
+            <content eId="para_28_list_point_e_content">
+          <p xml:space="preserve"> Supporting the implementation of the international good practice principles by translating them, as appropriate and upon the request of a Member State, for application to specific subsystems of infrastructure and for the private sector and other stakeholder groups; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_f">
+            <num>(f)</num>
+            <content eId="para_28_list_point_f_content">
+          <p xml:space="preserve"> Continuing to collect and share best practices, tools and experiences for improving the sustainability of infrastructure systems, and to submit a report containing that information to the Environment Assembly at its sixth session.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>

@@ -1,0 +1,375 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/eng@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-3/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="Global Environment Outlook" showAs="Global Environment Outlook" dictionary="DHLAUTH"></keyword>
+        <keyword value="ENVIRONMENT" href="http://metadata.un.org/thesaurus/030300" showAs="ENVIRONMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.20" by="" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.3</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Fifth session</session>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the United Nations Environment Assembly on 2 March 2022</docTitle>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybrid">(hybrid)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> and <date date="2021-02-23" refersTo="#endDate">23 February 2021</date></event>  and <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 February</date>–<date date="2022-03-02" refersTo="#endDate">2 March 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/3.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Future of the Global Environment Outlook</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The United Nations Environment Assembly,</span>
+        </p>
+      </formula>
+      <container name="Mindful" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Mindful </span>of the mandate of the United Nations Environment Programme, as set out in General Assembly resolution 27/2997 of 15 December 1972, and of other resolutions that reinforce its mandate, including the mandate to keep under review the world environmental situation to ensure that emerging environmental problems of wide international significance receive appropriate and adequate consideration by Governments, </p>
+      </container>
+      <container name="Recalling" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> Governing Council decision 27/11 on the state of the environment and the contribution of the United Nations Environment Programme to meeting substantive environmental challenges, </p>
+      </container>
+      <container name="Mindful" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Mindful</span> of the outcome document of the United Nations Conference on Sustainable Development, entitled “The future we want”,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> General Assembly resolution 66/288, annex.</p></authorialNote> in particular paragraph 88 (d) regarding the promotion of a strong science-policy interface for the United Nations Environment Programme to support informed decision-making,</p>
+      </container>
+      <container name="Recalling" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> its resolution 4/23 on keeping the world environment under review, by which a steering committee on the future of the Global Environment Outlook process was established and was requested to submit an options document to the Environment Assembly at its fifth session to inform a decision on the future form and function of the Global Environment Outlook process, </p>
+      </container>
+      <container name="Recognizing" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the role of credible, relevant and legitimate intergovernmental and expert-led assessments in promoting dialogue between the science and policy communities and in supporting decision-making on environmental issues to achieve the transformation needed to secure a sustainable future consistent with the 2030 Agenda for Sustainable Development, the Sustainable Development Goals and other internationally agreed environmental goals, </p>
+      </container>
+      <container name="Recognizing also" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Recognizing also</span> that the Global Environment Outlook process, since its inception in 1995, has generated flagship reports, informed decision-making and contributed to key decisions of the Governing Council and the Environment Assembly and to the strengthening of the science-policy interface of the United Nations Environment Programme,</p>
+      </container>
+      <container name="Recognizing further" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Recognizing further</span> that the outcomes of the steering committee consultations on the future of the Global Environment Outlook process showed strong support for a continuation of that process, </p>
+      </container>
+      <container name="Noting" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Noting</span> the criteria set out in the options document by the steering committee for evaluating the options, namely mandate consistency, relevance, legitimacy, credibility, accessibility, added value and overall feasibility, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_10">
+        <num>1.</num>
+        <content eId="para_10__content">
+          <p xml:space="preserve"> <span class="italic">Reaffirms</span> that the objective of the Global Environment Outlook process is to keep the world environmental situation under review in order to periodically inform and support collective and individual action by Member States and by stakeholders, while strengthening the science-policy interface of the United Nations Environment Programme; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_12">
+        <num>2.</num>
+        <content eId="para_12__content">
+          <p xml:space="preserve"> <span class="italic">Affirms</span> that the aim of the Global Environment Outlook process is to achieve the objective set out in paragraph 1 of the present resolution and to undertake an intergovernmental, expert-led assessment; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_14">
+        <num>3.</num>
+        <content eId="para_14__content">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director of the United Nations Environment Programme to establish an ad hoc intergovernmental and multi-stakeholder advisory group, governed by the rules of procedure of the Environment Assembly, ensuring geographic balance across all United Nations regions and also ensuring disciplinary and gender balance;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_16">
+        <num>4.</num>
+        <content eId="para_16__content">
+          <p xml:space="preserve"> <span class="italic">Takes note </span>of the options paper presented by the steering committee on the future of the Global Environment Outlook process to the Environment Assembly at its fifth session, also taking note of the results of the consultations conducted by the committee; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_18">
+        <num>5.</num>
+        <content eId="para_18__content">
+          <p xml:space="preserve"> <span class="italic">Decides</span> that the core function of the Global Environment Outlook process should be to undertake, every four years, an intergovernmental, expert-led, global authoritative assessment with regional specificities that assesses and tracks trends, evaluates the effectiveness of the global policy response, evaluates future perspectives for all five environmental themes addressed in previous Global Environment Outlook assessments, and evaluates the drivers of environmental change and the interactions across these environmental themes, while benefitting from but not duplicating existing assessments, and supplemented, as needed, by Global Environment Outlook thematic assessments at the request of the Environment Assembly, to fill knowledge gaps; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_20">
+        <num>6.</num>
+        <content eId="para_20__content">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director to undertake the preparation of the seventh edition of the Global Environment Outlook assessment, to be submitted for endorsement by the Environment Assembly at a future session, no sooner than 2025; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_22">
+        <num>7.</num>
+        <content eId="para_22__content">
+          <p xml:space="preserve"> <span class="italic">Decides</span> that the Global Environment Outlook process should identify intergovernmentally defined needs and terms for the provision of support for capacity-building, knowledge generation and policymaking, in line with the mandate of the United Nations Environment Programme, and should provide support services for addressing those needs, in partnership with relevant institutions as appropriate; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_24">
+        <num>8.</num>
+        <content eId="para_24__content">
+          <p xml:space="preserve"> <span class="italic">Also decides</span> that the summaries for policymakers of Global Environment Outlook assessments should continue to be based on transparent and inclusive clearance and scoping procedures, through an intergovernmental review process; </p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_26">
+        <num>9.</num>
+        <content eId="para_26__content">
+          <p xml:space="preserve"> <span class="italic">Reaffirms</span> that Governments should continue to be invited to provide input in the context of the intergovernmental peer-review process of Global Environment Outlook assessments;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_28">
+        <num>10.</num>
+        <list eId="para_28_list">
+          <intro eId="para_28_list_intro">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director, with guidance from the intergovernmental and multi‑stakeholder advisory group, to:</p>
+          </intro>
+          <point eId="para_28_list_point_a">
+            <num>(a)</num>
+            <content eId="para_28_list_point_a_content">
+          <p xml:space="preserve"> 	Convene an intergovernmental, multi-stakeholder and expert meeting to establish a set of procedures that reflects the objectives and core function of the Global Environment Outlook process outlined above; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_b">
+            <num>(b)</num>
+            <content eId="para_28_list_point_b_content">
+          <p xml:space="preserve"> 	Conduct nomination and selection processes for external experts who will contribute to the Global Environment Outlook process, including members of advisory groups, authors, fellows, peer reviewers and review editors, ensuring geographic balance across all United Nations regions, as well as disciplinary and gender balance; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_c">
+            <num>(c)</num>
+            <content eId="para_28_list_point_c_content">
+          <p xml:space="preserve"> 	Ensure that the Global Environment Outlook process draws from the evidence base of peer-reviewed literature, national peer-reviewed assessments in various languages, and other international and United Nations-led assessments, data and analysis, and information from other credible sources, such as the World Environment Situation Room and elements of knowledge generation within and outside the United Nations Environment Programme;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_d">
+            <num>(d)</num>
+            <content eId="para_28_list_point_d_content">
+          <p xml:space="preserve"> 	Establish a multidisciplinary expert scientific advisory group responsible for overseeing the scientific integrity of the Global Environment Outlook process, pursuant to the terms of reference and guidance for the selection process set out in the annex to the present resolution;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_e">
+            <num>(e)</num>
+            <content eId="para_28_list_point_e_content">
+          <p xml:space="preserve"> 	Develop a flexible, multi-year workplan and time-bound budget, setting out a programme of activities, such as assessments and support services, according to the needs identified by the Environment Assembly in the present resolution;</p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_f">
+            <num>(f)</num>
+            <content eId="para_28_list_point_f_content">
+          <p xml:space="preserve"> 	Strengthen the science-policy interface by developing, for each assessment, a scoping document and a summary for policymakers prepared by experts, to be considered for review and endorsement by representatives of Member States at ad hoc open-ended meetings; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_g">
+            <num>(g)</num>
+            <content eId="para_28_list_point_g_content">
+          <p xml:space="preserve"> 	Scope and approve the undertaking of intergovernmental and expert-led assessments approved by the Environment Assembly in accordance with the multi-year workplan and time-bound budget; </p>
+            </content>
+          </point>
+          <point eId="para_28_list_point_h">
+            <num>(h)</num>
+            <content eId="para_28_list_point_h_content">
+          <p xml:space="preserve"> 	Continue the Global Environment Outlook fellows programme for youth to enhance the participation of younger generations; </p>
+        </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_66">
+        <num>11.</num>
+        <content eId="para_66__content">
+          <p xml:space="preserve"> <span class="italic">Decides</span> that, where additional functions are required of the Executive Director and the intergovernmental and multi-stakeholder advisory group to support the Global Environment Outlook process, these shall be approved by the Environment Assembly;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_68">
+        <num>12.</num>
+        <content eId="para_68__content">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director, in accordance with the mandate of the United Nations Environment Programme to keep the world environmental situation under review, to administer the Global Environment Outlook process by developing and implementing streamlined and cost-effective governance and administration; providing adequate, predictable and stable financial resources from core funds, including the Environment Fund; allocating sufficient human resources for the process within the secretariat of the United Nations Environment Programme; fostering in-house contributions and expertise; facilitating partnerships with collaborating centres and assistance from technical support units; and, where appropriate, facilitating the mobilization of extrabudgetary resources for the process;</p>
+        </content>
+      </paragraph>
+      <paragraph eId="para_70">
+        <num>13.</num>
+        <content eId="para_70__content">
+          <p xml:space="preserve"> <span class="italic">Also requests</span> the Executive Director to consult periodically with the Committee of Permanent Representatives to the United Nations Environment Programme on important elements of the Global Environment Outlook process.</p>
+        </content>
+      </paragraph>
+    </mainBody>
+    <attachments>
+      <attachment>
+        <doc name="annex">
+          <meta>
+            <identification source="#DGACM">
+              <FRBRWork>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/"></FRBRuri>
+                <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+                <FRBRauthor href="ga" as="author"></FRBRauthor>
+                <FRBRcountry value="un"></FRBRcountry>
+              </FRBRWork>
+              <FRBRExpression>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/eng@!main/annex"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/eng@/"></FRBRuri>
+                <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+                <FRBRauthor href="ga" as="issuer"></FRBRauthor>
+                <FRBRlanguage language="eng"></FRBRlanguage>
+              </FRBRExpression>
+              <FRBRManifestation>
+                <FRBRthis value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/eng@/!main/annex.xml"></FRBRthis>
+                <FRBRuri value="/akn/un/statement/deliberation/unga/2022-03-02/5-3/eng@.xml"></FRBRuri>
+                <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+                <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+              </FRBRManifestation>
+            </identification>
+          </meta>
+          <mainBody>
+            <paragraph eId="para_72" class="ZZAnxheader">
+              <heading>Annex</heading>
+            </paragraph>
+            <paragraph eId="para_73" class="ZZAnxtitle">
+              <subheading><span class="bold">Terms of reference and guidance for the process for selecting members of the multidisciplinary expert scientific advisory group </span></subheading>
+            </paragraph>
+            <paragraph eId="para_74">
+              <num>1.</num>
+              <content eId="para_74__content">
+                <p xml:space="preserve">The multidisciplinary expert scientific advisory group is responsible for presiding over expert meetings, providing scientific oversight, selecting experts and representing the Global Environment Outlook process. It will comprise 25 to 30 members and be composed so as to ensure disciplinary and gender balance as well as balanced geographical representation across the five United Nations regions, while taking into account the guidance set out in subparagraph 2 (b) below. </p>
+              </content>
+            </paragraph>
+            <paragraph eId="para_76">
+              <num>2.</num>
+              <list eId="para_76_list">
+                <intro eId="para_76_list_intro">
+                <p xml:space="preserve">The following guidelines should be taken into account in nominating and selecting the members of the multidisciplinary expert scientific advisory group: </p>
+                </intro>
+                <point eId="para_76_list_point_a">
+                  <num>(a)</num>
+                  <content eId="para_76_list_point_a_content">
+                <p xml:space="preserve"> Ability to carry out the functions set out in paragraph 1 above;</p>
+                  </content>
+                </point>
+                <point eId="para_76_list_point_b">
+                  <num>(b)</num>
+                  <content eId="para_76_list_point_b_content">
+                <p xml:space="preserve"> Scientific environmental expertise with regard to both natural and social sciences; </p>
+                  </content>
+                </point>
+                <point eId="para_76_list_point_c">
+                  <num>(c)</num>
+                  <content eId="para_76_list_point_c_content">
+                <p xml:space="preserve"> Scientific, technical or policy expertise and knowledge of the main elements of the work of the Global Environment Outlook process; </p>
+                  </content>
+                </point>
+                <point eId="para_76_list_point_d">
+                  <num>(d)</num>
+                  <content eId="para_76_list_point_d_content">
+                <p xml:space="preserve"> Experience in communicating science, promoting it, and incorporating it into policy development processes; </p>
+                  </content>
+                </point>
+                <point eId="para_76_list_point_e">
+                  <num>(e)</num>
+                  <content eId="para_76_list_point_e_content">
+                <p xml:space="preserve"> Ability to both lead and work in international scientific and policy processes;</p>
+                  </content>
+                </point>
+                <point eId="para_76_list_point_f">
+                  <num>(f)</num>
+                  <content eId="para_76_list_point_f_content">
+                <p xml:space="preserve"> Ability to communicate science and scientific findings to multiple stakeholders, including youth. </p>
+              </content>
+                </point>
+              </list>
+            </paragraph>
+          </mainBody>
+        </doc>
+      </attachment>
+    </attachments>
+  </statement>
+</akomaNtoso>

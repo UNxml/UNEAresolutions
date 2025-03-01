@@ -1,0 +1,259 @@
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0 http://docs.oasis-open.org/legaldocml/akn-core/v1.0/os/part2-specs/schemas/akomantoso30.xsd" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:akn4un="http://un.org/akn4un">
+  <!--This is an unofficial copy for informational purposes only and prepared from the official electronic file-->
+  <statement name="resolution">
+    <meta>
+      <identification source="#DGACM">
+        <FRBRWork>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/"></FRBRuri>
+          <FRBRdate date="2022-03-02" name="adoption"></FRBRdate>
+          <FRBRauthor href="unep" as="author"></FRBRauthor>
+          <FRBRcountry value="un"></FRBRcountry>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/eng@!main/"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/eng@/"></FRBRuri>
+          <FRBRdate date="2022-03-07" name="publication"></FRBRdate>
+          <FRBRauthor href="unep" as="issuer"></FRBRauthor>
+          <FRBRlanguage language="eng"></FRBRlanguage>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/eng@/!main.xml"></FRBRthis>
+          <FRBRuri value="/akn/un/statement/deliberation/unga-unep-unea/2022-03-02/5-4/eng@.xml"></FRBRuri>
+          <FRBRdate date="2024-07-14" name="markup"></FRBRdate>
+          <FRBRauthor href="DGACM" as="editor"></FRBRauthor>
+        </FRBRManifestation>
+      </identification>
+      <classification source="DHLAUTH">
+        <keyword value="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" showAs="UNEP. Environment Assembly (5th sess. : 2021 : Nairobi)" dictionary="DHLAUTH"></keyword>
+        <keyword value="UNEP" showAs="UNEP" dictionary="DHLAUTH"></keyword>
+        <keyword value="SUSTAINABLE DEVELOPMENT" href="http://metadata.un.org/thesaurus/1006319" showAs="SUSTAINABLE DEVELOPMENT" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="ENVIRONMENTAL PROTECTION" href="http://metadata.un.org/thesaurus/1002084" showAs="ENVIRONMENTAL PROTECTION" dictionary="UNBIS Thesaurus"></keyword>
+        <keyword value="INTERNATIONAL LAKES" href="http://metadata.un.org/thesaurus/1003315" showAs="INTERNATIONAL LAKES" dictionary="UNBIS Thesaurus"></keyword>
+      </classification>
+      <workflow source="#un">
+        <step date="2022-01-27" outcome="draftResolution" as="UNEP/EA.5/L.8" by="Indonesia" />
+        <step date="0001-01-01" outcome="draftResolutionAdditionalSponsors" by="Pakistan" />
+        <step date="2022-03-07" outcome="recommendedForAdoption" by="" />
+        <step date="2022-03-02" outcome="adopted" by="" />
+      </workflow>
+      <analysis source="#un">
+        <parliamentary>
+          <voting outcome="Adopted by consensus">
+            <quorum value=""></quorum>
+          </voting>
+        </parliamentary>
+      </analysis>
+      <references source="#DGACM">
+        <TLCOrganization eId="unep" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme" showAs="United Nations Environment Programme"></TLCOrganization>
+        <TLCConcept eId="dateOfIssuance" href="/akn/ontology/concept/un/dateOfIssuance" showAs="Date of issuance"></TLCConcept>
+        <TLCConcept eId="dateOfAdoption" href="/akn/ontology/concept/un/dateOfAdoption" showAs="Date of adoption"></TLCConcept>
+        <TLCConcept eId="symbol" href="/akn/ontology/reference/un/symbol" showAs="Symbol"></TLCConcept>
+        <TLCRole eId="publisher" href="/akn/ontology/role/un/publisher" showAs="Publisher"></TLCRole>
+        <TLCRole eId="issuingBody" href="/akn/role/concept/un/issuingBody" showAs="Issuing body"></TLCRole>
+        <TLCRole eId="author" href="/akn/ontology/role/un/author" showAs="Author"></TLCRole>
+        <TLCRole eId="editor" href="/akn/ontology/role/un/editor" showAs="Editor"></TLCRole>
+        <TLCRole eId="distribution" href="/akn/ontology/concept/un/generalDistribution" showAs="General distribution"></TLCRole>
+        <TLCOrganization eId="unea" href="/akn/ontology/organization/un/generalAssembly/unitedNationsEnvironmentProgramme/unitedNationsEnvironmentAssembly" showAs="United Nations Environment Assembly"></TLCOrganization>
+        <TLCTerm eId="resolutionTitle" href="/akn/ontology/reference/un/resolutionTitle" showAs="Resolution title"></TLCTerm>
+        <TLCTerm eId="committee" href="/akn/ontology/concept/un/" showAs="Committee"></TLCTerm>
+        <TLCTerm eId="memberState" href="/akn/ontology/organization/un/memberState" showAs="Member State"></TLCTerm>
+        <TLCTerm eId="inFavour" href="/akn/ontology/concept/un/voting/inFavour" showAs="In favour"></TLCTerm>
+        <TLCTerm eId="against" href="/akn/ontology/concept/un/voting/against" showAs="Against"></TLCTerm>
+        <TLCTerm eId="abstaining" href="/akn/ontology/concept/un/voting/abstaining" showAs="Abstaining"></TLCTerm>
+      </references>
+      <presentation source="#un">
+        <akn4un:footerFirstPage>
+          <akn4un:footerFirstPageLeft>
+            <akn4un:internalCode>
+              <docketNumber refersTo="#publicationJobNumber" />
+              <img alt="bar code" class="barCode" src=""></img>
+            </akn4un:internalCode>
+          </akn4un:footerFirstPageLeft>
+          <akn4un:footerFirstPageRight>
+            <img alt="Please recycle" class="image" src="./recylcleLogo.jpg"></img>
+            <img alt="embedded QR code" class="qrCode" src=""></img>
+          </akn4un:footerFirstPageRight>
+        </akn4un:footerFirstPage>
+      </presentation>
+    </meta>
+    <coverPage eId="coverPage_1">
+      <p>
+        <span refersTo="#publisher" class="upperLeft">
+          <docAuthority refersTo="#publisher">United Nations</docAuthority>
+        </span>
+      </p>
+      <p class="upperRight">
+        <docNumber refersTo="#symbol">UNEP/EA.5/Res.4</docNumber>
+      </p>
+      <p class="upperLeft">
+        <img src="logo-un.jpg"></img>
+        <docAuthority refersTo="#issuingBody" class="rightBig">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <docStatus refersTo="#generalDistribution" class="rightSmall">Distr.: General</docStatus>
+      </p>
+      <p>
+        <docDate date="2022-03-07" class="rightSmall" refersTo="#dateOfIssuance">7 March 2022</docDate>
+      </p>
+      <p>
+        <inline refersTo="#english" name="originalLanguage">Original: English</inline>
+      </p>
+      <p>
+        <docAuthority refersTo="#governingBody">United Nations Environment Assembly of the United Nations Environment Programme</docAuthority>
+      </p>
+      <p>
+        <session refersTo="#unea" value="5" eId="coverPage_1__session_1">Fifth session</session>
+      </p>
+      <p>
+        <docTitle>Resolution adopted by the United Nations Environment Assembly on 2 March 2022</docTitle>
+      </p>
+      <p>
+        <event refersTo="#session">
+          <location refersTo="#nairobi">Nairobi </location>
+          <location refersTo="#hybrid">(hybrid)</location>, <event refersTo="#firstPart"><date date="2021-02-22" refersTo="#startDate">22</date> and <date date="2021-02-23" refersTo="#endDate">23 February 2021</date></event>  and <event refersTo="#resumed"><date date="2022-02-28" refersTo="#startDate">28 February</date>–<date date="2022-03-02" refersTo="#endDate">2 March 2022</date></event></event>
+      </p>
+    </coverPage>
+    <preface>
+      <p>
+        <docNumber>5/4.</docNumber>
+        <docTitle refersTo="#resolutionTitle">
+          <span class="bold">	Sustainable lake management</span>
+        </docTitle>
+      </p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula" eId="formula_1">
+        <p xml:space="preserve">
+          <span class="italic">The United Nations Environment Assembly,</span>
+        </p>
+      </formula>
+      <container name="Recalling" eId="container_2">
+        <p xml:space="preserve"> <span class="italic">Recalling </span>the commitments made in the outcome document of the United Nations Conference on Sustainable Development, entitled “The future we want”,<authorialNote marker="2" placement="bottom" eId="authorialNote_2"><p xml:space="preserve"> General Assembly resolution 66/288, annex.</p></authorialNote> </p>
+      </container>
+      <container name="Acknowledging" eId="container_3">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> General Assembly resolution 70/1 of 25 September 2015, entitled “Transforming our world: the 2030 Agenda for Sustainable Development”, in which it is noted that lakes are one of the water-related ecosystems that should be protected and restored, as set out in target 6.6 of the Sustainable Development Goals,</p>
+      </container>
+      <container name="Recognizing" eId="container_4">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the complementarity between the objectives of the Convention on Wetlands of International Importance especially as Waterfowl Habitat, the 2030 Agenda for Sustainable Development and sustainable lake management,</p>
+      </container>
+      <container name="Acknowledging" eId="container_5">
+        <p xml:space="preserve"> <span class="italic">Acknowledging</span> General Assembly resolution 75/212 of 21 December 2020 on the United Nations Conference on the Midterm Comprehensive Review of the Implementation of the Objectives of the International Decade for Action, “Water for Sustainable Development”, 2018–2028,</p>
+      </container>
+      <container name="Looking forward" eId="container_6">
+        <p xml:space="preserve"> <span class="italic">Looking forward</span> to the convening of the United Nations Conference on the Midterm Comprehensive Review of the Implementation of the Objectives of the International Decade for Action, “Water for Sustainable Development”, 2018–2028, to be held in New York from 22 to 24 March 2023, and calling for, among other things, acceleration of the achievement of internationally agreed water-related goals and targets, including those contained in the 2030 Agenda for Sustainable Development, including Sustainable Development Goal 6, on ensuring availability and sustainable management of water and sanitation for all, and promotion of the implementation of the objectives of the International Decade for Action,</p>
+      </container>
+      <container name="Recalling" eId="container_7">
+        <p xml:space="preserve"> <span class="italic">Recalling</span> United Nations Environment Assembly resolution 3/10 on addressing water pollution to protect and restore water-related ecosystems,</p>
+      </container>
+      <container name="Noting with concern" eId="container_8">
+        <p xml:space="preserve"> <span class="italic">Noting with concern</span> that, at the current rate of progress, the world is not on track to achieve the water-related targets of the Sustainable Development Goals at the global level by 2030, which will have a significant impact on human well-being and on the three dimensions of sustainable development, namely environmental, economic and social,</p>
+      </container>
+      <container name="Stressing" eId="container_9">
+        <p xml:space="preserve"> <span class="italic">Stressing </span>the importance of the ecosystem approach for the integrated management of land, water and living resources and the need to increase efforts to tackle desertification, land degradation, erosion and drought, biodiversity loss and water scarcity, which are seen as major environmental, economic and social challenges for global sustainable development, and which affect lakes and necessitate sustainable lake management,</p>
+      </container>
+      <container name="Recognizing" eId="container_10">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that natural and artificial lakes contain more than 90 per cent of the fresh water on the surface of the Earth and are major contributors to ensuring the availability and accessibility of water to protect lives and livelihoods and to the advancement of the 2030 Agenda for Sustainable Development,</p>
+      </container>
+      <container name="Realizing" eId="container_11">
+        <p xml:space="preserve"> <span class="italic">Realizing</span> that lakes have unique characteristics, such as a long water-retention time, the integration of nature and a non‑linear response to stresses, that make their sustainable management a continuing, long-term process,</p>
+      </container>
+      <container name="Realizing also" eId="container_12">
+        <p xml:space="preserve"> <span class="italic">Realizing also</span> that lakes provide a wide range of ecosystem services, including the provision of water for human consumption, health, food and energy; regulate services for the food cycle, water purification, climate and biodiversity; and enable the pursuit of recreational and traditional activities, </p>
+      </container>
+      <container name="Stressing" eId="container_13">
+        <p xml:space="preserve"> <span class="italic">Stressing</span> the severe impact of climate change on the environment and recognizing that the sustainable management of lakes and other freshwater ecosystems can play a positive role as an adaptation measure for climate change and can serve as a reduction measure for water-related disasters resulting therefrom,</p>
+      </container>
+      <container name="Recognizing" eId="container_14">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that the state of lake environments, notably in terms of water quality and quantity, is severely deteriorating around the world, threatening human health, biodiversity and the environment, and that this needs to be urgently addressed in a sustainable manner,</p>
+      </container>
+      <container name="Considering" eId="container_15">
+        <p xml:space="preserve"> <span class="italic">Considering </span>that lakes can have a close relationship with cultural, historical and societal values, which can play a central role in sustainable lake management, and that this makes engagement with local communities and environmental education and awareness vital, </p>
+      </container>
+      <container name="Recognizing" eId="container_16">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> the need for concerted efforts by all stakeholders, including through partnerships across both the public and private sectors, and involving local, national and global actors to support the implementation of sustainable lake management,</p>
+      </container>
+      <container name="Recognizing" eId="container_17">
+        <p xml:space="preserve"> <span class="italic">Recognizing</span> that transboundary lakes may be subject to relevant bilateral, international and multilateral agreements, in which case covered sustainable lake management efforts should be pursued under the respective agreements,</p>
+      </container>
+      <container name="Recalling and reaffirming" eId="container_18">
+        <p xml:space="preserve"> <span class="italic">Recalling and reaffirming</span> target 6.5 of the Sustainable Development Goals to, by 2030, implement integrated water resources management at all levels, including through transboundary cooperation as appropriate,</p>
+      </container>
+      <container name="Reaffirming" eId="container_19">
+        <p xml:space="preserve"> <span class="italic">Reaffirming</span> the importance of integrated, intersectoral, collaborative and coordinated approaches, at all levels, in the management and protection of lakes, </p>
+      </container>
+    </preamble>
+    <mainBody>
+      <paragraph eId="para_20">
+        <num>1.</num>
+        <list eId="para_20_list">
+          <intro eId="para_20_list_intro">
+          <p xml:space="preserve"> <span class="italic">Requests </span>all Member States and members of specialized agencies, and invites relevant international organizations, where applicable, to undertake and implement the following, individually and collectively, as appropriate: </p>
+          </intro>
+          <point eId="para_20_list_point_a">
+            <num>(a)</num>
+            <content eId="para_20_list_point_a_content">
+          <p xml:space="preserve"> To protect, conserve, restore and ensure the sustainable use of lakes, including aspects such as water quality, erosion, sedimentation and aquatic biodiversity, through integrated management at all levels, as set out in targets 6.5 and 6.6 of the Sustainable Development Goals, addressing the water body and the entire lake basin, supported by relevant regulation, institutional development, budget allocations, well-managed monitoring and data, integrated research, sustainable technology and international cooperation; </p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_b">
+            <num>(b)</num>
+            <content eId="para_20_list_point_b_content">
+          <p xml:space="preserve"> To integrate lakes into national and regional development plans, including in climate adaptation, water resource management and conservation of biodiversity, to advance the attainment of Sustainable Development Goal 6, and of climate resilience and biodiversity conservation;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_c">
+            <num>(c)</num>
+            <content eId="para_20_list_point_c_content">
+          <p xml:space="preserve"> To take into account their local culture and knowledge and their dependence and impact on lakes, ensuring engagement with and capacity-building for local communities and indigenous peoples, as appropriate, and in accordance with national circumstances;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_d">
+            <num>(d)</num>
+            <content eId="para_20_list_point_d_content">
+          <p xml:space="preserve"> To involve all stakeholders, including university and research centres, private companies and non‑governmental organizations, in a concerted effort to implement sustainable lake management;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_e">
+            <num>(e)</num>
+            <content eId="para_20_list_point_e_content">
+          <p xml:space="preserve"> To take into account research and scientific guidance, with an emphasis on science‑policy linkage;</p>
+            </content>
+          </point>
+          <point eId="para_20_list_point_f">
+            <num>(f)</num>
+            <content eId="para_20_list_point_f_content">
+          <p xml:space="preserve"> To develop international networking and collaboration for integrated sustainable and climate-resilient lake management and regularly exchange data and information between States that share a transboundary lake, as provided for in international agreements;</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+      <paragraph eId="para_34">
+        <num>2.</num>
+        <list eId="para_34_list">
+          <intro eId="para_34_list_intro">
+          <p xml:space="preserve"> <span class="italic">Requests</span> the Executive Director of the United Nations Environment Programme to take action in the following three major areas:</p>
+          </intro>
+          <point eId="para_34_list_point_a">
+            <num>(a)</num>
+            <content eId="para_34_list_point_a_content">
+          <p xml:space="preserve"> To support the advancement of sustainable lake management at all levels, in coordination with relevant conventions, as appropriate, including the Convention on Wetlands of International Importance;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_b">
+            <num>(b)</num>
+            <content eId="para_34_list_point_b_content">
+          <p xml:space="preserve"> To facilitate collaboration among Member States and members of specialized agencies in research, capacity-building and the sharing of knowledge, information and best practices, including through North-South, South-South and triangular cooperation;</p>
+            </content>
+          </point>
+          <point eId="para_34_list_point_c">
+            <num>(c)</num>
+            <content eId="para_34_list_point_c_content">
+          <p xml:space="preserve"> To advance the mainstreaming of sustainable lake management in the global agenda and raise awareness of sustainable lake management at the global level to further highlight the important role played by lakes in supporting sustainable development and maintaining the well-being of ecosystems and humanity.</p>
+            </content>
+          </point>
+        </list>
+      </paragraph>
+    </mainBody>
+  </statement>
+</akomaNtoso>
